@@ -1,0 +1,102 @@
+[2022-06-10 20:46:19,849] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 20:46:19,850] [builder.py:185]            [INFO]     |                             Japanese Audio Collection in ....TV Shows                              |
+[2022-06-10 20:46:19,850] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 20:46:19,850] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-06-10 20:46:19,851] [builder.py:191]            [INFO]     |=============================== Validating Japanese Audio Attributes ===============================|
+[2022-06-10 20:46:19,851] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:46:19,852] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-06-10 20:46:19,853] [meta.py:103]               [DEBUG]    | Value: [{'value': ['ja'], 'audio_language': ['ja'], 'key_name': 'Japanese', 'key': 'ja', 'name': 'audio_language_dynamic'}, {'value': ['ja'], 'audio_language': ['ja'], 'key_name': 'Japanese', 'key': 'ja', 'name': 'shared'}] |
+[2022-06-10 20:46:19,856] [builder.py:1675]           [INFO]     |                                                                                                    |
+[2022-06-10 20:46:19,856] [builder.py:1676]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-06-10 20:46:19,857] [builder.py:1682]           [DEBUG]    | Value: {'sort_by': 'release.desc', 'any': {'audio_language': ['ja']}}                              |
+[2022-06-10 20:46:39,031] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:46:39,196] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-06-10 20:46:39,196] [builder.py:605]            [DEBUG]    | Value: Audio Language                                                                              |
+[2022-06-10 20:46:39,196] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:46:39,197] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-06-10 20:46:39,197] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/audio_language/ja.jpg |
+[2022-06-10 20:46:39,453] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:46:39,454] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-06-10 20:46:39,454] [builder.py:605]            [DEBUG]    | Value: !10_Japanese Audio                                                                          |
+[2022-06-10 20:46:39,608] [plex.py:742]               [DEBUG]    |                                                                                                    |
+[2022-06-10 20:46:39,719] [plex.py:745]               [DEBUG]    | Looking for: Japanese Audio                                                                        |
+[2022-06-10 20:46:39,719] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-06-10 20:46:39,720] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-06-10 20:46:39,720] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-06-10 20:46:39,720] [plex_meta_manager.py:541]  [INFO]     |================================ Running Japanese Audio Collection =================================|
+[2022-06-10 20:46:39,721] [plex_meta_manager.py:547]  [INFO]     |                                                                                                    |
+[2022-06-10 20:46:39,721] [plex_meta_manager.py:548]  [INFO]     | Smart Show Filter                                                                                  |
+                                                                 | Sort By: release.desc
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Audio Language is ja
+[2022-06-10 20:46:41,858] [plex.py:664]               [DEBUG]    | Smart Collection Test: ?type=2&sort=originallyAvailableAt%3Adesc&push=1&episode.audioLanguage=ja&pop=1
+[2022-06-10 20:47:36,453] [builder.py:2383]           [INFO]     | 
+[2022-06-10 20:47:36,454] [builder.py:2384]           [INFO]     |========================== Updating Details of Japanese Audio Collection ===========================|
+[2022-06-10 20:47:36,454] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-06-10 20:48:39,085] [plex_meta_manager.py:668]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+                                                                 |     six.raise_from(e, None)
+                                                                 |   File "<string>", line 3, in raise_from
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+                                                                 |     httplib_response = conn.getresponse()
+                                                                 |   File "/usr/lib/python3.8/http/client.py", line 1386, in getresponse
+                                                                 |     response.begin()
+                                                                 |   File "/usr/lib/python3.8/http/client.py", line 312, in begin
+                                                                 |     version, status, reason = self._read_status()
+                                                                 |   File "/usr/lib/python3.8/http/client.py", line 273, in _read_status
+                                                                 |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+                                                                 |   File "/usr/lib/python3.8/socket.py", line 669, in readinto
+                                                                 |     return self._sock.recv_into(b)
+                                                                 | socket.timeout: timed out
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+                                                                 |     resp = conn.urlopen(
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+                                                                 |     retries = retries.increment(
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+                                                                 |     raise six.reraise(type(error), error, _stacktrace)
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/urllib3/packages/six.py", line 770, in reraise
+                                                                 |     raise value
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+                                                                 |     httplib_response = self._make_request(
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+                                                                 |     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+                                                                 |     raise ReadTimeoutError(
+                                                                 | urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "/root/Plex-Meta-Manager/plex_meta_manager.py", line 620, in run_collection
+                                                                 |     details_list = builder.update_details()
+                                                                 |   File "/root/Plex-Meta-Manager/modules/builder.py", line 2442, in update_details
+                                                                 |     tag_results = self.library.edit_tags('label', self.obj, add_tags=add_tags, remove_tags=remove_tags, sync_tags=sync_tags, do_print=False)[28:]
+                                                                 |   File "/root/Plex-Meta-Manager/modules/plex.py", line 875, in edit_tags
+                                                                 |     _item_tags = [item_tag.tag for item_tag in getattr(obj, key)]
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/plexapi/base.py", line 483, in __getattribute__
+                                                                 |     self._reload(_overwriteNone=False)
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/plexapi/base.py", line 357, in _reload
+                                                                 |     data = self._server.query(key)
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/plexapi/server.py", line 696, in query
+                                                                 |     response = method(url, headers=headers, timeout=timeout, **kwargs)
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/requests/sessions.py", line 542, in get
+                                                                 |     return self.request('GET', url, **kwargs)
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+                                                                 |     resp = self.send(prep, **send_kwargs)
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+                                                                 |     r = adapter.send(request, **kwargs)
+                                                                 |   File "/root/Plex-Meta-Manager/pmm-venv/lib/python3.8/site-packages/requests/adapters.py", line 532, in send
+                                                                 |     raise ReadTimeout(e, request=request)
+                                                                 | requests.exceptions.ReadTimeout: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+[2022-06-10 20:48:39,104] [plex_meta_manager.py:669]  [ERROR]    | Unknown Error: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+[2022-06-10 20:48:39,104] [plex_meta_manager.py:674]  [INFO]     | 
+[2022-06-10 20:48:39,105] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-06-10 20:48:39,105] [plex_meta_manager.py:675]  [INFO]     |                                 Finished Japanese Audio Collection                                 |
+[2022-06-10 20:48:39,106] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:02:19                                    |
+[2022-06-10 20:48:39,106] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

@@ -1,0 +1,99 @@
+[2022-06-11 10:15:11,136] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-11 10:15:11,139] [builder.py:185]            [INFO]     |                              Decade Collections Collection in Movies                               |
+[2022-06-11 10:15:11,140] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-11 10:15:11,140] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-06-11 10:15:11,141] [builder.py:191]            [INFO]     |============================= Validating Decade Collections Attributes =============================|
+[2022-06-11 10:15:11,141] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-06-11 10:15:11,150] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-06-11 10:15:11,151] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'separator'), ('separator', 'decade')])]                             |
+[2022-06-11 10:15:11,157] [builder.py:430]            [DEBUG]    |                                                                                                    |
+[2022-06-11 10:15:11,158] [builder.py:431]            [DEBUG]    | Validating Method: blank_collection                                                                |
+[2022-06-11 10:15:11,158] [builder.py:432]            [DEBUG]    | Value: True                                                                                        |
+[2022-06-11 10:15:11,158] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-11 10:15:11,159] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-06-11 10:15:11,160] [builder.py:605]            [DEBUG]    | Value: !12_!Decade Collections                                                                     |
+[2022-06-11 10:15:11,160] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-11 10:15:11,161] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-06-11 10:15:11,161] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/decade.jpg |
+[2022-06-11 10:15:11,479] [plex.py:742]               [DEBUG]    |                                                                                                    |
+[2022-06-11 10:15:11,480] [plex.py:745]               [DEBUG]    | Looking for: Decade Collections                                                                    |
+[2022-06-11 10:15:11,480] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-06-11 10:15:11,481] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-06-11 10:15:11,481] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-06-11 10:15:11,481] [plex_meta_manager.py:541]  [INFO]     |============================== Running Decade Collections Collection ===============================|
+[2022-06-11 10:15:13,494] [builder.py:2383]           [INFO]     |                                                                                                    |
+[2022-06-11 10:15:14,386] [builder.py:2384]           [INFO]     |======================== Updating Details of Decade Collections Collection =========================|
+[2022-06-11 10:15:14,387] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-06-11 10:15:14,387] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | !12_!Decade Collections
+[2022-06-11 10:15:15,308] [builder.py:2450]           [INFO]     | Details: have been updated
+[2022-06-11 10:15:15,309] [builder.py:2454]           [INFO]     | 
+[2022-06-11 10:15:15,309] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-06-11 10:15:15,310] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/decade.jpg
+[2022-06-11 10:15:15,387] [library.py:153]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/decade.jpg
+[2022-06-11 10:16:16,750] [plex_meta_manager.py:668]  [DEBUG]    | Traceback (most recent call last):
+                                                                 |   File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+                                                                 |     six.raise_from(e, None)
+                                                                 |   File "<string>", line 3, in raise_from
+                                                                 |   File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+                                                                 |     httplib_response = conn.getresponse()
+                                                                 |   File "/usr/lib/python3.8/http/client.py", line 1386, in getresponse
+                                                                 |     response.begin()
+                                                                 |   File "/usr/lib/python3.8/http/client.py", line 312, in begin
+                                                                 |     version, status, reason = self._read_status()
+                                                                 |   File "/usr/lib/python3.8/http/client.py", line 273, in _read_status
+                                                                 |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+                                                                 |   File "/usr/lib/python3.8/socket.py", line 669, in readinto
+                                                                 |     return self._sock.recv_into(b)
+                                                                 | socket.timeout: timed out
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+                                                                 |     resp = conn.urlopen(
+                                                                 |   File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+                                                                 |     retries = retries.increment(
+                                                                 |   File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+                                                                 |     raise six.reraise(type(error), error, _stacktrace)
+                                                                 |   File "/usr/lib/python3.8/site-packages/urllib3/packages/six.py", line 770, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+                                                                 |     httplib_response = self._make_request(
+                                                                 |   File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+                                                                 |     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+                                                                 |   File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+                                                                 |     raise ReadTimeoutError(
+                                                                 | urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "plex_meta_manager.py", line 646, in run_collection
+                                                                 |     builder.send_notifications()
+                                                                 |   File "/root/Plex-Meta-Manager/modules/builder.py", line 2607, in send_notifications
+                                                                 |     if self.obj and self.details["changes_webhooks"] and \
+                                                                 |   File "/usr/lib/python3.8/site-packages/plexapi/collection.py", line 110, in __len__
+                                                                 |     return len(self.items())
+                                                                 |   File "/usr/lib/python3.8/site-packages/plexapi/collection.py", line 193, in items
+                                                                 |     items = self.fetchItems(key)
+                                                                 |   File "/usr/lib/python3.8/site-packages/plexapi/base.py", line 267, in fetchItems
+                                                                 |     data = self._server.query(ekey, params=url_kw)
+                                                                 |   File "/usr/lib/python3.8/site-packages/plexapi/server.py", line 696, in query
+                                                                 |     response = method(url, headers=headers, timeout=timeout, **kwargs)
+                                                                 |   File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 542, in get
+                                                                 |     return self.request('GET', url, **kwargs)
+                                                                 |   File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+                                                                 |     resp = self.send(prep, **send_kwargs)
+                                                                 |   File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+                                                                 |     r = adapter.send(request, **kwargs)
+                                                                 |   File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 532, in send
+                                                                 |     raise ReadTimeout(e, request=request)
+                                                                 | requests.exceptions.ReadTimeout: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+[2022-06-11 10:16:17,158] [plex_meta_manager.py:669]  [ERROR]    | Unknown Error: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+[2022-06-11 10:16:17,159] [plex_meta_manager.py:674]  [INFO]     | 
+[2022-06-11 10:16:17,160] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-06-11 10:16:17,161] [plex_meta_manager.py:675]  [INFO]     |                               Finished Decade Collections Collection                               |
+[2022-06-11 10:16:17,162] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:01:06                                    |
+[2022-06-11 10:16:17,162] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

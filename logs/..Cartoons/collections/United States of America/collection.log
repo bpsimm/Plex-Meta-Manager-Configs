@@ -1,0 +1,107 @@
+[2022-06-10 21:24:29,351] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 21:24:29,352] [builder.py:185]            [INFO]     |                         United States of America Collection in ..Cartoons                          |
+[2022-06-10 21:24:29,352] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 21:24:29,353] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-06-10 21:24:29,354] [builder.py:191]            [INFO]     |========================== Validating United States of America Attributes ==========================|
+[2022-06-10 21:24:29,355] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-06-10 21:24:29,355] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-06-10 21:24:29,356] [meta.py:103]               [DEBUG]    | Value: [{'value': ['us'], 'origin_country': ['us'], 'key_name': 'United States of America', 'key': 'us', 'name': 'country_tv_dynamic'}, {'value': ['us'], 'origin_country': ['us'], 'key_name': 'United States of America', 'key': 'us', 'name': 'shared'}] |
+[2022-06-10 21:24:29,359] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-06-10 21:24:29,359] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-06-10 21:24:29,360] [builder.py:584]            [DEBUG]    | Value: release.desc                                                                                |
+[2022-06-10 21:24:29,360] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 21:24:29,361] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-06-10 21:24:29,361] [builder.py:605]            [DEBUG]    | Value: TMDb Country Color                                                                          |
+[2022-06-10 21:24:29,362] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 21:24:29,362] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-06-10 21:24:29,363] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/United%20States%20of%20America.jpg |
+[2022-06-10 21:24:29,681] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 21:24:29,682] [builder.py:604]            [DEBUG]    | Validating Method: plex_all                                                                        |
+[2022-06-10 21:24:29,683] [builder.py:605]            [DEBUG]    | Value: True                                                                                        |
+[2022-06-10 21:24:29,684] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 21:24:29,685] [builder.py:604]            [DEBUG]    | Validating Method: filters                                                                         |
+[2022-06-10 21:24:29,686] [builder.py:605]            [DEBUG]    | Value: {'origin_country': ['us']}                                                                  |
+[2022-06-10 21:24:29,688] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 21:24:29,688] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-06-10 21:24:29,689] [builder.py:605]            [DEBUG]    | Value: !09_United States of America                                                                |
+[2022-06-10 21:24:29,701] [plex.py:742]               [DEBUG]    |                                                                                                    |
+[2022-06-10 21:24:29,702] [plex.py:745]               [DEBUG]    | Looking for: United States of America                                                              |
+[2022-06-10 21:24:29,702] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-06-10 21:24:29,703] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-06-10 21:24:29,703] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-06-10 21:24:29,704] [plex_meta_manager.py:541]  [INFO]     |=========================== Running United States of America Collection ============================|
+[2022-06-10 21:24:29,705] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-06-10 21:24:29,705] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-06-10 21:24:29,705] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-06-10 21:24:29,706] [plex_meta_manager.py:558]  [DEBUG]    | Builder: plex_all: show                                                                            |
+[2022-06-10 21:24:29,706] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-06-10 21:24:29,707] [plex.py:760]               [INFO]     | Processing Plex All Shows                                                                          |
+[2022-06-10 21:24:29,708] [plex.py:471]               [INFO]     | Loading All Shows from Library: ..Cartoons                                                         |
+[2022-06-10 21:24:29,966] [plex.py:480]               [INFO]     | Loaded 22 Shows                                                                                    |
+[2022-06-10 21:24:29,968] [plex.py:813]               [DEBUG]    |                                                                                                    |
+[2022-06-10 21:24:29,968] [plex.py:814]               [DEBUG]    | 22 Keys Found: [(300758, 'ratingKey'), (276599, 'ratingKey'), (281268, 'ratingKey'), (277855, 'ratingKey'), (281936, 'ratingKey'), (276184, 'ratingKey'), (277932, 'ratingKey'), (281337, 'ratingKey'), (277917, 'ratingKey'), (276935, 'ratingKey'), (282196, 'ratingKey'), (281671, 'ratingKey'), (277870, 'ratingKey'), (277173, 'ratingKey'), (281840, 'ratingKey'), (276871, 'ratingKey'), (276849, 'ratingKey'), (281470, 'ratingKey'), (304359, 'ratingKey'), (277405, 'ratingKey'), (281723, 'ratingKey'), (70934, 'ratingKey')] |
+[2022-06-10 21:24:29,969] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-06-10 21:24:29,970] [builder.py:1508]           [DEBUG]    | 22 IDs Found: [(300758, 'ratingKey'), (276599, 'ratingKey'), (281268, 'ratingKey'), (277855, 'ratingKey'), (281936, 'ratingKey'), (276184, 'ratingKey'), (277932, 'ratingKey'), (281337, 'ratingKey'), (277917, 'ratingKey'), (276935, 'ratingKey'), (282196, 'ratingKey'), (281671, 'ratingKey'), (277870, 'ratingKey'), (277173, 'ratingKey'), (281840, 'ratingKey'), (276871, 'ratingKey'), (276849, 'ratingKey'), (281470, 'ratingKey'), (304359, 'ratingKey'), (277405, 'ratingKey'), (281723, 'ratingKey'), (70934, 'ratingKey')] |
+[2022-06-10 21:24:29,971] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-06-10 21:25:06,175] [plex_meta_manager.py:563]  [INFO]     |                                                                                                    |
+[2022-06-10 21:25:06,187] [plex_meta_manager.py:567]  [INFO]     | Collection Filter origin_country: ['US']                                                           |
+[2022-06-10 21:25:06,188] [builder.py:2009]           [INFO]     |                                                                                                    |
+[2022-06-10 21:25:06,189] [builder.py:2010]           [INFO]     |========================== Adding to United States of America Collection ===========================|
+[2022-06-10 21:25:06,189] [builder.py:2011]           [INFO]     |                                                                                                    |
+[2022-06-10 21:25:06,190] [builder.py:2025]           [INFO]     |  1/18 | United States of America Collection | + | American Dad!                                    |
+[2022-06-10 21:25:45,081] [builder.py:2025]           [INFO]     |  2/18 | United States of America Collection | + | Bob's Burgers                                    |
+[2022-06-10 21:25:49,868] [builder.py:2025]           [INFO]     |  3/18 | United States of America Collection | + | BraveStarr                                       |
+[2022-06-10 21:25:51,676] [builder.py:2025]           [INFO]     |  4/18 | United States of America Collection | + | Brickleberry                                     |
+[2022-06-10 21:25:52,741] [builder.py:2025]           [INFO]     |  5/18 | United States of America Collection | + | Family Guy                                       |
+[2022-06-10 21:25:55,422] [builder.py:2025]           [INFO]     |  6/18 | United States of America Collection | + | Futurama                                         |
+[2022-06-10 21:26:01,419] [builder.py:2025]           [INFO]     |  7/18 | United States of America Collection | + | He-Man and the Masters of the Universe           |
+[2022-06-10 21:26:02,811] [builder.py:2025]           [INFO]     |  8/18 | United States of America Collection | + | Love, Death & Robots                             |
+[2022-06-10 21:26:04,095] [builder.py:2025]           [INFO]     |  9/18 | United States of America Collection | + | Mickey Mouse                                     |
+[2022-06-10 21:26:04,903] [builder.py:2025]           [INFO]     | 10/18 | United States of America Collection | + | Rick and Morty                                   |
+[2022-06-10 21:26:05,838] [builder.py:2025]           [INFO]     | 11/18 | United States of America Collection | + | Robot Chicken                                    |
+[2022-06-10 21:26:06,277] [builder.py:2025]           [INFO]     | 12/18 | United States of America Collection | + | She-Ra: Princess of Power                        |
+[2022-06-10 21:26:06,761] [builder.py:2025]           [INFO]     | 13/18 | United States of America Collection | + | The Simpsons                                     |
+[2022-06-10 21:26:07,693] [builder.py:2025]           [INFO]     | 14/18 | United States of America Collection | + | South Park                                       |
+[2022-06-10 21:26:08,211] [builder.py:2025]           [INFO]     | 15/18 | United States of America Collection | + | Teenage Mutant Ninja Turtles                     |
+[2022-06-10 21:26:09,217] [builder.py:2025]           [INFO]     | 16/18 | United States of America Collection | + | The Tom and Jerry Show (2014)                    |
+[2022-06-10 21:26:09,685] [builder.py:2025]           [INFO]     | 17/18 | United States of America Collection | + | The Transformers                                 |
+[2022-06-10 21:26:10,290] [builder.py:2025]           [INFO]     | 18/18 | United States of America Collection | + | The Wonderful World of Mickey Mouse              |
+[2022-06-10 21:26:11,485] [builder.py:2045]           [INFO]     |                                                                                                    |
+[2022-06-10 21:26:11,486] [builder.py:2046]           [INFO]     | 18 Shows Processed                                                                                 |
+[2022-06-10 21:26:11,522] [builder.py:2383]           [INFO]     |                                                                                                    |
+[2022-06-10 21:26:11,523] [builder.py:2384]           [INFO]     |===================== Updating Details of United States of America Collection ======================|
+[2022-06-10 21:26:11,524] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-06-10 21:26:25,864] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | !09_United States of America
+                                                                 | Label | +TMDb Country Color
+[2022-06-10 21:26:26,469] [builder.py:2450]           [INFO]     | Details: have been updated
+[2022-06-10 21:26:26,469] [builder.py:2454]           [INFO]     | 
+[2022-06-10 21:26:26,470] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-06-10 21:26:26,470] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/United%20States%20of%20America.jpg
+[2022-06-10 21:26:26,695] [library.py:153]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/United%20States%20of%20America.jpg
+[2022-06-10 21:26:27,636] [builder.py:2529]           [INFO]     | 
+[2022-06-10 21:26:27,636] [builder.py:2530]           [INFO]     |=========================== Sorting United States of America Collection ============================|
+[2022-06-10 21:26:27,637] [builder.py:2531]           [INFO]     |                                                                                                    |
+[2022-06-10 21:26:27,861] [builder.py:2547]           [INFO]     | Moving The Wonderful World of Mickey Mouse to the beginning                                        |
+[2022-06-10 21:26:32,616] [builder.py:2547]           [INFO]     | Moving Love, Death & Robots after The Wonderful World of Mickey Mouse                              |
+[2022-06-10 21:26:33,064] [builder.py:2547]           [INFO]     | Moving The Tom and Jerry Show (2014) after Love, Death & Robots                                    |
+[2022-06-10 21:26:33,117] [builder.py:2547]           [INFO]     | Moving Rick and Morty after The Tom and Jerry Show (2014)                                          |
+[2022-06-10 21:26:33,169] [builder.py:2547]           [INFO]     | Moving Mickey Mouse after Rick and Morty                                                           |
+[2022-06-10 21:26:33,219] [builder.py:2547]           [INFO]     | Moving Brickleberry after Mickey Mouse                                                             |
+[2022-06-10 21:26:33,266] [builder.py:2547]           [INFO]     | Moving Bob's Burgers after Brickleberry                                                            |
+[2022-06-10 21:26:33,311] [builder.py:2547]           [INFO]     | Moving American Dad! after Bob's Burgers                                                           |
+[2022-06-10 21:26:33,356] [builder.py:2547]           [INFO]     | Moving Robot Chicken after American Dad!                                                           |
+[2022-06-10 21:26:33,400] [builder.py:2547]           [INFO]     | Moving Futurama after Robot Chicken                                                                |
+[2022-06-10 21:26:33,445] [builder.py:2547]           [INFO]     | Moving Family Guy after Futurama                                                                   |
+[2022-06-10 21:26:33,490] [builder.py:2547]           [INFO]     | Moving South Park after Family Guy                                                                 |
+[2022-06-10 21:26:33,535] [builder.py:2547]           [INFO]     | Moving The Simpsons after South Park                                                               |
+[2022-06-10 21:26:33,579] [builder.py:2547]           [INFO]     | Moving Teenage Mutant Ninja Turtles after The Simpsons                                             |
+[2022-06-10 21:26:33,625] [builder.py:2547]           [INFO]     | Moving BraveStarr after Teenage Mutant Ninja Turtles                                               |
+[2022-06-10 21:26:33,671] [builder.py:2547]           [INFO]     | Moving She-Ra: Princess of Power after BraveStarr                                                  |
+[2022-06-10 21:26:33,715] [builder.py:2547]           [INFO]     | Moving The Transformers after She-Ra: Princess of Power                                            |
+[2022-06-10 21:26:33,760] [builder.py:2547]           [INFO]     | Moving He-Man and the Masters of the Universe after The Transformers                               |
+[2022-06-10 21:26:33,805] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-06-10 21:26:33,806] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-06-10 21:26:33,806] [plex_meta_manager.py:675]  [INFO]     |                            Finished United States of America Collection                            |
+[2022-06-10 21:26:33,807] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:02:04                                    |
+[2022-06-10 21:26:33,807] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

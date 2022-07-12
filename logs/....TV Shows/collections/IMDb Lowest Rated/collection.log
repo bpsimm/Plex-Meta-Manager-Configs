@@ -1,0 +1,17 @@
+[2022-06-10 06:58:46,341] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 06:58:46,342] [builder.py:185]            [INFO]     |                            IMDb Lowest Rated Collection in ....TV Shows                            |
+[2022-06-10 06:58:46,342] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 06:58:46,343] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-06-10 06:58:46,344] [builder.py:191]            [INFO]     |============================= Validating IMDb Lowest Rated Attributes ==============================|
+[2022-06-10 06:58:46,344] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-06-10 06:58:46,345] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-06-10 06:58:46,345] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'chart_shared'), ('key', 'lowest'), ('check_library', 'movie')])]    |
+[2022-06-10 06:58:46,351] [builder.py:221]            [DEBUG]    |                                                                                                    |
+[2022-06-10 06:58:46,351] [builder.py:222]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-06-10 06:58:46,352] [builder.py:225]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-06-10 06:58:46,353] [plex_meta_manager.py:652]  [INFO]     | Skipped because allowed_library_types ['movie'] doesn't match the library type: show               |
+[2022-06-10 06:58:46,353] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-06-10 06:58:46,355] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-06-10 06:58:46,355] [plex_meta_manager.py:675]  [INFO]     |                               Finished IMDb Lowest Rated Collection                                |
+[2022-06-10 06:58:46,356] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-06-10 06:58:46,356] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

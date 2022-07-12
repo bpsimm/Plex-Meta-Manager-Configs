@@ -1,0 +1,145 @@
+[2022-07-08 03:33:51,154] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:33:51,155] [builder.py:185]            [INFO]     |                                     American Dad! 精选 Playlist                                      |
+[2022-07-08 03:33:51,156] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:33:51,156] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:33:51,157] [builder.py:191]            [INFO]     |============================== Validating American Dad! 精选 Attributes ==============================|
+[2022-07-08 03:33:51,157] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:33:51,157] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:33:51,158] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'playlist')])]                                                       |
+[2022-07-08 03:33:51,159] [builder.py:259]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:33:51,160] [builder.py:260]            [DEBUG]    | Validating Method: libraries                                                                       |
+[2022-07-08 03:33:51,160] [builder.py:263]            [DEBUG]    | Value: ..Cartoons                                                                                  |
+[2022-07-08 03:33:51,160] [builder.py:272]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:33:51,161] [builder.py:273]            [DEBUG]    | Validating Method: sync_to_users                                                                   |
+[2022-07-08 03:33:51,161] [builder.py:274]            [DEBUG]    | Value: all                                                                                         |
+[2022-07-08 03:33:51,161] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:33:51,162] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-07-08 03:33:51,162] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-07-08 03:33:51,163] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:33:51,163] [builder.py:604]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-07-08 03:33:51,163] [builder.py:605]            [DEBUG]    | Value: https://trakt.tv/users/bpsim/lists/american-dad-favourite-episodes                          |
+[2022-07-08 03:33:51,580] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:33:51,581] [builder.py:604]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-07-08 03:33:51,582] [builder.py:605]            [DEBUG]    | Value: 由 trakt 网友选择好看的American Dad!                                                                |
+[2022-07-08 03:33:51,582] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:33:51,583] [builder.py:604]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-07-08 03:33:51,583] [builder.py:605]            [DEBUG]    | Value: 1                                                                                           |
+[2022-07-08 03:33:51,584] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:33:51,584] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 03:33:51,584] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/playlist/American%20Dad%21%20%E7%B2%BE%E9%80%89.jpg |
+[2022-07-08 03:33:51,904] [builder.py:791]            [WARNING]  | Playlist Warning: No Poster Found at https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/playlist/American%20Dad%21%20%E7%B2%BE%E9%80%89.jpg |
+[2022-07-08 03:33:52,942] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:33:52,942] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:33:52,947] [plex_meta_manager.py:713]  [INFO]     |                                                                                                    |
+[2022-07-08 03:33:52,948] [plex_meta_manager.py:715]  [INFO]     |================================ Running American Dad! 精选 Playlist =================================|
+[2022-07-08 03:33:52,949] [plex_meta_manager.py:723]  [INFO]     |                                                                                                    |
+[2022-07-08 03:33:52,949] [plex_meta_manager.py:724]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-07-08 03:33:52,949] [plex_meta_manager.py:727]  [DEBUG]    |                                                                                                    |
+[2022-07-08 03:33:52,950] [plex_meta_manager.py:728]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/bpsim/lists/american-dad-favourite-episodes            |
+[2022-07-08 03:33:52,950] [plex_meta_manager.py:729]  [INFO]     |                                                                                                    |
+[2022-07-08 03:33:52,953] [trakt.py:482]              [INFO]     | Processing Trakt List: https://trakt.tv/users/bpsim/lists/american-dad-favourite-episodes          |
+[2022-07-08 03:33:54,031] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:33:54,032] [builder.py:1508]           [DEBUG]    | 74 IDs Found: [('73141_14_3', 'tvdb_episode'), ('73141_14_9', 'tvdb_episode'), ('73141_13_2', 'tvdb_episode'), ('73141_13_11', 'tvdb_episode'), ('73141_13_4', 'tvdb_episode'), ('73141_13_14', 'tvdb_episode'), ('73141_14_17', 'tvdb_episode'), ('73141_14_21', 'tvdb_episode'), ('73141_12_4', 'tvdb_episode'), ('73141_12_3', 'tvdb_episode'), ('73141_12_12', 'tvdb_episode'), ('73141_15_1', 'tvdb_episode'), ('73141_12_6', 'tvdb_episode'), ('73141_12_7', 'tvdb_episode'), ('73141_12_8', 'tvdb_episode'), ('73141_10_2', 'tvdb_episode'), ('73141_15_2', 'tvdb_episode'), ('73141_15_7', 'tvdb_episode'), ('73141_15_6', 'tvdb_episode'), ('73141_9_4', 'tvdb_episode'), ('73141_9_5', 'tvdb_episode'), ('73141_9_8', 'tvdb_episode'), ('73141_9_19', 'tvdb_episode'), ('73141_15_11', 'tvdb_episode'), ('73141_10_4', 'tvdb_episode'), ('73141_10_7', 'tvdb_episode'), ('73141_8_15', 'tvdb_episode'), ('73141_6_1', 'tvdb_episode'), ('73141_16_5', 'tvdb_episode'), ('73141_8_7', 'tvdb_episode'), ('73141_8_17', 'tvdb_episode'), ('73141_7_2', 'tvdb_episode'), ('73141_5_1', 'tvdb_episode'), ('73141_10_6', 'tvdb_episode'), ('73141_8_5', 'tvdb_episode'), ('73141_16_4', 'tvdb_episode'), ('73141_10_13', 'tvdb_episode'), ('73141_7_8', 'tvdb_episode'), ('73141_8_6', 'tvdb_episode'), ('73141_4_3', 'tvdb_episode'), ('73141_2_7', 'tvdb_episode'), ('73141_7_4', 'tvdb_episode'), ('73141_16_8', 'tvdb_episode'), ('73141_16_7', 'tvdb_episode'), ('73141_8_12', 'tvdb_episode'), ('73141_5_4', 'tvdb_episode'), ('73141_6_2', 'tvdb_episode'), ('73141_7_13', 'tvdb_episode'), ('73141_7_14', 'tvdb_episode'), ('73141_3_5', 'tvdb_episode'), ('73141_3_6', 'tvdb_episode'), ('73141_15_18', 'tvdb_episode'), ('73141_15_19', 'tvdb_episode'), ('73141_15_14', 'tvdb_episode'), ('73141_15_17', 'tvdb_episode'), ('73141_5_5', 'tvdb_episode'), ('73141_4_5', 'tvdb_episode'), ('73141_16_17', 'tvdb_episode'), ('73141_16_18', 'tvdb_episode'), ('73141_5_9', 'tvdb_episode'), ('73141_16_19', 'tvdb_episode'), ('73141_6_13', 'tvdb_episode'), ('73141_3_13', 'tvdb_episode'), ('73141_6_15', 'tvdb_episode'), ('73141_4_14', 'tvdb_episode'), ('73141_6_16', 'tvdb_episode'), ('73141_6_17', 'tvdb_episode'), ('73141_6_18', 'tvdb_episode'), ('73141_4_12', 'tvdb_episode'), ('73141_4_10', 'tvdb_episode'), ('73141_5_16', 'tvdb_episode'), ('73141_17_6', 'tvdb_episode'), ('73141_17_5', 'tvdb_episode'), ('73141_17_12', 'tvdb_episode')] |
+[2022-07-08 03:33:54,032] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:34:36,359] [builder.py:2009]           [INFO]     |                                                                                                    |
+[2022-07-08 03:34:36,360] [builder.py:2010]           [INFO]     |=============================== Adding to American Dad! 精选 Playlist ================================|
+[2022-07-08 03:34:36,360] [builder.py:2011]           [INFO]     |                                                                                                    |
+[2022-07-08 03:34:36,361] [builder.py:2025]           [INFO]     |  1/74 | American Dad! 精选 Playlist | = | American Dad! S14E03: The Enlightenment of Ragi-Baba       |
+[2022-07-08 03:34:36,361] [builder.py:2025]           [INFO]     |  2/74 | American Dad! 精选 Playlist | = | American Dad! S14E09: The Witches of Langley               |
+[2022-07-08 03:34:36,362] [builder.py:2025]           [INFO]     |  3/74 | American Dad! 精选 Playlist | = | American Dad! S13E02: The Life Aquatic with Steve Smith    |
+[2022-07-08 03:34:36,362] [builder.py:2025]           [INFO]     |  4/74 | American Dad! 精选 Playlist | = | American Dad! S13E11: The Unincludeds                      |
+[2022-07-08 03:34:36,363] [builder.py:2025]           [INFO]     |  5/74 | American Dad! 精选 Playlist | = | American Dad! S13E04: N.S.A. (No Snoops Allowed)           |
+[2022-07-08 03:34:36,363] [builder.py:2025]           [INFO]     |  6/74 | American Dad! 精选 Playlist | = | American Dad! S13E14: The Nova Centauris-Burgh Board Of Tourism Presents: American Dad |
+[2022-07-08 03:34:36,364] [builder.py:2025]           [INFO]     |  7/74 | American Dad! 精选 Playlist | = | American Dad! S14E17: Family Plan                          |
+[2022-07-08 03:34:36,365] [builder.py:2025]           [INFO]     |  8/74 | American Dad! 精选 Playlist | = | American Dad! S14E21: The Talented Mr. Dingleberry         |
+[2022-07-08 03:34:36,365] [builder.py:2025]           [INFO]     |  9/74 | American Dad! 精选 Playlist | = | American Dad! S12E04: Big Stan on Campus                   |
+[2022-07-08 03:34:36,366] [builder.py:2025]           [INFO]     | 10/74 | American Dad! 精选 Playlist | = | American Dad! S12E03: Scents and Sensei-bility             |
+[2022-07-08 03:34:36,367] [builder.py:2025]           [INFO]     | 11/74 | American Dad! 精选 Playlist | = | American Dad! S12E12: The Shrink                           |
+[2022-07-08 03:34:36,368] [builder.py:2025]           [INFO]     | 12/74 | American Dad! 精选 Playlist | = | American Dad! S15E01: Paranoid_Frandroid                   |
+[2022-07-08 03:34:36,368] [builder.py:2025]           [INFO]     | 13/74 | American Dad! 精选 Playlist | = | American Dad! S12E06: Dreaming of a White Porsche Christmas |
+[2022-07-08 03:34:36,369] [builder.py:2025]           [INFO]     | 14/74 | American Dad! 精选 Playlist | = | American Dad! S12E07: LGBSteve                             |
+[2022-07-08 03:34:36,370] [builder.py:2025]           [INFO]     | 15/74 | American Dad! 精选 Playlist | = | American Dad! S12E08: Morning Mimosa                       |
+[2022-07-08 03:34:36,371] [builder.py:2025]           [INFO]     | 16/74 | American Dad! 精选 Playlist | = | American Dad! S10E02: Poltergasm                           |
+[2022-07-08 03:34:36,372] [builder.py:2025]           [INFO]     | 17/74 | American Dad! 精选 Playlist | = | American Dad! S15E02: The Census of the Lambs              |
+[2022-07-08 03:34:36,373] [builder.py:2025]           [INFO]     | 18/74 | American Dad! 精选 Playlist | = | American Dad! S15E07: Death By Dinner Party                |
+[2022-07-08 03:34:36,373] [builder.py:2025]           [INFO]     | 19/74 | American Dad! 精选 Playlist | = | American Dad! S15E06: Klaustastrophe.tv                    |
+[2022-07-08 03:34:36,375] [builder.py:2025]           [INFO]     | 20/74 | American Dad! 精选 Playlist | = | American Dad! S09E04: American Stepdad                     |
+[2022-07-08 03:34:36,376] [builder.py:2025]           [INFO]     | 21/74 | American Dad! 精选 Playlist | = | American Dad! S09E05: Why Can't We Be Friends?             |
+[2022-07-08 03:34:36,377] [builder.py:2025]           [INFO]     | 22/74 | American Dad! 精选 Playlist | = | American Dad! S09E08: Finger Lenting Good                  |
+[2022-07-08 03:34:36,378] [builder.py:2025]           [INFO]     | 23/74 | American Dad! 精选 Playlist | = | American Dad! S09E19: Da Flippity Flop                     |
+[2022-07-08 03:34:36,379] [builder.py:2025]           [INFO]     | 24/74 | American Dad! 精选 Playlist | = | American Dad! S15E11: Oretron Trail                        |
+[2022-07-08 03:34:36,380] [builder.py:2025]           [INFO]     | 25/74 | American Dad! 精选 Playlist | = | American Dad! S10E04: Crotchwalkers                        |
+[2022-07-08 03:34:36,382] [builder.py:2025]           [INFO]     | 26/74 | American Dad! 精选 Playlist | = | American Dad! S10E07: Faking Bad                           |
+[2022-07-08 03:34:36,383] [builder.py:2025]           [INFO]     | 27/74 | American Dad! 精选 Playlist | = | American Dad! S08E15: Less Money, Mo' Problems             |
+[2022-07-08 03:34:36,385] [builder.py:2025]           [INFO]     | 28/74 | American Dad! 精选 Playlist | = | American Dad! S06E01: Season 5: In Country... Club         |
+[2022-07-08 03:34:36,386] [builder.py:2025]           [INFO]     | 29/74 | American Dad! 精选 Playlist | = | American Dad! S16E05: Jeff and the Dank Ass Weed Factory   |
+[2022-07-08 03:34:36,388] [builder.py:2025]           [INFO]     | 30/74 | American Dad! 精选 Playlist | = | American Dad! S08E07: Season's Beatings                    |
+[2022-07-08 03:34:36,389] [builder.py:2025]           [INFO]     | 31/74 | American Dad! 精选 Playlist | = | American Dad! S08E17: Ricky Spanish                        |
+[2022-07-08 03:34:36,390] [builder.py:2025]           [INFO]     | 32/74 | American Dad! 精选 Playlist | = | American Dad! S07E02: Son of Stan (2)                      |
+[2022-07-08 03:34:36,391] [builder.py:2025]           [INFO]     | 33/74 | American Dad! 精选 Playlist | = | American Dad! S05E01: 1600 Candles                         |
+[2022-07-08 03:34:36,392] [builder.py:2025]           [INFO]     | 34/74 | American Dad! 精选 Playlist | = | American Dad! S10E06: Independent Movie                    |
+[2022-07-08 03:34:36,393] [builder.py:2025]           [INFO]     | 35/74 | American Dad! 精选 Playlist | = | American Dad! S08E05: Virtual In-Stanity                   |
+[2022-07-08 03:34:36,395] [builder.py:2025]           [INFO]     | 36/74 | American Dad! 精选 Playlist | = | American Dad! S16E04: Rabbit Ears                          |
+[2022-07-08 03:34:36,396] [builder.py:2025]           [INFO]     | 37/74 | American Dad! 精选 Playlist | = | American Dad! S10E13: I Ain't No Holodeck Boy              |
+[2022-07-08 03:34:36,397] [builder.py:2025]           [INFO]     | 38/74 | American Dad! 精选 Playlist | = | American Dad! S07E08: For Whom the Sleigh Bell Tolls       |
+[2022-07-08 03:34:36,398] [builder.py:2025]           [INFO]     | 39/74 | American Dad! 精选 Playlist | = | American Dad! S08E06: The Scarlett Getter                  |
+[2022-07-08 03:34:36,399] [builder.py:2025]           [INFO]     | 40/74 | American Dad! 精选 Playlist | = | American Dad! S04E03: Dope & Faith                         |
+[2022-07-08 03:34:36,401] [builder.py:2025]           [INFO]     | 41/74 | American Dad! 精选 Playlist | = | American Dad! S02E07: Stannie Get Your Gun                 |
+[2022-07-08 03:34:36,402] [builder.py:2025]           [INFO]     | 42/74 | American Dad! 精选 Playlist | = | American Dad! S07E04: Stan's Food Restaurant               |
+[2022-07-08 03:34:36,403] [builder.py:2025]           [INFO]     | 43/74 | American Dad! 精选 Playlist | = | American Dad! S16E08: The Long March                       |
+[2022-07-08 03:34:36,404] [builder.py:2025]           [INFO]     | 44/74 | American Dad! 精选 Playlist | = | American Dad! S16E07: Shark?!                              |
+[2022-07-08 03:34:36,406] [builder.py:2025]           [INFO]     | 45/74 | American Dad! 精选 Playlist | = | American Dad! S08E12: The Wrestler                         |
+[2022-07-08 03:34:36,407] [builder.py:2025]           [INFO]     | 46/74 | American Dad! 精选 Playlist | = | American Dad! S05E04: Choosey Wives Choose Smith           |
+[2022-07-08 03:34:36,409] [builder.py:2025]           [INFO]     | 47/74 | American Dad! 精选 Playlist | = | American Dad! S06E02: Season 5: Moon Over Isla Island      |
+[2022-07-08 03:34:36,410] [builder.py:2025]           [INFO]     | 48/74 | American Dad! 精选 Playlist | = | American Dad! S07E13: I Am the Walrus                      |
+[2022-07-08 03:34:36,412] [builder.py:2025]           [INFO]     | 49/74 | American Dad! 精选 Playlist | = | American Dad! S07E14: School Lies                          |
+[2022-07-08 03:34:36,413] [builder.py:2025]           [INFO]     | 50/74 | American Dad! 精选 Playlist | = | American Dad! S03E05: Dungeons and Wagons                  |
+[2022-07-08 03:34:36,414] [builder.py:2025]           [INFO]     | 51/74 | American Dad! 精选 Playlist | = | American Dad! S03E06: Iced, Iced Babies                    |
+[2022-07-08 03:34:36,416] [builder.py:2025]           [INFO]     | 52/74 | American Dad! 精选 Playlist | = | American Dad! S15E18: Top of the Steve                     |
+[2022-07-08 03:34:36,417] [builder.py:2025]           [INFO]     | 53/74 | American Dad! 精选 Playlist | = | American Dad! S15E19: Funnyish Games                       |
+[2022-07-08 03:34:36,419] [builder.py:2025]           [INFO]     | 54/74 | American Dad! 精选 Playlist | = | American Dad! S15E14: Flavortown                           |
+[2022-07-08 03:34:36,420] [builder.py:2025]           [INFO]     | 55/74 | American Dad! 精选 Playlist | = | American Dad! S15E17: Twinanigans                          |
+[2022-07-08 03:34:36,422] [builder.py:2025]           [INFO]     | 56/74 | American Dad! 精选 Playlist | = | American Dad! S05E05: Escape From Pearl Bailey             |
+[2022-07-08 03:34:36,424] [builder.py:2025]           [INFO]     | 57/74 | American Dad! 精选 Playlist | = | American Dad! S04E05: Haylias                              |
+[2022-07-08 03:34:36,425] [builder.py:2025]           [INFO]     | 58/74 | American Dad! 精选 Playlist | = | American Dad! S16E17: Enter Stanman                        |
+[2022-07-08 03:34:36,427] [builder.py:2025]           [INFO]     | 59/74 | American Dad! 精选 Playlist | = | American Dad! S16E18: No Weddings and a Funeral            |
+[2022-07-08 03:34:36,428] [builder.py:2025]           [INFO]     | 60/74 | American Dad! 精选 Playlist | = | American Dad! S05E09: Stan Time                            |
+[2022-07-08 03:34:36,430] [builder.py:2025]           [INFO]     | 61/74 | American Dad! 精选 Playlist | = | American Dad! S16E19: Eight Fires                          |
+[2022-07-08 03:34:36,432] [builder.py:2025]           [INFO]     | 62/74 | American Dad! 精选 Playlist | = | American Dad! S06E13: Season 5: Return of the Bling        |
+[2022-07-08 03:34:36,434] [builder.py:2025]           [INFO]     | 63/74 | American Dad! 精选 Playlist | = | American Dad! S03E13: Black Mystery Month                  |
+[2022-07-08 03:34:36,436] [builder.py:2025]           [INFO]     | 64/74 | American Dad! 精选 Playlist | = | American Dad! S06E15: Season 5: Merlot Down Dirty Shame    |
+[2022-07-08 03:34:36,437] [builder.py:2025]           [INFO]     | 65/74 | American Dad! 精选 Playlist | = | American Dad! S04E14: Office Spaceman                      |
+[2022-07-08 03:34:36,439] [builder.py:2025]           [INFO]     | 66/74 | American Dad! 精选 Playlist | = | American Dad! S06E16: Season 5: Bully for Steve            |
+[2022-07-08 03:34:36,441] [builder.py:2025]           [INFO]     | 67/74 | American Dad! 精选 Playlist | = | American Dad! S06E17: Season 5: An Incident at Owl Creek   |
+[2022-07-08 03:34:36,443] [builder.py:2025]           [INFO]     | 68/74 | American Dad! 精选 Playlist | = | American Dad! S06E18: Season 5: Great Space Roaster        |
+[2022-07-08 03:34:36,444] [builder.py:2025]           [INFO]     | 69/74 | American Dad! 精选 Playlist | = | American Dad! S04E12: Widowmaker                           |
+[2022-07-08 03:34:36,446] [builder.py:2025]           [INFO]     | 70/74 | American Dad! 精选 Playlist | = | American Dad! S04E10: Tearjerker                           |
+[2022-07-08 03:34:36,448] [builder.py:2025]           [INFO]     | 71/74 | American Dad! 精选 Playlist | = | American Dad! S05E16: Delorean Story-An                    |
+[2022-07-08 03:34:36,450] [builder.py:2025]           [INFO]     | 72/74 | American Dad! 精选 Playlist | = | American Dad! S17E06: Brave N00b World                     |
+[2022-07-08 03:34:36,452] [builder.py:2025]           [INFO]     | 73/74 | American Dad! 精选 Playlist | = | American Dad! S17E05: Tapped Out                           |
+[2022-07-08 03:34:36,453] [builder.py:2025]           [INFO]     | 74/74 | American Dad! 精选 Playlist | = | American Dad! S17E12: American Data?                       |
+[2022-07-08 03:34:36,455] [builder.py:2045]           [INFO]     |                                                                                                    |
+[2022-07-08 03:34:36,455] [builder.py:2046]           [INFO]     | 74 Items Processed                                                                                 |
+[2022-07-08 03:34:36,511] [builder.py:2383]           [INFO]     |                                                                                                    |
+[2022-07-08 03:34:36,511] [builder.py:2384]           [INFO]     |========================== Updating Details of American Dad! 精选 Playlist ===========================|
+[2022-07-08 03:34:36,512] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-07-08 03:34:37,391] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-07-08 03:34:37,392] [builder.py:2530]           [INFO]     |================================ Sorting American Dad! 精选 Playlist =================================|
+[2022-07-08 03:34:37,393] [builder.py:2531]           [INFO]     |                                                                                                    |
+[2022-07-08 03:34:37,394] [builder.py:2595]           [INFO]     |                                                                                                    |
+[2022-07-08 03:34:37,395] [builder.py:2596]           [INFO]     |==================================== Syncing Playlist to Users =====================================|
+[2022-07-08 03:34:37,395] [builder.py:2597]           [INFO]     |                                                                                                    |
+[2022-07-08 03:34:38,790] [builder.py:2604]           [INFO]     | Playlist: American Dad! 精选 synced to 1ntheshell                                                    |
+[2022-07-08 03:34:40,614] [builder.py:2604]           [INFO]     | Playlist: American Dad! 精选 synced to BigHippo                                                      |
+[2022-07-08 03:34:41,836] [builder.py:2604]           [INFO]     | Playlist: American Dad! 精选 synced to jenny934                                                      |
+[2022-07-08 03:34:43,038] [builder.py:2604]           [INFO]     | Playlist: American Dad! 精选 synced to maggiek40                                                     |
+[2022-07-08 03:34:46,461] [builder.py:2604]           [INFO]     | Playlist: American Dad! 精选 synced to njtab                                                         |
+[2022-07-08 03:34:48,008] [builder.py:2604]           [INFO]     | Playlist: American Dad! 精选 synced to se7entao                                                      |
+[2022-07-08 03:34:50,080] [builder.py:2604]           [INFO]     | Playlist: American Dad! 精选 synced to Shoyichi                                                      |
+[2022-07-08 03:34:51,242] [builder.py:2604]           [INFO]     | Playlist: American Dad! 精选 synced to SzeMeng76                                                     |
+[2022-07-08 03:34:51,242] [plex_meta_manager.py:839]  [INFO]     |                                                                                                    |
+[2022-07-08 03:34:51,243] [plex_meta_manager.py:842]  [INFO]     |                                                                                                    |
+[2022-07-08 03:34:51,243] [plex_meta_manager.py:843]  [INFO]     |====================================================================================================|
+[2022-07-08 03:34:51,244] [plex_meta_manager.py:843]  [INFO]     |                                 Finished American Dad! 精选 Playlist                                 |
+[2022-07-08 03:34:51,244] [plex_meta_manager.py:843]  [INFO]     |                                     Playlist Run Time: 0:01:00                                     |
+[2022-07-08 03:34:51,244] [plex_meta_manager.py:843]  [INFO]     |====================================================================================================|

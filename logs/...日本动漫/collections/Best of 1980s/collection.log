@@ -1,0 +1,46 @@
+[2022-07-08 03:12:12,896] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:12,897] [builder.py:185]            [INFO]     |                                Best of 1980s Collection in ...日本动漫                                 |
+[2022-07-08 03:12:12,897] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:12,898] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:12,898] [builder.py:191]            [INFO]     |=============================== Validating Best of 1980s Attributes ================================|
+[2022-07-08 03:12:12,898] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:12,899] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:12,899] [meta.py:103]               [DEBUG]    | Value: [{'value': [1980, 1987, 1985, 1981], 'decade': [1980, 1987, 1985, 1981], 'key_name': '1980', 'key': '1980', 'name': 'decade_dynamic'}, {'value': [1980, 1987, 1985, 1981], 'decade': [1980, 1987, 1985, 1981], 'key_name': '1980', 'key': '1980', 'name': 'shared'}] |
+[2022-07-08 03:12:12,901] [builder.py:1675]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:12,902] [builder.py:1676]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-07-08 03:12:12,902] [builder.py:1682]           [DEBUG]    | Value: {'sort_by': 'critic_rating.desc', 'any': {'year': [1980, 1987, 1985, 1981]}, 'limit': 100}  |
+[2022-07-08 03:12:12,903] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:12,903] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-07-08 03:12:12,903] [builder.py:605]            [DEBUG]    | Value: Decade                                                                                      |
+[2022-07-08 03:12:12,904] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:12,904] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 03:12:12,904] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/decade/best/1980.jpg |
+[2022-07-08 03:12:13,213] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:13,213] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 03:12:13,213] [builder.py:605]            [DEBUG]    | Value: !12_Best of 1980s                                                                           |
+[2022-07-08 03:12:13,288] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,289] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:12:13,289] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,289] [plex_meta_manager.py:541]  [INFO]     |================================= Running Best of 1980s Collection =================================|
+[2022-07-08 03:12:13,290] [plex_meta_manager.py:547]  [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,290] [plex_meta_manager.py:548]  [INFO]     | Smart Show Filter                                                                                  |
+                                                                 | Sort By: critic_rating.desc
+                                                                 | Limit: 100
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Year is 1980
+                                                                 |     Year is 1987
+                                                                 |     Year is 1985
+                                                                 |     Year is 1981
+[2022-07-08 03:12:13,369] [builder.py:2383]           [INFO]     | 
+[2022-07-08 03:12:13,369] [builder.py:2384]           [INFO]     |=========================== Updating Details of Best of 1980s Collection ===========================|
+[2022-07-08 03:12:13,370] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,393] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-07-08 03:12:13,393] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-07-08 03:12:13,394] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/decade/best/1980.jpg |
+[2022-07-08 03:12:13,396] [library.py:155]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-07-08 03:12:13,454] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,455] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 03:12:13,455] [plex_meta_manager.py:675]  [INFO]     |                                 Finished Best of 1980s Collection                                  |
+[2022-07-08 03:12:13,455] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-07-08 03:12:13,456] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

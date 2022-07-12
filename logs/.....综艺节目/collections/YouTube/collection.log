@@ -1,0 +1,42 @@
+[2022-07-08 02:42:40,166] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:42:40,166] [builder.py:185]            [INFO]     |                                  YouTube Collection in .....综艺节目                                   |
+[2022-07-08 02:42:40,167] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:42:40,167] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 02:42:40,168] [builder.py:191]            [INFO]     |================================== Validating YouTube Attributes ===================================|
+[2022-07-08 02:42:40,168] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:40,168] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 02:42:40,169] [meta.py:103]               [DEBUG]    | Value: [{'value': ['YouTube'], 'network': ['YouTube'], 'key_name': 'YouTube', 'key': 'YouTube', 'name': 'networks_dynamic'}, {'value': ['YouTube'], 'network': ['YouTube'], 'key_name': 'YouTube', 'key': 'YouTube', 'name': 'shared'}] |
+[2022-07-08 02:42:40,171] [builder.py:1675]           [INFO]     |                                                                                                    |
+[2022-07-08 02:42:40,171] [builder.py:1676]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-07-08 02:42:40,172] [builder.py:1682]           [DEBUG]    | Value: {'sort_by': 'release.desc', 'any': {'network': ['YouTube']}}                                |
+[2022-07-08 02:42:40,186] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:40,187] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-07-08 02:42:40,187] [builder.py:605]            [DEBUG]    | Value: Network US                                                                                  |
+[2022-07-08 02:42:40,187] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:40,187] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 02:42:40,188] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/network/YouTube.jpg |
+[2022-07-08 02:42:40,494] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:40,494] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 02:42:40,495] [builder.py:605]            [DEBUG]    | Value: !04_YouTube                                                                                 |
+[2022-07-08 02:42:40,550] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 02:42:40,550] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 02:42:40,551] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 02:42:40,551] [plex_meta_manager.py:541]  [INFO]     |==================================== Running YouTube Collection ====================================|
+[2022-07-08 02:42:40,552] [plex_meta_manager.py:547]  [INFO]     |                                                                                                    |
+[2022-07-08 02:42:40,552] [plex_meta_manager.py:548]  [INFO]     | Smart Show Filter                                                                                  |
+                                                                 | Sort By: release.desc
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Network is YouTube
+[2022-07-08 02:42:40,609] [builder.py:2383]           [INFO]     | 
+[2022-07-08 02:42:40,609] [builder.py:2384]           [INFO]     |============================== Updating Details of YouTube Collection ==============================|
+[2022-07-08 02:42:40,610] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-07-08 02:42:40,634] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-07-08 02:42:40,634] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-07-08 02:42:40,635] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/network/YouTube.jpg |
+[2022-07-08 02:42:40,637] [library.py:155]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-07-08 02:42:40,675] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 02:42:40,675] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 02:42:40,675] [plex_meta_manager.py:675]  [INFO]     |                                    Finished YouTube Collection                                     |
+[2022-07-08 02:42:40,676] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-07-08 02:42:40,676] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

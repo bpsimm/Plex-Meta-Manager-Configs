@@ -1,0 +1,199 @@
+[2022-07-08 02:42:27,426] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:42:27,427] [builder.py:185]            [INFO]     |                              Other Countries Collection in .....综艺节目                               |
+[2022-07-08 02:42:27,427] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:42:27,427] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 02:42:27,428] [builder.py:191]            [INFO]     |============================== Validating Other Countries Attributes ===============================|
+[2022-07-08 02:42:27,428] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:27,428] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 02:42:27,429] [meta.py:103]               [DEBUG]    | Value: [{'value': ['gb', 'us', 'au', 'mx', 'hk'], 'included_keys': ['Canada', 'China', 'France', 'Germany', 'Hong Kong', 'India', 'Italy', 'Japan', 'Korea', 'Malaysia', 'Mexico', 'New Zealand', 'Singapore', 'South Africa', 'Spain', 'Sweden', 'Taiwan', 'Thailand', 'United Kingdom', 'United States of America'], 'used_keys': [], 'origin_country': ['gb', 'us', 'au', 'mx', 'hk'], 'key_name': 'Other Countries', 'key': 'other', 'name': 'other_collection'}, {'value': ['gb', 'us', 'au', 'mx', 'hk'], 'included_keys': ['Canada', 'China', 'France', 'Germany', 'Hong Kong', 'India', 'Italy', 'Japan', 'Korea', 'Malaysia', 'Mexico', 'New Zealand', 'Singapore', 'South Africa', 'Spain', 'Sweden', 'Taiwan', 'Thailand', 'United Kingdom', 'United States of America'], 'used_keys': [], 'origin_country': ['gb', 'us', 'au', 'mx', 'hk'], 'key_name': 'Other Countries', 'key': 'other', 'name': 'country_tv_dynamic'}, {'value': ['gb', 'us', 'au', 'mx', 'hk'], 'included_keys': ['Canada', 'China', 'France', 'Germany', 'Hong Kong', 'India', 'Italy', 'Japan', 'Korea', 'Malaysia', 'Mexico', 'New Zealand', 'Singapore', 'South Africa', 'Spain', 'Sweden', 'Taiwan', 'Thailand', 'United Kingdom', 'United States of America'], 'used_keys': [], 'origin_country': ['gb', 'us', 'au', 'mx', 'hk'], 'key_name': 'Other Countries', 'key': 'other', 'name': 'shared'}] |
+[2022-07-08 02:42:27,432] [meta.py:241]               [WARNING]  | Template Warning: template attribute: sort_title from shared skipped                               |
+[2022-07-08 02:42:27,432] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:27,433] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-07-08 02:42:27,433] [builder.py:584]            [DEBUG]    | Value: release.desc                                                                                |
+[2022-07-08 02:42:27,433] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:27,434] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-07-08 02:42:27,434] [builder.py:605]            [DEBUG]    | Value: TMDb Country Color                                                                          |
+[2022-07-08 02:42:27,434] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:27,434] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 02:42:27,435] [builder.py:605]            [DEBUG]    | Value: !09_~Other Countries                                                                        |
+[2022-07-08 02:42:27,435] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:27,435] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 02:42:27,435] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Other%20Countries.jpg |
+[2022-07-08 02:42:27,753] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:27,753] [builder.py:604]            [DEBUG]    | Validating Method: plex_all                                                                        |
+[2022-07-08 02:42:27,753] [builder.py:605]            [DEBUG]    | Value: True                                                                                        |
+[2022-07-08 02:42:27,754] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:27,754] [builder.py:604]            [DEBUG]    | Validating Method: filters                                                                         |
+[2022-07-08 02:42:27,754] [builder.py:605]            [DEBUG]    | Value: {'origin_country': ['gb', 'us', 'au', 'mx', 'hk']}                                          |
+[2022-07-08 02:42:27,877] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 02:42:27,877] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 02:42:27,878] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 02:42:27,880] [plex_meta_manager.py:541]  [INFO]     |================================ Running Other Countries Collection ================================|
+[2022-07-08 02:42:27,880] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-07-08 02:42:27,880] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-07-08 02:42:27,881] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:27,881] [plex_meta_manager.py:558]  [DEBUG]    | Builder: plex_all: show                                                                            |
+[2022-07-08 02:42:27,881] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-07-08 02:42:27,882] [plex.py:760]               [INFO]     | Processing Plex All Shows                                                                          |
+[2022-07-08 02:42:27,882] [plex.py:471]               [INFO]     | Loading All Shows from Library: .....综艺节目                                                          |
+[2022-07-08 02:42:28,462] [plex.py:480]               [INFO]     | Loaded 74 Shows                                                                                    |
+[2022-07-08 02:42:28,463] [plex.py:813]               [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:28,464] [plex.py:814]               [DEBUG]    | 74 Keys Found: [(301355, 'ratingKey'), (279588, 'ratingKey'), (279536, 'ratingKey'), (279549, 'ratingKey'), (279647, 'ratingKey'), (280756, 'ratingKey'), (305647, 'ratingKey'), (280764, 'ratingKey'), (280793, 'ratingKey'), (280773, 'ratingKey'), (279619, 'ratingKey'), (279576, 'ratingKey'), (81987, 'ratingKey'), (81901, 'ratingKey'), (82357, 'ratingKey'), (82634, 'ratingKey'), (81267, 'ratingKey'), (82608, 'ratingKey'), (82622, 'ratingKey'), (215003, 'ratingKey'), (82596, 'ratingKey'), (236892, 'ratingKey'), (215018, 'ratingKey'), (82229, 'ratingKey'), (82207, 'ratingKey'), (82584, 'ratingKey'), (82281, 'ratingKey'), (279510, 'ratingKey'), (82043, 'ratingKey'), (82080, 'ratingKey'), (81042, 'ratingKey'), (82184, 'ratingKey'), (81403, 'ratingKey'), (81171, 'ratingKey'), (82247, 'ratingKey'), (82390, 'ratingKey'), (82413, 'ratingKey'), (82469, 'ratingKey'), (82379, 'ratingKey'), (82393, 'ratingKey'), (82495, 'ratingKey'), (82519, 'ratingKey'), (81356, 'ratingKey'), (81375, 'ratingKey'), (301372, 'ratingKey'), (82164, 'ratingKey'), (82124, 'ratingKey'), (301342, 'ratingKey'), (82646, 'ratingKey'), (301401, 'ratingKey'), (215007, 'ratingKey'), (82259, 'ratingKey'), (82293, 'ratingKey'), (81999, 'ratingKey'), (82136, 'ratingKey'), (75576, 'ratingKey'), (301413, 'ratingKey'), (301347, 'ratingKey'), (82337, 'ratingKey'), (82326, 'ratingKey'), (81894, 'ratingKey'), (301389, 'ratingKey'), (82345, 'ratingKey'), (82572, 'ratingKey'), (82526, 'ratingKey'), (82538, 'ratingKey'), (82550, 'ratingKey'), (81455, 'ratingKey'), (81012, 'ratingKey'), (81431, 'ratingKey'), (81286, 'ratingKey'), (82367, 'ratingKey'), (81309, 'ratingKey'), (81975, 'ratingKey')] |
+[2022-07-08 02:42:28,464] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:28,465] [builder.py:1508]           [DEBUG]    | 74 IDs Found: [(301355, 'ratingKey'), (279588, 'ratingKey'), (279536, 'ratingKey'), (279549, 'ratingKey'), (279647, 'ratingKey'), (280756, 'ratingKey'), (305647, 'ratingKey'), (280764, 'ratingKey'), (280793, 'ratingKey'), (280773, 'ratingKey'), (279619, 'ratingKey'), (279576, 'ratingKey'), (81987, 'ratingKey'), (81901, 'ratingKey'), (82357, 'ratingKey'), (82634, 'ratingKey'), (81267, 'ratingKey'), (82608, 'ratingKey'), (82622, 'ratingKey'), (215003, 'ratingKey'), (82596, 'ratingKey'), (236892, 'ratingKey'), (215018, 'ratingKey'), (82229, 'ratingKey'), (82207, 'ratingKey'), (82584, 'ratingKey'), (82281, 'ratingKey'), (279510, 'ratingKey'), (82043, 'ratingKey'), (82080, 'ratingKey'), (81042, 'ratingKey'), (82184, 'ratingKey'), (81403, 'ratingKey'), (81171, 'ratingKey'), (82247, 'ratingKey'), (82390, 'ratingKey'), (82413, 'ratingKey'), (82469, 'ratingKey'), (82379, 'ratingKey'), (82393, 'ratingKey'), (82495, 'ratingKey'), (82519, 'ratingKey'), (81356, 'ratingKey'), (81375, 'ratingKey'), (301372, 'ratingKey'), (82164, 'ratingKey'), (82124, 'ratingKey'), (301342, 'ratingKey'), (82646, 'ratingKey'), (301401, 'ratingKey'), (215007, 'ratingKey'), (82259, 'ratingKey'), (82293, 'ratingKey'), (81999, 'ratingKey'), (82136, 'ratingKey'), (75576, 'ratingKey'), (301413, 'ratingKey'), (301347, 'ratingKey'), (82337, 'ratingKey'), (82326, 'ratingKey'), (81894, 'ratingKey'), (301389, 'ratingKey'), (82345, 'ratingKey'), (82572, 'ratingKey'), (82526, 'ratingKey'), (82538, 'ratingKey'), (82550, 'ratingKey'), (81455, 'ratingKey'), (81012, 'ratingKey'), (81431, 'ratingKey'), (81286, 'ratingKey'), (82367, 'ratingKey'), (81309, 'ratingKey'), (81975, 'ratingKey')] |
+[2022-07-08 02:42:28,465] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-07-08 02:42:28,467] [builder.py:1650]           [INFO]     |                                                                                                    |
+[2022-07-08 02:42:28,467] [builder.py:1651]           [INFO]     | Filtering Builders:                                                                                |
+[2022-07-08 02:42:28,776] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 12個夏天                                                           |
+[2022-07-08 02:42:28,777] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 12個夏天                                                             |
+[2022-07-08 02:42:30,778] [builder.py:1669]           [INFO]     | Other Countries Collection | X | Chef's Table: BBQ                                                 |
+[2022-07-08 02:42:32,123] [builder.py:1669]           [INFO]     | Other Countries Collection | X | Race to the Center of the Earth                                   |
+[2022-07-08 02:42:33,340] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 一个人去旅行                                                          |
+[2022-07-08 02:42:33,340] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 一个人去旅行                                                            |
+[2022-07-08 02:42:33,413] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 世界观                                                             |
+[2022-07-08 02:42:33,413] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 世界观                                                               |
+[2022-07-08 02:42:33,448] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 世界零距离                                                           |
+[2022-07-08 02:42:33,449] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 世界零距离                                                             |
+[2022-07-08 02:42:33,669] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 东京攻略                                                            |
+[2022-07-08 02:42:33,669] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 东京攻略                                                              |
+[2022-07-08 02:42:33,705] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 五觉大战                                                            |
+[2022-07-08 02:42:33,706] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 五觉大战                                                              |
+[2022-07-08 02:42:33,741] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 仨心友行                                                            |
+[2022-07-08 02:42:33,742] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 仨心友行                                                              |
+[2022-07-08 02:42:33,775] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 关西攻略                                                            |
+[2022-07-08 02:42:33,775] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 关西攻略                                                              |
+[2022-07-08 02:42:33,832] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 关西攻略の新年番外篇                                                      |
+[2022-07-08 02:42:33,833] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 关西攻略の新年番外篇                                                        |
+[2022-07-08 02:42:33,865] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 关西攻略贰                                                           |
+[2022-07-08 02:42:33,865] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 关西攻略贰                                                             |
+[2022-07-08 02:42:33,899] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 冬奥潮什么                                                           |
+[2022-07-08 02:42:33,900] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 冬奥潮什么                                                             |
+[2022-07-08 02:42:33,932] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 冰岛潮什么                                                           |
+[2022-07-08 02:42:33,932] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 冰岛潮什么                                                             |
+[2022-07-08 02:42:33,964] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 冲游泰国                                                            |
+[2022-07-08 02:42:33,965] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 冲游泰国                                                              |
+[2022-07-08 02:42:33,997] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 冲游泰国 第二辑                                                        |
+[2022-07-08 02:42:33,998] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 冲游泰国 第二辑                                                          |
+[2022-07-08 02:42:34,031] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 出走澳洲                                                            |
+[2022-07-08 02:42:34,031] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 出走澳洲                                                              |
+[2022-07-08 02:42:34,064] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 加拿大潮什么                                                          |
+[2022-07-08 02:42:34,064] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 加拿大潮什么                                                            |
+[2022-07-08 02:42:34,097] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 北欧潮什么                                                           |
+[2022-07-08 02:42:34,097] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 北欧潮什么                                                             |
+[2022-07-08 02:42:34,472] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 向世界出发 第二辑                                                       |
+[2022-07-08 02:42:34,472] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 向世界出发 第二辑                                                         |
+[2022-07-08 02:42:34,553] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 吾系奖门人                                                           |
+[2022-07-08 02:42:34,553] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 吾系奖门人                                                             |
+[2022-07-08 02:42:34,588] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 品味咖啡                                                            |
+[2022-07-08 02:42:34,589] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 品味咖啡                                                              |
+[2022-07-08 02:42:34,791] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 天下无敌奖门人                                                         |
+[2022-07-08 02:42:34,791] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 天下无敌奖门人                                                           |
+[2022-07-08 02:42:34,823] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 女人必学100道菜                                                       |
+[2022-07-08 02:42:34,824] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 女人必学100道菜                                                         |
+[2022-07-08 02:42:34,858] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 如果这样生活                                                          |
+[2022-07-08 02:42:34,858] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 如果这样生活                                                            |
+[2022-07-08 02:42:34,893] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 学是学非 放暑假                                                        |
+[2022-07-08 02:42:34,893] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 学是学非 放暑假                                                          |
+[2022-07-08 02:42:34,929] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 学是学非 第一辑                                                        |
+[2022-07-08 02:42:34,930] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 学是学非 第一辑                                                          |
+[2022-07-08 02:42:34,965] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 学是学非 第七辑                                                        |
+[2022-07-08 02:42:34,965] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 学是学非 第七辑                                                          |
+[2022-07-08 02:42:34,999] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 学是学非 第三辑                                                        |
+[2022-07-08 02:42:35,000] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 学是学非 第三辑                                                          |
+[2022-07-08 02:42:35,036] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 学是学非 第二辑                                                        |
+[2022-07-08 02:42:35,036] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 学是学非 第二辑                                                          |
+[2022-07-08 02:42:35,073] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 学是学非 第六辑                                                        |
+[2022-07-08 02:42:35,073] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 学是学非 第六辑                                                          |
+[2022-07-08 02:42:35,109] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 学是疫学非                                                           |
+[2022-07-08 02:42:35,109] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 学是疫学非                                                             |
+[2022-07-08 02:42:35,146] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 宇宙无敌奖门人                                                         |
+[2022-07-08 02:42:35,147] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 宇宙无敌奖门人                                                           |
+[2022-07-08 02:42:35,181] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 惊天动地奖门人                                                         |
+[2022-07-08 02:42:35,182] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 惊天动地奖门人                                                           |
+[2022-07-08 02:42:35,247] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 意大利潮什麼                                                            |
+[2022-07-08 02:42:35,282] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 我爱香港                                                            |
+[2022-07-08 02:42:35,282] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 我爱香港                                                              |
+[2022-07-08 02:42:35,317] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 晚间看地球                                                           |
+[2022-07-08 02:42:35,318] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 晚间看地球                                                             |
+[2022-07-08 02:42:35,349] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 東．南歐潮什麼                                                         |
+[2022-07-08 02:42:35,350] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 東．南歐潮什麼                                                           |
+[2022-07-08 02:42:35,762] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 法國潮什麼                                                             |
+[2022-07-08 02:42:35,795] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 流行首尔                                                            |
+[2022-07-08 02:42:35,796] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 流行首尔                                                              |
+[2022-07-08 02:42:35,829] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 疫后冲遊                                                            |
+[2022-07-08 02:42:35,830] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 疫后冲遊                                                              |
+[2022-07-08 02:42:36,101] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 离地自由行                                                           |
+[2022-07-08 02:42:36,102] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 离地自由行                                                             |
+[2022-07-08 02:42:36,512] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 绞索                                                              |
+[2022-07-08 02:42:36,512] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 绞索                                                                |
+[2022-07-08 02:42:36,588] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 继续无敌奖门人                                                         |
+[2022-07-08 02:42:36,588] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 继续无敌奖门人                                                           |
+[2022-07-08 02:42:36,631] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 美國潮什麼                                                           |
+[2022-07-08 02:42:36,631] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 美國潮什麼                                                             |
+[2022-07-08 02:42:36,666] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 芬蘭潮什麼                                                           |
+[2022-07-08 02:42:36,666] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 芬蘭潮什麼                                                             |
+[2022-07-08 02:42:36,707] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 荷兰好玩                                                            |
+[2022-07-08 02:42:36,708] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 荷兰好玩                                                              |
+[2022-07-08 02:42:36,750] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 蒲·世界                                                            |
+[2022-07-08 02:42:36,751] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 蒲·世界                                                              |
+[2022-07-08 02:42:36,788] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 蜗居宅急变                                                           |
+[2022-07-08 02:42:36,789] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 蜗居宅急变                                                             |
+[2022-07-08 02:42:36,836] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 西班牙潮什麼                                                            |
+[2022-07-08 02:42:36,867] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 西葡潮什么                                                           |
+[2022-07-08 02:42:36,868] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 西葡潮什么                                                             |
+[2022-07-08 02:42:36,909] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 走过峰火大地                                                          |
+[2022-07-08 02:42:36,910] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 走过峰火大地                                                            |
+[2022-07-08 02:42:36,944] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 走过浮华大地                                                          |
+[2022-07-08 02:42:36,944] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 走过浮华大地                                                            |
+[2022-07-08 02:42:36,977] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 走过浮华大地 亚洲篇                                                      |
+[2022-07-08 02:42:36,977] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 走过浮华大地 亚洲篇                                                        |
+[2022-07-08 02:42:37,009] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 走过足球圣地                                                          |
+[2022-07-08 02:42:37,010] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 走过足球圣地                                                            |
+[2022-07-08 02:42:37,044] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 超级无敌奖门人                                                         |
+[2022-07-08 02:42:37,045] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 超级无敌奖门人                                                           |
+[2022-07-08 02:42:37,080] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 超级无敌奖门人 终极篇                                                     |
+[2022-07-08 02:42:37,080] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 超级无敌奖门人 终极篇                                                       |
+[2022-07-08 02:42:37,114] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 超级无敌奖门人之再战江湖                                                    |
+[2022-07-08 02:42:37,114] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 超级无敌奖门人之再战江湖                                                      |
+[2022-07-08 02:42:37,148] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 超级游戏奖门人                                                         |
+[2022-07-08 02:42:37,148] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 超级游戏奖门人                                                           |
+[2022-07-08 02:42:37,181] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 这么远，那么近                                                         |
+[2022-07-08 02:42:37,182] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 这么远，那么近                                                           |
+[2022-07-08 02:42:37,217] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 铁甲无敌奖门人                                                         |
+[2022-07-08 02:42:37,217] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 铁甲无敌奖门人                                                           |
+[2022-07-08 02:42:37,248] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 驾到去欧洲                                                           |
+[2022-07-08 02:42:37,249] [builder.py:1669]           [INFO]     | Other Countries Collection | X | 驾到去欧洲                                                             |
+[2022-07-08 02:42:37,249] [plex_meta_manager.py:563]  [INFO]     |                                                                                                    |
+[2022-07-08 02:42:37,250] [plex_meta_manager.py:567]  [INFO]     | Collection Filter origin_country: ['GB', 'US', 'AU', 'MX', 'HK']                                   |
+[2022-07-08 02:42:37,250] [builder.py:2009]           [INFO]     |                                                                                                    |
+[2022-07-08 02:42:37,250] [builder.py:2010]           [INFO]     |=============================== Adding to Other Countries Collection ===============================|
+[2022-07-08 02:42:37,251] [builder.py:2011]           [INFO]     |                                                                                                    |
+[2022-07-08 02:42:37,251] [builder.py:2025]           [INFO]     |  1/12 | Other Countries Collection | = | Amazing Hotels: Life Beyond the Lobby                     |
+[2022-07-08 02:42:37,252] [builder.py:2025]           [INFO]     |  2/12 | Other Countries Collection | = | The Amazing Race                                          |
+[2022-07-08 02:42:37,252] [builder.py:2025]           [INFO]     |  3/12 | Other Countries Collection | = | The Amazing Race Australia                                |
+[2022-07-08 02:42:37,253] [builder.py:2025]           [INFO]     |  4/12 | Other Countries Collection | = | Crónicas del taco                                         |
+[2022-07-08 02:42:37,253] [builder.py:2025]           [INFO]     |  5/12 | Other Countries Collection | = | Disney Channel Games                                      |
+[2022-07-08 02:42:37,254] [builder.py:2025]           [INFO]     |  6/12 | Other Countries Collection | = | Jack Whitehall: Travels with My Father                    |
+[2022-07-08 02:42:37,254] [builder.py:2025]           [INFO]     |  7/12 | Other Countries Collection | = | Running Wild with Bear Grylls                             |
+[2022-07-08 02:42:37,255] [builder.py:2025]           [INFO]     |  8/12 | Other Countries Collection | = | Survivor                                                  |
+[2022-07-08 02:42:37,255] [builder.py:2025]           [INFO]     |  9/12 | Other Countries Collection | = | Tough As Nails                                            |
+[2022-07-08 02:42:37,255] [builder.py:2025]           [INFO]     | 10/12 | Other Countries Collection | = | 向世界出发 第一辑                                                 |
+[2022-07-08 02:42:37,256] [builder.py:2025]           [INFO]     | 11/12 | Other Countries Collection | = | 森美旅行团                                                     |
+[2022-07-08 02:42:37,256] [builder.py:2025]           [INFO]     | 12/12 | Other Countries Collection | = | 细说名城                                                      |
+[2022-07-08 02:42:37,257] [builder.py:2045]           [INFO]     |                                                                                                    |
+[2022-07-08 02:42:37,257] [builder.py:2046]           [INFO]     | 12 Shows Processed                                                                                 |
+[2022-07-08 02:42:37,274] [builder.py:2383]           [INFO]     |                                                                                                    |
+[2022-07-08 02:42:37,274] [builder.py:2384]           [INFO]     |========================== Updating Details of Other Countries Collection ==========================|
+[2022-07-08 02:42:37,275] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-07-08 02:42:37,321] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-07-08 02:42:37,321] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-07-08 02:42:37,322] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Other%20Countries.jpg |
+[2022-07-08 02:42:37,324] [library.py:155]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-07-08 02:42:37,427] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-07-08 02:42:37,428] [builder.py:2530]           [INFO]     |================================ Sorting Other Countries Collection ================================|
+[2022-07-08 02:42:37,428] [builder.py:2531]           [INFO]     |                                                                                                    |
+[2022-07-08 02:42:37,944] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 02:42:37,945] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 02:42:37,945] [plex_meta_manager.py:675]  [INFO]     |                                Finished Other Countries Collection                                 |
+[2022-07-08 02:42:37,945] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:10                                    |
+[2022-07-08 02:42:37,945] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

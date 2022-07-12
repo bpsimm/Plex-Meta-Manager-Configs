@@ -1,0 +1,146 @@
+[2022-06-10 07:03:01,625] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 07:03:01,626] [builder.py:185]            [INFO]     |                                AniList Season Collection in ...日本动漫                                |
+[2022-06-10 07:03:01,626] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 07:03:01,627] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-06-10 07:03:01,627] [builder.py:191]            [INFO]     |=============================== Validating AniList Season Attributes ===============================|
+[2022-06-10 07:03:01,628] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:03:01,628] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-06-10 07:03:01,629] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'customsync')]), ordereddict([('name', 'chart_shared'), ('key', 'season')])] |
+[2022-06-10 07:03:01,635] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:03:01,635] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-06-10 07:03:01,636] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-06-10 07:03:01,636] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:03:01,636] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-06-10 07:03:01,637] [builder.py:584]            [DEBUG]    | Value: custom                                                                                      |
+[2022-06-10 07:03:01,637] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:03:01,637] [builder.py:604]            [DEBUG]    | Validating Method: anilist_search                                                                  |
+[2022-06-10 07:03:01,638] [builder.py:605]            [DEBUG]    | Value: ordereddict([('season', 'current'), ('year', None), ('sort_by', 'popular')])                |
+[2022-06-10 07:03:01,638] [util.py:734]               [WARNING]  | Collection Warning: anilist_search year attribute is blank using 2022 as default                   |
+[2022-06-10 07:03:01,639] [util.py:734]               [WARNING]  | Collection Warning: anilist_search limit attribute not found using 0 as default                    |
+[2022-06-10 07:03:01,641] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:03:01,642] [builder.py:604]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-06-10 07:03:01,643] [builder.py:605]            [DEBUG]    | Value: A collection of Anime from the Current Season according to AniList.                         |
+[2022-06-10 07:03:01,644] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:03:01,645] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-06-10 07:03:01,646] [builder.py:605]            [DEBUG]    | Value: !01_AniList Season                                                                          |
+[2022-06-10 07:03:01,647] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:03:01,648] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-06-10 07:03:01,649] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/AniList%20Season.jpg |
+[2022-06-10 07:03:02,013] [plex.py:742]               [DEBUG]    |                                                                                                    |
+[2022-06-10 07:03:02,014] [plex.py:745]               [DEBUG]    | Looking for: AniList Season                                                                        |
+[2022-06-10 07:03:02,014] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-06-10 07:03:02,014] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-06-10 07:03:02,015] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-06-10 07:03:02,019] [plex_meta_manager.py:541]  [INFO]     |================================ Running AniList Season Collection =================================|
+[2022-06-10 07:03:02,020] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-06-10 07:03:02,020] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-06-10 07:03:02,021] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-06-10 07:03:02,021] [plex_meta_manager.py:558]  [DEBUG]    | Builder: anilist_search: {'season': 'summer', 'year': 2022, 'sort_by': 'popular', 'limit': 0}      |
+[2022-06-10 07:03:02,022] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-06-10 07:03:02,022] [anilist.py:321]            [INFO]     | Processing AniList Search:                                                                         |
+                                                                 | 	Sort By Popularity
+                                                                 | 	Season is summer
+                                                                 | 	Year is 2022
+[2022-06-10 07:03:04,181] [anilist.py:162]            [DEBUG]    | query ($page: Int) {Page(page: $page){pageInfo {hasNextPage}media(sort: POPULARITY_DESC, type: ANIME, season: SUMMER, seasonYear: 2022){id}}}
+[2022-06-10 07:03:06,102] [anilist.py:323]            [DEBUG]    | 
+[2022-06-10 07:03:06,103] [anilist.py:324]            [DEBUG]    | 85 AniList IDs Found: [130592, 124410, 133844, 145545, 114745, 129196, 141391, 104460, 128223, 129192, 142876, 136934, 139093, 120377, 127090, 141902, 141351, 142769, 146210, 137819, 146625, 146668, 138882, 117196, 144323, 149326, 135806, 145260, 136064, 125261, 143270, 136707, 141212, 146921, 140642, 146637, 112640, 146650, 144677, 124641, 143082, 103118, 139643, 144509, 131912, 141775, 145468, 142095, 143417, 98577, 140753, 140187, 146321, 149874, 145001, 149073, 125440, 140765, 148179, 148492, 146501, 142173, 135177, 148042, 139212, 146922, 148960, 150575, 147578, 144687, 136459, 137621, 148112, 136796, 144506, 146631, 146632, 145916, 147430, 144858, 148148, 148147, 132804, 150157, 147929]
+[2022-06-10 07:03:06,103] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 146921
+[2022-06-10 07:03:06,104] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 148179
+[2022-06-10 07:03:06,104] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 146501
+[2022-06-10 07:03:06,104] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 142173
+[2022-06-10 07:03:06,105] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 146922
+[2022-06-10 07:03:06,105] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 148960
+[2022-06-10 07:03:06,105] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 150575
+[2022-06-10 07:03:06,106] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 147578
+[2022-06-10 07:03:06,106] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 136459
+[2022-06-10 07:03:06,106] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 148112
+[2022-06-10 07:03:06,107] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 136796
+[2022-06-10 07:03:06,107] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 144506
+[2022-06-10 07:03:06,107] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 146631
+[2022-06-10 07:03:06,108] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 146632
+[2022-06-10 07:03:06,108] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 147430
+[2022-06-10 07:03:06,108] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 148148
+[2022-06-10 07:03:06,109] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 148147
+[2022-06-10 07:03:06,109] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 150157
+[2022-06-10 07:03:06,110] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 147929
+[2022-06-10 07:03:06,110] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15743
+[2022-06-10 07:03:06,110] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17208
+[2022-06-10 07:03:06,111] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15359
+[2022-06-10 07:03:06,111] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16971
+[2022-06-10 07:03:06,112] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15975
+[2022-06-10 07:03:06,112] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16030
+[2022-06-10 07:03:06,112] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16457
+[2022-06-10 07:03:06,113] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16629
+[2022-06-10 07:03:06,113] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15610
+[2022-06-10 07:03:06,113] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15918
+[2022-06-10 07:03:06,114] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16983
+[2022-06-10 07:03:06,114] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16967
+[2022-06-10 07:03:06,114] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17040
+[2022-06-10 07:03:06,115] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17245
+[2022-06-10 07:03:06,115] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17284
+[2022-06-10 07:03:06,115] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17277
+[2022-06-10 07:03:06,116] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16611
+[2022-06-10 07:03:06,116] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15485
+[2022-06-10 07:03:06,117] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17150
+[2022-06-10 07:03:06,117] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17421
+[2022-06-10 07:03:06,117] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16389
+[2022-06-10 07:03:06,118] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17204
+[2022-06-10 07:03:06,118] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16401
+[2022-06-10 07:03:06,119] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15801
+[2022-06-10 07:03:06,119] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17097
+[2022-06-10 07:03:06,119] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16441
+[2022-06-10 07:03:06,120] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17300
+[2022-06-10 07:03:06,120] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16927
+[2022-06-10 07:03:06,120] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17275
+[2022-06-10 07:03:06,121] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15206
+[2022-06-10 07:03:06,121] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17278
+[2022-06-10 07:03:06,122] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17175
+[2022-06-10 07:03:06,123] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15749
+[2022-06-10 07:03:06,124] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17077
+[2022-06-10 07:03:06,124] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14204
+[2022-06-10 07:03:06,126] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16801
+[2022-06-10 07:03:06,126] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17156
+[2022-06-10 07:03:06,127] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16186
+[2022-06-10 07:03:06,128] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16980
+[2022-06-10 07:03:06,128] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17207
+[2022-06-10 07:03:06,129] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17006
+[2022-06-10 07:03:06,130] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17118
+[2022-06-10 07:03:06,130] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13070
+[2022-06-10 07:03:06,130] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16937
+[2022-06-10 07:03:06,131] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16878
+[2022-06-10 07:03:06,131] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17255
+[2022-06-10 07:03:06,132] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17427
+[2022-06-10 07:03:06,132] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17189
+[2022-06-10 07:03:06,133] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17356
+[2022-06-10 07:03:06,133] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15814
+[2022-06-10 07:03:06,134] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16434
+[2022-06-10 07:03:06,134] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17354
+[2022-06-10 07:03:06,135] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16369
+[2022-06-10 07:03:06,135] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17336
+[2022-06-10 07:03:06,136] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16681
+[2022-06-10 07:03:06,137] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17176
+[2022-06-10 07:03:06,137] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16525
+[2022-06-10 07:03:06,138] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17230
+[2022-06-10 07:03:06,138] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17172
+[2022-06-10 07:03:06,139] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16252
+[2022-06-10 07:03:06,139] [builder.py:1507]           [DEBUG]    | 
+[2022-06-10 07:03:06,140] [builder.py:1508]           [DEBUG]    | 6 IDs Found: [(267441, 'tvdb'), (294002, 'tvdb'), (289882, 'tvdb'), (330692, 'tvdb'), (355774, 'tvdb'), (408631, 'tvdb')]
+[2022-06-10 07:03:06,140] [builder.py:1509]           [DEBUG]    | 
+[2022-06-10 07:03:06,141] [builder.py:2218]           [INFO]     | 
+[2022-06-10 07:03:06,142] [builder.py:2219]           [INFO]     |============================ Missing Shows from Library: AniList Season ============================|
+[2022-06-10 07:03:06,142] [builder.py:2220]           [INFO]     |                                                                                                    |
+[2022-06-10 07:03:06,438] [builder.py:2232]           [INFO]     | AniList Season Collection | ? | The Devil Is a Part-Timer! (TVDb: 267441)                          |
+[2022-06-10 07:03:06,661] [builder.py:2232]           [INFO]     | AniList Season Collection | ? | Overlord (TVDb: 294002)                                            |
+[2022-06-10 07:03:07,105] [builder.py:2232]           [INFO]     | AniList Season Collection | ? | Is It Wrong to Try to Pick Up Girls in a Dungeon? (TVDb: 289882)   |
+[2022-06-10 07:03:07,212] [builder.py:2232]           [INFO]     | AniList Season Collection | ? | Laid-Back Camp (TVDb: 330692)                                      |
+[2022-06-10 07:03:07,700] [builder.py:2232]           [INFO]     | AniList Season Collection | ? | Dr. Stone (TVDb: 355774)                                           |
+[2022-06-10 07:03:07,980] [builder.py:2232]           [INFO]     | AniList Season Collection | ? | Tatami Time Machine Blues (TVDb: 408631)                           |
+[2022-06-10 07:03:07,981] [builder.py:2237]           [INFO]     |                                                                                                    |
+[2022-06-10 07:03:07,981] [builder.py:2238]           [INFO]     | 6 Shows Missing                                                                                    |
+[2022-06-10 07:03:07,982] [plex_meta_manager.py:593]  [INFO]     |                                                                                                    |
+[2022-06-10 07:03:07,982] [plex_meta_manager.py:594]  [INFO]     | Collection Minimum: 1 not met for AniList Season Collection                                        |
+[2022-06-10 07:03:07,983] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-06-10 07:03:07,983] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-06-10 07:03:07,984] [plex_meta_manager.py:675]  [INFO]     |                                 Finished AniList Season Collection                                 |
+[2022-06-10 07:03:07,984] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-06-10 07:03:07,984] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

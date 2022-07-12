@@ -1,0 +1,155 @@
+#############################################################
+#                         Playlist                          #
+#         Created by Yozora, Bullmoose20, & Sohjiro         #
+#############################################################
+#  REQUIRES TRAKT AUTHENTICATION                            #
+#  https://metamanager.wiki/en/latest/config/trakt.html     #
+#                                                           #
+#  Use the libraries template variable to adjust the names  #
+#                                                           #
+#  Call this from your config.yml (Movie or Show)           #
+#  If nothing is specified these are the defaults           #
+#                                                           #
+#    playlist_files:                                        #
+#      - git: PMM/playlist                                  #
+#        template_variables:                                #
+#          # Sets the names of the libraries to use         #
+#          libraries: Movies, TVShows                     #
+#############################################################
+
+external_templates:
+  git: PMM/templates
+
+playlists:
+  有生之年非看不可的1001部电影:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, 亚洲电影
+    trakt_list: https://trakt.tv/users/bpsim/lists/complete-2003-2021-1001-movies-you-must-see-before-you-die 
+    summary: 1001 Movies You Must See Before You Die 精选1001部经典电影； 一书介绍了各时代的伟大而富有新意、已成为经典与邪典的必看影片，并向电影界给出了深刻、机智、富于启迪的见解，这是一笔宝贵的财富。该书收录了数百幅极佳的剧照、肖像与海报，它将各种电影类型中最有影响力的影片一网打尽：动作片、西部片、动画片、喜剧片、纪录片、歌舞片、黑色电影、爱情片、惊悚片、超短片和科幻片一应俱全。
+    url_poster: https://m.media-amazon.com/images/M/MV5BZWQxMDM1YTQtOTZhNC00ZDFkLWEzOGItYTk2N2EwZDA5YTZlXkEyXkFqcGdeQXVyMzE0MjY5ODA@._V1_.jpg
+
+  银魂 搞笑🤣精选集上:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: ...日本动漫
+    trakt_list: https://trakt.tv/users/bpsim/lists/gintama-s-hilarious-episodes-part-1
+    summary: The collections list from around the Internet forum.
+
+  银魂 搞笑🤣精选集下:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: ...日本动漫
+    trakt_list: https://trakt.tv/users/bpsim/lists/gintama-s-hilarious-episodes-part-2
+    summary: The collections list from around the Internet forum.
+
+  trakt Boon❤️推荐电影:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, 亚洲电影
+    trakt_list: https://trakt.tv/users/bpsim/recommendations
+    summary: 红心电影
+    url_poster: https://kodi.tv/images/addons/matrix/script.trakt/icon.png
+    
+  最佳華語電影一百部:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, 亚洲电影
+    trakt_list: https://trakt.tv/users/bpsim/lists/hkfa-s-the-best-100-chinese-motion-pictures
+    summary: 最佳華語電影一百部（英語：The Best 100 Chinese Motion Pictures）是2005年香港電影金像獎協會籌辦的一項電影選舉，目的為紀念華語電影誕生100年。是次選舉邀請了香港101位電影工作者、學者投票，選出歷史上103部最佳華語電影。
+    url_poster: https://static.careerengine.us/api/aov2/https%3A_%7C__%7C_mmbiz.qpic.cn_%7C_mmbiz_gif_%7C_kpy7ZuXkoOuFTDI2ZBriaoxXmfS3s8nvoL53ClSG8DLZXCP7RxmBEwpOwSzQRmicu3TZtHn3cicXibkuENpkwibicXqQ_%7C_640%3Fwx_fmt%3Dgif.lg.jpeg
+    
+  TimeOut Shanghai之中国百佳电影:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, 亚洲电影
+    trakt_list: https://trakt.tv/users/bpsim/lists/time-out-shanghai-100-best-chinese-mainland-films
+    summary: Time Out presents the greatest Chinese Mainland films of all time. Working with our sister magazines in Beijing, we polled an auspicious 88 film experts from across the world to determine the 100 best films of all time from 1930s silent classics, blockbuster wuxia epics and independent documentaries. (March 2014)
+    url_poster: http://beijingcream.com/wp-content/uploads/2014/04/TimeOuts-list-of-best-mainland-Chinese-films.jpg
+
+  Oscar历年最佳电影:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, 亚洲电影
+    trakt_list: https://trakt.tv/users/bpsim/lists/oscars-best-picture
+    summary: Oscar's best picture of the year.
+    url_poster: https://m.media-amazon.com/images/I/81nuEa5PnnL._AC_SL1500_.jpg 
+
+  IMDB Top250 (2010年):
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, 亚洲电影
+    trakt_list: https://trakt.tv/users/bpsim/lists/imdb-top-250-year-of-2010
+    summary: Oscar's best picture of the year.
+    url_poster: http://1.bp.blogspot.com/-xXABqhqTx3Q/UO-yBML_2MI/AAAAAAAAA74/A930nVncOPI/s1600/imdb-feature.jpg
+
+  日本电影Top100:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, 亚洲电影
+    trakt_list: https://trakt.tv/users/bpsim/lists/top-100-japanese-films-excluding-anime
+    summary: 创建自 https://mdblist.com/lists/galacticboy/top-100-japanese-films-excluding-anime
+
+  The Simpsons - Treehouse of Horror Collection:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: ..Cartoons
+    trakt_list: https://trakt.tv/users/bpsim/lists/the-simpsons-treehouse-of-horror
+    summary: The objective of this Collection are Movies with "Complex plot, Big plot twist, Ending twist".
+    
+  豆瓣 Top250 电影和连续剧:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, 亚洲电影
+    trakt_list: https://trakt.tv/users/bpsim/lists/douban-movies-top-250-c-drama
+    summary: trakt创建.  
+    
+  MyAnimeList 推荐动漫:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, 亚洲电影
+    trakt_list: https://trakt.tv/users/bpsim/lists/best-anime
+    summary: 推荐动漫来自MAL.
+
+  Family Guy 精选:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: ..Cartoons
+    trakt_list: https://trakt.tv/users/bpsim/lists/best-family-guy-episodes
+    summary: 由 trakt 网友选择好看的Family Guy集合
+
+  American Dad! 精选:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: ..Cartoons
+    trakt_list: https://trakt.tv/users/bpsim/lists/american-dad-favourite-episodes
+    summary: 由 trakt 网友选择好看的American Dad! 
+

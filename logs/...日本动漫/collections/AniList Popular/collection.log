@@ -1,0 +1,152 @@
+[2022-06-10 07:02:15,276] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 07:02:15,277] [builder.py:185]            [INFO]     |                               AniList Popular Collection in ...日本动漫                                |
+[2022-06-10 07:02:15,278] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 07:02:15,279] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-06-10 07:02:15,282] [builder.py:191]            [INFO]     |============================== Validating AniList Popular Attributes ===============================|
+[2022-06-10 07:02:15,282] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:02:15,283] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-06-10 07:02:15,284] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'popular')]), ordereddict([('name', 'customsync')]), ordereddict([('name', 'chart_shared'), ('key', 'popular')])] |
+[2022-06-10 07:02:15,289] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:02:15,290] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-06-10 07:02:15,291] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-06-10 07:02:15,292] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:02:15,292] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-06-10 07:02:15,293] [builder.py:584]            [DEBUG]    | Value: custom                                                                                      |
+[2022-06-10 07:02:15,293] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:02:15,294] [builder.py:604]            [DEBUG]    | Validating Method: anilist_popular                                                                 |
+[2022-06-10 07:02:15,295] [builder.py:605]            [DEBUG]    | Value: 100                                                                                         |
+[2022-06-10 07:02:15,295] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:02:15,296] [builder.py:604]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-06-10 07:02:15,296] [builder.py:605]            [DEBUG]    | Value: A collection of the most popular Anime according to AniList.                                |
+[2022-06-10 07:02:15,297] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:02:15,298] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-06-10 07:02:15,298] [builder.py:605]            [DEBUG]    | Value: !01_AniList Popular                                                                         |
+[2022-06-10 07:02:15,299] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 07:02:15,300] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-06-10 07:02:15,300] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/AniList%20Popular.jpg |
+[2022-06-10 07:02:15,654] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-06-10 07:02:15,655] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-06-10 07:02:15,656] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-06-10 07:02:15,656] [plex_meta_manager.py:541]  [INFO]     |================================ Running AniList Popular Collection ================================|
+[2022-06-10 07:02:15,657] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-06-10 07:02:15,657] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-06-10 07:02:15,658] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-06-10 07:02:15,658] [plex_meta_manager.py:558]  [DEBUG]    | Builder: anilist_popular: 100                                                                      |
+[2022-06-10 07:02:15,659] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-06-10 07:02:15,659] [anilist.py:321]            [INFO]     | Processing AniList Popular:                                                                        |
+                                                                 | 	Sort By Popularity
+                                                                 | 	Limit to 100 Anime
+                                                                 | 	Popularity is greater than 3
+[2022-06-10 07:02:15,661] [anilist.py:162]            [DEBUG]    | query ($page: Int) {Page(page: $page){pageInfo {hasNextPage}media(sort: POPULARITY_DESC, type: ANIME, popularity_greater: 3){id}}}
+[2022-06-10 07:02:17,625] [anilist.py:323]            [DEBUG]    | 
+[2022-06-10 07:02:17,626] [anilist.py:324]            [DEBUG]    | 100 AniList IDs Found: [16498, 101922, 1535, 21459, 11061, 113415, 21087, 20605, 11757, 20958, 5114, 20, 21856, 101759, 21519, 99147, 20954, 20755, 100166, 20665, 21234, 110277, 20464, 9253, 1735, 21, 20447, 21507, 21355, 19815, 104578, 4224, 101291, 20789, 104276, 20613, 21827, 101921, 97940, 105333, 21202, 99423, 20623, 9919, 6547, 20931, 98314, 20594, 1575, 14719, 10620, 1, 9989, 30, 199, 18679, 112151, 97668, 124080, 20923, 20992, 112641, 101338, 99263, 105310, 20997, 20850, 120120, 15809, 101348, 269, 11111, 21311, 20920, 21698, 101280, 117193, 6702, 21699, 14813, 97986, 108725, 13601, 3588, 10087, 21170, 2904, 12189, 2001, 14741, 5081, 20832, 21776, 101347, 21128, 21804, 100388, 98460, 108632, 20474]
+[2022-06-10 07:02:17,638] [builder.py:1507]           [DEBUG]    | 
+[2022-06-10 07:02:17,639] [builder.py:1508]           [DEBUG]    | 100 IDs Found: [(267440, 'tvdb'), (348545, 'tvdb'), (79481, 'tvdb'), (305074, 'tvdb'), (252322, 'tvdb'), (377543, 'tvdb'), (293088, 'tvdb'), (281249, 'tvdb'), (259640, 'tvdb'), (267440, 'tvdb'), (85249, 'tvdb'), (78857, 'tvdb'), (305074, 'tvdb'), (348002, 'tvdb'), (372058, 'tmdb'), (267440, 'tvdb'), (378064, 'tmdb'), (283947, 'tvdb'), (305074, 'tvdb'), (279830, 'tvdb'), (303071, 'tvdb'), (267440, 'tvdb'), (278157, 'tvdb'), (244061, 'tvdb'), (79824, 'tvdb'), (81797, 'tvdb'), (275610, 'tvdb'), (307375, 'tvdb'), (305089, 'tvdb'), (278155, 'tvdb'), (267440, 'tvdb'), (83277, 'tvdb'), (345596, 'tvdb'), (284131, 'tvdb'), (305074, 'tvdb'), (280329, 'tvdb'), (330139, 'tvdb'), (354198, 'tvdb'), (331753, 'tvdb'), (355774, 'tvdb'), (303867, 'tvdb'), (337017, 'tvdb'), (279831, 'tvdb'), (248035, 'tvdb'), (150471, 'tvdb'), (289177, 'tvdb'), (327572, 'tvdb'), (259640, 'tvdb'), (79525, 'tvdb'), (262954, 'tvdb'), (249827, 'tvdb'), (76885, 'tvdb'), (247958, 'tvdb'), (70350, 'tvdb'), (129, 'tmdb'), (272074, 'tvdb'), (348545, 'tvdb'), (293088, 'tvdb'), (388593, 'tvdb'), (289909, 'tvdb'), (278157, 'tvdb'), (354198, 'tvdb'), (307375, 'tvdb'), (353712, 'tvdb'), (355480, 'tvdb'), (289679, 'tvdb'), (281249, 'tvdb'), (393478, 'tvdb'), (267441, 'tvdb'), (359274, 'tvdb'), (74796, 'tvdb'), (254349, 'tvdb'), (305075, 'tvdb'), (289882, 'tvdb'), (278157, 'tvdb'), (352408, 'tvdb'), (305074, 'tvdb'), (114801, 'tvdb'), (303867, 'tvdb'), (267435, 'tvdb'), (326109, 'tvdb'), (348002, 'tvdb'), (262090, 'tvdb'), (81751, 'tvdb'), (275798, 'tvdb'), (283947, 'tvdb'), (79525, 'tvdb'), (257764, 'tvdb'), (80096, 'tvdb'), (261862, 'tvdb'), (102261, 'tvdb'), (294002, 'tvdb'), (318893, 'tvdb'), (354167, 'tvdb'), (275610, 'tvdb'), (313435, 'tvdb'), (343384, 'tvdb'), (338192, 'tvdb'), (305089, 'tvdb'), (262954, 'tvdb')]
+[2022-06-10 07:02:17,639] [builder.py:1509]           [DEBUG]    | 
+[2022-06-10 07:02:17,645] [builder.py:2009]           [INFO]     | 
+[2022-06-10 07:02:17,646] [builder.py:2010]           [INFO]     |=============================== Adding to AniList Popular Collection ===============================|
+[2022-06-10 07:02:17,646] [builder.py:2011]           [INFO]     |                                                                                                    |
+[2022-06-10 07:02:17,647] [builder.py:2025]           [INFO]     | 1/2 | AniList Popular Collection | = | 天元突破：红莲螺岩                                                   |
+[2022-06-10 07:02:17,648] [builder.py:2025]           [INFO]     | 2/2 | AniList Popular Collection | = | 物语系列                                                        |
+[2022-06-10 07:02:17,648] [builder.py:2045]           [INFO]     |                                                                                                    |
+[2022-06-10 07:02:17,649] [builder.py:2046]           [INFO]     | 2 Shows Processed                                                                                  |
+[2022-06-10 07:02:17,649] [builder.py:2172]           [INFO]     |                                                                                                    |
+[2022-06-10 07:02:17,650] [builder.py:2173]           [INFO]     |=============================== Missing Movies from Library: ...日本动漫 ===============================|
+[2022-06-10 07:02:17,651] [builder.py:2174]           [INFO]     |                                                                                                    |
+[2022-06-10 07:02:17,808] [builder.py:2187]           [INFO]     | AniList Popular Collection | ? | Your Name. (2016) (TMDb: 372058)                                  |
+[2022-06-10 07:02:17,872] [builder.py:2187]           [INFO]     | AniList Popular Collection | ? | A Silent Voice: The Movie (2016) (TMDb: 378064)                   |
+[2022-06-10 07:02:17,941] [builder.py:2187]           [INFO]     | AniList Popular Collection | ? | Spirited Away (2001) (TMDb: 129)                                  |
+[2022-06-10 07:02:17,941] [builder.py:2192]           [INFO]     |                                                                                                    |
+[2022-06-10 07:02:17,942] [builder.py:2193]           [INFO]     | 3 Movies Missing                                                                                   |
+[2022-06-10 07:02:17,942] [builder.py:2218]           [INFO]     |                                                                                                    |
+[2022-06-10 07:02:17,942] [builder.py:2219]           [INFO]     |=========================== Missing Shows from Library: AniList Popular ============================|
+[2022-06-10 07:02:17,943] [builder.py:2220]           [INFO]     |                                                                                                    |
+[2022-06-10 07:02:18,061] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Attack on Titan (TVDb: 267440)                                    |
+[2022-06-10 07:02:18,316] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Demon Slayer: Kimetsu no Yaiba (TVDb: 348545)                     |
+[2022-06-10 07:02:18,440] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Death Note (TVDb: 79481)                                          |
+[2022-06-10 07:02:18,974] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | My Hero Academia (TVDb: 305074)                                   |
+[2022-06-10 07:02:19,130] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Hunter x Hunter (2011) (TVDb: 252322)                             |
+[2022-06-10 07:02:19,688] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Jujutsu Kaisen (TVDb: 377543)                                     |
+[2022-06-10 07:02:19,948] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | One-Punch Man (TVDb: 293088)                                      |
+[2022-06-10 07:02:20,015] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Tokyo Ghoul (TVDb: 281249)                                        |
+[2022-06-10 07:02:20,299] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Sword Art Online (TVDb: 259640)                                   |
+[2022-06-10 07:02:20,623] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Fullmetal Alchemist: Brotherhood (TVDb: 85249)                    |
+[2022-06-10 07:02:20,894] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Naruto (TVDb: 78857)                                              |
+[2022-06-10 07:02:20,958] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | The Promised Neverland (TVDb: 348002)                             |
+[2022-06-10 07:02:21,142] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Assassination Classroom (TVDb: 283947)                            |
+[2022-06-10 07:02:21,274] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Your Lie in April (TVDb: 279830)                                  |
+[2022-06-10 07:02:21,349] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Erased (TVDb: 303071)                                             |
+[2022-06-10 07:02:21,528] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Haikyu!! (TVDb: 278157)                                           |
+[2022-06-10 07:02:21,790] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Steins;Gate (TVDb: 244061)                                        |
+[2022-06-10 07:02:21,865] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Naruto Shippuden (TVDb: 79824)                                    |
+[2022-06-10 07:02:21,931] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | One Piece (TVDb: 81797)                                           |
+[2022-06-10 07:02:22,021] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Noragami (TVDb: 275610)                                           |
+[2022-06-10 07:02:22,082] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Mob Psycho 100 (TVDb: 307375)                                     |
+[2022-06-10 07:02:22,139] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Re: ZERO, Starting Life in Another World (TVDb: 305089)           |
+[2022-06-10 07:02:22,414] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | No Game, No Life (TVDb: 278155)                                   |
+[2022-06-10 07:02:22,472] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Toradora! (TVDb: 83277)                                           |
+[2022-06-10 07:02:22,783] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Rascal Does Not Dream of Bunny Girl Senpai (TVDb: 345596)         |
+[2022-06-10 07:02:22,956] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | The Seven Deadly Sins (TVDb: 284131)                              |
+[2022-06-10 07:02:23,022] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Akame ga Kill! (TVDb: 280329)                                     |
+[2022-06-10 07:02:23,133] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Violet Evergarden (TVDb: 330139)                                  |
+[2022-06-10 07:02:23,198] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Kaguya-sama: Love Is War (TVDb: 354198)                           |
+[2022-06-10 07:02:23,413] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Black Clover (TVDb: 331753)                                       |
+[2022-06-10 07:02:23,476] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Dr. Stone (TVDb: 355774)                                          |
+[2022-06-10 07:02:23,539] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | KONOSUBA - God's blessing on this wonderful world! (TVDb: 303867) |
+[2022-06-10 07:02:23,689] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | DARLING in the FRANXX (TVDb: 337017)                              |
+[2022-06-10 07:02:23,810] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Parasyte -the maxim- (TVDb: 279831)                               |
+[2022-06-10 07:02:24,100] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Blue Exorcist (TVDb: 248035)                                      |
+[2022-06-10 07:02:24,324] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Angel Beats! (TVDb: 150471)                                       |
+[2022-06-10 07:02:24,426] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Death Parade (TVDb: 289177)                                       |
+[2022-06-10 07:02:24,431] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Kakegurui (TVDb: 327572)                                          |
+[2022-06-10 07:02:24,513] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Code Geass: Lelouch of the Rebellion (TVDb: 79525)                |
+[2022-06-10 07:02:24,589] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | JoJo's Bizarre Adventure (2012) (TVDb: 262954)                    |
+[2022-06-10 07:02:24,665] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | The Future Diary (TVDb: 249827)                                   |
+[2022-06-10 07:02:24,740] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Cowboy Bebop (TVDb: 76885)                                        |
+[2022-06-10 07:02:24,913] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Anohana: The Flower We Saw That Day (TVDb: 247958)                |
+[2022-06-10 07:02:24,981] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Neon Genesis Evangelion (TVDb: 70350)                             |
+[2022-06-10 07:02:25,100] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Kill la Kill (TVDb: 272074)                                       |
+[2022-06-10 07:02:25,265] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Horimiya (TVDb: 388593)                                           |
+[2022-06-10 07:02:25,339] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Food Wars! Shokugeki no Soma (TVDb: 289909)                       |
+[2022-06-10 07:02:25,607] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | The Rising of the Shield Hero (TVDb: 353712)                      |
+[2022-06-10 07:02:25,682] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Fire Force (TVDb: 355480)                                         |
+[2022-06-10 07:02:25,783] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Charlotte (TVDb: 289679)                                          |
+[2022-06-10 07:02:26,041] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Tokyo Revengers (TVDb: 393478)                                    |
+[2022-06-10 07:02:26,261] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | The Devil Is a Part-Timer! (TVDb: 267441)                         |
+[2022-06-10 07:02:26,439] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Vinland Saga (TVDb: 359274)                                       |
+[2022-06-10 07:02:26,594] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Bleach (TVDb: 74796)                                              |
+[2022-06-10 07:02:26,791] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Another (TVDb: 254349)                                            |
+[2022-06-10 07:02:27,039] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Bungo Stray Dogs (TVDb: 305075)                                   |
+[2022-06-10 07:02:27,766] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Is It Wrong to Try to Pick Up Girls in a Dungeon? (TVDb: 289882)  |
+[2022-06-10 07:02:28,157] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | That Time I Got Reincarnated as a Slime (TVDb: 352408)            |
+[2022-06-10 07:02:28,232] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Fairy Tail (TVDb: 114801)                                         |
+[2022-06-10 07:02:28,310] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | My Teen Romantic Comedy SNAFU (TVDb: 267435)                      |
+[2022-06-10 07:02:28,541] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Made in Abyss (TVDb: 326109)                                      |
+[2022-06-10 07:02:28,707] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Psycho-Pass (TVDb: 262090)                                        |
+[2022-06-10 07:02:28,791] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Soul Eater (TVDb: 81751)                                          |
+[2022-06-10 07:02:28,966] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Fate/Zero (TVDb: 275798)                                          |
+[2022-06-10 07:02:29,051] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Hyouka (TVDb: 257764)                                             |
+[2022-06-10 07:02:29,558] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Love, Chunibyo & Other Delusions! (TVDb: 261862)                  |
+[2022-06-10 07:02:29,641] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Overlord (TVDb: 294002)                                           |
+[2022-06-10 07:02:29,757] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Miss Kobayashi's Dragon Maid (TVDb: 318893)                       |
+[2022-06-10 07:02:29,891] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Dororo (2019) (TVDb: 354167)                                      |
+[2022-06-10 07:02:29,961] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | The Disastrous Life of Saiki K. (TVDb: 313435)                    |
+[2022-06-10 07:02:30,074] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Banana Fish (TVDb: 343384)                                        |
+[2022-06-10 07:02:30,157] [builder.py:2232]           [INFO]     | AniList Popular Collection | ? | Devilman Crybaby (TVDb: 338192)                                   |
+[2022-06-10 07:02:30,158] [builder.py:2237]           [INFO]     |                                                                                                    |
+[2022-06-10 07:02:30,158] [builder.py:2238]           [INFO]     | 72 Shows Missing                                                                                   |
+[2022-06-10 07:02:30,175] [builder.py:2383]           [INFO]     |                                                                                                    |
+[2022-06-10 07:02:30,176] [builder.py:2384]           [INFO]     |========================== Updating Details of AniList Popular Collection ==========================|
+[2022-06-10 07:02:30,176] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-06-10 07:02:30,178] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-06-10 07:02:30,179] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-06-10 07:02:30,179] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/AniList%20Popular.jpg |
+[2022-06-10 07:02:30,182] [library.py:155]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-06-10 07:02:30,222] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-06-10 07:02:30,223] [builder.py:2530]           [INFO]     |================================ Sorting AniList Popular Collection ================================|
+[2022-06-10 07:02:30,223] [builder.py:2531]           [INFO]     |                                                                                                    |
+[2022-06-10 07:02:30,224] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-06-10 07:02:30,224] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-06-10 07:02:30,225] [plex_meta_manager.py:675]  [INFO]     |                                Finished AniList Popular Collection                                 |
+[2022-06-10 07:02:30,225] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:14                                    |
+[2022-06-10 07:02:30,226] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

@@ -1,0 +1,813 @@
+[2022-07-08 03:06:51,878] [plex_meta_manager.py:392]  [INFO]     |                                                                                                    |
+[2022-07-08 03:06:51,879] [plex_meta_manager.py:393]  [INFO]     |====================================================================================================|
+[2022-07-08 03:06:51,879] [plex_meta_manager.py:393]  [INFO]     |                                          ...日本动漫 Library                                           |
+[2022-07-08 03:06:51,880] [plex_meta_manager.py:393]  [INFO]     |====================================================================================================|
+[2022-07-08 03:06:51,880] [plex_meta_manager.py:395]  [DEBUG]    |                                                                                                    |
+[2022-07-08 03:06:51,880] [plex_meta_manager.py:396]  [DEBUG]    | Mapping Name: ...日本动漫                                                                              |
+[2022-07-08 03:06:51,880] [plex_meta_manager.py:397]  [DEBUG]    | Folder Name: ...日本动漫                                                                               |
+[2022-07-08 03:06:51,881] [plex_meta_manager.py:400]  [DEBUG]    | Asset Folders: True                                                                                |
+[2022-07-08 03:06:51,881] [plex_meta_manager.py:401]  [DEBUG]    | Create Asset Folders: False                                                                        |
+[2022-07-08 03:06:51,881] [plex_meta_manager.py:402]  [DEBUG]    | Download URL Assets: False                                                                         |
+[2022-07-08 03:06:51,882] [plex_meta_manager.py:403]  [DEBUG]    | Sync Mode: append                                                                                  |
+[2022-07-08 03:06:51,882] [plex_meta_manager.py:404]  [DEBUG]    | Minimum Items: 3                                                                                   |
+[2022-07-08 03:06:51,882] [plex_meta_manager.py:405]  [DEBUG]    | Delete Below Minimum: True                                                                         |
+[2022-07-08 03:06:51,883] [plex_meta_manager.py:406]  [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2022-07-08 03:06:51,883] [plex_meta_manager.py:407]  [DEBUG]    | Default Collection Order: None                                                                     |
+[2022-07-08 03:06:51,883] [plex_meta_manager.py:408]  [DEBUG]    | Missing Only Released: False                                                                       |
+[2022-07-08 03:06:51,883] [plex_meta_manager.py:409]  [DEBUG]    | Only Filter Missing: False                                                                         |
+[2022-07-08 03:06:51,884] [plex_meta_manager.py:410]  [DEBUG]    | Show Unmanaged: True                                                                               |
+[2022-07-08 03:06:51,884] [plex_meta_manager.py:411]  [DEBUG]    | Show Filtered: True                                                                                |
+[2022-07-08 03:06:51,884] [plex_meta_manager.py:412]  [DEBUG]    | Show Missing: True                                                                                 |
+[2022-07-08 03:06:51,885] [plex_meta_manager.py:413]  [DEBUG]    | Show Missing Assets: True                                                                          |
+[2022-07-08 03:06:51,885] [plex_meta_manager.py:414]  [DEBUG]    | Save Report: False                                                                                 |
+[2022-07-08 03:06:51,885] [plex_meta_manager.py:415]  [DEBUG]    | Report Path: /volume1/homes/bpsim/Plex-Meta-Manager/config/...日本动漫_report.yml                      |
+[2022-07-08 03:06:51,885] [plex_meta_manager.py:416]  [DEBUG]    | Clean Bundles: False                                                                               |
+[2022-07-08 03:06:51,886] [plex_meta_manager.py:417]  [DEBUG]    | Empty Trash: False                                                                                 |
+[2022-07-08 03:06:51,886] [plex_meta_manager.py:418]  [DEBUG]    | Optimize: False                                                                                    |
+[2022-07-08 03:06:51,886] [plex_meta_manager.py:419]  [DEBUG]    | Timeout: 60                                                                                        |
+[2022-07-08 03:06:51,886] [library.py:262]            [INFO]     |                                                                                                    |
+[2022-07-08 03:06:51,887] [library.py:263]            [INFO]     |================================== Caching ...日本动漫 Library Items ===================================|
+[2022-07-08 03:06:51,887] [library.py:264]            [INFO]     |                                                                                                    |
+[2022-07-08 03:06:51,888] [plex.py:471]               [INFO]     | Loading All Shows from Library: ...日本动漫                                                            |
+[2022-07-08 03:06:52,239] [plex.py:480]               [INFO]     | Loaded 28 Shows                                                                                    |
+[2022-07-08 03:06:53,082] [plex_meta_manager.py:449]  [INFO]     |                                                                                                    |
+[2022-07-08 03:06:53,083] [plex_meta_manager.py:450]  [INFO]     |===================================== Mapping ...日本动漫 Library ======================================|
+[2022-07-08 03:06:53,084] [plex_meta_manager.py:451]  [INFO]     |                                                                                                    |
+[2022-07-08 03:06:53,092] [convert.py:330]            [INFO]     |  Cache  |  ^  | plex://show/5d9c083ccb3ffa001f1b32c5           | TVDb ID: 277464  | IMDb ID: tt3592032  | 乒乓 |
+[2022-07-08 03:06:53,883] [convert.py:346]            [INFO]     | Mapping Error | plex://show/5d9c080602391c001f57f3e1           | Unable to convert TMDb ID: 63695 to TVDb ID for "小妇人物语 南与乔老师" |
+[2022-07-08 03:06:53,886] [convert.py:330]            [INFO]     |  Cache  |  ^  | plex://show/5d9c0844170e24001f2a90f0           | TVDb ID: 90821   | IMDb ID: tt0296386  | 尼尔斯骑鹅旅行记 |
+[2022-07-08 03:06:54,516] [convert.py:346]            [INFO]     | Mapping Error | plex://show/6100473bd19162002e74b982           | Unable to convert TMDb ID: 129813 to TVDb ID for "樱桃小丸子精选" |
+[2022-07-08 03:06:54,520] [convert.py:330]            [INFO]     |  Cache  |  ^  | plex://show/5d9c07fa3c3f87001f343db0           | TVDb ID: 78923   | IMDb ID: tt0092386  | 橙路 |
+[2022-07-08 03:06:55,416] [convert.py:346]            [INFO]     | Mapping Error | plex://show/61c1eb5af5e5ffc5be4a2ad1           | Unable to convert TMDb ID: 153806 to TVDb ID for "橙路 Blu-Ray Box" |
+[2022-07-08 03:06:55,425] [convert.py:330]            [INFO]     |  Cache  |  ^  | plex://show/5d9c0827705e7a001e6d4202           | TVDb ID: 84523   | IMDb ID: tt0168283  | 爱的小妇人物语 |
+[2022-07-08 03:06:55,724] [convert.py:330]            [INFO]     |  Cache  |  ^  | plex://show/5d9c0864e98e47001eb0e461           | TVDb ID: 72408   | IMDb ID: tt0159145  | 黄金小子 |
+[2022-07-08 03:06:56,038] [library.py:294]            [INFO]     |                                                                                                    |
+[2022-07-08 03:06:56,039] [library.py:295]            [INFO]     | Processed 28 Shows                                                                                 |
+[2022-07-08 03:06:56,040] [plex_meta_manager.py:469]  [INFO]     |                                                                                                    |
+[2022-07-08 03:06:56,040] [plex_meta_manager.py:470]  [INFO]     |====================================================================================================|
+[2022-07-08 03:06:56,041] [plex_meta_manager.py:470]  [INFO]     |                                      Running t Metadata File                                       |
+[2022-07-08 03:06:56,041] [plex_meta_manager.py:470]  [INFO]     |                                          PMM/chart/trakt                                           |
+[2022-07-08 03:06:56,041] [plex_meta_manager.py:470]  [INFO]     |====================================================================================================|
+[2022-07-08 03:06:56,042] [plex_meta_manager.py:483]  [INFO]     |                                                                                                    |
+[2022-07-08 03:06:56,042] [plex_meta_manager.py:484]  [INFO]     |====================================================================================================|
+[2022-07-08 03:06:56,043] [plex_meta_manager.py:484]  [INFO]     |                                            Collections                                             |
+[2022-07-08 03:06:56,043] [plex_meta_manager.py:484]  [INFO]     |====================================================================================================|
+[2022-07-08 03:09:19,632] [plex_meta_manager.py:469]  [INFO]     |                                                                                                    |
+[2022-07-08 03:09:19,633] [plex_meta_manager.py:470]  [INFO]     |====================================================================================================|
+[2022-07-08 03:09:19,633] [plex_meta_manager.py:470]  [INFO]     |                                       Running  Metadata File                                       |
+[2022-07-08 03:09:19,633] [plex_meta_manager.py:470]  [INFO]     |                                           PMM/chart/tmdb                                           |
+[2022-07-08 03:09:19,634] [plex_meta_manager.py:470]  [INFO]     |====================================================================================================|
+[2022-07-08 03:09:19,634] [plex_meta_manager.py:483]  [INFO]     |                                                                                                    |
+[2022-07-08 03:09:19,634] [plex_meta_manager.py:484]  [INFO]     |====================================================================================================|
+[2022-07-08 03:09:19,635] [plex_meta_manager.py:484]  [INFO]     |                                            Collections                                             |
+[2022-07-08 03:09:19,635] [plex_meta_manager.py:484]  [INFO]     |====================================================================================================|
+[2022-07-08 03:12:09,652] [plex_meta_manager.py:469]  [INFO]     |                                                                                                    |
+[2022-07-08 03:12:09,653] [plex_meta_manager.py:470]  [INFO]     |====================================================================================================|
+[2022-07-08 03:12:09,653] [plex_meta_manager.py:470]  [INFO]     |                                      Running de Metadata File                                      |
+[2022-07-08 03:12:09,654] [plex_meta_manager.py:470]  [INFO]     |                                          PMM/show/decade                                           |
+[2022-07-08 03:12:09,654] [plex_meta_manager.py:470]  [INFO]     |====================================================================================================|
+[2022-07-08 03:12:09,654] [plex_meta_manager.py:483]  [INFO]     |                                                                                                    |
+[2022-07-08 03:12:09,655] [plex_meta_manager.py:484]  [INFO]     |====================================================================================================|
+[2022-07-08 03:12:09,655] [plex_meta_manager.py:484]  [INFO]     |                                            Collections                                             |
+[2022-07-08 03:12:09,656] [plex_meta_manager.py:484]  [INFO]     |====================================================================================================|
+[2022-07-08 03:12:13,456] [operations.py:17]          [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,456] [operations.py:18]          [INFO]     |====================================================================================================|
+[2022-07-08 03:12:13,457] [operations.py:18]          [INFO]     |                                     ...日本动漫 Library Operations                                     |
+[2022-07-08 03:12:13,457] [operations.py:18]          [INFO]     |====================================================================================================|
+[2022-07-08 03:12:13,457] [operations.py:19]          [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,457] [operations.py:20]          [DEBUG]    | Assets For All: False                                                                              |
+[2022-07-08 03:12:13,458] [operations.py:21]          [DEBUG]    | Delete Collections With Less: None                                                                 |
+[2022-07-08 03:12:13,458] [operations.py:22]          [DEBUG]    | Delete Unmanaged Collections: False                                                                |
+[2022-07-08 03:12:13,458] [operations.py:23]          [DEBUG]    | Mass Genre Update: None                                                                            |
+[2022-07-08 03:12:13,459] [operations.py:24]          [DEBUG]    | Mass Audience Rating Update: None                                                                  |
+[2022-07-08 03:12:13,459] [operations.py:25]          [DEBUG]    | Mass Critic Rating Update: None                                                                    |
+[2022-07-08 03:12:13,459] [operations.py:26]          [DEBUG]    | Mass Content Rating Update: None                                                                   |
+[2022-07-08 03:12:13,459] [operations.py:27]          [DEBUG]    | Mass Originally Available Update: None                                                             |
+[2022-07-08 03:12:13,460] [operations.py:28]          [DEBUG]    | Mass IMDb Parental Labels: None                                                                    |
+[2022-07-08 03:12:13,460] [operations.py:29]          [DEBUG]    | Mass Trakt Rating Update: False                                                                    |
+[2022-07-08 03:12:13,460] [operations.py:30]          [DEBUG]    | Mass Collection Mode Update: None                                                                  |
+[2022-07-08 03:12:13,460] [operations.py:31]          [DEBUG]    | Split Duplicates: False                                                                            |
+[2022-07-08 03:12:13,461] [operations.py:32]          [DEBUG]    | Radarr Add All Existing: False                                                                     |
+[2022-07-08 03:12:13,461] [operations.py:33]          [DEBUG]    | Radarr Remove by Tag: None                                                                         |
+[2022-07-08 03:12:13,461] [operations.py:34]          [DEBUG]    | Sonarr Add All Existing: False                                                                     |
+[2022-07-08 03:12:13,462] [operations.py:35]          [DEBUG]    | Sonarr Remove by Tag: None                                                                         |
+[2022-07-08 03:12:13,462] [operations.py:36]          [DEBUG]    | Update Blank Track Titles: None                                                                    |
+[2022-07-08 03:12:13,462] [operations.py:37]          [DEBUG]    | Update Remove Title Parentheses: None                                                              |
+[2022-07-08 03:12:13,462] [operations.py:38]          [DEBUG]    | Genre Mapper: None                                                                                 |
+[2022-07-08 03:12:13,463] [operations.py:39]          [DEBUG]    | Content Rating Mapper: None                                                                        |
+[2022-07-08 03:12:13,463] [operations.py:40]          [DEBUG]    | Metadata Backup: None                                                                              |
+[2022-07-08 03:12:13,463] [operations.py:41]          [DEBUG]    | Item Operation: False                                                                              |
+[2022-07-08 03:12:13,464] [operations.py:42]          [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:13,487] [operations.py:379]         [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,488] [operations.py:380]         [INFO]     |=========================== No Unmanaged Collections in ...日本动漫 Library ============================|
+[2022-07-08 03:12:13,488] [operations.py:381]         [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,488] [operations.py:458]         [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,489] [operations.py:459]         [INFO]     |====================================================================================================|
+[2022-07-08 03:12:13,489] [operations.py:459]         [INFO]     |                                Finished ...日本动漫 Library Operations                                 |
+[2022-07-08 03:12:13,489] [operations.py:459]         [INFO]     |                                    Operations Run Time: 0:00:00                                    |
+[2022-07-08 03:12:13,490] [operations.py:459]         [INFO]     |====================================================================================================|
+[2022-07-08 03:12:13,490] [overlays.py:21]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,490] [overlays.py:22]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:13,491] [overlays.py:22]            [INFO]     |                                      ...日本动漫 Library Overlays                                      |
+[2022-07-08 03:12:13,491] [overlays.py:22]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:13,491] [overlays.py:23]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,645] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:13,646] [builder.py:185]            [INFO]     |                                      4K-DV Overlay in ...日本动漫                                      |
+[2022-07-08 03:12:13,646] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:13,646] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:13,647] [builder.py:191]            [INFO]     |=================================== Validating 4K-DV Attributes ====================================|
+[2022-07-08 03:12:13,647] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:13,647] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:13,648] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 150), ('opt1', '4k'), ('opt2', 'dv')])]    |
+[2022-07-08 03:12:13,651] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:13,652] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:13,652] [util.py:855]               [DEBUG]    | Value: {'name': '4K-DV', 'git': 'PMM/overlays/images/4K-DV', 'group': 'res', 'weight': 150, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:14,423] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:14,423] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:14,424] [builder.py:605]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution.regex', '(?i)2160|4k')]))])                  |
+[2022-07-08 03:12:14,870] [overlays.py:278]           [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/overlays.py", line 244, in compile_overlays
+                                                                 |     builder = CollectionBuilder(self.config, overlay_file, k, v, library=self.library, overlay=True)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 682, in __init__
+                                                                 |     self._plex(method_name, method_data)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1238, in _plex
+                                                                 |     new_dictionary = self.build_filter("plex_search", dict_data, type_override=type_override)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1845, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1789, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1892, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: resolution: No matches found with regex pattern (?i)2160|4k
+                                                                 | 
+[2022-07-08 03:12:14,874] [overlays.py:279]           [ERROR]    | Plex Error: resolution: No matches found with regex pattern (?i)2160|4k
+[2022-07-08 03:12:14,875] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:14,875] [builder.py:185]            [INFO]     |                                     4K-HDR Overlay in ...日本动漫                                      |
+[2022-07-08 03:12:14,875] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:14,876] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:14,876] [builder.py:191]            [INFO]     |=================================== Validating 4K-HDR Attributes ===================================|
+[2022-07-08 03:12:14,876] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:14,877] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:14,877] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 140), ('opt1', '4k'), ('opt2', 'hdr')])]   |
+[2022-07-08 03:12:14,881] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:14,882] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:14,882] [util.py:855]               [DEBUG]    | Value: {'name': '4K-HDR', 'git': 'PMM/overlays/images/4K-HDR', 'group': 'res', 'weight': 140, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:15,489] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:15,490] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:15,490] [builder.py:605]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution.regex', '(?i)2160|4k'), ('hdr', True)]))])   |
+[2022-07-08 03:12:15,506] [overlays.py:278]           [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/overlays.py", line 244, in compile_overlays
+                                                                 |     builder = CollectionBuilder(self.config, overlay_file, k, v, library=self.library, overlay=True)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 682, in __init__
+                                                                 |     self._plex(method_name, method_data)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1238, in _plex
+                                                                 |     new_dictionary = self.build_filter("plex_search", dict_data, type_override=type_override)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1845, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1789, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1892, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: resolution: No matches found with regex pattern (?i)2160|4k
+                                                                 | 
+[2022-07-08 03:12:15,510] [overlays.py:279]           [ERROR]    | Plex Error: resolution: No matches found with regex pattern (?i)2160|4k
+[2022-07-08 03:12:15,510] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:15,511] [builder.py:185]            [INFO]     |                                       4K Overlay in ...日本动漫                                        |
+[2022-07-08 03:12:15,511] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:15,511] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:15,512] [builder.py:191]            [INFO]     |===================================== Validating 4K Attributes =====================================|
+[2022-07-08 03:12:15,512] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:15,512] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:15,513] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 130), ('opt1', '4k')])]                    |
+[2022-07-08 03:12:15,517] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:15,518] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:15,518] [util.py:855]               [DEBUG]    | Value: {'name': '4K', 'git': 'PMM/overlays/images/4K', 'group': 'res', 'weight': 130, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:16,081] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:16,082] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:16,082] [builder.py:605]            [DEBUG]    | Value: ordereddict([('any', ordereddict([('resolution.regex', '(?i)2160|4k')]))])                  |
+[2022-07-08 03:12:16,099] [overlays.py:278]           [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/overlays.py", line 244, in compile_overlays
+                                                                 |     builder = CollectionBuilder(self.config, overlay_file, k, v, library=self.library, overlay=True)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 682, in __init__
+                                                                 |     self._plex(method_name, method_data)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1238, in _plex
+                                                                 |     new_dictionary = self.build_filter("plex_search", dict_data, type_override=type_override)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1845, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1789, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1892, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: resolution: No matches found with regex pattern (?i)2160|4k
+                                                                 | 
+[2022-07-08 03:12:16,103] [overlays.py:279]           [ERROR]    | Plex Error: resolution: No matches found with regex pattern (?i)2160|4k
+[2022-07-08 03:12:16,103] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:16,104] [builder.py:185]            [INFO]     |                                    1080P-DV Overlay in ...日本动漫                                     |
+[2022-07-08 03:12:16,104] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:16,105] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:16,105] [builder.py:191]            [INFO]     |================================== Validating 1080P-DV Attributes ==================================|
+[2022-07-08 03:12:16,105] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:16,106] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:16,106] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 120), ('opt1', '1080p'), ('opt2', 'dv')])] |
+[2022-07-08 03:12:16,110] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:16,110] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:16,111] [util.py:855]               [DEBUG]    | Value: {'name': '1080P-DV', 'git': 'PMM/overlays/images/1080P-DV', 'group': 'res', 'weight': 120, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:16,715] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:16,715] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:16,716] [builder.py:605]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution.regex', '(?i)1080|2k')]))])                  |
+[2022-07-08 03:12:16,731] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:16,732] [builder.py:604]            [DEBUG]    | Validating Method: filters                                                                         |
+[2022-07-08 03:12:16,732] [builder.py:605]            [DEBUG]    | Value: ordereddict([('has_dolby_vision', True)])                                                   |
+[2022-07-08 03:12:16,733] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:16,733] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:12:16,733] [overlays.py:245]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:16,734] [overlays.py:247]           [INFO]     |=============================== Gathering Items for 1080P-DV Overlay ===============================|
+[2022-07-08 03:12:16,734] [overlays.py:253]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:16,734] [overlays.py:254]           [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Resolution is 1080p', '?type=2&sort=titleSort&episode.resolution=1080') |
+[2022-07-08 03:12:16,735] [overlays.py:255]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:16,735] [plex.py:771]               [INFO]     | Processing Plex Show Search                                                                        |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Resolution is 1080p
+[2022-07-08 03:12:17,712] [plex.py:813]               [DEBUG]    | 
+[2022-07-08 03:12:17,713] [plex.py:814]               [DEBUG]    | 6 Keys Found: [(278074, 'ratingKey'), (278736, 'ratingKey'), (214704, 'ratingKey'), (279241, 'ratingKey'), (278855, 'ratingKey'), (280173, 'ratingKey')]
+[2022-07-08 03:12:17,713] [builder.py:1507]           [DEBUG]    | 
+[2022-07-08 03:12:17,713] [builder.py:1508]           [DEBUG]    | 6 IDs Found: [(278074, 'ratingKey'), (278736, 'ratingKey'), (214704, 'ratingKey'), (279241, 'ratingKey'), (278855, 'ratingKey'), (280173, 'ratingKey')]
+[2022-07-08 03:12:17,714] [builder.py:1509]           [DEBUG]    | 
+[2022-07-08 03:12:17,714] [builder.py:1650]           [INFO]     | 
+[2022-07-08 03:12:17,715] [builder.py:1651]           [INFO]     | Filtering Builders:
+[2022-07-08 03:12:18,602] [builder.py:1669]           [INFO]     | 1080P-DV Overlay | X | 乒乓
+[2022-07-08 03:12:19,830] [builder.py:1669]           [INFO]     | 1080P-DV Overlay | X | 橙路 Blu-Ray Box
+[2022-07-08 03:12:21,376] [builder.py:1669]           [INFO]     | 1080P-DV Overlay | X | 王者天下
+[2022-07-08 03:12:22,039] [builder.py:1669]           [INFO]     | 1080P-DV Overlay | X | 超元气三姐妹
+[2022-07-08 03:12:30,923] [builder.py:1669]           [INFO]     | 1080P-DV Overlay | X | 银魂
+[2022-07-08 03:12:31,793] [builder.py:1669]           [INFO]     | 1080P-DV Overlay | X | 阿尔卑斯山的少女
+[2022-07-08 03:12:31,793] [overlays.py:259]           [INFO]     | 
+[2022-07-08 03:12:31,794] [overlays.py:261]           [INFO]     | Collection Filter episodes: {'has_dolby_vision': True, 'percentage': 50}
+[2022-07-08 03:12:31,794] [overlays.py:274]           [INFO]     | No Items found for 1080P-DV
+[2022-07-08 03:12:31,794] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:31,795] [builder.py:185]            [INFO]     |                                    1080P-HDR Overlay in ...日本动漫                                    |
+[2022-07-08 03:12:31,795] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:31,796] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:31,796] [builder.py:191]            [INFO]     |================================= Validating 1080P-HDR Attributes ==================================|
+[2022-07-08 03:12:31,797] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:31,797] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:31,798] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 110), ('opt1', '1080p'), ('opt2', 'hdr')])] |
+[2022-07-08 03:12:31,802] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:31,802] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:31,803] [util.py:855]               [DEBUG]    | Value: {'name': '1080P-HDR', 'git': 'PMM/overlays/images/1080P-HDR', 'group': 'res', 'weight': 110, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:32,481] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:32,482] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:32,482] [builder.py:605]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution.regex', '(?i)1080|2k'), ('hdr', True)]))])   |
+[2022-07-08 03:12:32,499] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:32,500] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:12:32,500] [overlays.py:245]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:32,501] [overlays.py:247]           [INFO]     |============================== Gathering Items for 1080P-HDR Overlay ===============================|
+[2022-07-08 03:12:32,501] [overlays.py:253]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:32,502] [overlays.py:254]           [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Resolution is 1080p\n    HDR is true', '?type=2&sort=titleSort&episode.resolution=1080&and=1&episode.hdr=1') |
+[2022-07-08 03:12:32,502] [overlays.py:255]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:32,502] [plex.py:771]               [INFO]     | Processing Plex Show Search                                                                        |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Resolution is 1080p
+                                                                 |     HDR is true
+[2022-07-08 03:12:32,537] [overlays.py:278]           [DEBUG]    | Traceback (most recent call last):
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/overlays.py", line 256, in compile_overlays
+                                                                 |     builder.filter_and_save_items(builder.gather_ids(method, value))
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1459, in gather_ids
+                                                                 |     ids = self.library.get_rating_keys(method, value)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/plex.py", line 817, in get_rating_keys
+                                                                 |     raise Failed("Plex Error: No Items found in Plex")
+                                                                 | modules.util.Failed: Plex Error: No Items found in Plex
+                                                                 | 
+[2022-07-08 03:12:32,540] [overlays.py:279]           [ERROR]    | Plex Error: No Items found in Plex
+[2022-07-08 03:12:32,540] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:32,541] [builder.py:185]            [INFO]     |                                      1080P Overlay in ...日本动漫                                      |
+[2022-07-08 03:12:32,541] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:32,541] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:32,542] [builder.py:191]            [INFO]     |=================================== Validating 1080P Attributes ====================================|
+[2022-07-08 03:12:32,542] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:32,542] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:32,543] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 100), ('opt1', '1080p')])]                 |
+[2022-07-08 03:12:32,546] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:32,546] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:32,547] [util.py:855]               [DEBUG]    | Value: {'name': '1080P', 'git': 'PMM/overlays/images/1080P', 'group': 'res', 'weight': 100, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:33,204] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:33,205] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:33,205] [builder.py:605]            [DEBUG]    | Value: ordereddict([('any', ordereddict([('resolution.regex', '(?i)1080|2k')]))])                  |
+[2022-07-08 03:12:33,222] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:33,222] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:12:33,223] [overlays.py:245]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:33,223] [overlays.py:247]           [INFO]     |================================ Gathering Items for 1080P Overlay =================================|
+[2022-07-08 03:12:33,224] [overlays.py:253]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:33,224] [overlays.py:254]           [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match any of the following:\n    Resolution is 1080p', '?type=2&sort=titleSort&push=1&episode.resolution=1080&pop=1') |
+[2022-07-08 03:12:33,224] [overlays.py:255]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:33,224] [plex.py:771]               [INFO]     | Processing Plex Show Search                                                                        |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Resolution is 1080p
+[2022-07-08 03:12:33,311] [plex.py:813]               [DEBUG]    | 
+[2022-07-08 03:12:33,311] [plex.py:814]               [DEBUG]    | 6 Keys Found: [(278074, 'ratingKey'), (278736, 'ratingKey'), (214704, 'ratingKey'), (279241, 'ratingKey'), (278855, 'ratingKey'), (280173, 'ratingKey')]
+[2022-07-08 03:12:33,312] [builder.py:1507]           [DEBUG]    | 
+[2022-07-08 03:12:33,312] [builder.py:1508]           [DEBUG]    | 6 IDs Found: [(278074, 'ratingKey'), (278736, 'ratingKey'), (214704, 'ratingKey'), (279241, 'ratingKey'), (278855, 'ratingKey'), (280173, 'ratingKey')]
+[2022-07-08 03:12:33,313] [builder.py:1509]           [DEBUG]    | 
+[2022-07-08 03:12:33,314] [overlays.py:273]           [DEBUG]    | 6 Titles Found: ['乒乓', '橙路 Blu-Ray Box', '王者天下', '超元气三姐妹', '银魂', '阿尔卑斯山的少女']
+[2022-07-08 03:12:33,315] [overlays.py:274]           [INFO]     | 6 Items found for 1080P
+[2022-07-08 03:12:33,315] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:33,315] [builder.py:185]            [INFO]     |                                     720P-DV Overlay in ...日本动漫                                     |
+[2022-07-08 03:12:33,316] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:33,316] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:33,316] [builder.py:191]            [INFO]     |================================== Validating 720P-DV Attributes ===================================|
+[2022-07-08 03:12:33,317] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:33,317] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:33,318] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 90), ('opt1', '720p'), ('opt2', 'dv')])]   |
+[2022-07-08 03:12:33,321] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:33,322] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:33,322] [util.py:855]               [DEBUG]    | Value: {'name': '720P-DV', 'git': 'PMM/overlays/images/720P-DV', 'group': 'res', 'weight': 90, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:33,892] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:33,893] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:33,893] [builder.py:605]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution.regex', '(?i)720|hd')]))])                   |
+[2022-07-08 03:12:33,911] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:33,911] [builder.py:604]            [DEBUG]    | Validating Method: filters                                                                         |
+[2022-07-08 03:12:33,911] [builder.py:605]            [DEBUG]    | Value: ordereddict([('has_dolby_vision', True)])                                                   |
+[2022-07-08 03:12:33,912] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:33,912] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:12:33,913] [overlays.py:245]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:33,913] [overlays.py:247]           [INFO]     |=============================== Gathering Items for 720P-DV Overlay ================================|
+[2022-07-08 03:12:33,914] [overlays.py:253]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:33,914] [overlays.py:254]           [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Resolution is 720p', '?type=2&sort=titleSort&episode.resolution=720') |
+[2022-07-08 03:12:33,914] [overlays.py:255]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:33,914] [plex.py:771]               [INFO]     | Processing Plex Show Search                                                                        |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Resolution is 720p
+[2022-07-08 03:12:34,213] [plex.py:813]               [DEBUG]    | 
+[2022-07-08 03:12:34,213] [plex.py:814]               [DEBUG]    | 9 Keys Found: [(279267, 'ratingKey'), (278711, 'ratingKey'), (279270, 'ratingKey'), (278087, 'ratingKey'), (214704, 'ratingKey'), (280245, 'ratingKey'), (278038, 'ratingKey'), (278855, 'ratingKey'), (280203, 'ratingKey')]
+[2022-07-08 03:12:34,214] [builder.py:1507]           [DEBUG]    | 
+[2022-07-08 03:12:34,214] [builder.py:1508]           [DEBUG]    | 9 IDs Found: [(279267, 'ratingKey'), (278711, 'ratingKey'), (279270, 'ratingKey'), (278087, 'ratingKey'), (214704, 'ratingKey'), (280245, 'ratingKey'), (278038, 'ratingKey'), (278855, 'ratingKey'), (280203, 'ratingKey')]
+[2022-07-08 03:12:34,215] [builder.py:1509]           [DEBUG]    | 
+[2022-07-08 03:12:34,215] [builder.py:1650]           [INFO]     | 
+[2022-07-08 03:12:34,215] [builder.py:1651]           [INFO]     | Filtering Builders:
+[2022-07-08 03:12:34,613] [builder.py:1669]           [INFO]     | 720P-DV Overlay | X | 3月的狮子
+[2022-07-08 03:12:35,259] [builder.py:1669]           [INFO]     | 720P-DV Overlay | X | 上课小动作
+[2022-07-08 03:12:37,439] [builder.py:1669]           [INFO]     | 720P-DV Overlay | X | 哆啦A梦
+[2022-07-08 03:12:37,947] [builder.py:1669]           [INFO]     | 720P-DV Overlay | X | 物语系列
+[2022-07-08 03:12:38,321] [builder.py:1669]           [INFO]     | 720P-DV Overlay | X | 王者天下
+[2022-07-08 03:12:39,428] [builder.py:1669]           [INFO]     | 720P-DV Overlay | X | 花仙子
+[2022-07-08 03:12:40,111] [builder.py:1669]           [INFO]     | 720P-DV Overlay | X | 蓝兰岛漂流记
+[2022-07-08 03:12:41,938] [builder.py:1669]           [INFO]     | 720P-DV Overlay | X | 银魂
+[2022-07-08 03:12:42,995] [builder.py:1669]           [INFO]     | 720P-DV Overlay | X | 长腿叔叔
+[2022-07-08 03:12:42,995] [overlays.py:259]           [INFO]     | 
+[2022-07-08 03:12:42,996] [overlays.py:261]           [INFO]     | Collection Filter episodes: {'has_dolby_vision': True, 'percentage': 50}
+[2022-07-08 03:12:42,996] [overlays.py:274]           [INFO]     | No Items found for 720P-DV
+[2022-07-08 03:12:42,996] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:42,997] [builder.py:185]            [INFO]     |                                    720P-HDR Overlay in ...日本动漫                                     |
+[2022-07-08 03:12:42,997] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:42,997] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:42,998] [builder.py:191]            [INFO]     |================================== Validating 720P-HDR Attributes ==================================|
+[2022-07-08 03:12:42,998] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:42,998] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:42,998] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 80), ('opt1', '720p'), ('opt2', 'hdr')])]  |
+[2022-07-08 03:12:43,002] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:43,003] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:43,003] [util.py:855]               [DEBUG]    | Value: {'name': '720P-HDR', 'git': 'PMM/overlays/images/720P-HDR', 'group': 'res', 'weight': 80, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:43,670] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:43,671] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:43,671] [builder.py:605]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution.regex', '(?i)720|hd'), ('hdr', True)]))])    |
+[2022-07-08 03:12:43,689] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:43,689] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:12:43,689] [overlays.py:245]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:43,690] [overlays.py:247]           [INFO]     |=============================== Gathering Items for 720P-HDR Overlay ===============================|
+[2022-07-08 03:12:43,691] [overlays.py:253]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:43,691] [overlays.py:254]           [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Resolution is 720p\n    HDR is true', '?type=2&sort=titleSort&episode.resolution=720&and=1&episode.hdr=1') |
+[2022-07-08 03:12:43,692] [overlays.py:255]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:43,692] [plex.py:771]               [INFO]     | Processing Plex Show Search                                                                        |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Resolution is 720p
+                                                                 |     HDR is true
+[2022-07-08 03:12:43,729] [overlays.py:278]           [DEBUG]    | Traceback (most recent call last):
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/overlays.py", line 256, in compile_overlays
+                                                                 |     builder.filter_and_save_items(builder.gather_ids(method, value))
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1459, in gather_ids
+                                                                 |     ids = self.library.get_rating_keys(method, value)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/plex.py", line 817, in get_rating_keys
+                                                                 |     raise Failed("Plex Error: No Items found in Plex")
+                                                                 | modules.util.Failed: Plex Error: No Items found in Plex
+                                                                 | 
+[2022-07-08 03:12:43,732] [overlays.py:279]           [ERROR]    | Plex Error: No Items found in Plex
+[2022-07-08 03:12:43,732] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:43,733] [builder.py:185]            [INFO]     |                                      720P Overlay in ...日本动漫                                       |
+[2022-07-08 03:12:43,733] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:43,733] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:43,734] [builder.py:191]            [INFO]     |==================================== Validating 720P Attributes ====================================|
+[2022-07-08 03:12:43,734] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:43,735] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:43,735] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 70), ('opt1', '720p')])]                   |
+[2022-07-08 03:12:43,739] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:43,739] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:43,740] [util.py:855]               [DEBUG]    | Value: {'name': '720P', 'git': 'PMM/overlays/images/720P', 'group': 'res', 'weight': 70, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:45,081] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:45,082] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:45,082] [builder.py:605]            [DEBUG]    | Value: ordereddict([('any', ordereddict([('resolution.regex', '(?i)720|hd')]))])                   |
+[2022-07-08 03:12:45,099] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:45,100] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:12:45,100] [overlays.py:245]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:45,100] [overlays.py:247]           [INFO]     |================================= Gathering Items for 720P Overlay =================================|
+[2022-07-08 03:12:45,101] [overlays.py:253]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:45,101] [overlays.py:254]           [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match any of the following:\n    Resolution is 720p', '?type=2&sort=titleSort&push=1&episode.resolution=720&pop=1') |
+[2022-07-08 03:12:45,101] [overlays.py:255]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:45,102] [plex.py:771]               [INFO]     | Processing Plex Show Search                                                                        |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Resolution is 720p
+[2022-07-08 03:12:45,221] [plex.py:813]               [DEBUG]    | 
+[2022-07-08 03:12:45,222] [plex.py:814]               [DEBUG]    | 9 Keys Found: [(279267, 'ratingKey'), (278711, 'ratingKey'), (279270, 'ratingKey'), (278087, 'ratingKey'), (214704, 'ratingKey'), (280245, 'ratingKey'), (278038, 'ratingKey'), (278855, 'ratingKey'), (280203, 'ratingKey')]
+[2022-07-08 03:12:45,222] [builder.py:1507]           [DEBUG]    | 
+[2022-07-08 03:12:45,223] [builder.py:1508]           [DEBUG]    | 9 IDs Found: [(279267, 'ratingKey'), (278711, 'ratingKey'), (279270, 'ratingKey'), (278087, 'ratingKey'), (214704, 'ratingKey'), (280245, 'ratingKey'), (278038, 'ratingKey'), (278855, 'ratingKey'), (280203, 'ratingKey')]
+[2022-07-08 03:12:45,223] [builder.py:1509]           [DEBUG]    | 
+[2022-07-08 03:12:45,225] [overlays.py:273]           [DEBUG]    | 9 Titles Found: ['3月的狮子', '上课小动作', '哆啦A梦', '物语系列', '王者天下', '花仙子', '蓝兰岛漂流记', '银魂', '长腿叔叔']
+[2022-07-08 03:12:45,225] [overlays.py:274]           [INFO]     | 9 Items found for 720P
+[2022-07-08 03:12:45,226] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:45,226] [builder.py:185]            [INFO]     |                                     576P-DV Overlay in ...日本动漫                                     |
+[2022-07-08 03:12:45,226] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:45,227] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:45,227] [builder.py:191]            [INFO]     |================================== Validating 576P-DV Attributes ===================================|
+[2022-07-08 03:12:45,227] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:45,228] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:45,228] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 60), ('opt1', '576p'), ('opt2', 'dv')])]   |
+[2022-07-08 03:12:45,232] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:45,232] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:45,233] [util.py:855]               [DEBUG]    | Value: {'name': '576P-DV', 'git': 'PMM/overlays/images/576P-DV', 'group': 'res', 'weight': 60, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:45,792] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:45,793] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:45,793] [builder.py:605]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution.regex', '(?i)576')]))])                      |
+[2022-07-08 03:12:45,814] [overlays.py:278]           [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/overlays.py", line 244, in compile_overlays
+                                                                 |     builder = CollectionBuilder(self.config, overlay_file, k, v, library=self.library, overlay=True)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 682, in __init__
+                                                                 |     self._plex(method_name, method_data)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1238, in _plex
+                                                                 |     new_dictionary = self.build_filter("plex_search", dict_data, type_override=type_override)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1845, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1789, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1892, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: resolution: No matches found with regex pattern (?i)576
+                                                                 | 
+[2022-07-08 03:12:45,817] [overlays.py:279]           [ERROR]    | Plex Error: resolution: No matches found with regex pattern (?i)576
+[2022-07-08 03:12:45,818] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:45,818] [builder.py:185]            [INFO]     |                                    576P-HDR Overlay in ...日本动漫                                     |
+[2022-07-08 03:12:45,819] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:45,819] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:45,819] [builder.py:191]            [INFO]     |================================== Validating 576P-HDR Attributes ==================================|
+[2022-07-08 03:12:45,820] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:45,820] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:45,821] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 50), ('opt1', '576p'), ('opt2', 'hdr')])]  |
+[2022-07-08 03:12:45,824] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:45,825] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:45,825] [util.py:855]               [DEBUG]    | Value: {'name': '576P-HDR', 'git': 'PMM/overlays/images/576P-HDR', 'group': 'res', 'weight': 50, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:46,314] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:46,315] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:46,316] [builder.py:605]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution.regex', '(?i)576'), ('hdr', True)]))])       |
+[2022-07-08 03:12:46,332] [overlays.py:278]           [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/overlays.py", line 244, in compile_overlays
+                                                                 |     builder = CollectionBuilder(self.config, overlay_file, k, v, library=self.library, overlay=True)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 682, in __init__
+                                                                 |     self._plex(method_name, method_data)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1238, in _plex
+                                                                 |     new_dictionary = self.build_filter("plex_search", dict_data, type_override=type_override)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1845, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1789, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1892, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: resolution: No matches found with regex pattern (?i)576
+                                                                 | 
+[2022-07-08 03:12:46,335] [overlays.py:279]           [ERROR]    | Plex Error: resolution: No matches found with regex pattern (?i)576
+[2022-07-08 03:12:46,336] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:46,336] [builder.py:185]            [INFO]     |                                      576P Overlay in ...日本动漫                                       |
+[2022-07-08 03:12:46,336] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:46,337] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:46,337] [builder.py:191]            [INFO]     |==================================== Validating 576P Attributes ====================================|
+[2022-07-08 03:12:46,337] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:46,338] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:46,338] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 40), ('opt1', '576p')])]                   |
+[2022-07-08 03:12:46,341] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:46,342] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:46,342] [util.py:855]               [DEBUG]    | Value: {'name': '576P', 'git': 'PMM/overlays/images/576P', 'group': 'res', 'weight': 40, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:46,962] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:46,962] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:46,963] [builder.py:605]            [DEBUG]    | Value: ordereddict([('any', ordereddict([('resolution.regex', '(?i)576')]))])                      |
+[2022-07-08 03:12:46,979] [overlays.py:278]           [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/overlays.py", line 244, in compile_overlays
+                                                                 |     builder = CollectionBuilder(self.config, overlay_file, k, v, library=self.library, overlay=True)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 682, in __init__
+                                                                 |     self._plex(method_name, method_data)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1238, in _plex
+                                                                 |     new_dictionary = self.build_filter("plex_search", dict_data, type_override=type_override)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1845, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1789, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1892, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: resolution: No matches found with regex pattern (?i)576
+                                                                 | 
+[2022-07-08 03:12:46,982] [overlays.py:279]           [ERROR]    | Plex Error: resolution: No matches found with regex pattern (?i)576
+[2022-07-08 03:12:46,983] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:46,983] [builder.py:185]            [INFO]     |                                     480P-DV Overlay in ...日本动漫                                     |
+[2022-07-08 03:12:46,983] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:46,984] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:46,984] [builder.py:191]            [INFO]     |================================== Validating 480P-DV Attributes ===================================|
+[2022-07-08 03:12:46,985] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:46,985] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:46,985] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 30), ('opt1', '480p'), ('opt2', 'dv')])]   |
+[2022-07-08 03:12:46,989] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:46,989] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:46,990] [util.py:855]               [DEBUG]    | Value: {'name': '480P-DV', 'git': 'PMM/overlays/images/480P-DV', 'group': 'res', 'weight': 30, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:47,559] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:47,560] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:47,560] [builder.py:605]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution.regex', '(?i)480|sd')]))])                   |
+[2022-07-08 03:12:47,576] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:47,577] [builder.py:604]            [DEBUG]    | Validating Method: filters                                                                         |
+[2022-07-08 03:12:47,577] [builder.py:605]            [DEBUG]    | Value: ordereddict([('has_dolby_vision', True)])                                                   |
+[2022-07-08 03:12:47,578] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:47,578] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:12:47,579] [overlays.py:245]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:47,579] [overlays.py:247]           [INFO]     |=============================== Gathering Items for 480P-DV Overlay ================================|
+[2022-07-08 03:12:47,579] [overlays.py:253]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:47,580] [overlays.py:254]           [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Resolution is 480p\n    Resolution is SD', '?type=2&sort=titleSort&episode.resolution=480&and=1&episode.resolution=sd') |
+[2022-07-08 03:12:47,580] [overlays.py:255]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:47,580] [plex.py:771]               [INFO]     | Processing Plex Show Search                                                                        |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Resolution is 480p
+                                                                 |     Resolution is SD
+[2022-07-08 03:12:47,615] [overlays.py:278]           [DEBUG]    | Traceback (most recent call last):
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/overlays.py", line 256, in compile_overlays
+                                                                 |     builder.filter_and_save_items(builder.gather_ids(method, value))
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1459, in gather_ids
+                                                                 |     ids = self.library.get_rating_keys(method, value)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/plex.py", line 817, in get_rating_keys
+                                                                 |     raise Failed("Plex Error: No Items found in Plex")
+                                                                 | modules.util.Failed: Plex Error: No Items found in Plex
+                                                                 | 
+[2022-07-08 03:12:47,617] [overlays.py:279]           [ERROR]    | Plex Error: No Items found in Plex
+[2022-07-08 03:12:47,618] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:47,618] [builder.py:185]            [INFO]     |                                    480P-HDR Overlay in ...日本动漫                                     |
+[2022-07-08 03:12:47,618] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:47,619] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:47,619] [builder.py:191]            [INFO]     |================================== Validating 480P-HDR Attributes ==================================|
+[2022-07-08 03:12:47,619] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:47,620] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:47,620] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 20), ('opt1', '480p'), ('opt2', 'hdr')])]  |
+[2022-07-08 03:12:47,624] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:47,624] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:47,625] [util.py:855]               [DEBUG]    | Value: {'name': '480P-HDR', 'git': 'PMM/overlays/images/480P-HDR', 'group': 'res', 'weight': 20, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:48,226] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:48,226] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:48,227] [builder.py:605]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution.regex', '(?i)480|sd'), ('hdr', True)]))])    |
+[2022-07-08 03:12:48,245] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:48,246] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:12:48,246] [overlays.py:245]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:48,247] [overlays.py:247]           [INFO]     |=============================== Gathering Items for 480P-HDR Overlay ===============================|
+[2022-07-08 03:12:48,247] [overlays.py:253]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:48,247] [overlays.py:254]           [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Resolution is 480p\n    Resolution is SD\n    HDR is true', '?type=2&sort=titleSort&episode.resolution=480&and=1&episode.resolution=sd&and=1&episode.hdr=1') |
+[2022-07-08 03:12:48,248] [overlays.py:255]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:48,248] [plex.py:771]               [INFO]     | Processing Plex Show Search                                                                        |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Resolution is 480p
+                                                                 |     Resolution is SD
+                                                                 |     HDR is true
+[2022-07-08 03:12:48,283] [overlays.py:278]           [DEBUG]    | Traceback (most recent call last):
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/overlays.py", line 256, in compile_overlays
+                                                                 |     builder.filter_and_save_items(builder.gather_ids(method, value))
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1459, in gather_ids
+                                                                 |     ids = self.library.get_rating_keys(method, value)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/plex.py", line 817, in get_rating_keys
+                                                                 |     raise Failed("Plex Error: No Items found in Plex")
+                                                                 | modules.util.Failed: Plex Error: No Items found in Plex
+                                                                 | 
+[2022-07-08 03:12:48,285] [overlays.py:279]           [ERROR]    | Plex Error: No Items found in Plex
+[2022-07-08 03:12:48,286] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:48,286] [builder.py:185]            [INFO]     |                                      480P Overlay in ...日本动漫                                       |
+[2022-07-08 03:12:48,287] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:48,287] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:48,287] [builder.py:191]            [INFO]     |==================================== Validating 480P Attributes ====================================|
+[2022-07-08 03:12:48,288] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:48,288] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:48,288] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 10), ('opt1', '480p')])]                   |
+[2022-07-08 03:12:48,292] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:48,292] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:48,292] [util.py:855]               [DEBUG]    | Value: {'name': '480P', 'git': 'PMM/overlays/images/480P', 'group': 'res', 'weight': 10, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:48,937] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:48,937] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:12:48,938] [builder.py:605]            [DEBUG]    | Value: ordereddict([('any', ordereddict([('resolution.regex', '(?i)480|sd')]))])                   |
+[2022-07-08 03:12:48,955] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:48,955] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:12:48,956] [overlays.py:245]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:48,956] [overlays.py:247]           [INFO]     |================================= Gathering Items for 480P Overlay =================================|
+[2022-07-08 03:12:48,956] [overlays.py:253]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:48,957] [overlays.py:254]           [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match any of the following:\n    Resolution is 480p\n    Resolution is SD', '?type=2&sort=titleSort&push=1&episode.resolution=480&or=1&episode.resolution=sd&pop=1') |
+[2022-07-08 03:12:48,957] [overlays.py:255]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:48,958] [plex.py:771]               [INFO]     | Processing Plex Show Search                                                                        |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Resolution is 480p
+                                                                 |     Resolution is SD
+[2022-07-08 03:12:49,725] [plex.py:813]               [DEBUG]    | 
+[2022-07-08 03:12:49,726] [plex.py:814]               [DEBUG]    | 15 Keys Found: [(280648, 'ratingKey'), (280606, 'ratingKey'), (280550, 'ratingKey'), (280508, 'ratingKey'), (279735, 'ratingKey'), (280706, 'ratingKey'), (280454, 'ratingKey'), (278796, 'ratingKey'), (280403, 'ratingKey'), (280349, 'ratingKey'), (280299, 'ratingKey'), (278855, 'ratingKey'), (280119, 'ratingKey'), (280067, 'ratingKey'), (278066, 'ratingKey')]
+[2022-07-08 03:12:49,727] [builder.py:1507]           [DEBUG]    | 
+[2022-07-08 03:12:49,727] [builder.py:1508]           [DEBUG]    | 15 IDs Found: [(280648, 'ratingKey'), (280606, 'ratingKey'), (280550, 'ratingKey'), (280508, 'ratingKey'), (279735, 'ratingKey'), (280706, 'ratingKey'), (280454, 'ratingKey'), (278796, 'ratingKey'), (280403, 'ratingKey'), (280349, 'ratingKey'), (280299, 'ratingKey'), (278855, 'ratingKey'), (280119, 'ratingKey'), (280067, 'ratingKey'), (278066, 'ratingKey')]
+[2022-07-08 03:12:49,727] [builder.py:1509]           [DEBUG]    | 
+[2022-07-08 03:12:49,731] [overlays.py:273]           [DEBUG]    | 15 Titles Found: ['佩琳物语', '小妇人物语 南与乔老师', '尼尔斯骑鹅旅行记', '崔普一家物语', '我们这一家', '格林童话剧场', '樱桃小丸子精选', '橙路', '汤姆历险记', '浣熊拉斯卡尔', '爱的小妇人物语', '银魂', '阿拉伯之夜 辛巴达的冒险', '鲁滨逊一家漂流记', '黄金小子']
+[2022-07-08 03:12:49,731] [overlays.py:274]           [INFO]     | 15 Items found for 480P
+[2022-07-08 03:12:49,732] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:49,732] [builder.py:185]            [INFO]     |                                       DV Overlay in ...日本动漫                                        |
+[2022-07-08 03:12:49,732] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:49,733] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:49,733] [builder.py:191]            [INFO]     |===================================== Validating DV Attributes =====================================|
+[2022-07-08 03:12:49,733] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:49,734] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:49,734] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 5), ('opt1', 'dv')])]                      |
+[2022-07-08 03:12:49,737] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:49,738] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:12:49,738] [util.py:855]               [DEBUG]    | Value: {'name': 'DV', 'git': 'PMM/overlays/images/DV', 'group': 'res', 'weight': 5, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:12:50,003] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:50,004] [builder.py:604]            [DEBUG]    | Validating Method: plex_all                                                                        |
+[2022-07-08 03:12:50,004] [builder.py:605]            [DEBUG]    | Value: True                                                                                        |
+[2022-07-08 03:12:50,005] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:50,005] [builder.py:604]            [DEBUG]    | Validating Method: filters                                                                         |
+[2022-07-08 03:12:50,005] [builder.py:605]            [DEBUG]    | Value: ordereddict([('has_dolby_vision', True)])                                                   |
+[2022-07-08 03:12:50,006] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:50,006] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:12:50,007] [overlays.py:245]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:50,007] [overlays.py:247]           [INFO]     |================================== Gathering Items for DV Overlay ==================================|
+[2022-07-08 03:12:50,007] [overlays.py:253]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:50,008] [overlays.py:254]           [DEBUG]    | Builder: plex_all: show                                                                            |
+[2022-07-08 03:12:50,008] [overlays.py:255]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:50,008] [plex.py:760]               [INFO]     | Processing Plex All Shows                                                                          |
+[2022-07-08 03:12:50,008] [plex.py:471]               [INFO]     | Loading All Shows from Library: ...日本动漫                                                            |
+[2022-07-08 03:12:50,346] [plex.py:480]               [INFO]     | Loaded 28 Shows                                                                                    |
+[2022-07-08 03:12:50,347] [plex.py:813]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:50,348] [plex.py:814]               [DEBUG]    | 28 Keys Found: [(279267, 'ratingKey'), (278711, 'ratingKey'), (278074, 'ratingKey'), (280648, 'ratingKey'), (279270, 'ratingKey'), (278105, 'ratingKey'), (280606, 'ratingKey'), (280550, 'ratingKey'), (280508, 'ratingKey'), (279735, 'ratingKey'), (280706, 'ratingKey'), (280454, 'ratingKey'), (278796, 'ratingKey'), (278736, 'ratingKey'), (280403, 'ratingKey'), (280349, 'ratingKey'), (280299, 'ratingKey'), (278087, 'ratingKey'), (214704, 'ratingKey'), (280245, 'ratingKey'), (278038, 'ratingKey'), (279241, 'ratingKey'), (278855, 'ratingKey'), (280203, 'ratingKey'), (280173, 'ratingKey'), (280119, 'ratingKey'), (280067, 'ratingKey'), (278066, 'ratingKey')] |
+[2022-07-08 03:12:50,348] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:50,348] [builder.py:1508]           [DEBUG]    | 28 IDs Found: [(279267, 'ratingKey'), (278711, 'ratingKey'), (278074, 'ratingKey'), (280648, 'ratingKey'), (279270, 'ratingKey'), (278105, 'ratingKey'), (280606, 'ratingKey'), (280550, 'ratingKey'), (280508, 'ratingKey'), (279735, 'ratingKey'), (280706, 'ratingKey'), (280454, 'ratingKey'), (278796, 'ratingKey'), (278736, 'ratingKey'), (280403, 'ratingKey'), (280349, 'ratingKey'), (280299, 'ratingKey'), (278087, 'ratingKey'), (214704, 'ratingKey'), (280245, 'ratingKey'), (278038, 'ratingKey'), (279241, 'ratingKey'), (278855, 'ratingKey'), (280203, 'ratingKey'), (280173, 'ratingKey'), (280119, 'ratingKey'), (280067, 'ratingKey'), (278066, 'ratingKey')] |
+[2022-07-08 03:12:50,349] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:50,350] [builder.py:1650]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:50,350] [builder.py:1651]           [INFO]     | Filtering Builders:                                                                                |
+[2022-07-08 03:12:50,388] [builder.py:1669]           [INFO]     | DV Overlay | X | 3月的狮子                                                                             |
+[2022-07-08 03:12:50,528] [builder.py:1669]           [INFO]     | DV Overlay | X | 上课小动作                                                                             |
+[2022-07-08 03:12:50,667] [builder.py:1669]           [INFO]     | DV Overlay | X | 乒乓                                                                                |
+[2022-07-08 03:12:51,935] [builder.py:1669]           [INFO]     | DV Overlay | X | 佩琳物语                                                                              |
+[2022-07-08 03:12:52,465] [builder.py:1669]           [INFO]     | DV Overlay | X | 哆啦A梦                                                                              |
+[2022-07-08 03:13:09,187] [builder.py:1669]           [INFO]     | DV Overlay | X | 天元突破：红莲螺岩                                                                         |
+[2022-07-08 03:13:10,173] [builder.py:1669]           [INFO]     | DV Overlay | X | 小妇人物语 南与乔老师                                                                       |
+[2022-07-08 03:13:11,431] [builder.py:1669]           [INFO]     | DV Overlay | X | 尼尔斯骑鹅旅行记                                                                          |
+[2022-07-08 03:13:12,459] [builder.py:1669]           [INFO]     | DV Overlay | X | 崔普一家物语                                                                            |
+[2022-07-08 03:13:20,928] [builder.py:1669]           [INFO]     | DV Overlay | X | 我们这一家                                                                             |
+[2022-07-08 03:13:22,436] [builder.py:1669]           [INFO]     | DV Overlay | X | 格林童话剧场                                                                            |
+[2022-07-08 03:13:23,638] [builder.py:1669]           [INFO]     | DV Overlay | X | 樱桃小丸子精选                                                                           |
+[2022-07-08 03:13:24,897] [builder.py:1669]           [INFO]     | DV Overlay | X | 橙路                                                                                |
+[2022-07-08 03:13:25,162] [builder.py:1669]           [INFO]     | DV Overlay | X | 橙路 Blu-Ray Box                                                                    |
+[2022-07-08 03:13:26,481] [builder.py:1669]           [INFO]     | DV Overlay | X | 汤姆历险记                                                                             |
+[2022-07-08 03:13:28,379] [builder.py:1669]           [INFO]     | DV Overlay | X | 浣熊拉斯卡尔                                                                            |
+[2022-07-08 03:13:29,485] [builder.py:1669]           [INFO]     | DV Overlay | X | 爱的小妇人物语                                                                           |
+[2022-07-08 03:13:29,614] [builder.py:1669]           [INFO]     | DV Overlay | X | 物语系列                                                                              |
+[2022-07-08 03:13:29,988] [builder.py:1669]           [INFO]     | DV Overlay | X | 王者天下                                                                              |
+[2022-07-08 03:13:30,262] [builder.py:1669]           [INFO]     | DV Overlay | X | 花仙子                                                                               |
+[2022-07-08 03:13:30,405] [builder.py:1669]           [INFO]     | DV Overlay | X | 蓝兰岛漂流记                                                                            |
+[2022-07-08 03:13:30,535] [builder.py:1669]           [INFO]     | DV Overlay | X | 超元气三姐妹                                                                            |
+[2022-07-08 03:13:32,363] [builder.py:1669]           [INFO]     | DV Overlay | X | 银魂                                                                                |
+[2022-07-08 03:13:32,588] [builder.py:1669]           [INFO]     | DV Overlay | X | 长腿叔叔                                                                              |
+[2022-07-08 03:13:32,767] [builder.py:1669]           [INFO]     | DV Overlay | X | 阿尔卑斯山的少女                                                                          |
+[2022-07-08 03:13:34,009] [builder.py:1669]           [INFO]     | DV Overlay | X | 阿拉伯之夜 辛巴达的冒险                                                                      |
+[2022-07-08 03:13:35,337] [builder.py:1669]           [INFO]     | DV Overlay | X | 鲁滨逊一家漂流记                                                                          |
+[2022-07-08 03:13:35,602] [builder.py:1669]           [INFO]     | DV Overlay | X | 黄金小子                                                                              |
+[2022-07-08 03:13:35,603] [overlays.py:259]           [INFO]     |                                                                                                    |
+[2022-07-08 03:13:35,603] [overlays.py:261]           [INFO]     | Collection Filter episodes: {'has_dolby_vision': True, 'percentage': 50}                           |
+[2022-07-08 03:13:35,603] [overlays.py:274]           [INFO]     | No Items found for DV                                                                              |
+[2022-07-08 03:13:35,604] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:13:35,604] [builder.py:185]            [INFO]     |                                       HDR Overlay in ...日本动漫                                       |
+[2022-07-08 03:13:35,604] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:13:35,605] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:13:35,605] [builder.py:191]            [INFO]     |==================================== Validating HDR Attributes =====================================|
+[2022-07-08 03:13:35,606] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:13:35,606] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:13:35,606] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'Resolution'), ('weight', 1), ('opt1', 'hdr')])]                     |
+[2022-07-08 03:13:35,610] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:13:35,610] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:13:35,610] [util.py:855]               [DEBUG]    | Value: {'name': 'HDR', 'git': 'PMM/overlays/images/HDR', 'group': 'res', 'weight': 1, 'horizontal_offset': 15, 'horizontal_align': 'left', 'vertical_offset': 15, 'vertical_align': 'top'} |
+[2022-07-08 03:13:35,863] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:13:35,864] [builder.py:604]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-08 03:13:35,865] [builder.py:605]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('hdr', True)]))])                                        |
+[2022-07-08 03:13:35,866] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:13:35,866] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:13:35,866] [overlays.py:245]           [INFO]     |                                                                                                    |
+[2022-07-08 03:13:35,867] [overlays.py:247]           [INFO]     |================================= Gathering Items for HDR Overlay ==================================|
+[2022-07-08 03:13:35,867] [overlays.py:253]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:13:35,868] [overlays.py:254]           [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    HDR is true', '?type=2&sort=titleSort&episode.hdr=1') |
+[2022-07-08 03:13:35,868] [overlays.py:255]           [INFO]     |                                                                                                    |
+[2022-07-08 03:13:35,868] [plex.py:771]               [INFO]     | Processing Plex Show Search                                                                        |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     HDR is true
+[2022-07-08 03:13:35,911] [overlays.py:278]           [DEBUG]    | Traceback (most recent call last):
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/overlays.py", line 256, in compile_overlays
+                                                                 |     builder.filter_and_save_items(builder.gather_ids(method, value))
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/builder.py", line 1459, in gather_ids
+                                                                 |     ids = self.library.get_rating_keys(method, value)
+                                                                 |   File "/volume1/homes/bpsim/Plex-Meta-Manager/modules/plex.py", line 817, in get_rating_keys
+                                                                 |     raise Failed("Plex Error: No Items found in Plex")
+                                                                 | modules.util.Failed: Plex Error: No Items found in Plex
+                                                                 | 
+[2022-07-08 03:13:35,913] [overlays.py:279]           [ERROR]    | Plex Error: No Items found in Plex
+[2022-07-08 03:13:35,914] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:13:35,914] [builder.py:185]            [INFO]     |                                 audience_rating Overlay in ...日本动漫                                 |
+[2022-07-08 03:13:35,915] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:13:35,915] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:13:35,915] [builder.py:191]            [INFO]     |============================== Validating audience_rating Attributes ===============================|
+[2022-07-08 03:13:35,916] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:13:35,916] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:13:35,916] [meta.py:103]               [DEBUG]    | Value: ordereddict([('name', 'Audience Rating')])                                                  |
+[2022-07-08 03:13:35,919] [util.py:853]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:13:35,920] [util.py:854]               [DEBUG]    | Validating Method: overlay                                                                         |
+[2022-07-08 03:13:35,920] [util.py:855]               [DEBUG]    | Value: {'name': 'text(audience_rating)', 'horizontal_offset': 225, 'horizontal_align': 'center', 'vertical_offset': 15, 'vertical_align': 'top', 'font': 'fonts/Inter-Medium.ttf', 'font_size': 63, 'font_color': '#FFFFFF', 'back_color': '#00000099', 'back_radius': 30, 'back_width': 150, 'back_height': 105} |
+[2022-07-08 03:13:35,921] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:13:35,922] [builder.py:604]            [DEBUG]    | Validating Method: plex_all                                                                        |
+[2022-07-08 03:13:35,922] [builder.py:605]            [DEBUG]    | Value: True                                                                                        |
+[2022-07-08 03:13:35,923] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:13:35,923] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:13:35,923] [overlays.py:245]           [INFO]     |                                                                                                    |
+[2022-07-08 03:13:35,924] [overlays.py:247]           [INFO]     |=========================== Gathering Items for audience_rating Overlay ============================|
+[2022-07-08 03:13:35,924] [overlays.py:253]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:13:35,924] [overlays.py:254]           [DEBUG]    | Builder: plex_all: show                                                                            |
+[2022-07-08 03:13:35,925] [overlays.py:255]           [INFO]     |                                                                                                    |
+[2022-07-08 03:13:35,925] [plex.py:760]               [INFO]     | Processing Plex All Shows                                                                          |
+[2022-07-08 03:13:35,925] [plex.py:813]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:13:35,926] [plex.py:814]               [DEBUG]    | 28 Keys Found: [(279267, 'ratingKey'), (278711, 'ratingKey'), (278074, 'ratingKey'), (280648, 'ratingKey'), (279270, 'ratingKey'), (278105, 'ratingKey'), (280606, 'ratingKey'), (280550, 'ratingKey'), (280508, 'ratingKey'), (279735, 'ratingKey'), (280706, 'ratingKey'), (280454, 'ratingKey'), (278796, 'ratingKey'), (278736, 'ratingKey'), (280403, 'ratingKey'), (280349, 'ratingKey'), (280299, 'ratingKey'), (278087, 'ratingKey'), (214704, 'ratingKey'), (280245, 'ratingKey'), (278038, 'ratingKey'), (279241, 'ratingKey'), (278855, 'ratingKey'), (280203, 'ratingKey'), (280173, 'ratingKey'), (280119, 'ratingKey'), (280067, 'ratingKey'), (278066, 'ratingKey')] |
+[2022-07-08 03:13:35,926] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:13:35,926] [builder.py:1508]           [DEBUG]    | 28 IDs Found: [(279267, 'ratingKey'), (278711, 'ratingKey'), (278074, 'ratingKey'), (280648, 'ratingKey'), (279270, 'ratingKey'), (278105, 'ratingKey'), (280606, 'ratingKey'), (280550, 'ratingKey'), (280508, 'ratingKey'), (279735, 'ratingKey'), (280706, 'ratingKey'), (280454, 'ratingKey'), (278796, 'ratingKey'), (278736, 'ratingKey'), (280403, 'ratingKey'), (280349, 'ratingKey'), (280299, 'ratingKey'), (278087, 'ratingKey'), (214704, 'ratingKey'), (280245, 'ratingKey'), (278038, 'ratingKey'), (279241, 'ratingKey'), (278855, 'ratingKey'), (280203, 'ratingKey'), (280173, 'ratingKey'), (280119, 'ratingKey'), (280067, 'ratingKey'), (278066, 'ratingKey')] |
+[2022-07-08 03:13:35,927] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:13:35,935] [overlays.py:273]           [DEBUG]    | 28 Titles Found: ['3月的狮子', '上课小动作', '乒乓', '佩琳物语', '哆啦A梦', '天元突破：红莲螺岩', '小妇人物语 南与乔老师', '尼尔斯骑鹅旅行记', '崔普一家物语', '我们这一家', '格林童话剧场', '樱桃小丸子精选', '橙路', '橙路 Blu-Ray Box', '汤姆历险记', '浣熊拉斯卡尔', '爱的小妇人物语', '物语系列', '王者天下', '花仙子', '蓝兰岛漂流记', '超元气三姐妹', '银魂', '长腿叔叔', '阿尔卑斯山的少女', '阿拉伯之夜 辛巴达的冒险', '鲁滨逊一家漂流记', '黄金小子'] |
+[2022-07-08 03:13:35,935] [overlays.py:274]           [INFO]     | 28 Items found for text(audience_rating)                                                           |
+[2022-07-08 03:13:36,626] [overlays.py:57]            [INFO]     |                                                                                                    |
+[2022-07-08 03:13:36,627] [overlays.py:69]            [INFO]     |====================================================================================================|
+[2022-07-08 03:13:36,628] [overlays.py:69]            [INFO]     |                           No Overlays to Remove for the ...日本动漫 Library                            |
+[2022-07-08 03:13:36,628] [overlays.py:69]            [INFO]     |====================================================================================================|
+[2022-07-08 03:13:36,629] [overlays.py:70]            [INFO]     |                                                                                                    |
+[2022-07-08 03:13:36,629] [overlays.py:72]            [INFO]     |                                                                                                    |
+[2022-07-08 03:13:36,630] [overlays.py:73]            [INFO]     |====================================================================================================|
+[2022-07-08 03:13:36,630] [overlays.py:73]            [INFO]     |                             Applying Overlays for the ...日本动漫 Library                              |
+[2022-07-08 03:13:36,630] [overlays.py:73]            [INFO]     |====================================================================================================|
+[2022-07-08 03:13:36,631] [overlays.py:74]            [INFO]     |                                                                                                    |
+[2022-07-08 03:13:39,207] [overlays.py:207]           [INFO]     | 3月的狮子                                                        | Overlays Applied: 720P, text(audience_rating) |
+[2022-07-08 03:13:41,119] [overlays.py:207]           [INFO]     | 上课小动作                                                        | Overlays Applied: 720P, text(audience_rating) |
+[2022-07-08 03:13:43,520] [overlays.py:207]           [INFO]     | 乒乓                                                           | Overlays Applied: 1080P, text(audience_rating) |
+[2022-07-08 03:13:45,919] [overlays.py:207]           [INFO]     | 佩琳物语                                                         | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:13:47,301] [overlays.py:207]           [INFO]     | 哆啦A梦                                                         | Overlays Applied: 720P, text(audience_rating) |
+[2022-07-08 03:13:47,653] [overlays.py:212]           [INFO]     | 天元突破：红莲螺岩                                                    | Overlay Update Not Needed           |
+[2022-07-08 03:13:49,312] [overlays.py:207]           [INFO]     | 小妇人物语 南与乔老师                                                  | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:13:51,046] [overlays.py:207]           [INFO]     | 尼尔斯骑鹅旅行记                                                     | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:13:53,215] [overlays.py:207]           [INFO]     | 崔普一家物语                                                       | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:13:55,081] [overlays.py:207]           [INFO]     | 我们这一家                                                        | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:13:57,287] [overlays.py:207]           [INFO]     | 格林童话剧场                                                       | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:13:57,756] [overlays.py:188]           [WARNING]  | Overlay Warning: No audience_rating found                                                          |
+[2022-07-08 03:13:58,769] [overlays.py:207]           [INFO]     | 樱桃小丸子精选                                                      | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:14:00,692] [overlays.py:207]           [INFO]     | 橙路                                                           | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:14:01,195] [overlays.py:188]           [WARNING]  | Overlay Warning: No audience_rating found                                                          |
+[2022-07-08 03:14:01,969] [overlays.py:207]           [INFO]     | 橙路 Blu-Ray Box                                               | Overlays Applied: 1080P, text(audience_rating) |
+[2022-07-08 03:14:03,491] [overlays.py:207]           [INFO]     | 汤姆历险记                                                        | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:14:05,257] [overlays.py:207]           [INFO]     | 浣熊拉斯卡尔                                                       | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:14:07,040] [overlays.py:207]           [INFO]     | 爱的小妇人物语                                                      | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:14:08,444] [overlays.py:207]           [INFO]     | 物语系列                                                         | Overlays Applied: 720P, text(audience_rating) |
+[2022-07-08 03:14:10,451] [overlays.py:207]           [INFO]     | 王者天下                                                         | Overlays Applied: 1080P, text(audience_rating) |
+[2022-07-08 03:14:12,395] [overlays.py:207]           [INFO]     | 花仙子                                                          | Overlays Applied: 720P, text(audience_rating) |
+[2022-07-08 03:14:13,983] [overlays.py:207]           [INFO]     | 蓝兰岛漂流记                                                       | Overlays Applied: 720P, text(audience_rating) |
+[2022-07-08 03:14:15,814] [overlays.py:207]           [INFO]     | 超元气三姐妹                                                       | Overlays Applied: 1080P, text(audience_rating) |
+[2022-07-08 03:14:17,059] [overlays.py:207]           [INFO]     | 银魂                                                           | Overlays Applied: 1080P, text(audience_rating) |
+[2022-07-08 03:14:18,921] [overlays.py:207]           [INFO]     | 长腿叔叔                                                         | Overlays Applied: 720P, text(audience_rating) |
+[2022-07-08 03:14:21,152] [overlays.py:207]           [INFO]     | 阿尔卑斯山的少女                                                     | Overlays Applied: 1080P, text(audience_rating) |
+[2022-07-08 03:14:23,145] [overlays.py:207]           [INFO]     | 阿拉伯之夜 辛巴达的冒险                                                 | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:14:25,694] [overlays.py:207]           [INFO]     | 鲁滨逊一家漂流记                                                     | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:14:27,376] [overlays.py:207]           [INFO]     | 黄金小子                                                         | Overlays Applied: 480P, text(audience_rating) |
+[2022-07-08 03:14:27,628] [overlays.py:221]           [INFO]     |                                                                                                    |
+[2022-07-08 03:14:27,629] [overlays.py:222]           [INFO]     |====================================================================================================|
+[2022-07-08 03:14:27,629] [overlays.py:222]           [INFO]     |                                 Finished ...日本动漫 Library Overlays                                  |
+[2022-07-08 03:14:27,629] [overlays.py:222]           [INFO]     |                                     Overlays Run Time: 0:02:14                                     |
+[2022-07-08 03:14:27,630] [overlays.py:222]           [INFO]     |====================================================================================================|

@@ -1,0 +1,190 @@
+[2022-07-08 01:50:49,311] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 01:50:49,312] [builder.py:185]            [INFO]     |                                Trakt Trending Collection in Movies                                 |
+[2022-07-08 01:50:49,313] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 01:50:49,313] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 01:50:49,313] [builder.py:191]            [INFO]     |=============================== Validating Trakt Trending Attributes ===============================|
+[2022-07-08 01:50:49,314] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:50:49,314] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 01:50:49,314] [meta.py:103]               [DEBUG]    | Value: [{'value': ['trending'], 'custom': ['trending'], 'key_name': 'Trending', 'key': 'trending', 'name': 'trakt'}, {'value': ['trending'], 'custom': ['trending'], 'key_name': 'Trending', 'key': 'trending', 'name': 'customsync'}, {'value': ['trending'], 'custom': ['trending'], 'key_name': 'Trending', 'key': 'trending', 'name': 'chart_shared'}] |
+[2022-07-08 01:50:49,318] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:50:49,318] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-07-08 01:50:49,318] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-07-08 01:50:49,319] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:50:49,319] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-07-08 01:50:49,319] [builder.py:584]            [DEBUG]    | Value: custom                                                                                      |
+[2022-07-08 01:50:49,319] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:50:49,320] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-07-08 01:50:49,320] [builder.py:605]            [DEBUG]    | Value: Trakt                                                                                       |
+[2022-07-08 01:50:49,320] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:50:49,321] [builder.py:604]            [DEBUG]    | Validating Method: trakt_chart                                                                     |
+[2022-07-08 01:50:49,321] [builder.py:605]            [DEBUG]    | Value: {'chart': 'trending', 'limit': 100}                                                         |
+[2022-07-08 01:50:49,321] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:50:49,322] [builder.py:604]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-07-08 01:50:49,322] [builder.py:605]            [DEBUG]    | Value: A collection of Trakt's Weekly movie List                                                   |
+[2022-07-08 01:50:49,322] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:50:49,322] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 01:50:49,323] [builder.py:605]            [DEBUG]    | Value: !01_Trakt Trending                                                                          |
+[2022-07-08 01:50:49,323] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:50:49,323] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 01:50:49,324] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Trending.jpg |
+[2022-07-08 01:50:50,872] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 01:50:50,873] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 01:50:50,877] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 01:50:50,877] [plex_meta_manager.py:541]  [INFO]     |================================ Running Trakt Trending Collection =================================|
+[2022-07-08 01:50:50,878] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-07-08 01:50:50,878] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-07-08 01:50:50,878] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-07-08 01:50:50,879] [plex_meta_manager.py:558]  [DEBUG]    | Builder: trakt_chart: {'chart': 'trending', 'limit': 100, 'time_period': None}                     |
+[2022-07-08 01:50:50,879] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-07-08 01:50:50,879] [trakt.py:490]              [INFO]     | Processing Trakt Chart: 100 Trending Movies                                                        |
+[2022-07-08 01:50:51,151] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-07-08 01:50:51,152] [builder.py:1508]           [DEBUG]    | 100 IDs Found: [(507086, 'tmdb'), (616037, 'tmdb'), (453395, 'tmdb'), (414906, 'tmdb'), (667739, 'tmdb'), (675353, 'tmdb'), (545611, 'tmdb'), (639933, 'tmdb'), (974187, 'tmdb'), (634649, 'tmdb'), (568124, 'tmdb'), (335787, 'tmdb'), (338953, 'tmdb'), (663260, 'tmdb'), (988046, 'tmdb'), (351286, 'tmdb'), (843847, 'tmdb'), (120, 'tmdb'), (11, 'tmdb'), (526896, 'tmdb'), (752623, 'tmdb'), (648579, 'tmdb'), (780609, 'tmdb'), (438148, 'tmdb'), (259316, 'tmdb'), (284053, 'tmdb'), (672, 'tmdb'), (324852, 'tmdb'), (508947, 'tmdb'), (361743, 'tmdb'), (614934, 'tmdb'), (828947, 'tmdb'), (819876, 'tmdb'), (884315, 'tmdb'), (681309, 'tmdb'), (284052, 'tmdb'), (121, 'tmdb'), (299534, 'tmdb'), (14160, 'tmdb'), (20352, 'tmdb'), (675, 'tmdb'), (12444, 'tmdb'), (1893, 'tmdb'), (18785, 'tmdb'), (93456, 'tmdb'), (137106, 'tmdb'), (58, 'tmdb'), (240, 'tmdb'), (301528, 'tmdb'), (425909, 'tmdb'), (505026, 'tmdb'), (406759, 'tmdb'), (8835, 'tmdb'), (529203, 'tmdb'), (438695, 'tmdb'), (626735, 'tmdb'), (629542, 'tmdb'), (774825, 'tmdb'), (759175, 'tmdb'), (957258, 'tmdb'), (960258, 'tmdb'), (617031, 'tmdb'), (157336, 'tmdb'), (299536, 'tmdb'), (245891, 'tmdb'), (99861, 'tmdb'), (671, 'tmdb'), (105, 'tmdb'), (475557, 'tmdb'), (585, 'tmdb'), (767, 'tmdb'), (299537, 'tmdb'), (1895, 'tmdb'), (429617, 'tmdb'), (274, 'tmdb'), (920, 'tmdb'), (640, 'tmdb'), (438631, 'tmdb'), (1858, 'tmdb'), (2048, 'tmdb'), (82702, 'tmdb'), (338952, 'tmdb'), (497698, 'tmdb'), (107, 'tmdb'), (550988, 'tmdb'), (62, 'tmdb'), (524434, 'tmdb'), (744, 'tmdb'), (580489, 'tmdb'), (451048, 'tmdb'), (1091, 'tmdb'), (6957, 'tmdb'), (4108, 'tmdb'), (24021, 'tmdb'), (508943, 'tmdb'), (696806, 'tmdb'), (134, 'tmdb'), (412117, 'tmdb'), (10830, 'tmdb'), (49517, 'tmdb')] |
+[2022-07-08 01:50:51,152] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-07-08 01:50:51,157] [builder.py:2009]           [INFO]     |                                                                                                    |
+[2022-07-08 01:50:51,157] [builder.py:2010]           [INFO]     |=============================== Adding to Trakt Trending Collection ================================|
+[2022-07-08 01:50:51,158] [builder.py:2011]           [INFO]     |                                                                                                    |
+[2022-07-08 01:50:51,158] [builder.py:2025]           [INFO]     |  1/12 | Trakt Trending Collection | + | The Lord of the Rings: The Fellowship of the Ring (2001)   |
+[2022-07-08 01:50:51,740] [builder.py:2025]           [INFO]     |  2/12 | Trakt Trending Collection | + | Star Wars (1977)                                           |
+[2022-07-08 01:50:52,548] [builder.py:2025]           [INFO]     |  3/12 | Trakt Trending Collection | + | The Lord of the Rings: The Two Towers (2002)               |
+[2022-07-08 01:50:52,623] [builder.py:2025]           [INFO]     |  4/12 | Trakt Trending Collection | + | Up (2009)                                                  |
+[2022-07-08 01:50:53,616] [builder.py:2025]           [INFO]     |  5/12 | Trakt Trending Collection | + | The Godfather: Part II (1974)                              |
+[2022-07-08 01:50:54,417] [builder.py:2025]           [INFO]     |  6/12 | Trakt Trending Collection | + | Sing 2 (2021)                                              |
+[2022-07-08 01:50:54,514] [builder.py:2025]           [INFO]     |  7/12 | Trakt Trending Collection | + | Back to the Future (1985)                                  |
+[2022-07-08 01:50:55,268] [builder.py:2025]           [INFO]     |  8/12 | Trakt Trending Collection | + | Monsters, Inc. (2001)                                      |
+[2022-07-08 01:50:56,073] [builder.py:2025]           [INFO]     |  9/12 | Trakt Trending Collection | + | The Silence of the Lambs (1991)                            |
+[2022-07-08 01:50:56,844] [builder.py:2025]           [INFO]     | 10/12 | Trakt Trending Collection | + | Snatch (2000)                                              |
+[2022-07-08 01:50:57,741] [builder.py:2025]           [INFO]     | 11/12 | Trakt Trending Collection | + | 2001: A Space Odyssey (1968)                               |
+[2022-07-08 01:50:58,428] [builder.py:2025]           [INFO]     | 12/12 | Trakt Trending Collection | + | The Thing (1982)                                           |
+[2022-07-08 01:50:59,142] [builder.py:2045]           [INFO]     |                                                                                                    |
+[2022-07-08 01:50:59,143] [builder.py:2046]           [INFO]     | 12 Movies Processed                                                                                |
+[2022-07-08 01:50:59,143] [builder.py:2054]           [INFO]     |                                                                                                    |
+[2022-07-08 01:50:59,144] [builder.py:2055]           [INFO]     |============================== Removed from Trakt Trending Collection ==============================|
+[2022-07-08 01:50:59,144] [builder.py:2056]           [INFO]     |                                                                                                    |
+[2022-07-08 01:50:59,145] [builder.py:2061]           [INFO]     | 1/6 | Trakt Trending Collection | - | Batman Begins (2005)                                         |
+[2022-07-08 01:51:00,072] [builder.py:2061]           [INFO]     | 2/6 | Trakt Trending Collection | - | Shang-Chi and the Legend of the Ten Rings (2021)             |
+[2022-07-08 01:51:01,188] [builder.py:2061]           [INFO]     | 3/6 | Trakt Trending Collection | - | Star Wars: Episode VI - Return of the Jedi (1983)            |
+[2022-07-08 01:51:02,094] [builder.py:2061]           [INFO]     | 4/6 | Trakt Trending Collection | - | The Godfather (1972)                                         |
+[2022-07-08 01:51:02,793] [builder.py:2061]           [INFO]     | 5/6 | Trakt Trending Collection | - | Toy Story (1995)                                             |
+[2022-07-08 01:51:03,499] [builder.py:2061]           [INFO]     | 6/6 | Trakt Trending Collection | - | Se7en (1995)                                                 |
+[2022-07-08 01:51:04,143] [builder.py:2073]           [INFO]     |                                                                                                    |
+[2022-07-08 01:51:04,143] [builder.py:2074]           [INFO]     | 6 Movie Removed                                                                                    |
+[2022-07-08 01:51:04,144] [builder.py:2172]           [INFO]     |                                                                                                    |
+[2022-07-08 01:51:04,144] [builder.py:2173]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-07-08 01:51:04,145] [builder.py:2174]           [INFO]     |                                                                                                    |
+[2022-07-08 01:51:04,446] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Jurassic World Dominion (2022) (TMDb: 507086)                      |
+[2022-07-08 01:51:04,812] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Thor: Love and Thunder (2022) (TMDb: 616037)                       |
+[2022-07-08 01:51:05,043] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Doctor Strange in the Multiverse of Madness (2022) (TMDb: 453395)  |
+[2022-07-08 01:51:05,243] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Batman (2022) (TMDb: 414906)                                   |
+[2022-07-08 01:51:05,412] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Man From Toronto (2022) (TMDb: 667739)                         |
+[2022-07-08 01:51:05,585] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Sonic the Hedgehog 2 (2022) (TMDb: 675353)                         |
+[2022-07-08 01:51:05,757] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Everything Everywhere All at Once (2022) (TMDb: 545611)            |
+[2022-07-08 01:51:05,946] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Northman (2022) (TMDb: 639933)                                 |
+[2022-07-08 01:51:06,185] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Summoned (2022) (TMDb: 974187)                                 |
+[2022-07-08 01:51:06,435] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Spider-Man: No Way Home (2021) (TMDb: 634649)                      |
+[2022-07-08 01:51:06,668] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Encanto (2021) (TMDb: 568124)                                      |
+[2022-07-08 01:51:06,857] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Uncharted (2022) (TMDb: 335787)                                    |
+[2022-07-08 01:51:07,123] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Fantastic Beasts: The Secrets of Dumbledore (2022) (TMDb: 338953)  |
+[2022-07-08 01:51:07,335] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Black Box (2021) (TMDb: 663260)                                    |
+[2022-07-08 01:51:07,579] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Girl in the Picture (2022) (TMDb: 988046)                          |
+[2022-07-08 01:51:07,768] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Jurassic World: Fallen Kingdom (2018) (TMDb: 351286)               |
+[2022-07-08 01:51:08,018] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Jerry & Marge Go Large (2022) (TMDb: 843847)                       |
+[2022-07-08 01:51:08,246] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Morbius (2022) (TMDb: 526896)                                      |
+[2022-07-08 01:51:08,412] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Lost City (2022) (TMDb: 752623)                                |
+[2022-07-08 01:51:08,810] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Unbearable Weight of Massive Talent (2022) (TMDb: 648579)      |
+[2022-07-08 01:51:09,090] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Men (2022) (TMDb: 780609)                                          |
+[2022-07-08 01:51:09,334] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Minions: The Rise of Gru (2022) (TMDb: 438148)                     |
+[2022-07-08 01:51:09,523] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Fantastic Beasts and Where to Find Them (2016) (TMDb: 259316)      |
+[2022-07-08 01:51:09,701] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Thor: Ragnarok (2017) (TMDb: 284053)                               |
+[2022-07-08 01:51:09,868] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Harry Potter and the Chamber of Secrets (2002) (TMDb: 672)         |
+[2022-07-08 01:51:10,046] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Despicable Me 3 (2017) (TMDb: 324852)                              |
+[2022-07-08 01:51:10,210] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Turning Red (2022) (TMDb: 508947)                                  |
+[2022-07-08 01:51:10,401] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Top Gun: Maverick (2022) (TMDb: 361743)                            |
+[2022-07-08 01:51:10,568] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Elvis (2022) (TMDb: 614934)                                        |
+[2022-07-08 01:51:10,784] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Beavis and Butt-Head Do the Universe (2022) (TMDb: 828947)         |
+[2022-07-08 01:51:10,968] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Crimes of the Future (2022) (TMDb: 819876)                         |
+[2022-07-08 01:51:11,218] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Terror on the Prairie (2022) (TMDb: 884315)                        |
+[2022-07-08 01:51:12,068] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Tady hlídáme my (2021) (TMDb: 681309)                              |
+[2022-07-08 01:51:12,312] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Doctor Strange (2016) (TMDb: 284052)                               |
+[2022-07-08 01:51:12,546] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Avengers: Endgame (2019) (TMDb: 299534)                            |
+[2022-07-08 01:51:12,893] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Despicable Me (2010) (TMDb: 20352)                                 |
+[2022-07-08 01:51:13,113] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Harry Potter and the Order of the Phoenix (2007) (TMDb: 675)       |
+[2022-07-08 01:51:13,301] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Harry Potter and the Deathly Hallows: Part 1 (2010) (TMDb: 12444)  |
+[2022-07-08 01:51:13,512] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Star Wars: Episode I - The Phantom Menace (1999) (TMDb: 1893)      |
+[2022-07-08 01:51:13,726] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Hangover (2009) (TMDb: 18785)                                  |
+[2022-07-08 01:51:13,912] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Despicable Me 2 (2013) (TMDb: 93456)                               |
+[2022-07-08 01:51:14,176] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Lego Movie (2014) (TMDb: 137106)                               |
+[2022-07-08 01:51:14,426] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Pirates of the Caribbean: Dead Man's Chest (2006) (TMDb: 58)       |
+[2022-07-08 01:51:14,926] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Toy Story 4 (2019) (TMDb: 301528)                                  |
+[2022-07-08 01:51:15,168] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Ghostbusters: Afterlife (2021) (TMDb: 425909)                      |
+[2022-07-08 01:51:15,409] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Death on the Nile (2022) (TMDb: 505026)                            |
+[2022-07-08 01:51:15,623] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Moonfall (2022) (TMDb: 406759)                                     |
+[2022-07-08 01:51:16,079] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Legally Blonde (2001) (TMDb: 8835)                                 |
+[2022-07-08 01:51:16,290] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Croods: A New Age (2020) (TMDb: 529203)                        |
+[2022-07-08 01:51:16,567] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Dog (2022) (TMDb: 626735)                                          |
+[2022-07-08 01:51:16,734] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Bad Guys (2022) (TMDb: 629542)                                 |
+[2022-07-08 01:51:16,968] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Ice Age Adventures of Buck Wild (2022) (TMDb: 774825)          |
+[2022-07-08 01:51:17,184] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Princess (2022) (TMDb: 759175)                                 |
+[2022-07-08 01:51:17,379] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | What Is a Woman? (2022) (TMDb: 957258)                             |
+[2022-07-08 01:51:17,383] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Shark Bait (2022) (TMDb: 960258)                                   |
+[2022-07-08 01:51:17,634] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | In Search of Tomorrow (2022) (TMDb: 617031)                        |
+[2022-07-08 01:51:17,835] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Interstellar (2014) (TMDb: 157336)                                 |
+[2022-07-08 01:51:18,067] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Avengers: Infinity War (2018) (TMDb: 299536)                       |
+[2022-07-08 01:51:18,279] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | John Wick (2014) (TMDb: 245891)                                    |
+[2022-07-08 01:51:18,484] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Avengers: Age of Ultron (2015) (TMDb: 99861)                       |
+[2022-07-08 01:51:18,684] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Harry Potter and the Philosopher's Stone (2001) (TMDb: 671)        |
+[2022-07-08 01:51:18,901] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Joker (2019) (TMDb: 475557)                                        |
+[2022-07-08 01:51:19,090] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Harry Potter and the Half-Blood Prince (2009) (TMDb: 767)          |
+[2022-07-08 01:51:19,346] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Captain Marvel (2019) (TMDb: 299537)                               |
+[2022-07-08 01:51:19,712] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Star Wars: Episode III - Revenge of the Sith (2005) (TMDb: 1895)   |
+[2022-07-08 01:51:19,959] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Spider-Man: Far From Home (2019) (TMDb: 429617)                    |
+[2022-07-08 01:51:20,234] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Cars (2006) (TMDb: 920)                                            |
+[2022-07-08 01:51:20,417] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Catch Me If You Can (2002) (TMDb: 640)                             |
+[2022-07-08 01:51:20,657] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Dune (2021) (TMDb: 438631)                                         |
+[2022-07-08 01:51:21,179] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Transformers (2007) (TMDb: 1858)                                   |
+[2022-07-08 01:51:21,379] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | I, Robot (2004) (TMDb: 2048)                                       |
+[2022-07-08 01:51:21,984] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | How to Train Your Dragon 2 (2014) (TMDb: 82702)                    |
+[2022-07-08 01:51:22,223] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Fantastic Beasts: The Crimes of Grindelwald (2018) (TMDb: 338952)  |
+[2022-07-08 01:51:22,457] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Black Widow (2021) (TMDb: 497698)                                  |
+[2022-07-08 01:51:22,634] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Free Guy (2021) (TMDb: 550988)                                     |
+[2022-07-08 01:51:22,792] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Eternals (2021) (TMDb: 524434)                                     |
+[2022-07-08 01:51:23,012] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Top Gun (1986) (TMDb: 744)                                         |
+[2022-07-08 01:51:23,350] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Venom: Let There Be Carnage (2021) (TMDb: 580489)                  |
+[2022-07-08 01:51:23,601] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Jungle Cruise (2021) (TMDb: 451048)                                |
+[2022-07-08 01:51:24,747] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The 40 Year Old Virgin (2005) (TMDb: 6957)                         |
+[2022-07-08 01:51:25,234] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Transporter (2002) (TMDb: 4108)                                |
+[2022-07-08 01:51:25,933] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Twilight Saga: Eclipse (2010) (TMDb: 24021)                    |
+[2022-07-08 01:51:26,290] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Luca (2021) (TMDb: 508943)                                         |
+[2022-07-08 01:51:27,493] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Adam Project (2022) (TMDb: 696806)                             |
+[2022-07-08 01:51:27,701] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | O Brother, Where Art Thou? (2000) (TMDb: 134)                      |
+[2022-07-08 01:51:28,225] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | The Secret Life of Pets 2 (2019) (TMDb: 412117)                    |
+[2022-07-08 01:51:29,369] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Matilda (1996) (TMDb: 10830)                                       |
+[2022-07-08 01:51:29,558] [builder.py:2187]           [INFO]     | Trakt Trending Collection | ? | Tinker Tailor Soldier Spy (2011) (TMDb: 49517)                     |
+[2022-07-08 01:51:29,558] [builder.py:2192]           [INFO]     |                                                                                                    |
+[2022-07-08 01:51:29,559] [builder.py:2193]           [INFO]     | 88 Movies Missing                                                                                  |
+[2022-07-08 01:51:29,576] [builder.py:2383]           [INFO]     |                                                                                                    |
+[2022-07-08 01:51:29,577] [builder.py:2384]           [INFO]     |========================== Updating Details of Trakt Trending Collection ===========================|
+[2022-07-08 01:51:29,577] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-07-08 01:51:29,599] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-07-08 01:51:29,600] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-07-08 01:51:29,600] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Trending.jpg |
+[2022-07-08 01:51:29,760] [library.py:153]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Trending.jpg |
+[2022-07-08 01:51:30,490] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-07-08 01:51:30,491] [builder.py:2530]           [INFO]     |================================ Sorting Trakt Trending Collection =================================|
+[2022-07-08 01:51:30,491] [builder.py:2531]           [INFO]     |                                                                                                    |
+[2022-07-08 01:51:30,492] [builder.py:2547]           [INFO]     | Moving The Lord of the Rings: The Fellowship of the Ring (2001) to the beginning                   |
+[2022-07-08 01:51:30,582] [builder.py:2547]           [INFO]     | Moving Star Wars (1977) after The Lord of the Rings: The Fellowship of the Ring (2001)             |
+[2022-07-08 01:51:32,086] [builder.py:2547]           [INFO]     | Moving The Lord of the Rings: The Two Towers (2002) after Star Wars (1977)                         |
+[2022-07-08 01:51:32,271] [builder.py:2547]           [INFO]     | Moving Up (2009) after The Lord of the Rings: The Two Towers (2002)                                |
+[2022-07-08 01:51:32,360] [builder.py:2547]           [INFO]     | Moving The Godfather: Part II (1974) after Up (2009)                                               |
+[2022-07-08 01:51:32,448] [builder.py:2547]           [INFO]     | Moving Sing 2 (2021) after The Godfather: Part II (1974)                                           |
+[2022-07-08 01:51:32,536] [builder.py:2547]           [INFO]     | Moving Back to the Future (1985) after Sing 2 (2021)                                               |
+[2022-07-08 01:51:32,624] [builder.py:2547]           [INFO]     | Moving Monsters, Inc. (2001) after Back to the Future (1985)                                       |
+[2022-07-08 01:51:32,713] [builder.py:2547]           [INFO]     | Moving The Silence of the Lambs (1991) after Monsters, Inc. (2001)                                 |
+[2022-07-08 01:51:32,799] [builder.py:2547]           [INFO]     | Moving Snatch (2000) after The Silence of the Lambs (1991)                                         |
+[2022-07-08 01:51:32,898] [builder.py:2547]           [INFO]     | Moving 2001: A Space Odyssey (1968) after Snatch (2000)                                            |
+[2022-07-08 01:51:33,017] [builder.py:2547]           [INFO]     | Moving The Thing (1982) after 2001: A Space Odyssey (1968)                                         |
+[2022-07-08 01:51:33,132] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 01:51:33,132] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 01:51:33,133] [plex_meta_manager.py:675]  [INFO]     |                                 Finished Trakt Trending Collection                                 |
+[2022-07-08 01:51:33,133] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:43                                    |
+[2022-07-08 01:51:33,134] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

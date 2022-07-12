@@ -1,0 +1,39 @@
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    smart_label: critic_rating.desc
+collections:
+  流行电影:
+    template: { name: Chart, num: 2 }
+    trakt_trending: 50
+    tmdb_trending_daily: 50
+    tmdb_trending_weekly: 50
+  豆瓣Top 250:
+    letterboxd_list: https://letterboxd.com/darrencb/list/douban-top-250/
+    collection_order: custom
+    sync_mode: sync
+  IMDB Top 250:
+    letterboxd_list: https://letterboxd.com/dave/list/imdb-top-250/
+    collection_order: custom
+    sync_mode: sync
+    Oscar最佳电影:
+    letterboxd_list: https://letterboxd.com/thaais/list/oscar/
+    collection_order: custom
+    sync_mode: sync
+    有生之年非看不可的1001部电影:
+    letterboxd_list: https://letterboxd.com/peterstanley/list/1001-movies-you-must-see-before-you-die/
+    collection_order: custom
+    sync_mode: sync
+    最佳華語電影一百部:
+    letterboxd_list: https://letterboxd.com/hcc321824/list/the-best-100-chinese-motion-pictures-by-hkfaa/ 
+    collection_order: custom
+    sync_mode: sync
+    Mind-Fuck:
+    letterboxd_list: https://letterboxd.com/supergnodab/list/mind-fuck/
+    collection_order: custom
+    sync_mode: sync
+    动漫:
+    letterboxd_list: https://letterboxd.com/remote/list/anime/
+    collection_order: custom
+    sync_mode: sync

@@ -1,0 +1,63 @@
+[2022-07-08 02:28:41,276] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:28:41,277] [builder.py:185]            [INFO]     |                                trakt Boon❤️推荐列表: Collection in 亚洲电影                                |
+[2022-07-08 02:28:41,278] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:28:41,278] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 02:28:41,278] [builder.py:188]            [INFO]     | Log Folder Name: trakt Boon❤️推荐列表: is invalid using trakt Boon❤️推荐列表                               |
+[2022-07-08 02:28:41,279] [builder.py:189]            [INFO]     |                                                                                                    |
+[2022-07-08 02:28:41,279] [builder.py:191]            [INFO]     |============================= Validating trakt Boon❤️推荐列表: Attributes ==============================|
+[2022-07-08 02:28:41,280] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:28:41,280] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-07-08 02:28:41,280] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-07-08 02:28:41,281] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:28:41,282] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-07-08 02:28:41,282] [builder.py:584]            [DEBUG]    | Value: custom                                                                                      |
+[2022-07-08 02:28:41,282] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:28:41,283] [builder.py:604]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-07-08 02:28:41,283] [builder.py:605]            [DEBUG]    | Value: https://trakt.tv/users/bpsim/recommendations                                                |
+[2022-07-08 02:28:41,577] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for Rurouni Kenshin: Trust and Betrayal (1999)                       |
+[2022-07-08 02:28:41,577] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for 這麼遠，那麼近 (2020)                                                   |
+[2022-07-08 02:28:41,578] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for 阿贤喝咖啡 (2019)                                                     |
+[2022-07-08 02:28:41,578] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for 學是學非 第一輯 (2013)                                                  |
+[2022-07-08 02:28:41,578] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for 如果這樣生活 (2019)                                                    |
+[2022-07-08 02:28:41,579] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for Hipster Tour  - USA (2017)                                       |
+[2022-07-08 02:28:41,579] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for 12個夏天 (2019)                                                     |
+[2022-07-08 02:28:41,580] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:28:41,580] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 02:28:41,580] [builder.py:605]            [DEBUG]    | Value: https://kodi.tv/images/addons/matrix/script.trakt/icon.png                                  |
+[2022-07-08 02:28:41,679] [plex.py:742]               [DEBUG]    |                                                                                                    |
+[2022-07-08 02:28:41,679] [plex.py:745]               [DEBUG]    | Looking for: trakt Boon❤️推荐列表:                                                                     |
+[2022-07-08 02:28:41,680] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 02:28:41,680] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 02:28:41,680] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 02:28:41,681] [plex_meta_manager.py:541]  [INFO]     |=============================== Running trakt Boon❤️推荐列表: Collection ===============================|
+[2022-07-08 02:28:41,681] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-07-08 02:28:41,681] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-07-08 02:28:41,682] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-07-08 02:28:41,682] [plex_meta_manager.py:558]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/bpsim/recommendations                                  |
+[2022-07-08 02:28:41,682] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-07-08 02:28:41,682] [trakt.py:482]              [INFO]     | Processing Trakt List: https://trakt.tv/users/bpsim/recommendations                                |
+[2022-07-08 02:28:41,953] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for Rurouni Kenshin: Trust and Betrayal (1999)                       |
+[2022-07-08 02:28:41,953] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for 這麼遠，那麼近 (2020)                                                   |
+[2022-07-08 02:28:41,954] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for 阿贤喝咖啡 (2019)                                                     |
+[2022-07-08 02:28:41,955] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for 學是學非 第一輯 (2013)                                                  |
+[2022-07-08 02:28:41,955] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for 如果這樣生活 (2019)                                                    |
+[2022-07-08 02:28:41,956] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for Hipster Tour  - USA (2017)                                       |
+[2022-07-08 02:28:41,956] [trakt.py:276]              [ERROR]    | Trakt Error: No TVDb ID found for 12個夏天 (2019)                                                     |
+[2022-07-08 02:28:41,959] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-07-08 02:28:41,960] [builder.py:1508]           [DEBUG]    | 108 IDs Found: [(259635, 'tvdb'), (79895, 'tvdb'), (79077, 'tvdb'), (82602, 'tvdb'), (277464, 'tvdb'), (76203, 'tvdb'), (75299, 'tvdb'), (74262, 'tmdb'), (310794, 'tvdb'), (356202, 'tvdb'), (73141, 'tvdb'), (75978, 'tvdb'), (278518, 'tvdb'), (75897, 'tvdb'), (71663, 'tvdb'), (262954, 'tvdb'), (250740, 'tvdb'), (354198, 'tvdb'), (75734, 'tvdb'), (250022, 'tvdb'), (72829, 'tvdb'), (75886, 'tvdb'), (79485, 'tvdb'), (194031, 'tvdb'), (76014, 'tvdb'), (77666, 'tvdb'), (305089, 'tvdb'), (79216, 'tvdb'), (359913, 'tvdb'), (293267, 'tvdb'), (275274, 'tvdb'), (339268, 'tvdb'), (258840, 'tvdb'), (79126, 'tvdb'), (76885, 'tvdb'), (70350, 'tvdb'), (303867, 'tvdb'), (80644, 'tvdb'), (79214, 'tvdb'), (80236, 'tvdb'), (270062, 'tvdb'), (340011, 'tvdb'), (279831, 'tvdb'), (275798, 'tvdb'), (79481, 'tvdb'), (371662, 'tvdb'), (294001, 'tvdb'), (272316, 'tvdb'), (254661, 'tvdb'), (345596, 'tvdb'), (337623, 'tvdb'), (85249, 'tvdb'), (278626, 'tvdb'), (81234, 'tvdb'), (79414, 'tvdb'), (79194, 'tvdb'), (79525, 'tvdb'), (247958, 'tvdb'), (279830, 'tvdb'), (244061, 'tvdb'), (240291, 'tvdb'), (296762, 'tvdb'), (76829, 'tvdb'), (76864, 'tvdb'), (262980, 'tvdb'), (301078, 'tvdb'), (73244, 'tvdb'), (74205, 'tvdb'), (269613, 'tvdb'), (78261, 'tvdb'), (85539, 'tvdb'), (79169, 'tvdb'), (341871, 'tvdb'), (78490, 'tvdb'), (255325, 'tvdb'), (83610, 'tvdb'), (82109, 'tvdb'), (121361, 'tvdb'), (73871, 'tvdb'), (79168, 'tvdb'), (360893, 'tvdb'), (81189, 'tvdb'), (253463, 'tvdb'), (76733, 'tvdb'), (273181, 'tvdb'), (73749, 'tvdb'), (306269, 'tvdb'), (385049, 'tvdb'), (330139, 'tvdb'), (366010, 'tvdb'), (361753, 'tvdb'), (270633, 'tvdb'), (370112, 'tvdb'), (277961, 'tvdb'), (78973, 'tvdb'), (251418, 'tvdb'), (84947, 'tvdb'), (73545, 'tvdb'), (366841, 'tvdb'), (248618, 'tvdb'), (532067, 'tmdb'), (275583, 'tvdb'), (263953, 'tvdb'), (314488, 'tvdb'), (90331, 'tvdb'), (72860, 'tvdb'), (401, 'tmdb'), (255934, 'tvdb')] |
+[2022-07-08 02:28:41,960] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-07-08 02:28:41,963] [builder.py:2172]           [INFO]     |                                                                                                    |
+[2022-07-08 02:28:41,964] [builder.py:2173]           [INFO]     |================================ Missing Movies from Library: 亚洲电影 =================================|
+[2022-07-08 02:28:41,965] [builder.py:2174]           [INFO]     |                                                                                                    |
+[2022-07-08 02:28:42,425] [builder.py:2187]           [INFO]     | trakt Boon❤️推荐列表: Collection | ? | The Miracle Fighters (1982) (TMDb: 74262)                       |
+[2022-07-08 02:28:42,777] [builder.py:2187]           [INFO]     | trakt Boon❤️推荐列表: Collection | ? | KonoSuba: God's Blessing on this Wonderful World! Legend of Crimson (2019) (TMDb: 532067) |
+[2022-07-08 02:28:43,210] [builder.py:2187]           [INFO]     | trakt Boon❤️推荐列表: Collection | ? | Garden State (2004) (TMDb: 401)                                 |
+[2022-07-08 02:28:43,211] [builder.py:2192]           [INFO]     |                                                                                                    |
+[2022-07-08 02:28:43,212] [builder.py:2193]           [INFO]     | 3 Movies Missing                                                                                   |
+[2022-07-08 02:28:43,212] [plex_meta_manager.py:593]  [INFO]     |                                                                                                    |
+[2022-07-08 02:28:43,212] [plex_meta_manager.py:594]  [INFO]     | Collection Minimum: 3 not met for trakt Boon❤️推荐列表: Collection                                     |
+[2022-07-08 02:28:43,213] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 02:28:43,213] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 02:28:43,214] [plex_meta_manager.py:675]  [INFO]     |                               Finished trakt Boon❤️推荐列表: Collection                                |
+[2022-07-08 02:28:43,214] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-07-08 02:28:43,214] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

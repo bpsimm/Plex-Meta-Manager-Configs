@@ -1,0 +1,156 @@
+[2022-06-10 04:14:47,540] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 04:14:47,541] [builder.py:185]            [INFO]     |                               AniList Trending Collection in ...日本动漫                               |
+[2022-06-10 04:14:47,542] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 04:14:47,542] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-06-10 04:14:47,543] [builder.py:191]            [INFO]     |============================== Validating AniList Trending Attributes ==============================|
+[2022-06-10 04:14:47,543] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-06-10 04:14:47,544] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-06-10 04:14:47,544] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'trending')]), ordereddict([('name', 'customsync')]), ordereddict([('name', 'chart_shared'), ('key', 'trending')])] |
+[2022-06-10 04:14:47,550] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-06-10 04:14:47,550] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-06-10 04:14:47,551] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-06-10 04:14:47,551] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-06-10 04:14:47,552] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-06-10 04:14:47,552] [builder.py:584]            [DEBUG]    | Value: custom                                                                                      |
+[2022-06-10 04:14:47,552] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 04:14:47,553] [builder.py:604]            [DEBUG]    | Validating Method: anilist_trending                                                                |
+[2022-06-10 04:14:47,553] [builder.py:605]            [DEBUG]    | Value: 100                                                                                         |
+[2022-06-10 04:14:47,554] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 04:14:47,554] [builder.py:604]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-06-10 04:14:47,555] [builder.py:605]            [DEBUG]    | Value: A collection of trending Anime according to AniList.                                        |
+[2022-06-10 04:14:47,555] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 04:14:47,556] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-06-10 04:14:47,556] [builder.py:605]            [DEBUG]    | Value: !01_AniList Trending                                                                        |
+[2022-06-10 04:14:47,556] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 04:14:47,557] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-06-10 04:14:47,557] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/AniList%20Trending.jpg |
+[2022-06-10 04:14:47,848] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-06-10 04:14:47,849] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-06-10 04:14:47,849] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-06-10 04:14:47,850] [plex_meta_manager.py:541]  [INFO]     |=============================== Running AniList Trending Collection ================================|
+[2022-06-10 04:14:47,850] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-06-10 04:14:47,851] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-06-10 04:14:47,851] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-06-10 04:14:47,852] [plex_meta_manager.py:558]  [DEBUG]    | Builder: anilist_trending: 100                                                                     |
+[2022-06-10 04:14:47,852] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-06-10 04:14:47,853] [anilist.py:321]            [INFO]     | Processing AniList Trending:                                                                       |
+                                                                 | 	Sort By Trending
+                                                                 | 	Limit to 100 Anime
+[2022-06-10 04:14:47,854] [anilist.py:162]            [DEBUG]    | query ($page: Int) {Page(page: $page){pageInfo {hasNextPage}media(sort: TRENDING_DESC, type: ANIME){id}}}
+[2022-06-10 04:14:49,788] [anilist.py:323]            [DEBUG]    | 
+[2022-06-10 04:14:49,789] [anilist.py:324]            [DEBUG]    | 100 AniList IDs Found: [150672, 132474, 142984, 141774, 21, 140960, 133175, 111321, 130586, 141014, 138459, 123330, 125367, 129201, 140457, 11061, 127911, 135384, 132532, 269, 97940, 1735, 137281, 101922, 20, 113415, 142074, 120377, 1535, 16498, 138912, 132052, 134732, 101921, 20755, 132405, 97938, 121176, 105310, 101348, 129193, 99263, 5114, 142329, 141391, 120120, 113717, 15809, 105333, 21507, 20958, 116605, 108465, 20623, 132010, 131681, 101280, 21355, 21087, 20464, 6702, 19, 131573, 119675, 112151, 110277, 101291, 21459, 20605, 20594, 11757, 9756, 813, 30, 150654, 150653, 145813, 140830, 129874, 127720, 114535, 108511, 98659, 97888, 20850, 20832, 20799, 20613, 1575, 223, 1, 135806, 112641, 97986, 21519, 21202, 20923, 20447, 9253, 3588]
+[2022-06-10 04:14:49,790] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 150672
+[2022-06-10 04:14:49,790] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 150654
+[2022-06-10 04:14:49,791] [convert.py:76]             [WARNING]  | Convert Error: AniDB ID not found for AniList ID: 150653
+[2022-06-10 04:14:49,792] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15610
+[2022-06-10 04:14:49,793] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16615
+[2022-06-10 04:14:49,794] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15634
+[2022-06-10 04:14:49,798] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16031
+[2022-06-10 04:14:49,799] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16971
+[2022-06-10 04:14:49,803] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16183
+[2022-06-10 04:14:49,804] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16169
+[2022-06-10 04:14:49,805] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17226
+[2022-06-10 04:14:49,806] [convert.py:65]             [WARNING]  | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16389
+[2022-06-10 04:14:49,810] [builder.py:1507]           [DEBUG]    | 
+[2022-06-10 04:14:49,811] [builder.py:1508]           [DEBUG]    | 88 IDs Found: [(401279, 'tvdb'), (402412, 'tvdb'), (412580, 'tvdb'), (81797, 'tvdb'), (405920, 'tvdb'), (401920, 'tvdb'), (353712, 'tvdb'), (402652, 'tvdb'), (412031, 'tvdb'), (409264, 'tvdb'), (363143, 'tvdb'), (354198, 'tvdb'), (407306, 'tvdb'), (411625, 'tvdb'), (252322, 'tvdb'), (402117, 'tvdb'), (412391, 'tvdb'), (409329, 'tvdb'), (74796, 'tvdb'), (331753, 'tvdb'), (79824, 'tvdb'), (407833, 'tvdb'), (348545, 'tvdb'), (78857, 'tvdb'), (377543, 'tvdb'), (412826, 'tvdb'), (79481, 'tvdb'), (267440, 'tvdb'), (400585, 'tvdb'), (407840, 'tvdb'), (354198, 'tvdb'), (283947, 'tvdb'), (401233, 'tvdb'), (321285, 'tvdb'), (355480, 'tvdb'), (359274, 'tvdb'), (353712, 'tvdb'), (85249, 'tvdb'), (348545, 'tvdb'), (393478, 'tvdb'), (391625, 'tvdb'), (267441, 'tvdb'), (355774, 'tvdb'), (307375, 'tvdb'), (267440, 'tvdb'), (264663, 'tvdb'), (371310, 'tvdb'), (279831, 'tvdb'), (267440, 'tvdb'), (352408, 'tvdb'), (305089, 'tvdb'), (293088, 'tvdb'), (278157, 'tvdb'), (114801, 'tvdb'), (74599, 'tvdb'), (383837, 'tvdb'), (348545, 'tvdb'), (267440, 'tvdb'), (345596, 'tvdb'), (305074, 'tvdb'), (281249, 'tvdb'), (259640, 'tvdb'), (259640, 'tvdb'), (219181, 'tvdb'), (81472, 'tvdb'), (70350, 'tvdb'), (411914, 'tvdb'), (348545, 'tvdb'), (371310, 'tvdb'), (375271, 'tvdb'), (352408, 'tvdb'), (329822, 'tvdb'), (348742, 'tvdb'), (281249, 'tvdb'), (294002, 'tvdb'), (262954, 'tvdb'), (280329, 'tvdb'), (79525, 'tvdb'), (76666, 'tvdb'), (76885, 'tvdb'), (354198, 'tvdb'), (326109, 'tvdb'), (372058, 'tmdb'), (303867, 'tvdb'), (289909, 'tvdb'), (275610, 'tvdb'), (244061, 'tvdb'), (81751, 'tvdb')]
+[2022-06-10 04:14:49,812] [builder.py:1509]           [DEBUG]    | 
+[2022-06-10 04:14:49,821] [builder.py:2172]           [INFO]     | 
+[2022-06-10 04:14:49,823] [builder.py:2173]           [INFO]     |=============================== Missing Movies from Library: ...日本动漫 ===============================|
+[2022-06-10 04:14:49,824] [builder.py:2174]           [INFO]     |                                                                                                    |
+[2022-06-10 04:14:49,898] [builder.py:2187]           [INFO]     | AniList Trending Collection | ? | Your Name. (2016) (TMDb: 372058)                                 |
+[2022-06-10 04:14:49,898] [builder.py:2192]           [INFO]     |                                                                                                    |
+[2022-06-10 04:14:49,899] [builder.py:2193]           [INFO]     | 1 Movie Missing                                                                                    |
+[2022-06-10 04:14:49,899] [builder.py:2218]           [INFO]     |                                                                                                    |
+[2022-06-10 04:14:49,899] [builder.py:2219]           [INFO]     |=========================== Missing Shows from Library: AniList Trending ===========================|
+[2022-06-10 04:14:49,900] [builder.py:2220]           [INFO]     |                                                                                                    |
+[2022-06-10 04:14:49,951] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Skeleton Knight in Another World (TVDb: 401279)                  |
+[2022-06-10 04:14:50,223] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Komi Can't Communicate (TVDb: 402412)                            |
+[2022-06-10 04:14:50,334] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Ya Boy Kongming! (TVDb: 412580)                                  |
+[2022-06-10 04:14:50,490] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | One Piece (TVDb: 81797)                                          |
+[2022-06-10 04:14:50,551] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | SPY x FAMILY (TVDb: 405920)                                      |
+[2022-06-10 04:14:50,609] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | The Dawn of the Witch (TVDb: 401920)                             |
+[2022-06-10 04:14:50,685] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | The Rising of the Shield Hero (TVDb: 353712)                     |
+[2022-06-10 04:14:50,826] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | The Greatest Demon Lord Is Reborn as a Typical Nobody (TVDb: 402652) |
+[2022-06-10 04:14:50,963] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Tomodachi Game (TVDb: 412031)                                    |
+[2022-06-10 04:14:51,034] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Heroines Run the Show (TVDb: 409264)                             |
+[2022-06-10 04:14:51,157] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | The Demon Girl Next Door (TVDb: 363143)                          |
+[2022-06-10 04:14:51,249] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Kaguya-sama: Love Is War (TVDb: 354198)                          |
+[2022-06-10 04:14:51,359] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Summer Time Rendering (TVDb: 407306)                             |
+[2022-06-10 04:14:51,442] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | I'm Quitting Heroing (TVDb: 411625)                              |
+[2022-06-10 04:14:51,532] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Hunter x Hunter (2011) (TVDb: 252322)                            |
+[2022-06-10 04:14:51,609] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Shikimori's Not Just a Cutie (TVDb: 402117)                      |
+[2022-06-10 04:14:51,885] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Miss Shachiku and the Little Baby Ghost (TVDb: 412391)           |
+[2022-06-10 04:14:52,140] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Deaimon: Recipe for Happiness (TVDb: 409329)                     |
+[2022-06-10 04:14:52,626] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Bleach (TVDb: 74796)                                             |
+[2022-06-10 04:14:52,909] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Black Clover (TVDb: 331753)                                      |
+[2022-06-10 04:14:52,982] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Naruto Shippuden (TVDb: 79824)                                   |
+[2022-06-10 04:14:53,042] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Aharen-san wa Hakarenai (TVDb: 407833)                           |
+[2022-06-10 04:14:53,225] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Demon Slayer: Kimetsu no Yaiba (TVDb: 348545)                    |
+[2022-06-10 04:14:53,375] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Naruto (TVDb: 78857)                                             |
+[2022-06-10 04:14:53,465] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Jujutsu Kaisen (TVDb: 377543)                                    |
+[2022-06-10 04:14:53,534] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs (TVDb: 412826) |
+[2022-06-10 04:14:53,625] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Death Note (TVDb: 79481)                                         |
+[2022-06-10 04:14:53,829] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Attack on Titan (TVDb: 267440)                                   |
+[2022-06-10 04:14:54,250] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | A Couple of Cuckoos (TVDb: 400585)                               |
+[2022-06-10 04:14:54,434] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Aoashi (TVDb: 407840)                                            |
+[2022-06-10 04:14:54,574] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Assassination Classroom (TVDb: 283947)                           |
+[2022-06-10 04:14:54,709] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | My Dress-Up Darling (TVDb: 401233)                               |
+[2022-06-10 04:14:54,809] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Boruto: Naruto Next Generations (TVDb: 321285)                   |
+[2022-06-10 04:14:54,867] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Fire Force (TVDb: 355480)                                        |
+[2022-06-10 04:14:54,943] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Vinland Saga (TVDb: 359274)                                      |
+[2022-06-10 04:14:55,348] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Fullmetal Alchemist: Brotherhood (TVDb: 85249)                   |
+[2022-06-10 04:14:55,450] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Tokyo Revengers (TVDb: 393478)                                   |
+[2022-06-10 04:14:55,509] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Ranking of Kings (TVDb: 391625)                                  |
+[2022-06-10 04:14:55,575] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | The Devil Is a Part-Timer! (TVDb: 267441)                        |
+[2022-06-10 04:14:55,698] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Dr. Stone (TVDb: 355774)                                         |
+[2022-06-10 04:14:55,757] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Mob Psycho 100 (TVDb: 307375)                                    |
+[2022-06-10 04:14:55,859] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Date A Live (TVDb: 264663)                                       |
+[2022-06-10 04:14:55,934] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Mushoku Tensei: Jobless Reincarnation (TVDb: 371310)             |
+[2022-06-10 04:14:56,183] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Parasyte -the maxim- (TVDb: 279831)                              |
+[2022-06-10 04:14:56,251] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | That Time I Got Reincarnated as a Slime (TVDb: 352408)           |
+[2022-06-10 04:14:56,315] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Re: ZERO, Starting Life in Another World (TVDb: 305089)          |
+[2022-06-10 04:14:56,373] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | One-Punch Man (TVDb: 293088)                                     |
+[2022-06-10 04:14:56,507] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Haikyu!! (TVDb: 278157)                                          |
+[2022-06-10 04:14:56,625] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Fairy Tail (TVDb: 114801)                                        |
+[2022-06-10 04:14:56,887] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Monster (TVDb: 74599)                                            |
+[2022-06-10 04:14:58,702] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Shaman King (2021) (TVDb: 383837)                                |
+[2022-06-10 04:14:58,951] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Rascal Does Not Dream of Bunny Girl Senpai (TVDb: 345596)        |
+[2022-06-10 04:14:59,007] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | My Hero Academia (TVDb: 305074)                                  |
+[2022-06-10 04:14:59,065] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Tokyo Ghoul (TVDb: 281249)                                       |
+[2022-06-10 04:14:59,125] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Sword Art Online (TVDb: 259640)                                  |
+[2022-06-10 04:15:00,468] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Puella Magi Madoka Magica (TVDb: 219181)                         |
+[2022-06-10 04:15:00,556] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Dragon Ball Z (TVDb: 81472)                                      |
+[2022-06-10 04:15:00,623] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Neon Genesis Evangelion (TVDb: 70350)                            |
+[2022-06-10 04:15:00,767] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Birdie Wing -Golf Girls' Story- (TVDb: 411914)                   |
+[2022-06-10 04:15:02,880] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | To Your Eternity (TVDb: 375271)                                  |
+[2022-06-10 04:15:03,234] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Classroom of the Elite (TVDb: 329822)                            |
+[2022-06-10 04:15:04,476] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Baki (2018) (TVDb: 348742)                                       |
+[2022-06-10 04:15:04,691] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Overlord (TVDb: 294002)                                          |
+[2022-06-10 04:15:04,756] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | JoJo's Bizarre Adventure (2012) (TVDb: 262954)                   |
+[2022-06-10 04:15:04,856] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Akame ga Kill! (TVDb: 280329)                                    |
+[2022-06-10 04:15:04,923] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Code Geass: Lelouch of the Rebellion (TVDb: 79525)               |
+[2022-06-10 04:15:05,031] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Dragon Ball (TVDb: 76666)                                        |
+[2022-06-10 04:15:05,174] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Cowboy Bebop (TVDb: 76885)                                       |
+[2022-06-10 04:15:05,374] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Made in Abyss (TVDb: 326109)                                     |
+[2022-06-10 04:15:05,440] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | KONOSUBA - God's blessing on this wonderful world! (TVDb: 303867) |
+[2022-06-10 04:15:05,500] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Food Wars! Shokugeki no Soma (TVDb: 289909)                      |
+[2022-06-10 04:15:05,651] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Noragami (TVDb: 275610)                                          |
+[2022-06-10 04:15:05,772] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Steins;Gate (TVDb: 244061)                                       |
+[2022-06-10 04:15:05,778] [builder.py:2232]           [INFO]     | AniList Trending Collection | ? | Soul Eater (TVDb: 81751)                                         |
+[2022-06-10 04:15:05,779] [builder.py:2237]           [INFO]     |                                                                                                    |
+[2022-06-10 04:15:05,780] [builder.py:2238]           [INFO]     | 74 Shows Missing                                                                                   |
+[2022-06-10 04:15:05,799] [builder.py:2383]           [INFO]     |                                                                                                    |
+[2022-06-10 04:15:05,800] [builder.py:2384]           [INFO]     |========================= Updating Details of AniList Trending Collection ==========================|
+[2022-06-10 04:15:05,800] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-06-10 04:15:05,801] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-06-10 04:15:05,801] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-06-10 04:15:05,802] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/AniList%20Trending.jpg |
+[2022-06-10 04:15:05,804] [library.py:155]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-06-10 04:15:05,829] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-06-10 04:15:05,830] [builder.py:2530]           [INFO]     |=============================== Sorting AniList Trending Collection ================================|
+[2022-06-10 04:15:05,831] [builder.py:2531]           [INFO]     |                                                                                                    |
+[2022-06-10 04:15:05,831] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-06-10 04:15:05,832] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-06-10 04:15:05,832] [plex_meta_manager.py:675]  [INFO]     |                                Finished AniList Trending Collection                                |
+[2022-06-10 04:15:05,833] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:18                                    |
+[2022-06-10 04:15:05,833] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

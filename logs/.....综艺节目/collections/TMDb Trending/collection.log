@@ -1,0 +1,153 @@
+[2022-07-08 02:49:04,137] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:49:04,139] [builder.py:185]            [INFO]     |                               TMDb Trending Collection in .....综艺节目                                |
+[2022-07-08 02:49:04,139] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:49:04,140] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 02:49:04,140] [builder.py:191]            [INFO]     |=============================== Validating TMDb Trending Attributes ================================|
+[2022-07-08 02:49:04,141] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:49:04,141] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 02:49:04,142] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'trending')]), ordereddict([('name', 'customsync')]), ordereddict([('name', 'chart_shared'), ('key', 'trending')])] |
+[2022-07-08 02:49:04,148] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:49:04,149] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-07-08 02:49:04,149] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-07-08 02:49:04,150] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:49:04,150] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-07-08 02:49:04,151] [builder.py:584]            [DEBUG]    | Value: custom                                                                                      |
+[2022-07-08 02:49:04,151] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:49:04,152] [builder.py:604]            [DEBUG]    | Validating Method: tmdb_trending_weekly                                                            |
+[2022-07-08 02:49:04,152] [builder.py:605]            [DEBUG]    | Value: 100                                                                                         |
+[2022-07-08 02:49:04,153] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:49:04,153] [builder.py:604]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-07-08 02:49:04,154] [builder.py:605]            [DEBUG]    | Value: A collection of shows trending on TMDb                                                      |
+[2022-07-08 02:49:04,154] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:49:04,154] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 02:49:04,155] [builder.py:605]            [DEBUG]    | Value: !01_TMDb Trending                                                                           |
+[2022-07-08 02:49:04,155] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:49:04,156] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 02:49:04,156] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Trending.jpg |
+[2022-07-08 02:49:04,493] [plex.py:742]               [DEBUG]    |                                                                                                    |
+[2022-07-08 02:49:04,493] [plex.py:745]               [DEBUG]    | Looking for: TMDb Trending                                                                         |
+[2022-07-08 02:49:04,493] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 02:49:04,494] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 02:49:04,494] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 02:49:04,494] [plex_meta_manager.py:541]  [INFO]     |================================= Running TMDb Trending Collection =================================|
+[2022-07-08 02:49:04,495] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-07-08 02:49:04,495] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-07-08 02:49:04,495] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-07-08 02:49:04,496] [plex_meta_manager.py:558]  [DEBUG]    | Builder: tmdb_trending_weekly: 100                                                                 |
+[2022-07-08 02:49:04,496] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-07-08 02:49:05,859] [tmdb.py:344]               [INFO]     | Processing TMDb Trending Weekly: 100 Shows                                                         |
+[2022-07-08 02:49:05,860] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-07-08 02:49:05,860] [builder.py:1508]           [DEBUG]    | 100 IDs Found: [(66732, 'tmdb_show'), (120911, 'tmdb_show'), (76479, 'tmdb_show'), (92782, 'tmdb_show'), (92830, 'tmdb_show'), (112836, 'tmdb_show'), (63247, 'tmdb_show'), (197588, 'tmdb_show'), (75006, 'tmdb_show'), (114466, 'tmdb_show'), (37854, 'tmdb_show'), (107113, 'tmdb_show'), (120089, 'tmdb_show'), (1399, 'tmdb_show'), (103516, 'tmdb_show'), (71446, 'tmdb_show'), (194766, 'tmdb_show'), (92749, 'tmdb_show'), (111800, 'tmdb_show'), (60735, 'tmdb_show'), (102903, 'tmdb_show'), (87917, 'tmdb_show'), (64196, 'tmdb_show'), (60574, 'tmdb_show'), (156898, 'tmdb_show'), (1429, 'tmdb_show'), (71738, 'tmdb_show'), (118663, 'tmdb_show'), (197449, 'tmdb_show'), (86831, 'tmdb_show'), (95057, 'tmdb_show'), (128032, 'tmdb_show'), (60059, 'tmdb_show'), (72517, 'tmdb_show'), (83121, 'tmdb_show'), (115626, 'tmdb_show'), (111616, 'tmdb_show'), (52814, 'tmdb_show'), (197067, 'tmdb_show'), (72636, 'tmdb_show'), (81322, 'tmdb_show'), (127162, 'tmdb_show'), (1402, 'tmdb_show'), (96316, 'tmdb_show'), (204852, 'tmdb_show'), (1396, 'tmdb_show'), (93405, 'tmdb_show'), (125398, 'tmdb_show'), (60572, 'tmdb_show'), (65334, 'tmdb_show'), (202876, 'tmdb_show'), (114477, 'tmdb_show'), (86848, 'tmdb_show'), (84958, 'tmdb_show'), (128904, 'tmdb_show'), (82856, 'tmdb_show'), (85937, 'tmdb_show'), (91977, 'tmdb_show'), (85271, 'tmdb_show'), (198085, 'tmdb_show'), (127714, 'tmdb_show'), (46260, 'tmdb_show'), (66636, 'tmdb_show'), (456, 'tmdb_show'), (87017, 'tmdb_show'), (1416, 'tmdb_show'), (156988, 'tmdb_show'), (135157, 'tmdb_show'), (83095, 'tmdb_show'), (136315, 'tmdb_show'), (139450, 'tmdb_show'), (69050, 'tmdb_show'), (129516, 'tmdb_show'), (155243, 'tmdb_show'), (156507, 'tmdb_show'), (117889, 'tmdb_show'), (196268, 'tmdb_show'), (196040, 'tmdb_show'), (195966, 'tmdb_show'), (194774, 'tmdb_show'), (88329, 'tmdb_show'), (154494, 'tmdb_show'), (95171, 'tmdb_show'), (1668, 'tmdb_show'), (12971, 'tmdb_show'), (66025, 'tmdb_show'), (18165, 'tmdb_show'), (31910, 'tmdb_show'), (57243, 'tmdb_show'), (117933, 'tmdb_show'), (115036, 'tmdb_show'), (2288, 'tmdb_show'), (85552, 'tmdb_show'), (121509, 'tmdb_show'), (88396, 'tmdb_show'), (63174, 'tmdb_show'), (138663, 'tmdb_show'), (80713, 'tmdb_show'), (204416, 'tmdb_show'), (1418, 'tmdb_show')] |
+[2022-07-08 02:49:05,861] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-07-08 02:49:06,353] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 197588                                                |
+[2022-07-08 02:49:25,031] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 121509                                                |
+[2022-07-08 02:49:28,721] [builder.py:2218]           [INFO]     |                                                                                                    |
+[2022-07-08 02:49:28,722] [builder.py:2219]           [INFO]     |============================ Missing Shows from Library: TMDb Trending =============================|
+[2022-07-08 02:49:28,723] [builder.py:2220]           [INFO]     |                                                                                                    |
+[2022-07-08 02:49:29,065] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Stranger Things (TVDb: 305288)                                      |
+[2022-07-08 02:49:29,398] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Terminal List (TVDb: 399917)                                    |
+[2022-07-08 02:49:29,688] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Boys (TVDb: 355567)                                             |
+[2022-07-08 02:49:29,942] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Ms. Marvel (TVDb: 368612)                                           |
+[2022-07-08 02:49:30,276] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Obi-Wan Kenobi (TVDb: 393199)                                       |
+[2022-07-08 02:49:30,521] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Money Heist: Korea - Joint Economic Area (TVDb: 401314)             |
+[2022-07-08 02:49:30,798] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Westworld (TVDb: 296762)                                            |
+[2022-07-08 02:49:31,187] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Umbrella Academy (TVDb: 353764)                                 |
+[2022-07-08 02:49:31,388] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Baymax! (TVDb: 393207)                                              |
+[2022-07-08 02:49:31,854] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | One Piece (TVDb: 81797)                                             |
+[2022-07-08 02:49:32,171] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Only Murders in the Building (TVDb: 399959)                         |
+[2022-07-08 02:49:32,421] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | SPY x FAMILY (TVDb: 405920)                                         |
+[2022-07-08 02:49:32,709] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Game of Thrones (TVDb: 121361)                                      |
+[2022-07-08 02:49:32,942] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Star Trek: Strange New Worlds (TVDb: 382389)                        |
+[2022-07-08 02:49:33,398] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Money Heist (TVDb: 327417)                                          |
+[2022-07-08 02:49:33,698] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Summer I Turned Pretty (TVDb: 396505)                           |
+[2022-07-08 02:49:34,109] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Moon Knight (TVDb: 368611)                                          |
+[2022-07-08 02:49:34,364] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Old Man (TVDb: 367392)                                          |
+[2022-07-08 02:49:34,687] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Flash (2014) (TVDb: 279121)                                     |
+[2022-07-08 02:49:35,142] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Control Z (TVDb: 380850)                                            |
+[2022-07-08 02:49:35,576] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | For All Mankind (TVDb: 356202)                                      |
+[2022-07-08 02:49:35,853] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Overlord (TVDb: 294002)                                             |
+[2022-07-08 02:49:36,087] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Peaky Blinders (TVDb: 270915)                                       |
+[2022-07-08 02:49:37,754] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Bastard!! -Heavy Metal, Dark Fantasy- (TVDb: 415677)                |
+[2022-07-08 02:49:38,098] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Attack on Titan (TVDb: 267440)                                      |
+[2022-07-08 02:49:38,354] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Orville (TVDb: 328487)                                          |
+[2022-07-08 02:49:38,564] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Man Who Fell to Earth (TVDb: 414721)                            |
+[2022-07-08 02:49:39,922] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Loot (TVDb: 417559)                                                 |
+[2022-07-08 02:49:40,364] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Love, Death & Robots (TVDb: 357888)                                 |
+[2022-07-08 02:49:40,637] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Superman & Lois (TVDb: 375655)                                      |
+[2022-07-08 02:49:40,854] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Boundless (TVDb: 377390)                                            |
+[2022-07-08 02:49:41,142] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Better Call Saul (TVDb: 273181)                                     |
+[2022-07-08 02:49:41,612] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Classroom of the Elite (TVDb: 329822)                               |
+[2022-07-08 02:49:41,931] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Kaguya-sama: Love Is War (TVDb: 354198)                             |
+[2022-07-08 02:49:42,212] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Irma Vep (TVDb: 393404)                                             |
+[2022-07-08 02:49:42,498] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | First Kill (TVDb: 390191)                                           |
+[2022-07-08 02:49:42,864] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Halo (TVDb: 366524)                                                 |
+[2022-07-08 02:49:43,170] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Extraordinary Attorney Woo (TVDb: 419950)                           |
+[2022-07-08 02:49:43,454] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Made in Abyss (TVDb: 326109)                                        |
+[2022-07-08 02:49:43,812] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Time Traveler's Wife (TVDb: 397536)                             |
+[2022-07-08 02:49:45,046] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Maggie (TVDb: 402909)                                               |
+[2022-07-08 02:49:45,376] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Walking Dead (TVDb: 153021)                                     |
+[2022-07-08 02:49:45,653] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Rent-a-Girlfriend (TVDb: 380654)                                    |
+[2022-07-08 02:49:47,188] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | King of Stonks (TVDb: 417265)                                       |
+[2022-07-08 02:49:47,642] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Breaking Bad (TVDb: 81189)                                          |
+[2022-07-08 02:49:48,120] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Squid Game (TVDb: 383275)                                           |
+[2022-07-08 02:49:48,398] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Moonhaven (TVDb: 402621)                                            |
+[2022-07-08 02:49:48,753] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Pokémon (TVDb: 76703)                                               |
+[2022-07-08 02:49:49,178] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Miraculous: Tales of Ladybug & Cat Noir (TVDb: 302218)              |
+[2022-07-08 02:49:49,444] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | A Dream of Splendor (TVDb: 420733)                                  |
+[2022-07-08 02:49:49,744] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Harem in the Labyrinth of Another World (TVDb: 393301)              |
+[2022-07-08 02:49:49,964] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Evil (TVDb: 363955)                                                 |
+[2022-07-08 02:49:49,969] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Loki (TVDb: 362472)                                                 |
+[2022-07-08 02:49:50,244] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Dark Winds (TVDb: 406179)                                           |
+[2022-07-08 02:49:50,542] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Mandalorian (TVDb: 361753)                                      |
+[2022-07-08 02:49:50,798] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Demon Slayer: Kimetsu no Yaiba (TVDb: 348545)                       |
+[2022-07-08 02:49:51,111] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Motherland: Fort Salem (TVDb: 364047)                               |
+[2022-07-08 02:49:51,431] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | WandaVision (TVDb: 362392)                                          |
+[2022-07-08 02:49:51,703] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Becoming Elizabeth (TVDb: 373873)                                   |
+[2022-07-08 02:49:53,237] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Uncle From Another World (TVDb: 405214)                             |
+[2022-07-08 02:49:53,498] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Naruto (TVDb: 78857)                                                |
+[2022-07-08 02:49:53,503] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Love Island (TVDb: 296669)                                          |
+[2022-07-08 02:49:53,798] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Simpsons (TVDb: 71663)                                          |
+[2022-07-08 02:49:54,098] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | P-Valley (TVDb: 356405)                                             |
+[2022-07-08 02:49:54,342] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Grey's Anatomy (TVDb: 73762)                                        |
+[2022-07-08 02:49:54,769] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Undeclared War (TVDb: 401831)                                   |
+[2022-07-08 02:49:56,554] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Alchemy of Souls (TVDb: 401475)                                     |
+[2022-07-08 02:49:56,864] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Rising of the Shield Hero (TVDb: 353712)                        |
+[2022-07-08 02:49:57,220] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Bear (TVDb: 403294)                                             |
+[2022-07-08 02:49:58,095] [builder.py:2227]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 412803                                                    |
+[2022-07-08 02:49:58,498] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Riverdale (TVDb: 311954)                                            |
+[2022-07-08 02:49:59,945] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | My Stepmom's Daughter Is My Ex (TVDb: 415240)                       |
+[2022-07-08 02:50:00,364] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Sherwood (2022) (TVDb: 407498)                                      |
+[2022-07-08 02:50:01,765] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Chloe (TVDb: 400437)                                                |
+[2022-07-08 02:50:01,987] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | My Isekai Life: I Gained a Second Character Class and Became the Strongest Sage in the World! (TVDb: 402637) |
+[2022-07-08 02:50:03,221] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Anna (2022) (TVDb: 411764)                                          |
+[2022-07-08 02:50:05,110] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Engage Kiss (TVDb: 418265)                                          |
+[2022-07-08 02:50:06,644] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | RWBY: Ice Queendom (TVDb: 418203)                                   |
+[2022-07-08 02:50:06,910] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Vermeil in Gold (TVDb: 417658)                                      |
+[2022-07-08 02:50:07,168] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Hawkeye (2021) (TVDb: 367146)                                       |
+[2022-07-08 02:50:08,411] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Lycoris Recoil (TVDb: 414057)                                       |
+[2022-07-08 02:50:08,809] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Prehistoric Planet (2022) (TVDb: 418505)                            |
+[2022-07-08 02:50:09,109] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Friends (TVDb: 79168)                                               |
+[2022-07-08 02:50:09,376] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Dragon Ball Z (TVDb: 81472)                                         |
+[2022-07-08 02:50:10,021] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Animal Kingdom (2016) (TVDb: 304262)                                |
+[2022-07-08 02:50:10,376] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Vampire Diaries (TVDb: 95491)                                   |
+[2022-07-08 02:50:10,675] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Naruto Shippuden (TVDb: 79824)                                      |
+[2022-07-08 02:50:13,011] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Doctor Who (2005) (TVDb: 78804)                                     |
+[2022-07-08 02:50:14,677] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Summer Time Rendering (TVDb: 407306)                                |
+[2022-07-08 02:50:15,001] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Book of Boba Fett (TVDb: 393589)                                |
+[2022-07-08 02:50:15,267] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Prison Break (TVDb: 360115)                                         |
+[2022-07-08 02:50:15,553] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Euphoria (US) (TVDb: 360261)                                        |
+[2022-07-08 02:50:17,788] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Falcon and The Winter Soldier (TVDb: 362496)                    |
+[2022-07-08 02:50:18,086] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Lucifer (TVDb: 295685)                                              |
+[2022-07-08 02:50:19,376] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Café Minamdang (TVDb: 410723)                                       |
+[2022-07-08 02:50:21,068] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Dropkick on My Devil!! (TVDb: 347215)                               |
+[2022-07-08 02:50:22,701] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | Pirate Gold of Adak Island (TVDb: 420602)                           |
+[2022-07-08 02:50:23,042] [builder.py:2232]           [INFO]     | TMDb Trending Collection | ? | The Big Bang Theory (TVDb: 80379)                                   |
+[2022-07-08 02:50:23,043] [builder.py:2237]           [INFO]     |                                                                                                    |
+[2022-07-08 02:50:23,043] [builder.py:2238]           [INFO]     | 97 Shows Missing                                                                                   |
+[2022-07-08 02:50:23,043] [plex_meta_manager.py:593]  [INFO]     |                                                                                                    |
+[2022-07-08 02:50:23,043] [plex_meta_manager.py:594]  [INFO]     | Collection Minimum: 3 not met for TMDb Trending Collection                                         |
+[2022-07-08 02:50:23,044] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 02:50:23,044] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 02:50:23,045] [plex_meta_manager.py:675]  [INFO]     |                                 Finished TMDb Trending Collection                                  |
+[2022-07-08 02:50:23,045] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:01:18                                    |
+[2022-07-08 02:50:23,045] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

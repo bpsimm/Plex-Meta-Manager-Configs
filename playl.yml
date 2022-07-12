@@ -1,0 +1,148 @@
+#############################################################
+#                         Playlist                          #
+#         Created by Yozora, Bullmoose20, & Sohjiro         #
+#############################################################
+#  REQUIRES TRAKT AUTHENTICATION                            #
+#  https://metamanager.wiki/en/latest/config/trakt.html     #
+#                                                           #
+#  Use the libraries template variable to adjust the names  #
+#                                                           #
+#  Call this from your config.yml (Movie or Show)           #
+#  If nothing is specified these are the defaults           #
+#                                                           #
+#    playlist_files:                                        #
+#      - git: PMM/playlist                                  #
+#        template_variables:                                #
+#          # Sets the names of the libraries to use         #
+#          libraries: Movies, TVShows                     #
+#############################################################
+
+external_templates:
+  git: PMM/templates
+
+playlists:
+  有生之年非看不可的1001部电影:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, '亚洲电影'
+    trakt_list: https://trakt.tv/users/bpsim/lists/complete-2003-2021-1001-movies-you-must-see-before-you-die 
+    summary: 1001 Movies You Must See Before You Die 精选1001部经典电影； 一书介绍了各时代的伟大而富有新意、已成为经典与邪典的必看影片，并向电影界给出了深刻、机智、富于启迪的见解，这是一笔宝贵的财富。该书收录了数百幅极佳的剧照、肖像与海报，它将各种电影类型中最有影响力的影片一网打尽：动作片、西部片、动画片、喜剧片、纪录片、歌舞片、黑色电影、爱情片、惊悚片、超短片和科幻片一应俱全。
+
+  trakt Boon推荐列表:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, '亚洲电影', '....TV Shows', .Documentaries, ..Cartoons, '...日本动漫', '.....综艺节目'
+    trakt_list: https://trakt.tv/users/bpsim/recommendations
+    summary: 红心电影和节目
+    
+  The Criterion Collection:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, '亚洲电影'
+    trakt_list: https://trakt.tv/users/bpsim/lists/complete-2003-2021-1001-movies-you-must-see-before-you-die 
+    summary: The Criterion Collection is a continuing series of important classic and contemporary films on home video. Releases often include restored film transfers along with commentary tracks and other kinds of supplemental features, which were pioneered with the release of the company first laserdiscs, Citizen Kane and King Kong, in 1984. Ever since, Criterion has been working closely with filmmakers and scholars to ensure that each film is presented as its maker would want it seen and published in an edition that will deepen the viewer’s understanding and appreciation of the art of cinema.
+
+  最佳華語電影一百部:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, '亚洲电影'
+    trakt_list: https://trakt.tv/users/bpsim/lists/hkfa-s-the-best-100-chinese-motion-pictures
+    summary: 最佳華語電影一百部（英語：The Best 100 Chinese Motion Pictures）是2005年香港電影金像獎協會籌辦的一項電影選舉，目的為紀念華語電影誕生100年。是次選舉邀請了香港101位電影工作者、學者投票，選出歷史上103部最佳華語電影。
+
+  Oscar最佳电影:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, '亚洲电影'
+    trakt_list: https://trakt.tv/users/bpsim/lists/oscars-best-picture-copy
+    summary: Oscar's best picture of the year.
+
+  IMDB Top250 (2010年):
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, '亚洲电影'
+    trakt_list: https://trakt.tv/users/bpsim/lists/imdb-top-250-year-of-2010
+    summary: Oscar's best picture of the year.
+
+  Top 100 Japanese Films:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, '亚洲电影'
+    trakt_list: https://trakt.tv/users/bpsim/lists/top-100-japanese-films-excluding-anime
+    summary: 创建自 https://mdblist.com/lists/galacticboy/top-100-japanese-films-excluding-anime
+
+  Mind-Fuck:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, '亚洲电影', '....TV Shows', .Documentaries, ..Cartoons, '...日本动漫', '.....综艺节目'
+    trakt_list: https://trakt.tv/users/bpsim/lists/mindfuck
+    summary: The objective of this Collection are Movies with: Complex plot, Big plot twist, Ending twist.
+    
+  豆瓣 Top250 电影和连续剧:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, '亚洲电影', '....TV Shows', .Documentaries, ..Cartoons, '...日本动漫', '.....综艺节目'
+    trakt_list: https://trakt.tv/users/bpsim/lists/douban-movies-top-250-c-drama
+    summary: trakt创建.  
+    
+  MyAnimeList 推荐动漫:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, '亚洲电影', '....TV Shows', .Documentaries, ..Cartoons, '...日本动漫', '.....综艺节目'
+    trakt_list: https://trakt.tv/users/bpsim/lists/best-anime
+    summary: 推荐动漫来自MAL.
+
+  Adult Cartoon Shows:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, '亚洲电影', '....TV Shows', .Documentaries, ..Cartoons, '...日本动漫', '.....综艺节目'
+    trakt_list: https://trakt.tv/users/bpsim/lists/adult-cartoon-shows
+    summary: 美国卡通
+
+  IMDB Top Rated TV Shows:
+    template:
+      - name: playlist
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, '亚洲电影', '....TV Shows', .Documentaries, ..Cartoons, '...日本动漫', '.....综艺节目'
+    trakt_list: https://trakt.tv/users/bpsim/lists/imdb-top-rated-tv-shows
+    summary: The IMDB top '....TV Shows', based on popularity.
+
+  Arrowverse (Timeline Order):
+    template:
+      - name: playlist
+    trakt_list: https://trakt.tv/users/donxy/lists/arrowverse
+    summary: The Arrowverse is an American superhero media franchise and a shared universe that is centered on various interconnected television series based on DC Comics superhero characters, primarily airing on The CW as well as web series on CW Seed.
+
+  Marvel Cinematic Universe (Timeline Order):
+    template:
+      - name: playlist
+    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
+    summary: The Marvel Cinematic Universe (MCU) is a collection of movies and television series that tell a singular narrative related to Marvel characters, settings and stories. The MCU is a product from Disney and Marvel that brings us heroes from Black Panther and Doctor Strange to Spider-Man and Iron Man.
+
+  Star Wars (Timeline Order):
+    template:
+      - name: playlist
+    trakt_list: https://trakt.tv/users/ruben_vw_/lists/star-wars-canon-timeline
+    summary: A long time ago in a galaxy far, far away, a farm boy on a desert planet dreamed of joining a rebellion and saving a princess from a dark lord, and thus, one of the most successful cinematic sagas of all time was born. What began with one space opera in 1977 quickly grew into a media empire that included toys, comic books, video games, TV series, and memorabilia in every possible form. Today, more than 40 years after it first arrived, Star Wars remains a global pop culture phenomenon, and the story still isn't over. 

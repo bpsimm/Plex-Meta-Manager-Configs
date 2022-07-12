@@ -1,0 +1,156 @@
+[2022-07-08 02:53:55,341] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:53:55,341] [builder.py:185]            [INFO]     |                               Trakt Watched Collection in .....综艺节目                                |
+[2022-07-08 02:53:55,342] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:53:55,342] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 02:53:55,343] [builder.py:191]            [INFO]     |=============================== Validating Trakt Watched Attributes ================================|
+[2022-07-08 02:53:55,343] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:53:55,343] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 02:53:55,344] [meta.py:103]               [DEBUG]    | Value: [{'value': ['watched'], 'custom': ['watched'], 'key_name': 'Watched', 'key': 'watched', 'name': 'trakt'}, {'value': ['watched'], 'custom': ['watched'], 'key_name': 'Watched', 'key': 'watched', 'name': 'customsync'}, {'value': ['watched'], 'custom': ['watched'], 'key_name': 'Watched', 'key': 'watched', 'name': 'chart_shared'}] |
+[2022-07-08 02:53:55,347] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:53:55,347] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-07-08 02:53:55,347] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-07-08 02:53:55,348] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:53:55,348] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-07-08 02:53:55,348] [builder.py:584]            [DEBUG]    | Value: custom                                                                                      |
+[2022-07-08 02:53:55,349] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:53:55,349] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-07-08 02:53:55,349] [builder.py:605]            [DEBUG]    | Value: Trakt                                                                                       |
+[2022-07-08 02:53:55,349] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:53:55,350] [builder.py:604]            [DEBUG]    | Validating Method: trakt_chart                                                                     |
+[2022-07-08 02:53:55,350] [builder.py:605]            [DEBUG]    | Value: {'chart': 'watched', 'limit': 100}                                                          |
+[2022-07-08 02:53:55,351] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:53:55,351] [builder.py:604]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-07-08 02:53:55,351] [builder.py:605]            [DEBUG]    | Value: A collection of Trakt's Weekly show List                                                    |
+[2022-07-08 02:53:55,351] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:53:55,352] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 02:53:55,352] [builder.py:605]            [DEBUG]    | Value: !01_Trakt Watched                                                                           |
+[2022-07-08 02:53:55,352] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:53:55,353] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 02:53:55,353] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Watched.jpg |
+[2022-07-08 02:53:57,349] [plex.py:742]               [DEBUG]    |                                                                                                    |
+[2022-07-08 02:53:57,349] [plex.py:745]               [DEBUG]    | Looking for: Trakt Watched                                                                         |
+[2022-07-08 02:53:57,350] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 02:53:57,350] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 02:53:57,350] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 02:53:57,351] [plex_meta_manager.py:541]  [INFO]     |================================= Running Trakt Watched Collection =================================|
+[2022-07-08 02:53:57,351] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-07-08 02:53:57,351] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-07-08 02:53:57,352] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-07-08 02:53:57,352] [plex_meta_manager.py:558]  [DEBUG]    | Builder: trakt_chart: {'chart': 'watched', 'limit': 100, 'time_period': None}                      |
+[2022-07-08 02:53:57,352] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-07-08 02:53:57,353] [trakt.py:490]              [INFO]     | Processing Trakt Chart: 100 Watched Shows                                                          |
+[2022-07-08 02:53:58,459] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-07-08 02:53:58,460] [builder.py:1508]           [DEBUG]    | 100 IDs Found: [(305288, 'tvdb'), (355567, 'tvdb'), (382389, 'tvdb'), (368612, 'tvdb'), (399917, 'tvdb'), (328487, 'tvdb'), (296762, 'tvdb'), (367392, 'tvdb'), (279121, 'tvdb'), (393199, 'tvdb'), (356202, 'tvdb'), (353764, 'tvdb'), (375655, 'tvdb'), (399959, 'tvdb'), (363955, 'tvdb'), (414721, 'tvdb'), (304262, 'tvdb'), (364047, 'tvdb'), (79490, 'tvdb'), (393434, 'tvdb'), (406179, 'tvdb'), (295936, 'tvdb'), (72059, 'tvdb'), (356405, 'tvdb'), (403294, 'tvdb'), (263380, 'tvdb'), (196741, 'tvdb'), (336602, 'tvdb'), (363841, 'tvdb'), (393207, 'tvdb'), (417559, 'tvdb'), (378178, 'tvdb'), (167751, 'tvdb'), (74845, 'tvdb'), (278518, 'tvdb'), (296669, 'tvdb'), (368611, 'tvdb'), (360432, 'tvdb'), (74608, 'tvdb'), (273181, 'tvdb'), (351282, 'tvdb'), (270915, 'tvdb'), (393438, 'tvdb'), (401831, 'tvdb'), (379221, 'tvdb'), (277092, 'tvdb'), (121361, 'tvdb'), (81377, 'tvdb'), (366524, 'tvdb'), (396346, 'tvdb'), (78957, 'tvdb'), (373873, 'tvdb'), (409671, 'tvdb'), (338539, 'tvdb'), (311954, 'tvdb'), (74796, 'tvdb'), (353712, 'tvdb'), (405920, 'tvdb'), (81797, 'tvdb'), (347645, 'tvdb'), (329089, 'tvdb'), (76119, 'tvdb'), (399219, 'tvdb'), (81189, 'tvdb'), (371980, 'tvdb'), (357888, 'tvdb'), (328749, 'tvdb'), (78956, 'tvdb'), (297369, 'tvdb'), (374012, 'tvdb'), (400440, 'tvdb'), (333072, 'tvdb'), (254243, 'tvdb'), (409361, 'tvdb'), (407498, 'tvdb'), (396505, 'tvdb'), (294002, 'tvdb'), (153021, 'tvdb'), (92091, 'tvdb'), (95011, 'tvdb'), (252322, 'tvdb'), (262754, 'tvdb'), (401314, 'tvdb'), (399909, 'tvdb'), (362472, 'tvdb'), (366625, 'tvdb'), (393589, 'tvdb'), (397536, 'tvdb'), (362392, 'tvdb'), (398813, 'tvdb'), (266189, 'tvdb'), (349659, 'tvdb'), (363777, 'tvdb'), (371768, 'tvdb'), (362696, 'tvdb'), (367659, 'tvdb'), (80379, 'tvdb'), (73762, 'tvdb'), (383275, 'tvdb'), (361753, 'tvdb')] |
+[2022-07-08 02:53:58,461] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-07-08 02:53:58,463] [builder.py:2218]           [INFO]     |                                                                                                    |
+[2022-07-08 02:53:58,464] [builder.py:2219]           [INFO]     |============================ Missing Shows from Library: Trakt Watched =============================|
+[2022-07-08 02:53:58,464] [builder.py:2220]           [INFO]     |                                                                                                    |
+[2022-07-08 02:53:58,941] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Stranger Things (TVDb: 305288)                                      |
+[2022-07-08 02:53:59,408] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Boys (TVDb: 355567)                                             |
+[2022-07-08 02:53:59,732] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Star Trek: Strange New Worlds (TVDb: 382389)                        |
+[2022-07-08 02:54:00,065] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Ms. Marvel (TVDb: 368612)                                           |
+[2022-07-08 02:54:00,508] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Terminal List (TVDb: 399917)                                    |
+[2022-07-08 02:54:01,057] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Orville (TVDb: 328487)                                          |
+[2022-07-08 02:54:01,062] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Westworld (TVDb: 296762)                                            |
+[2022-07-08 02:54:01,331] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Old Man (TVDb: 367392)                                          |
+[2022-07-08 02:54:01,708] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Flash (2014) (TVDb: 279121)                                     |
+[2022-07-08 02:54:02,319] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Obi-Wan Kenobi (TVDb: 393199)                                       |
+[2022-07-08 02:54:02,731] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | For All Mankind (TVDb: 356202)                                      |
+[2022-07-08 02:54:03,208] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Umbrella Academy (TVDb: 353764)                                 |
+[2022-07-08 02:54:03,541] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Superman & Lois (TVDb: 375655)                                      |
+[2022-07-08 02:54:03,797] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Only Murders in the Building (TVDb: 399959)                         |
+[2022-07-08 02:54:04,131] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Evil (TVDb: 363955)                                                 |
+[2022-07-08 02:54:04,398] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Man Who Fell to Earth (TVDb: 414721)                            |
+[2022-07-08 02:54:04,775] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Animal Kingdom (2016) (TVDb: 304262)                                |
+[2022-07-08 02:54:05,108] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Motherland: Fort Salem (TVDb: 364047)                               |
+[2022-07-08 02:54:05,365] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | America's Got Talent (TVDb: 79490)                                  |
+[2022-07-08 02:54:05,665] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Man vs Bee (TVDb: 393434)                                           |
+[2022-07-08 02:54:06,119] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Dark Winds (TVDb: 406179)                                           |
+[2022-07-08 02:54:06,423] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Alone (TVDb: 295936)                                                |
+[2022-07-08 02:54:08,409] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Lone Ranger (TVDb: 72059)                                       |
+[2022-07-08 02:54:08,931] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | P-Valley (TVDb: 356405)                                             |
+[2022-07-08 02:54:09,331] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Bear (TVDb: 403294)                                             |
+[2022-07-08 02:54:09,697] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | RuPaul's Drag Race All Stars (TVDb: 263380)                         |
+[2022-07-08 02:54:10,064] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Real Housewives of Beverly Hills (TVDb: 196741)                 |
+[2022-07-08 02:54:10,397] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Chi (TVDb: 336602)                                              |
+[2022-07-08 02:54:10,723] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | All Rise (TVDb: 363841)                                             |
+[2022-07-08 02:54:11,031] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Baymax! (TVDb: 393207)                                              |
+[2022-07-08 02:54:11,264] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Loot (TVDb: 417559)                                                 |
+[2022-07-08 02:54:11,522] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Secret of Skinwalker Ranch (TVDb: 378178)                       |
+[2022-07-08 02:54:11,814] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | MasterChef (US) (TVDb: 167751)                                      |
+[2022-07-08 02:54:12,081] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Weeds (TVDb: 74845)                                                 |
+[2022-07-08 02:54:12,408] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Last Week Tonight with John Oliver (TVDb: 278518)                   |
+[2022-07-08 02:54:12,841] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Love Island (TVDb: 296669)                                          |
+[2022-07-08 02:54:13,208] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Moon Knight (TVDb: 368611)                                          |
+[2022-07-08 02:54:13,530] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Gold Rush: Dave Turin's Lost Mine (TVDb: 360432)                    |
+[2022-07-08 02:54:13,808] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Top Gear (TVDb: 74608)                                              |
+[2022-07-08 02:54:14,064] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Better Call Saul (TVDb: 273181)                                     |
+[2022-07-08 02:54:14,452] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Roswell, New Mexico (TVDb: 351282)                                  |
+[2022-07-08 02:54:14,808] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Peaky Blinders (TVDb: 270915)                                       |
+[2022-07-08 02:54:15,089] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Marvel Studios: Legends (TVDb: 393438)                              |
+[2022-07-08 02:54:15,389] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Undeclared War (TVDb: 401831)                                   |
+[2022-07-08 02:54:15,774] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Gold Rush: Parker's Trail (TVDb: 379221)                            |
+[2022-07-08 02:54:16,041] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | 90 Day Fiancé (TVDb: 277092)                                        |
+[2022-07-08 02:54:16,289] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Game of Thrones (TVDb: 121361)                                      |
+[2022-07-08 02:54:17,757] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Virtues Of Harmony II (TVDb: 81377)                                 |
+[2022-07-08 02:54:18,072] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Halo (TVDb: 366524)                                                 |
+[2022-07-08 02:54:18,355] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Physical (TVDb: 396346)                                             |
+[2022-07-08 02:54:18,675] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Deadliest Catch (TVDb: 78957)                                       |
+[2022-07-08 02:54:19,030] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Becoming Elizabeth (TVDb: 373873)                                   |
+[2022-07-08 02:54:19,322] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Real Housewives Ultimate Girls Trip (TVDb: 409671)              |
+[2022-07-08 02:54:19,608] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Jersey Shore Family Vacation (TVDb: 338539)                         |
+[2022-07-08 02:54:19,855] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Riverdale (TVDb: 311954)                                            |
+[2022-07-08 02:54:22,190] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Bleach (TVDb: 74796)                                                |
+[2022-07-08 02:54:22,641] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Rising of the Shield Hero (TVDb: 353712)                        |
+[2022-07-08 02:54:23,285] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | SPY x FAMILY (TVDb: 405920)                                         |
+[2022-07-08 02:54:23,741] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | One Piece (TVDb: 81797)                                             |
+[2022-07-08 02:54:24,163] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | In the Dark (2019) (TVDb: 347645)                                   |
+[2022-07-08 02:54:24,663] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Ozark (TVDb: 329089)                                                |
+[2022-07-08 02:54:27,848] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | NOVA (TVDb: 76119)                                                  |
+[2022-07-08 02:54:28,130] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Challenge: All Stars (TVDb: 399219)                             |
+[2022-07-08 02:54:28,413] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Breaking Bad (TVDb: 81189)                                          |
+[2022-07-08 02:54:28,654] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Severance (TVDb: 371980)                                            |
+[2022-07-08 02:54:29,146] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Love, Death & Robots (TVDb: 357888)                                 |
+[2022-07-08 02:54:29,454] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Dynasty (2017) (TVDb: 328749)                                       |
+[2022-07-08 02:54:29,821] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | So You Think You Can Dance (TVDb: 78956)                            |
+[2022-07-08 02:54:30,137] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Naked and Afraid XL (TVDb: 297369)                                  |
+[2022-07-08 02:54:30,387] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Below Deck Sailing Yacht (TVDb: 374012)                             |
+[2022-07-08 02:54:30,663] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Lazarus Project (TVDb: 400440)                                  |
+[2022-07-08 02:54:30,954] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Barry (TVDb: 333072)                                                |
+[2022-07-08 02:54:31,319] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Impractical Jokers (TVDb: 254243)                                   |
+[2022-07-08 02:54:31,652] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Tom Swift (TVDb: 409361)                                            |
+[2022-07-08 02:54:32,012] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Sherwood (2022) (TVDb: 407498)                                      |
+[2022-07-08 02:54:32,308] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Summer I Turned Pretty (TVDb: 396505)                           |
+[2022-07-08 02:54:32,571] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Overlord (TVDb: 294002)                                             |
+[2022-07-08 02:54:32,930] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Walking Dead (TVDb: 153021)                                     |
+[2022-07-08 02:54:33,208] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | MasterChef Australia (TVDb: 92091)                                  |
+[2022-07-08 02:54:33,508] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Modern Family (TVDb: 95011)                                         |
+[2022-07-08 02:54:33,830] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Hunter x Hunter (2011) (TVDb: 252322)                               |
+[2022-07-08 02:54:34,263] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Catfish: The TV Show (TVDb: 262754)                                 |
+[2022-07-08 02:54:34,530] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Money Heist: Korea - Joint Economic Area (TVDb: 401314)             |
+[2022-07-08 02:54:34,945] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Lincoln Lawyer (TVDb: 399909)                                   |
+[2022-07-08 02:54:35,230] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Loki (TVDb: 362472)                                                 |
+[2022-07-08 02:54:35,487] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Flight Attendant (TVDb: 366625)                                 |
+[2022-07-08 02:54:35,754] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Book of Boba Fett (TVDb: 393589)                                |
+[2022-07-08 02:54:36,187] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Time Traveler's Wife (TVDb: 397536)                             |
+[2022-07-08 02:54:36,520] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | WandaVision (TVDb: 362392)                                          |
+[2022-07-08 02:54:36,879] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Upshaws (TVDb: 398813)                                          |
+[2022-07-08 02:54:37,208] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Blacklist (TVDb: 266189)                                        |
+[2022-07-08 02:54:37,520] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Mayans M.C. (TVDb: 349659)                                          |
+[2022-07-08 02:54:39,313] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Breeders (TVDb: 363777)                                             |
+[2022-07-08 02:54:39,620] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Walker (TVDb: 371768)                                               |
+[2022-07-08 02:54:40,012] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Witcher (TVDb: 362696)                                          |
+[2022-07-08 02:54:41,664] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Tyler Perry’s Sistas (TVDb: 367659)                                 |
+[2022-07-08 02:54:42,008] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Big Bang Theory (TVDb: 80379)                                   |
+[2022-07-08 02:54:42,253] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Grey's Anatomy (TVDb: 73762)                                        |
+[2022-07-08 02:54:42,520] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | Squid Game (TVDb: 383275)                                           |
+[2022-07-08 02:54:42,786] [builder.py:2232]           [INFO]     | Trakt Watched Collection | ? | The Mandalorian (TVDb: 361753)                                      |
+[2022-07-08 02:54:42,787] [builder.py:2237]           [INFO]     |                                                                                                    |
+[2022-07-08 02:54:42,787] [builder.py:2238]           [INFO]     | 100 Shows Missing                                                                                  |
+[2022-07-08 02:54:42,788] [plex_meta_manager.py:593]  [INFO]     |                                                                                                    |
+[2022-07-08 02:54:42,788] [plex_meta_manager.py:594]  [INFO]     | Collection Minimum: 3 not met for Trakt Watched Collection                                         |
+[2022-07-08 02:54:42,788] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 02:54:42,789] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 02:54:42,789] [plex_meta_manager.py:675]  [INFO]     |                                 Finished Trakt Watched Collection                                  |
+[2022-07-08 02:54:42,789] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:47                                    |
+[2022-07-08 02:54:42,790] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

@@ -1,0 +1,43 @@
+[2022-07-08 01:47:48,479] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 01:47:48,480] [builder.py:185]            [INFO]     |                                 Best of 2010s Collection in Movies                                 |
+[2022-07-08 01:47:48,480] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 01:47:48,480] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 01:47:48,481] [builder.py:191]            [INFO]     |=============================== Validating Best of 2010s Attributes ================================|
+[2022-07-08 01:47:48,481] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:47:48,481] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 01:47:48,482] [meta.py:103]               [DEBUG]    | Value: [{'value': ['2010'], 'decade': ['2010'], 'key_name': '2010s', 'key': '2010', 'name': 'decade_dynamic'}, {'value': ['2010'], 'decade': ['2010'], 'key_name': '2010s', 'key': '2010', 'name': 'shared'}] |
+[2022-07-08 01:47:48,484] [builder.py:1675]           [INFO]     |                                                                                                    |
+[2022-07-08 01:47:48,484] [builder.py:1676]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-07-08 01:47:48,484] [builder.py:1682]           [DEBUG]    | Value: {'sort_by': 'critic_rating.desc', 'any': {'decade': ['2010']}, 'limit': 100}                |
+[2022-07-08 01:47:48,485] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:47:48,485] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-07-08 01:47:48,486] [builder.py:605]            [DEBUG]    | Value: Decade                                                                                      |
+[2022-07-08 01:47:48,486] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:47:48,486] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 01:47:48,486] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/decade/best/2010.jpg |
+[2022-07-08 01:47:48,798] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:47:48,798] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 01:47:48,799] [builder.py:605]            [DEBUG]    | Value: !12_Best of 2010s                                                                           |
+[2022-07-08 01:47:49,507] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 01:47:49,508] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 01:47:49,508] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 01:47:49,508] [plex_meta_manager.py:541]  [INFO]     |================================= Running Best of 2010s Collection =================================|
+[2022-07-08 01:47:49,509] [plex_meta_manager.py:547]  [INFO]     |                                                                                                    |
+[2022-07-08 01:47:49,509] [plex_meta_manager.py:548]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: critic_rating.desc
+                                                                 | Limit: 100
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Decade is 2010
+[2022-07-08 01:47:50,215] [builder.py:2383]           [INFO]     | 
+[2022-07-08 01:47:50,216] [builder.py:2384]           [INFO]     |=========================== Updating Details of Best of 2010s Collection ===========================|
+[2022-07-08 01:47:50,216] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-07-08 01:47:50,237] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-07-08 01:47:50,238] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-07-08 01:47:50,238] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/decade/best/2010.jpg |
+[2022-07-08 01:47:50,240] [library.py:155]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-07-08 01:47:50,936] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 01:47:50,936] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 01:47:50,937] [plex_meta_manager.py:675]  [INFO]     |                                 Finished Best of 2010s Collection                                  |
+[2022-07-08 01:47:50,937] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-07-08 01:47:50,937] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

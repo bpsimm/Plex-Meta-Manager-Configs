@@ -1,0 +1,210 @@
+[2022-07-08 01:56:58,494] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 01:56:58,495] [builder.py:185]            [INFO]     |                                TMDb Top Rated Collection in Movies                                 |
+[2022-07-08 01:56:58,495] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 01:56:58,496] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 01:56:58,496] [builder.py:191]            [INFO]     |=============================== Validating TMDb Top Rated Attributes ===============================|
+[2022-07-08 01:56:58,497] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:56:58,497] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 01:56:58,497] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'top')]), ordereddict([('name', 'customsync')]), ordereddict([('name', 'chart_shared'), ('key', 'top')])] |
+[2022-07-08 01:56:58,503] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:56:58,503] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-07-08 01:56:58,503] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-07-08 01:56:58,504] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:56:58,504] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-07-08 01:56:58,504] [builder.py:584]            [DEBUG]    | Value: custom                                                                                      |
+[2022-07-08 01:56:58,505] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:56:58,505] [builder.py:604]            [DEBUG]    | Validating Method: tmdb_top_rated                                                                  |
+[2022-07-08 01:56:58,505] [builder.py:605]            [DEBUG]    | Value: 100                                                                                         |
+[2022-07-08 01:56:58,506] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:56:58,506] [builder.py:604]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-07-08 01:56:58,506] [builder.py:605]            [DEBUG]    | Value: A collection of the top rated movies according to TMDb.                                     |
+[2022-07-08 01:56:58,506] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:56:58,507] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 01:56:58,507] [builder.py:605]            [DEBUG]    | Value: !01_TMDb Top Rated                                                                          |
+[2022-07-08 01:56:58,507] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:56:58,508] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 01:56:58,508] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Top%20Rated.jpg |
+[2022-07-08 01:57:00,615] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 01:57:00,616] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 01:57:00,616] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 01:57:00,617] [plex_meta_manager.py:541]  [INFO]     |================================ Running TMDb Top Rated Collection =================================|
+[2022-07-08 01:57:00,617] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-07-08 01:57:00,617] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-07-08 01:57:00,618] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-07-08 01:57:00,618] [plex_meta_manager.py:558]  [DEBUG]    | Builder: tmdb_top_rated: 100                                                                       |
+[2022-07-08 01:57:00,618] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-07-08 01:57:02,176] [tmdb.py:344]               [INFO]     | Processing TMDb Top Rated: 100 Movies                                                              |
+[2022-07-08 01:57:02,176] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-07-08 01:57:02,177] [builder.py:1508]           [DEBUG]    | 100 IDs Found: [(278, 'tmdb'), (19404, 'tmdb'), (238, 'tmdb'), (424, 'tmdb'), (240, 'tmdb'), (667257, 'tmdb'), (129, 'tmdb'), (372754, 'tmdb'), (372058, 'tmdb'), (696374, 'tmdb'), (496243, 'tmdb'), (389, 'tmdb'), (724089, 'tmdb'), (730154, 'tmdb'), (497, 'tmdb'), (533514, 'tmdb'), (155, 'tmdb'), (761053, 'tmdb'), (680, 'tmdb'), (429, 'tmdb'), (122, 'tmdb'), (13, 'tmdb'), (11216, 'tmdb'), (346, 'tmdb'), (769, 'tmdb'), (637, 'tmdb'), (652837, 'tmdb'), (311, 'tmdb'), (14537, 'tmdb'), (539, 'tmdb'), (12477, 'tmdb'), (40096, 'tmdb'), (510, 'tmdb'), (550, 'tmdb'), (324857, 'tmdb'), (598, 'tmdb'), (378064, 'tmdb'), (283566, 'tmdb'), (255709, 'tmdb'), (4935, 'tmdb'), (92321, 'tmdb'), (18491, 'tmdb'), (1891, 'tmdb'), (599, 'tmdb'), (120, 'tmdb'), (441130, 'tmdb'), (423, 'tmdb'), (361743, 'tmdb'), (157336, 'tmdb'), (244786, 'tmdb'), (121, 'tmdb'), (73, 'tmdb'), (635302, 'tmdb'), (704264, 'tmdb'), (3782, 'tmdb'), (567, 'tmdb'), (27205, 'tmdb'), (12493, 'tmdb'), (901, 'tmdb'), (807, 'tmdb'), (914, 'tmdb'), (128, 'tmdb'), (644479, 'tmdb'), (632632, 'tmdb'), (274, 'tmdb'), (25237, 'tmdb'), (545611, 'tmdb'), (630566, 'tmdb'), (207, 'tmdb'), (3082, 'tmdb'), (527641, 'tmdb'), (101, 'tmdb'), (592350, 'tmdb'), (556574, 'tmdb'), (335, 'tmdb'), (618344, 'tmdb'), (16672, 'tmdb'), (105, 'tmdb'), (975, 'tmdb'), (447362, 'tmdb'), (42269, 'tmdb'), (18148, 'tmdb'), (575813, 'tmdb'), (28, 'tmdb'), (299534, 'tmdb'), (10494, 'tmdb'), (10376, 'tmdb'), (572154, 'tmdb'), (637920, 'tmdb'), (265177, 'tmdb'), (791373, 'tmdb'), (537061, 'tmdb'), (522924, 'tmdb'), (670, 'tmdb'), (508965, 'tmdb'), (299536, 'tmdb'), (290098, 'tmdb'), (77338, 'tmdb'), (532067, 'tmdb'), (476292, 'tmdb')] |
+[2022-07-08 01:57:02,178] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-07-08 01:57:02,197] [builder.py:2009]           [INFO]     |                                                                                                    |
+[2022-07-08 01:57:02,198] [builder.py:2010]           [INFO]     |=============================== Adding to TMDb Top Rated Collection ================================|
+[2022-07-08 01:57:02,198] [builder.py:2011]           [INFO]     |                                                                                                    |
+[2022-07-08 01:57:02,199] [builder.py:2025]           [INFO]     |  1/46 | TMDb Top Rated Collection | = | The Shawshank Redemption (1994)                            |
+[2022-07-08 01:57:02,200] [builder.py:2025]           [INFO]     |  2/46 | TMDb Top Rated Collection | = | The Godfather (1972)                                       |
+[2022-07-08 01:57:02,202] [builder.py:2025]           [INFO]     |  3/46 | TMDb Top Rated Collection | = | Schindler's List (1993)                                    |
+[2022-07-08 01:57:02,203] [builder.py:2025]           [INFO]     |  4/46 | TMDb Top Rated Collection | = | The Godfather: Part II (1974)                              |
+[2022-07-08 01:57:02,204] [builder.py:2025]           [INFO]     |  5/46 | TMDb Top Rated Collection | = | 千と千尋の神隠し (2001)                                            |
+[2022-07-08 01:57:02,206] [builder.py:2025]           [INFO]     |  6/46 | TMDb Top Rated Collection | = | 12 Angry Men (1957)                                        |
+[2022-07-08 01:57:02,207] [builder.py:2025]           [INFO]     |  7/46 | TMDb Top Rated Collection | = | The Green Mile (1999)                                      |
+[2022-07-08 01:57:02,208] [builder.py:2025]           [INFO]     |  8/46 | TMDb Top Rated Collection | = | The Dark Knight (2008)                                     |
+[2022-07-08 01:57:02,209] [builder.py:2025]           [INFO]     |  9/46 | TMDb Top Rated Collection | = | Pulp Fiction (1994)                                        |
+[2022-07-08 01:57:02,211] [builder.py:2025]           [INFO]     | 10/46 | TMDb Top Rated Collection | = | Il buono, il brutto, il cattivo (1966)                     |
+[2022-07-08 01:57:02,212] [builder.py:2025]           [INFO]     | 11/46 | TMDb Top Rated Collection | = | The Lord of the Rings: The Return of the King (2003)       |
+[2022-07-08 01:57:02,214] [builder.py:2025]           [INFO]     | 12/46 | TMDb Top Rated Collection | = | Forrest Gump (1994)                                        |
+[2022-07-08 01:57:02,216] [builder.py:2025]           [INFO]     | 13/46 | TMDb Top Rated Collection | = | Nuovo Cinema Paradiso (1988)                               |
+[2022-07-08 01:57:02,217] [builder.py:2025]           [INFO]     | 14/46 | TMDb Top Rated Collection | = | 七人の侍 (1954)                                                |
+[2022-07-08 01:57:02,219] [builder.py:2025]           [INFO]     | 15/46 | TMDb Top Rated Collection | = | Goodfellas (1990)                                          |
+[2022-07-08 01:57:02,220] [builder.py:2025]           [INFO]     | 16/46 | TMDb Top Rated Collection | = | La vita è bella (1997)                                     |
+[2022-07-08 01:57:02,221] [builder.py:2025]           [INFO]     | 17/46 | TMDb Top Rated Collection | = | Once Upon a Time in America (1984)                         |
+[2022-07-08 01:57:02,222] [builder.py:2025]           [INFO]     | 18/46 | TMDb Top Rated Collection | = | Psycho (1960)                                              |
+[2022-07-08 01:57:02,223] [builder.py:2025]           [INFO]     | 19/46 | TMDb Top Rated Collection | = | 火垂るの墓 (1988)                                               |
+[2022-07-08 01:57:02,224] [builder.py:2025]           [INFO]     | 20/46 | TMDb Top Rated Collection | = | One Flew Over the Cuckoo's Nest (1975)                     |
+[2022-07-08 01:57:02,226] [builder.py:2025]           [INFO]     | 21/46 | TMDb Top Rated Collection | = | Fight Club (1999)                                          |
+[2022-07-08 01:57:02,228] [builder.py:2025]           [INFO]     | 22/46 | TMDb Top Rated Collection | = | Spider-Man: Into the Spider-Verse (2018)                   |
+[2022-07-08 01:57:02,229] [builder.py:2025]           [INFO]     | 23/46 | TMDb Top Rated Collection | = | Cidade de Deus (2002)                                      |
+[2022-07-08 01:57:02,231] [builder.py:2025]           [INFO]     | 24/46 | TMDb Top Rated Collection | = | ハウルの動く城 (2004)                                             |
+[2022-07-08 01:57:02,232] [builder.py:2025]           [INFO]     | 25/46 | TMDb Top Rated Collection | = | Star Wars: Episode V - The Empire Strikes Back (1980)      |
+[2022-07-08 01:57:02,234] [builder.py:2025]           [INFO]     | 26/46 | TMDb Top Rated Collection | = | Sunset Blvd. (1950)                                        |
+[2022-07-08 01:57:02,235] [builder.py:2025]           [INFO]     | 27/46 | TMDb Top Rated Collection | = | The Lord of the Rings: The Fellowship of the Ring (2001)   |
+[2022-07-08 01:57:02,237] [builder.py:2025]           [INFO]     | 28/46 | TMDb Top Rated Collection | = | The Pianist (2002)                                         |
+[2022-07-08 01:57:02,238] [builder.py:2025]           [INFO]     | 29/46 | TMDb Top Rated Collection | = | Whiplash (2014)                                            |
+[2022-07-08 01:57:02,240] [builder.py:2025]           [INFO]     | 30/46 | TMDb Top Rated Collection | = | The Lord of the Rings: The Two Towers (2002)               |
+[2022-07-08 01:57:02,241] [builder.py:2025]           [INFO]     | 31/46 | TMDb Top Rated Collection | = | American History X (1998)                                  |
+[2022-07-08 01:57:02,243] [builder.py:2025]           [INFO]     | 32/46 | TMDb Top Rated Collection | = | 生きる (1952)                                                 |
+[2022-07-08 01:57:02,244] [builder.py:2025]           [INFO]     | 33/46 | TMDb Top Rated Collection | = | Rear Window (1954)                                         |
+[2022-07-08 01:57:02,245] [builder.py:2025]           [INFO]     | 34/46 | TMDb Top Rated Collection | = | City Lights (1931)                                         |
+[2022-07-08 01:57:02,247] [builder.py:2025]           [INFO]     | 35/46 | TMDb Top Rated Collection | = | Se7en (1995)                                               |
+[2022-07-08 01:57:02,248] [builder.py:2025]           [INFO]     | 36/46 | TMDb Top Rated Collection | = | The Great Dictator (1940)                                  |
+[2022-07-08 01:57:02,249] [builder.py:2025]           [INFO]     | 37/46 | TMDb Top Rated Collection | = | もののけ姫 (1997)                                               |
+[2022-07-08 01:57:02,251] [builder.py:2025]           [INFO]     | 38/46 | TMDb Top Rated Collection | = | The Silence of the Lambs (1991)                            |
+[2022-07-08 01:57:02,252] [builder.py:2025]           [INFO]     | 39/46 | TMDb Top Rated Collection | = | Modern Times (1936)                                        |
+[2022-07-08 01:57:02,254] [builder.py:2025]           [INFO]     | 40/46 | TMDb Top Rated Collection | = | Léon: The Professional (1994)                              |
+[2022-07-08 01:57:02,255] [builder.py:2025]           [INFO]     | 41/46 | TMDb Top Rated Collection | = | C'era una volta il West (1968)                             |
+[2022-07-08 01:57:02,256] [builder.py:2025]           [INFO]     | 42/46 | TMDb Top Rated Collection | = | Back to the Future (1985)                                  |
+[2022-07-08 01:57:02,257] [builder.py:2025]           [INFO]     | 43/46 | TMDb Top Rated Collection | = | Paths of Glory (1957)                                      |
+[2022-07-08 01:57:02,258] [builder.py:2025]           [INFO]     | 44/46 | TMDb Top Rated Collection | = | Apocalypse Now (1979)                                      |
+[2022-07-08 01:57:02,261] [builder.py:2025]           [INFO]     | 45/46 | TMDb Top Rated Collection | = | パーフェクトブルー (1997)                                           |
+[2022-07-08 01:57:02,263] [builder.py:2025]           [INFO]     | 46/46 | TMDb Top Rated Collection | = | 올드보이 (2003)                                                |
+[2022-07-08 01:57:02,264] [builder.py:2045]           [INFO]     |                                                                                                    |
+[2022-07-08 01:57:02,265] [builder.py:2046]           [INFO]     | 46 Movies Processed                                                                                |
+[2022-07-08 01:57:02,266] [builder.py:2172]           [INFO]     |                                                                                                    |
+[2022-07-08 01:57:02,267] [builder.py:2173]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-07-08 01:57:02,267] [builder.py:2174]           [INFO]     |                                                                                                    |
+[2022-07-08 01:57:02,544] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Dilwale Dulhania Le Jayenge (1995) (TMDb: 19404)                   |
+[2022-07-08 01:57:02,766] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Impossible Things (2021) (TMDb: 667257)                            |
+[2022-07-08 01:57:03,013] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Dou kyu sei – Classmates (2016) (TMDb: 372754)                     |
+[2022-07-08 01:57:03,018] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Your Name. (2016) (TMDb: 372058)                                   |
+[2022-07-08 01:57:03,222] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Gabriel's Inferno (2020) (TMDb: 696374)                            |
+[2022-07-08 01:57:03,500] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Parasite (2019) (TMDb: 496243)                                     |
+[2022-07-08 01:57:03,744] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Gabriel's Inferno: Part II (2020) (TMDb: 724089)                   |
+[2022-07-08 01:57:04,011] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Your Eyes Tell (2020) (TMDb: 730154)                               |
+[2022-07-08 01:57:04,189] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Violet Evergarden: The Movie (2020) (TMDb: 533514)                 |
+[2022-07-08 01:57:04,477] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Gabriel's Inferno: Part III (2020) (TMDb: 761053)                  |
+[2022-07-08 01:57:04,689] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Josee, the Tiger and the Fish (2020) (TMDb: 652837)                |
+[2022-07-08 01:57:04,878] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Harakiri (1962) (TMDb: 14537)                                      |
+[2022-07-08 01:57:06,167] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | A Dog's Will (2000) (TMDb: 40096)                                  |
+[2022-07-08 01:57:06,400] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | A Silent Voice: The Movie (2016) (TMDb: 378064)                    |
+[2022-07-08 01:57:06,655] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Evangelion: 3.0+1.0 Thrice Upon a Time (2021) (TMDb: 283566)       |
+[2022-07-08 01:57:06,879] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Hope (2013) (TMDb: 255709)                                         |
+[2022-07-08 01:57:07,138] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Hotarubi no Mori e (2011) (TMDb: 92321)                            |
+[2022-07-08 01:57:07,438] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Neon Genesis Evangelion: The End of Evangelion (1997) (TMDb: 18491) |
+[2022-07-08 01:57:07,633] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Wolfwalkers (2020) (TMDb: 441130)                                  |
+[2022-07-08 01:57:07,922] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Top Gun: Maverick (2022) (TMDb: 361743)                            |
+[2022-07-08 01:57:08,166] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Interstellar (2014) (TMDb: 157336)                                 |
+[2022-07-08 01:57:08,413] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train (2020) (TMDb: 635302) |
+[2022-07-08 01:57:08,611] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Primal: Tales of Savagery (2019) (TMDb: 704264)                    |
+[2022-07-08 01:57:08,844] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Inception (2010) (TMDb: 27205)                                     |
+[2022-07-08 01:57:09,100] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | High and Low (1963) (TMDb: 12493)                                  |
+[2022-07-08 01:57:10,122] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Dedicated to my ex (2019) (TMDb: 644479)                           |
+[2022-07-08 01:57:10,397] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Given (2020) (TMDb: 632632)                                        |
+[2022-07-08 01:57:10,637] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Come and See (1985) (TMDb: 25237)                                  |
+[2022-07-08 01:57:10,866] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Everything Everywhere All at Once (2022) (TMDb: 545611)            |
+[2022-07-08 01:57:11,133] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Clouds (2020) (TMDb: 630566)                                       |
+[2022-07-08 01:57:11,333] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Dead Poets Society (1989) (TMDb: 207)                              |
+[2022-07-08 01:57:11,579] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Five Feet Apart (2019) (TMDb: 527641)                              |
+[2022-07-08 01:57:11,789] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | My Hero Academia: Heroes Rising (2019) (TMDb: 592350)              |
+[2022-07-08 01:57:11,989] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Hamilton (2020) (TMDb: 556574)                                     |
+[2022-07-08 01:57:12,279] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Justice League Dark: Apokolips War (2020) (TMDb: 618344)           |
+[2022-07-08 01:57:12,588] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Woman in the Dunes (1964) (TMDb: 16672)                            |
+[2022-07-08 01:57:12,755] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Life in a Year (2020) (TMDb: 447362)                               |
+[2022-07-08 01:57:13,004] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | We All Loved Each Other So Much (1974) (TMDb: 42269)               |
+[2022-07-08 01:57:13,200] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Tokyo Story (1953) (TMDb: 18148)                                   |
+[2022-07-08 01:57:13,455] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Better Days (2019) (TMDb: 575813)                                  |
+[2022-07-08 01:57:13,695] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Avengers: Endgame (2019) (TMDb: 299534)                            |
+[2022-07-08 01:57:14,100] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | The Legend of 1900 (1998) (TMDb: 10376)                            |
+[2022-07-08 01:57:14,477] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Rascal Does Not Dream of a Dreaming Girl (2019) (TMDb: 572154)     |
+[2022-07-08 01:57:14,700] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Miracle in Cell No. 7 (2019) (TMDb: 637920)                        |
+[2022-07-08 01:57:14,977] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Mommy (2014) (TMDb: 265177)                                        |
+[2022-07-08 01:57:15,211] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Zack Snyder's Justice League (2021) (TMDb: 791373)                 |
+[2022-07-08 01:57:15,455] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Steven Universe: The Movie (2019) (TMDb: 537061)                   |
+[2022-07-08 01:57:15,911] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | The Art of Racing in the Rain (2019) (TMDb: 522924)                |
+[2022-07-08 01:57:16,179] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Klaus (2019) (TMDb: 508965)                                        |
+[2022-07-08 01:57:16,422] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Avengers: Infinity War (2018) (TMDb: 299536)                       |
+[2022-07-08 01:57:16,622] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | The Handmaiden (2016) (TMDb: 290098)                               |
+[2022-07-08 01:57:16,855] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | The Intouchables (2011) (TMDb: 77338)                              |
+[2022-07-08 01:57:17,055] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | KonoSuba: God's Blessing on this Wonderful World! Legend of Crimson (2019) (TMDb: 532067) |
+[2022-07-08 01:57:17,411] [builder.py:2187]           [INFO]     | TMDb Top Rated Collection | ? | Maquia: When the Promised Flower Blooms (2018) (TMDb: 476292)      |
+[2022-07-08 01:57:17,411] [builder.py:2192]           [INFO]     |                                                                                                    |
+[2022-07-08 01:57:17,412] [builder.py:2193]           [INFO]     | 54 Movies Missing                                                                                  |
+[2022-07-08 01:57:17,432] [builder.py:2383]           [INFO]     |                                                                                                    |
+[2022-07-08 01:57:17,432] [builder.py:2384]           [INFO]     |========================== Updating Details of TMDb Top Rated Collection ===========================|
+[2022-07-08 01:57:17,433] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-07-08 01:57:17,433] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-07-08 01:57:17,433] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-07-08 01:57:17,434] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Top%20Rated.jpg |
+[2022-07-08 01:57:17,436] [library.py:155]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-07-08 01:57:18,516] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-07-08 01:57:18,516] [builder.py:2530]           [INFO]     |================================ Sorting TMDb Top Rated Collection =================================|
+[2022-07-08 01:57:18,517] [builder.py:2531]           [INFO]     |                                                                                                    |
+[2022-07-08 01:57:18,517] [builder.py:2547]           [INFO]     | Moving The Shawshank Redemption (1994) to the beginning                                            |
+[2022-07-08 01:57:18,780] [builder.py:2547]           [INFO]     | Moving The Godfather (1972) after The Shawshank Redemption (1994)                                  |
+[2022-07-08 01:57:18,979] [builder.py:2547]           [INFO]     | Moving Schindler's List (1993) after The Godfather (1972)                                          |
+[2022-07-08 01:57:19,176] [builder.py:2547]           [INFO]     | Moving The Godfather: Part II (1974) after Schindler's List (1993)                                 |
+[2022-07-08 01:57:19,372] [builder.py:2547]           [INFO]     | Moving 千と千尋の神隠し (2001) after The Godfather: Part II (1974)                                         |
+[2022-07-08 01:57:19,569] [builder.py:2547]           [INFO]     | Moving 12 Angry Men (1957) after 千と千尋の神隠し (2001)                                                   |
+[2022-07-08 01:57:19,770] [builder.py:2547]           [INFO]     | Moving The Green Mile (1999) after 12 Angry Men (1957)                                             |
+[2022-07-08 01:57:19,967] [builder.py:2547]           [INFO]     | Moving The Dark Knight (2008) after The Green Mile (1999)                                          |
+[2022-07-08 01:57:20,173] [builder.py:2547]           [INFO]     | Moving Pulp Fiction (1994) after The Dark Knight (2008)                                            |
+[2022-07-08 01:57:20,377] [builder.py:2547]           [INFO]     | Moving Il buono, il brutto, il cattivo (1966) after Pulp Fiction (1994)                            |
+[2022-07-08 01:57:21,213] [builder.py:2547]           [INFO]     | Moving The Lord of the Rings: The Return of the King (2003) after Il buono, il brutto, il cattivo (1966) |
+[2022-07-08 01:57:21,504] [builder.py:2547]           [INFO]     | Moving Forrest Gump (1994) after The Lord of the Rings: The Return of the King (2003)              |
+[2022-07-08 01:57:21,702] [builder.py:2547]           [INFO]     | Moving Nuovo Cinema Paradiso (1988) after Forrest Gump (1994)                                      |
+[2022-07-08 01:57:21,904] [builder.py:2547]           [INFO]     | Moving 七人の侍 (1954) after Nuovo Cinema Paradiso (1988)                                              |
+[2022-07-08 01:57:22,100] [builder.py:2547]           [INFO]     | Moving Goodfellas (1990) after 七人の侍 (1954)                                                         |
+[2022-07-08 01:57:22,303] [builder.py:2547]           [INFO]     | Moving La vita è bella (1997) after Goodfellas (1990)                                              |
+[2022-07-08 01:57:22,499] [builder.py:2547]           [INFO]     | Moving Once Upon a Time in America (1984) after La vita è bella (1997)                             |
+[2022-07-08 01:57:22,695] [builder.py:2547]           [INFO]     | Moving Psycho (1960) after Once Upon a Time in America (1984)                                      |
+[2022-07-08 01:57:22,897] [builder.py:2547]           [INFO]     | Moving 火垂るの墓 (1988) after Psycho (1960)                                                            |
+[2022-07-08 01:57:23,105] [builder.py:2547]           [INFO]     | Moving One Flew Over the Cuckoo's Nest (1975) after 火垂るの墓 (1988)                                   |
+[2022-07-08 01:57:23,302] [builder.py:2547]           [INFO]     | Moving Fight Club (1999) after One Flew Over the Cuckoo's Nest (1975)                              |
+[2022-07-08 01:57:23,500] [builder.py:2547]           [INFO]     | Moving Spider-Man: Into the Spider-Verse (2018) after Fight Club (1999)                            |
+[2022-07-08 01:57:23,698] [builder.py:2547]           [INFO]     | Moving Cidade de Deus (2002) after Spider-Man: Into the Spider-Verse (2018)                        |
+[2022-07-08 01:57:23,895] [builder.py:2547]           [INFO]     | Moving ハウルの動く城 (2004) after Cidade de Deus (2002)                                                  |
+[2022-07-08 01:57:24,102] [builder.py:2547]           [INFO]     | Moving Star Wars: Episode V - The Empire Strikes Back (1980) after ハウルの動く城 (2004)                  |
+[2022-07-08 01:57:24,299] [builder.py:2547]           [INFO]     | Moving Sunset Blvd. (1950) after Star Wars: Episode V - The Empire Strikes Back (1980)             |
+[2022-07-08 01:57:24,498] [builder.py:2547]           [INFO]     | Moving The Lord of the Rings: The Fellowship of the Ring (2001) after Sunset Blvd. (1950)          |
+[2022-07-08 01:57:24,692] [builder.py:2547]           [INFO]     | Moving The Pianist (2002) after The Lord of the Rings: The Fellowship of the Ring (2001)           |
+[2022-07-08 01:57:24,897] [builder.py:2547]           [INFO]     | Moving Whiplash (2014) after The Pianist (2002)                                                    |
+[2022-07-08 01:57:25,688] [builder.py:2547]           [INFO]     | Moving The Lord of the Rings: The Two Towers (2002) after Whiplash (2014)                          |
+[2022-07-08 01:57:25,926] [builder.py:2547]           [INFO]     | Moving American History X (1998) after The Lord of the Rings: The Two Towers (2002)                |
+[2022-07-08 01:57:26,121] [builder.py:2547]           [INFO]     | Moving 生きる (1952) after American History X (1998)                                                  |
+[2022-07-08 01:57:26,314] [builder.py:2547]           [INFO]     | Moving Rear Window (1954) after 生きる (1952)                                                         |
+[2022-07-08 01:57:26,515] [builder.py:2547]           [INFO]     | Moving City Lights (1931) after Rear Window (1954)                                                 |
+[2022-07-08 01:57:26,711] [builder.py:2547]           [INFO]     | Moving Se7en (1995) after City Lights (1931)                                                       |
+[2022-07-08 01:57:26,906] [builder.py:2547]           [INFO]     | Moving The Great Dictator (1940) after Se7en (1995)                                                |
+[2022-07-08 01:57:27,103] [builder.py:2547]           [INFO]     | Moving もののけ姫 (1997) after The Great Dictator (1940)                                                |
+[2022-07-08 01:57:27,296] [builder.py:2547]           [INFO]     | Moving The Silence of the Lambs (1991) after もののけ姫 (1997)                                          |
+[2022-07-08 01:57:27,492] [builder.py:2547]           [INFO]     | Moving Modern Times (1936) after The Silence of the Lambs (1991)                                   |
+[2022-07-08 01:57:27,690] [builder.py:2547]           [INFO]     | Moving Léon: The Professional (1994) after Modern Times (1936)                                     |
+[2022-07-08 01:57:27,886] [builder.py:2547]           [INFO]     | Moving C'era una volta il West (1968) after Léon: The Professional (1994)                          |
+[2022-07-08 01:57:28,080] [builder.py:2547]           [INFO]     | Moving Back to the Future (1985) after C'era una volta il West (1968)                              |
+[2022-07-08 01:57:28,281] [builder.py:2547]           [INFO]     | Moving Paths of Glory (1957) after Back to the Future (1985)                                       |
+[2022-07-08 01:57:28,484] [builder.py:2547]           [INFO]     | Moving Apocalypse Now (1979) after Paths of Glory (1957)                                           |
+[2022-07-08 01:57:28,681] [builder.py:2547]           [INFO]     | Moving パーフェクトブルー (1997) after Apocalypse Now (1979)                                                |
+[2022-07-08 01:57:28,877] [builder.py:2547]           [INFO]     | Moving 올드보이 (2003) after パーフェクトブルー (1997)                                                          |
+[2022-07-08 01:57:29,073] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 01:57:29,074] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 01:57:29,074] [plex_meta_manager.py:675]  [INFO]     |                                 Finished TMDb Top Rated Collection                                 |
+[2022-07-08 01:57:29,075] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:30                                    |
+[2022-07-08 01:57:29,075] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

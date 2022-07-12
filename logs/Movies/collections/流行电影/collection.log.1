@@ -1,0 +1,165 @@
+[2022-06-24 22:46:47,873] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-24 22:46:47,875] [builder.py:185]            [INFO]     |                                     流行电影 Collection in Movies                                      |
+[2022-06-24 22:46:47,876] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-24 22:46:47,877] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-06-24 22:46:47,878] [builder.py:191]            [INFO]     |==================================== Validating 流行电影 Attributes ====================================|
+[2022-06-24 22:46:47,879] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-06-24 22:46:47,880] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-06-24 22:46:47,880] [meta.py:103]               [DEBUG]    | Value: ordereddict([('name', 'Chart'), ('num', 2)])                                                |
+[2022-06-24 22:46:47,882] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-06-24 22:46:47,883] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-06-24 22:46:47,884] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-06-24 22:46:47,884] [builder.py:509]            [DEBUG]    |                                                                                                    |
+[2022-06-24 22:46:47,885] [builder.py:510]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-06-24 22:46:47,885] [builder.py:515]            [DEBUG]    | Value: critic_rating.desc                                                                          |
+[2022-06-24 22:46:47,908] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-24 22:46:47,908] [builder.py:604]            [DEBUG]    | Validating Method: trakt_trending                                                                  |
+[2022-06-24 22:46:47,908] [builder.py:605]            [DEBUG]    | Value: 50                                                                                          |
+[2022-06-24 22:46:47,909] [builder.py:1399]           [WARNING]  | Collection Warning: trakt_trending will run as trakt_chart                                         |
+[2022-06-24 22:46:47,909] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-24 22:46:47,910] [builder.py:604]            [DEBUG]    | Validating Method: tmdb_trending_daily                                                             |
+[2022-06-24 22:46:47,910] [builder.py:605]            [DEBUG]    | Value: 50                                                                                          |
+[2022-06-24 22:46:47,911] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-24 22:46:47,911] [builder.py:604]            [DEBUG]    | Validating Method: tmdb_trending_weekly                                                            |
+[2022-06-24 22:46:47,911] [builder.py:605]            [DEBUG]    | Value: 50                                                                                          |
+[2022-06-24 22:46:47,912] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-24 22:46:47,912] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-06-24 22:46:47,913] [builder.py:605]            [DEBUG]    | Value: +1_2流行电影                                                                                    |
+[2022-06-24 22:46:48,140] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-06-24 22:46:48,141] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-06-24 22:46:48,141] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-06-24 22:46:48,141] [plex_meta_manager.py:541]  [INFO]     |===================================== Running 流行电影 Collection ======================================|
+[2022-06-24 22:46:48,142] [plex_meta_manager.py:547]  [INFO]     |                                                                                                    |
+[2022-06-24 22:46:48,142] [plex_meta_manager.py:548]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: critic_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is 流行电影
+[2022-06-24 22:46:48,143] [plex_meta_manager.py:553]  [INFO]     | 
+[2022-06-24 22:46:48,144] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: sync
+[2022-06-24 22:46:48,144] [plex_meta_manager.py:557]  [DEBUG]    | 
+[2022-06-24 22:46:48,144] [plex_meta_manager.py:558]  [DEBUG]    | Builder: trakt_chart: {'chart': 'trending', 'limit': 50, 'time_period': None}
+[2022-06-24 22:46:48,144] [plex_meta_manager.py:559]  [INFO]     | 
+[2022-06-24 22:46:48,145] [trakt.py:490]              [INFO]     | Processing Trakt Chart: 50 Trending Movies
+[2022-06-24 22:46:48,416] [builder.py:1507]           [DEBUG]    | 
+[2022-06-24 22:46:48,417] [builder.py:1508]           [DEBUG]    | 50 IDs Found: [(453395, 'tmdb'), (667739, 'tmdb'), (629542, 'tmdb'), (545611, 'tmdb'), (828947, 'tmdb'), (338953, 'tmdb'), (675353, 'tmdb'), (361743, 'tmdb'), (819876, 'tmdb'), (634649, 'tmdb'), (820446, 'tmdb'), (568124, 'tmdb'), (406759, 'tmdb'), (639933, 'tmdb'), (526896, 'tmdb'), (752623, 'tmdb'), (460458, 'tmdb'), (648579, 'tmdb'), (843847, 'tmdb'), (763285, 'tmdb'), (675445, 'tmdb'), (277834, 'tmdb'), (8587, 'tmdb'), (238, 'tmdb'), (351286, 'tmdb'), (414906, 'tmdb'), (330457, 'tmdb'), (335787, 'tmdb'), (420821, 'tmdb'), (705861, 'tmdb'), (807356, 'tmdb'), (880841, 'tmdb'), (284052, 'tmdb'), (1892, 'tmdb'), (12155, 'tmdb'), (370172, 'tmdb'), (524434, 'tmdb'), (744, 'tmdb'), (18239, 'tmdb'), (400155, 'tmdb'), (507086, 'tmdb'), (615469, 'tmdb'), (718789, 'tmdb'), (758330, 'tmdb'), (695962, 'tmdb'), (778855, 'tmdb'), (968438, 'tmdb'), (759054, 'tmdb'), (118340, 'tmdb'), (284053, 'tmdb')]
+[2022-06-24 22:46:48,417] [builder.py:1509]           [DEBUG]    | 
+[2022-06-24 22:46:48,421] [plex_meta_manager.py:557]  [DEBUG]    | 
+[2022-06-24 22:46:48,421] [plex_meta_manager.py:558]  [DEBUG]    | Builder: tmdb_trending_daily: 50
+[2022-06-24 22:46:48,421] [plex_meta_manager.py:559]  [INFO]     | 
+[2022-06-24 22:46:49,299] [tmdb.py:344]               [INFO]     | Processing TMDb Trending Daily: 50 Movies
+[2022-06-24 22:46:49,300] [builder.py:1507]           [DEBUG]    | 
+[2022-06-24 22:46:49,300] [builder.py:1508]           [DEBUG]    | 50 IDs Found: [(453395, 'tmdb'), (667739, 'tmdb'), (819876, 'tmdb'), (615469, 'tmdb'), (968438, 'tmdb'), (807356, 'tmdb'), (338953, 'tmdb'), (828947, 'tmdb'), (759054, 'tmdb'), (361743, 'tmdb'), (718789, 'tmdb'), (616037, 'tmdb'), (648579, 'tmdb'), (545611, 'tmdb'), (526896, 'tmdb'), (634649, 'tmdb'), (507086, 'tmdb'), (629542, 'tmdb'), (284052, 'tmdb'), (756999, 'tmdb'), (614934, 'tmdb'), (414906, 'tmdb'), (675353, 'tmdb'), (746419, 'tmdb'), (843847, 'tmdb'), (335787, 'tmdb'), (820446, 'tmdb'), (639933, 'tmdb'), (814340, 'tmdb'), (817889, 'tmdb'), (758330, 'tmdb'), (438148, 'tmdb'), (752623, 'tmdb'), (744, 'tmdb'), (818397, 'tmdb'), (777831, 'tmdb'), (705861, 'tmdb'), (763285, 'tmdb'), (974961, 'tmdb'), (11, 'tmdb'), (778855, 'tmdb'), (975714, 'tmdb'), (698128, 'tmdb'), (880841, 'tmdb'), (406759, 'tmdb'), (880313, 'tmdb'), (655363, 'tmdb'), (875104, 'tmdb'), (245842, 'tmdb'), (908762, 'tmdb')]
+[2022-06-24 22:46:49,301] [builder.py:1509]           [DEBUG]    | 
+[2022-06-24 22:46:49,304] [plex_meta_manager.py:557]  [DEBUG]    | 
+[2022-06-24 22:46:49,304] [plex_meta_manager.py:558]  [DEBUG]    | Builder: tmdb_trending_weekly: 50
+[2022-06-24 22:46:49,304] [plex_meta_manager.py:559]  [INFO]     | 
+[2022-06-24 22:46:50,117] [tmdb.py:344]               [INFO]     | Processing TMDb Trending Weekly: 50 Movies
+[2022-06-24 22:46:50,118] [builder.py:1507]           [DEBUG]    | 
+[2022-06-24 22:46:50,118] [builder.py:1508]           [DEBUG]    | 50 IDs Found: [(453395, 'tmdb'), (615469, 'tmdb'), (338953, 'tmdb'), (507086, 'tmdb'), (361743, 'tmdb'), (648579, 'tmdb'), (718789, 'tmdb'), (526896, 'tmdb'), (705861, 'tmdb'), (819876, 'tmdb'), (675353, 'tmdb'), (545611, 'tmdb'), (634649, 'tmdb'), (414906, 'tmdb'), (616037, 'tmdb'), (639933, 'tmdb'), (746419, 'tmdb'), (820446, 'tmdb'), (831946, 'tmdb'), (814340, 'tmdb'), (843847, 'tmdb'), (629542, 'tmdb'), (752623, 'tmdb'), (807356, 'tmdb'), (335787, 'tmdb'), (763285, 'tmdb'), (852592, 'tmdb'), (744, 'tmdb'), (880313, 'tmdb'), (809140, 'tmdb'), (975714, 'tmdb'), (875104, 'tmdb'), (778855, 'tmdb'), (968438, 'tmdb'), (420821, 'tmdb'), (667739, 'tmdb'), (758330, 'tmdb'), (284052, 'tmdb'), (614934, 'tmdb'), (961484, 'tmdb'), (756999, 'tmdb'), (818397, 'tmdb'), (982939, 'tmdb'), (846867, 'tmdb'), (979163, 'tmdb'), (406759, 'tmdb'), (763073, 'tmdb'), (438148, 'tmdb'), (299534, 'tmdb'), (610150, 'tmdb')]
+[2022-06-24 22:46:50,119] [builder.py:1509]           [DEBUG]    | 
+[2022-06-24 22:46:50,122] [builder.py:2009]           [INFO]     | 
+[2022-06-24 22:46:50,122] [builder.py:2010]           [INFO]     |==================================== Adding to 流行电影 Collection =====================================|
+[2022-06-24 22:46:50,123] [builder.py:2011]           [INFO]     |                                                                                                    |
+[2022-06-24 22:46:50,245] [builder.py:2025]           [INFO]     | 1/3 | 流行电影 Collection | + | The Godfather (1972)                                                   |
+[2022-06-24 22:46:54,381] [builder.py:2025]           [INFO]     | 2/3 | 流行电影 Collection | + | Star Wars: Episode VI - Return of the Jedi (1983)                      |
+[2022-06-24 22:46:55,684] [builder.py:2025]           [INFO]     | 3/3 | 流行电影 Collection | = | Star Wars (1977)                                                       |
+[2022-06-24 22:46:55,685] [builder.py:2045]           [INFO]     |                                                                                                    |
+[2022-06-24 22:46:55,686] [builder.py:2046]           [INFO]     | 3 Movies Processed                                                                                 |
+[2022-06-24 22:46:55,686] [builder.py:2054]           [INFO]     |                                                                                                    |
+[2022-06-24 22:46:55,687] [builder.py:2055]           [INFO]     |=================================== Removed from 流行电影 Collection ===================================|
+[2022-06-24 22:46:55,688] [builder.py:2056]           [INFO]     |                                                                                                    |
+[2022-06-24 22:46:55,688] [builder.py:2061]           [INFO]     | 1/3 | 流行电影 Collection | - | The Dark Knight (2008)                                                 |
+[2022-06-24 22:46:56,592] [builder.py:2061]           [INFO]     | 2/3 | 流行电影 Collection | - | Pirates of the Caribbean: The Curse of the Black Pearl (2003)          |
+[2022-06-24 22:46:57,403] [builder.py:2061]           [INFO]     | 3/3 | 流行电影 Collection | - | Sing 2 (2021)                                                          |
+[2022-06-24 22:46:58,230] [builder.py:2073]           [INFO]     |                                                                                                    |
+[2022-06-24 22:46:58,231] [builder.py:2074]           [INFO]     | 3 Movie Removed                                                                                    |
+[2022-06-24 22:46:58,231] [builder.py:2172]           [INFO]     |                                                                                                    |
+[2022-06-24 22:46:58,232] [builder.py:2173]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-06-24 22:46:58,232] [builder.py:2174]           [INFO]     |                                                                                                    |
+[2022-06-24 22:47:00,508] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Doctor Strange in the Multiverse of Madness (2022) (TMDb: 453395)            |
+[2022-06-24 22:47:01,974] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | The Man From Toronto (2022) (TMDb: 667739)                                   |
+[2022-06-24 22:47:02,650] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | The Bad Guys (2022) (TMDb: 629542)                                           |
+[2022-06-24 22:47:02,958] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Everything Everywhere All at Once (2022) (TMDb: 545611)                      |
+[2022-06-24 22:47:03,684] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Beavis and Butt-Head Do the Universe (2022) (TMDb: 828947)                   |
+[2022-06-24 22:47:04,962] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Fantastic Beasts: The Secrets of Dumbledore (2022) (TMDb: 338953)            |
+[2022-06-24 22:47:05,184] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Sonic the Hedgehog 2 (2022) (TMDb: 675353)                                   |
+[2022-06-24 22:47:05,441] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Top Gun: Maverick (2022) (TMDb: 361743)                                      |
+[2022-06-24 22:47:05,741] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Crimes of the Future (2022) (TMDb: 819876)                                   |
+[2022-06-24 22:47:05,984] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Spider-Man: No Way Home (2021) (TMDb: 634649)                                |
+[2022-06-24 22:47:06,217] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Downton Abbey: A New Era (2022) (TMDb: 820446)                               |
+[2022-06-24 22:47:08,214] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Encanto (2021) (TMDb: 568124)                                                |
+[2022-06-24 22:47:09,099] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Moonfall (2022) (TMDb: 406759)                                               |
+[2022-06-24 22:47:09,491] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | The Northman (2022) (TMDb: 639933)                                           |
+[2022-06-24 22:47:11,367] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Morbius (2022) (TMDb: 526896)                                                |
+[2022-06-24 22:47:11,617] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | The Lost City (2022) (TMDb: 752623)                                          |
+[2022-06-24 22:47:11,643] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Resident Evil: Welcome to Raccoon City (2021) (TMDb: 460458)                 |
+[2022-06-24 22:47:11,899] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | The Unbearable Weight of Massive Talent (2022) (TMDb: 648579)                |
+[2022-06-24 22:47:14,641] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Jerry & Marge Go Large (2022) (TMDb: 843847)                                 |
+[2022-06-24 22:47:17,274] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Ambulance (2022) (TMDb: 763285)                                              |
+[2022-06-24 22:47:17,539] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | PAW Patrol: The Movie (2021) (TMDb: 675445)                                  |
+[2022-06-24 22:47:17,823] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Moana (2016) (TMDb: 277834)                                                  |
+[2022-06-24 22:47:18,095] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | The Lion King (1994) (TMDb: 8587)                                            |
+[2022-06-24 22:47:18,417] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Jurassic World: Fallen Kingdom (2018) (TMDb: 351286)                         |
+[2022-06-24 22:47:18,981] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | The Batman (2022) (TMDb: 414906)                                             |
+[2022-06-24 22:47:20,323] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Frozen II (2019) (TMDb: 330457)                                              |
+[2022-06-24 22:47:20,590] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Uncharted (2022) (TMDb: 335787)                                              |
+[2022-06-24 22:47:20,831] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Chip 'n Dale: Rescue Rangers (2022) (TMDb: 420821)                           |
+[2022-06-24 22:47:21,073] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Hustle (2022) (TMDb: 705861)                                                 |
+[2022-06-24 22:47:24,198] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Watcher (2022) (TMDb: 807356)                                                |
+[2022-06-24 22:47:25,662] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Abandoned (2022) (TMDb: 880841)                                              |
+[2022-06-24 22:47:25,931] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Doctor Strange (2016) (TMDb: 284052)                                         |
+[2022-06-24 22:47:27,250] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Alice in Wonderland (2010) (TMDb: 12155)                                     |
+[2022-06-24 22:47:27,850] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | No Time to Die (2021) (TMDb: 370172)                                         |
+[2022-06-24 22:47:28,161] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Eternals (2021) (TMDb: 524434)                                               |
+[2022-06-24 22:47:28,662] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Top Gun (1986) (TMDb: 744)                                                   |
+[2022-06-24 22:47:31,506] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | The Twilight Saga: New Moon (2009) (TMDb: 18239)                             |
+[2022-06-24 22:47:32,122] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Hotel Transylvania 3: Summer Vacation (2018) (TMDb: 400155)                  |
+[2022-06-24 22:47:32,350] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Jurassic World Dominion (2022) (TMDb: 507086)                                |
+[2022-06-24 22:47:33,655] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Spiderhead (2022) (TMDb: 615469)                                             |
+[2022-06-24 22:47:33,989] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Lightyear (2022) (TMDb: 718789)                                              |
+[2022-06-24 22:47:34,940] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Good Luck to You, Leo Grande (2022) (TMDb: 758330)                           |
+[2022-06-24 22:47:35,455] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Bhool Bhulaiyaa 2 (2022) (TMDb: 695962)                                      |
+[2022-06-24 22:47:37,752] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Chickenhare and the Hamster of Darkness (2022) (TMDb: 778855)                |
+[2022-06-24 22:47:39,896] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Love & Gelato (2022) (TMDb: 968438)                                          |
+[2022-06-24 22:47:40,773] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Rise (2022) (TMDb: 759054)                                                   |
+[2022-06-24 22:47:41,361] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Guardians of the Galaxy (2014) (TMDb: 118340)                                |
+[2022-06-24 22:47:41,596] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Thor: Ragnarok (2017) (TMDb: 284053)                                         |
+[2022-06-24 22:47:42,906] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Thor: Love and Thunder (2022) (TMDb: 616037)                                 |
+[2022-06-24 22:47:43,171] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | The Black Phone (2022) (TMDb: 756999)                                        |
+[2022-06-24 22:47:46,140] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Elvis (2022) (TMDb: 614934)                                                  |
+[2022-06-24 22:47:47,255] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Father of the Bride (2022) (TMDb: 746419)                                    |
+[2022-06-24 22:47:49,240] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Cha Cha Real Smooth (2022) (TMDb: 814340)                                    |
+[2022-06-24 22:47:50,254] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Doom of Love (2022) (TMDb: 817889)                                           |
+[2022-06-24 22:47:50,506] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Minions: The Rise of Gru (2022) (TMDb: 438148)                               |
+[2022-06-24 22:47:50,837] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Memory (2022) (TMDb: 818397)                                                 |
+[2022-06-24 22:47:53,395] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | 9 Bullets (2022) (TMDb: 777831)                                              |
+[2022-06-24 22:47:54,287] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Murder at Yellowstone City (2022) (TMDb: 974961)                             |
+[2022-06-24 22:47:56,004] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Collision (2022) (TMDb: 975714)                                              |
+[2022-06-24 22:47:56,220] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Dual (2022) (TMDb: 698128)                                                   |
+[2022-06-24 22:47:56,472] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | The Wrath of God (2022) (TMDb: 880313)                                       |
+[2022-06-24 22:47:57,540] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Post Mortem (2021) (TMDb: 655363)                                            |
+[2022-06-24 22:48:00,572] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Ip Man: The Awakening (2022) (TMDb: 875104)                                  |
+[2022-06-24 22:48:01,920] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | The King's Daughter (2022) (TMDb: 245842)                                    |
+[2022-06-24 22:48:02,139] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | My Fake Boyfriend (2022) (TMDb: 908762)                                      |
+[2022-06-24 22:48:02,395] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Interceptor (2022) (TMDb: 831946)                                            |
+[2022-06-24 22:48:02,661] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Centauro (2022) (TMDb: 852592)                                               |
+[2022-06-24 22:48:02,928] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Father Stu (2022) (TMDb: 809140)                                             |
+[2022-06-24 22:48:03,186] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Last Seen Alive (2022) (TMDb: 961484)                                        |
+[2022-06-24 22:48:03,417] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Heart Parade (2022) (TMDb: 982939)                                           |
+[2022-06-24 22:48:04,873] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Mad God (2022) (TMDb: 846867)                                                |
+[2022-06-24 22:48:07,973] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Beyond Infinity: Buzz and the Journey to Lightyear (2022) (TMDb: 979163)     |
+[2022-06-24 22:48:08,194] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Trees of Peace (2021) (TMDb: 763073)                                         |
+[2022-06-24 22:48:08,428] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Avengers: Endgame (2019) (TMDb: 299534)                                      |
+[2022-06-24 22:48:08,694] [builder.py:2187]           [INFO]     | 流行电影 Collection | ? | Dragon Ball Super: Super Hero (2022) (TMDb: 610150)                          |
+[2022-06-24 22:48:08,694] [builder.py:2192]           [INFO]     |                                                                                                    |
+[2022-06-24 22:48:08,695] [builder.py:2193]           [INFO]     | 75 Movies Missing                                                                                  |
+[2022-06-24 22:48:08,730] [builder.py:2383]           [INFO]     |                                                                                                    |
+[2022-06-24 22:48:08,731] [builder.py:2384]           [INFO]     |=============================== Updating Details of 流行电影 Collection ================================|
+[2022-06-24 22:48:08,732] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-06-24 22:48:08,732] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-06-24 22:48:08,805] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-06-24 22:48:08,806] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-06-24 22:48:08,806] [plex_meta_manager.py:675]  [INFO]     |                                      Finished 流行电影 Collection                                      |
+[2022-06-24 22:48:08,807] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:01:20                                    |
+[2022-06-24 22:48:08,807] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

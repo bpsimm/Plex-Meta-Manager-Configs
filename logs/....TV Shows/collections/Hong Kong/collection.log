@@ -1,0 +1,79 @@
+[2022-06-10 20:42:50,462] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 20:42:50,463] [builder.py:185]            [INFO]     |                                Hong Kong Collection in ....TV Shows                                |
+[2022-06-10 20:42:50,463] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 20:42:50,463] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-06-10 20:42:50,464] [builder.py:191]            [INFO]     |================================= Validating Hong Kong Attributes ==================================|
+[2022-06-10 20:42:50,464] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:42:50,465] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-06-10 20:42:50,466] [meta.py:103]               [DEBUG]    | Value: [{'value': ['hk'], 'origin_country': ['hk'], 'key_name': 'Hong Kong', 'key': 'hk', 'name': 'country_tv_dynamic'}, {'value': ['hk'], 'origin_country': ['hk'], 'key_name': 'Hong Kong', 'key': 'hk', 'name': 'shared'}] |
+[2022-06-10 20:42:50,470] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:42:50,470] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-06-10 20:42:50,471] [builder.py:584]            [DEBUG]    | Value: release.desc                                                                                |
+[2022-06-10 20:42:50,471] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:42:50,471] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-06-10 20:42:50,472] [builder.py:605]            [DEBUG]    | Value: TMDb Country Color                                                                          |
+[2022-06-10 20:42:50,472] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:42:50,472] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-06-10 20:42:50,473] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Hong%20Kong.jpg |
+[2022-06-10 20:42:50,822] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:42:50,823] [builder.py:604]            [DEBUG]    | Validating Method: plex_all                                                                        |
+[2022-06-10 20:42:50,824] [builder.py:605]            [DEBUG]    | Value: True                                                                                        |
+[2022-06-10 20:42:50,825] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:42:50,825] [builder.py:604]            [DEBUG]    | Validating Method: filters                                                                         |
+[2022-06-10 20:42:50,826] [builder.py:605]            [DEBUG]    | Value: {'origin_country': ['hk']}                                                                  |
+[2022-06-10 20:42:50,827] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:42:50,828] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-06-10 20:42:50,829] [builder.py:605]            [DEBUG]    | Value: !09_Hong Kong                                                                               |
+[2022-06-10 20:42:50,842] [plex.py:742]               [DEBUG]    |                                                                                                    |
+[2022-06-10 20:42:50,843] [plex.py:745]               [DEBUG]    | Looking for: Hong Kong                                                                             |
+[2022-06-10 20:42:50,843] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-06-10 20:42:50,844] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-06-10 20:42:50,844] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-06-10 20:42:50,845] [plex_meta_manager.py:541]  [INFO]     |=================================== Running Hong Kong Collection ===================================|
+[2022-06-10 20:42:50,845] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-06-10 20:42:50,846] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-06-10 20:42:50,846] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-06-10 20:42:50,847] [plex_meta_manager.py:558]  [DEBUG]    | Builder: plex_all: show                                                                            |
+[2022-06-10 20:42:50,847] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-06-10 20:42:50,847] [plex.py:760]               [INFO]     | Processing Plex All Shows                                                                          |
+[2022-06-10 20:42:50,849] [plex.py:813]               [DEBUG]    |                                                                                                    |
+[2022-06-10 20:42:50,849] [plex.py:814]               [DEBUG]    | 24 Keys Found: [(72569, 'ratingKey'), (214877, 'ratingKey'), (281126, 'ratingKey'), (72510, 'ratingKey'), (31194, 'ratingKey'), (68199, 'ratingKey'), (280803, 'ratingKey'), (72524, 'ratingKey'), (33951, 'ratingKey'), (30191, 'ratingKey'), (279458, 'ratingKey'), (74086, 'ratingKey'), (34088, 'ratingKey'), (74009, 'ratingKey'), (274611, 'ratingKey'), (279438, 'ratingKey'), (279450, 'ratingKey'), (74049, 'ratingKey'), (74031, 'ratingKey'), (67478, 'ratingKey'), (67592, 'ratingKey'), (67611, 'ratingKey'), (279466, 'ratingKey'), (67419, 'ratingKey')] |
+[2022-06-10 20:42:50,850] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-06-10 20:42:50,850] [builder.py:1508]           [DEBUG]    | 24 IDs Found: [(72569, 'ratingKey'), (214877, 'ratingKey'), (281126, 'ratingKey'), (72510, 'ratingKey'), (31194, 'ratingKey'), (68199, 'ratingKey'), (280803, 'ratingKey'), (72524, 'ratingKey'), (33951, 'ratingKey'), (30191, 'ratingKey'), (279458, 'ratingKey'), (74086, 'ratingKey'), (34088, 'ratingKey'), (74009, 'ratingKey'), (274611, 'ratingKey'), (279438, 'ratingKey'), (279450, 'ratingKey'), (74049, 'ratingKey'), (74031, 'ratingKey'), (67478, 'ratingKey'), (67592, 'ratingKey'), (67611, 'ratingKey'), (279466, 'ratingKey'), (67419, 'ratingKey')] |
+[2022-06-10 20:42:50,850] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-06-10 20:42:50,852] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for Best of Phua Chu Kang Pte Ltd                                   |
+[2022-06-10 20:42:53,041] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 信不信由你                                                           |
+[2022-06-10 20:42:53,452] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 娱乐插班生                                                           |
+[2022-06-10 20:42:53,731] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 富貴超人                                                            |
+[2022-06-10 20:42:53,820] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 洪武大案                                                            |
+[2022-06-10 20:42:55,439] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 龍影俠                                                             |
+[2022-06-10 20:42:55,586] [plex_meta_manager.py:563]  [INFO]     |                                                                                                    |
+[2022-06-10 20:42:55,586] [plex_meta_manager.py:567]  [INFO]     | Collection Filter origin_country: ['HK']                                                           |
+[2022-06-10 20:42:55,586] [builder.py:2009]           [INFO]     |                                                                                                    |
+[2022-06-10 20:42:55,587] [builder.py:2010]           [INFO]     |================================== Adding to Hong Kong Collection ==================================|
+[2022-06-10 20:42:55,587] [builder.py:2011]           [INFO]     |                                                                                                    |
+[2022-06-10 20:42:55,588] [builder.py:2025]           [INFO]     | 1/2 | Hong Kong Collection | + | 卡拉屋企                                                              |
+[2022-06-10 20:43:05,833] [builder.py:2025]           [INFO]     | 2/2 | Hong Kong Collection | + | 楊家將                                                               |
+[2022-06-10 20:43:14,284] [builder.py:2045]           [INFO]     |                                                                                                    |
+[2022-06-10 20:43:14,284] [builder.py:2046]           [INFO]     | 2 Shows Processed                                                                                  |
+[2022-06-10 20:43:14,302] [builder.py:2383]           [INFO]     |                                                                                                    |
+[2022-06-10 20:43:14,303] [builder.py:2384]           [INFO]     |============================= Updating Details of Hong Kong Collection =============================|
+[2022-06-10 20:43:14,303] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-06-10 20:43:27,295] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | !09_Hong Kong
+                                                                 | Label | +TMDb Country Color
+[2022-06-10 20:43:28,156] [builder.py:2450]           [INFO]     | Details: have been updated
+[2022-06-10 20:43:28,156] [builder.py:2454]           [INFO]     | 
+[2022-06-10 20:43:28,157] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-06-10 20:43:28,157] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Hong%20Kong.jpg
+[2022-06-10 20:43:29,057] [library.py:153]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Hong%20Kong.jpg
+[2022-06-10 20:43:29,798] [builder.py:2529]           [INFO]     | 
+[2022-06-10 20:43:29,799] [builder.py:2530]           [INFO]     |=================================== Sorting Hong Kong Collection ===================================|
+[2022-06-10 20:43:29,800] [builder.py:2531]           [INFO]     |                                                                                                    |
+[2022-06-10 20:43:29,973] [builder.py:2547]           [INFO]     | Moving 卡拉屋企 to the beginning                                                                       |
+[2022-06-10 20:43:30,476] [builder.py:2547]           [INFO]     | Moving 楊家將 after 卡拉屋企                                                                              |
+[2022-06-10 20:43:30,553] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-06-10 20:43:30,554] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-06-10 20:43:30,554] [plex_meta_manager.py:675]  [INFO]     |                                   Finished Hong Kong Collection                                    |
+[2022-06-10 20:43:30,555] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:40                                    |
+[2022-06-10 20:43:30,555] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

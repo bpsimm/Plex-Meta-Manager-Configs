@@ -1,0 +1,188 @@
+[2022-07-08 02:20:45,113] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:20:45,114] [builder.py:185]            [INFO]     |                                    最佳華語電影一百部 Collection in 亚洲电影                                    |
+[2022-07-08 02:20:45,114] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:20:45,115] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 02:20:45,115] [builder.py:191]            [INFO]     |================================= Validating 最佳華語電影一百部 Attributes ==================================|
+[2022-07-08 02:20:45,116] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:20:45,116] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-07-08 02:20:45,116] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-07-08 02:20:45,117] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:20:45,117] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-07-08 02:20:45,117] [builder.py:584]            [DEBUG]    | Value: custom                                                                                      |
+[2022-07-08 02:20:45,117] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:20:45,118] [builder.py:604]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-07-08 02:20:45,118] [builder.py:605]            [DEBUG]    | Value: https://trakt.tv/users/bpsim/lists/hkfa-s-the-best-100-chinese-motion-pictures              |
+[2022-07-08 02:20:46,162] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:20:46,162] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 02:20:46,163] [builder.py:605]            [DEBUG]    | Value: https://static.careerengine.us/api/aov2/https%3A_%7C__%7C_mmbiz.qpic.cn_%7C_mmbiz_gif_%7C_kpy7ZuXkoOuFTDI2ZBriaoxXmfS3s8nvoL53ClSG8DLZXCP7RxmBEwpOwSzQRmicu3TZtHn3cicXibkuENpkwibicXqQ_%7C_640%3Fwx_fmt%3Dgif.lg.jpeg |
+[2022-07-08 02:20:46,242] [builder.py:791]            [WARNING]  | Collection Warning: No Poster Found at https://static.careerengine.us/api/aov2/https%3A_%7C__%7C_mmbiz.qpic.cn_%7C_mmbiz_gif_%7C_kpy7ZuXkoOuFTDI2ZBriaoxXmfS3s8nvoL53ClSG8DLZXCP7RxmBEwpOwSzQRmicu3TZtHn3cicXibkuENpkwibicXqQ_%7C_640%3Fwx_fmt%3Dgif.lg.jpeg |
+[2022-07-08 02:20:47,079] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 02:20:47,079] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 02:20:47,080] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 02:20:47,081] [plex_meta_manager.py:541]  [INFO]     |=================================== Running 最佳華語電影一百部 Collection ===================================|
+[2022-07-08 02:20:47,081] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-07-08 02:20:47,081] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-07-08 02:20:47,082] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-07-08 02:20:47,082] [plex_meta_manager.py:558]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/bpsim/lists/hkfa-s-the-best-100-chinese-motion-pictures |
+[2022-07-08 02:20:47,082] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-07-08 02:20:47,082] [trakt.py:482]              [INFO]     | Processing Trakt List: https://trakt.tv/users/bpsim/lists/hkfa-s-the-best-100-chinese-motion-pictures |
+[2022-07-08 02:20:48,118] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-07-08 02:20:48,119] [builder.py:1508]           [DEBUG]    | 104 IDs Found: [(21058, 'tmdb'), (11471, 'tmdb'), (18311, 'tmdb'), (92990, 'tmdb'), (49982, 'tmdb'), (69599, 'tmdb'), (104237, 'tmdb'), (72445, 'tmdb'), (44154, 'tmdb'), (146, 'tmdb'), (112699, 'tmdb'), (15804, 'tmdb'), (74100, 'tmdb'), (45871, 'tmdb'), (54178, 'tmdb'), (11713, 'tmdb'), (161285, 'tmdb'), (176212, 'tmdb'), (13345, 'tmdb'), (21835, 'tmdb'), (157243, 'tmdb'), (68883, 'tmdb'), (11104, 'tmdb'), (176217, 'tmdb'), (45999, 'tmdb'), (42006, 'tmdb'), (176213, 'tmdb'), (140260, 'tmdb'), (37185, 'tmdb'), (112698, 'tmdb'), (151243, 'tmdb'), (176219, 'tmdb'), (10775, 'tmdb'), (11230, 'tmdb'), (44914, 'tmdb'), (40751, 'tmdb'), (26005, 'tmdb'), (176220, 'tmdb'), (107248, 'tmdb'), (157252, 'tmdb'), (38155, 'tmdb'), (78450, 'tmdb'), (10835, 'tmdb'), (10617, 'tmdb'), (68004, 'tmdb'), (38143, 'tmdb'), (176228, 'tmdb'), (176230, 'tmdb'), (176231, 'tmdb'), (64015, 'tmdb'), (30421, 'tmdb'), (176313, 'tmdb'), (176317, 'tmdb'), (154633, 'tmdb'), (42120, 'tmdb'), (10997, 'tmdb'), (25538, 'tmdb'), (176323, 'tmdb'), (176325, 'tmdb'), (76294, 'tmdb'), (9056, 'tmdb'), (107682, 'tmdb'), (9261, 'tmdb'), (80427, 'tmdb'), (157244, 'tmdb'), (176617, 'tmdb'), (176626, 'tmdb'), (104287, 'tmdb'), (157236, 'tmdb'), (81593, 'tmdb'), (176628, 'tmdb'), (141906, 'tmdb'), (176629, 'tmdb'), (157229, 'tmdb'), (45996, 'tmdb'), (118212, 'tmdb'), (11770, 'tmdb'), (30992, 'tmdb'), (176630, 'tmdb'), (104681, 'tmdb'), (106380, 'tmdb'), (44162, 'tmdb'), (176631, 'tmdb'), (157227, 'tmdb'), (176632, 'tmdb'), (176633, 'tmdb'), (122973, 'tmdb'), (16269, 'tmdb'), (24163, 'tmdb'), (18329, 'tmdb'), (843, 'tmdb'), (95372, 'tmdb'), (176638, 'tmdb'), (176640, 'tmdb'), (170931, 'tmdb'), (176642, 'tmdb'), (152421, 'tmdb'), (143479, 'tmdb'), (32520, 'tmdb'), (176643, 'tmdb'), (57564, 'tmdb'), (96712, 'tmdb'), (72507, 'tmdb'), (36210, 'tmdb')] |
+[2022-07-08 02:20:48,120] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-07-08 02:20:48,133] [builder.py:2009]           [INFO]     |                                                                                                    |
+[2022-07-08 02:20:48,134] [builder.py:2010]           [INFO]     |================================== Adding to 最佳華語電影一百部 Collection ==================================|
+[2022-07-08 02:20:48,134] [builder.py:2011]           [INFO]     |                                                                                                    |
+[2022-07-08 02:20:48,135] [builder.py:2025]           [INFO]     |  1/39 | 最佳華語電影一百部 Collection | = | 小城之春 (1948)                                                     |
+[2022-07-08 02:20:48,136] [builder.py:2025]           [INFO]     |  2/39 | 最佳華語電影一百部 Collection | = | 黄土地 (1984)                                                      |
+[2022-07-08 02:20:48,136] [builder.py:2025]           [INFO]     |  3/39 | 最佳華語電影一百部 Collection | = | 马路天使 (1937)                                                     |
+[2022-07-08 02:20:48,137] [builder.py:2025]           [INFO]     |  4/39 | 最佳華語電影一百部 Collection | = | 危楼春晓 (1953)                                                     |
+[2022-07-08 02:20:48,138] [builder.py:2025]           [INFO]     |  5/39 | 最佳華語電影一百部 Collection | = | 董夫人 (1968)                                                      |
+[2022-07-08 02:20:48,139] [builder.py:2025]           [INFO]     |  6/39 | 最佳華語電影一百部 Collection | = | 父子情 (1981)                                                      |
+[2022-07-08 02:20:48,139] [builder.py:2025]           [INFO]     |  7/39 | 最佳華語電影一百部 Collection | = | 一江春水向东流 (1947)                                                  |
+[2022-07-08 02:20:48,140] [builder.py:2025]           [INFO]     |  8/39 | 最佳華語電影一百部 Collection | = | 神女 (1934)                                                       |
+[2022-07-08 02:20:48,140] [builder.py:2025]           [INFO]     |  9/39 | 最佳華語電影一百部 Collection | = | 大路 (1935)                                                       |
+[2022-07-08 02:20:48,141] [builder.py:2025]           [INFO]     | 10/39 | 最佳華語電影一百部 Collection | = | 蝶变 (1979)                                                       |
+[2022-07-08 02:20:48,142] [builder.py:2025]           [INFO]     | 11/39 | 最佳華語電影一百部 Collection | = | 清宫秘史 (1948)                                                     |
+[2022-07-08 02:20:48,143] [builder.py:2025]           [INFO]     | 12/39 | 最佳華語電影一百部 Collection | = | 冬暖 (1969)                                                       |
+[2022-07-08 02:20:48,144] [builder.py:2025]           [INFO]     | 13/39 | 最佳華語電影一百部 Collection | = | 紫钗记 (1959)                                                      |
+[2022-07-08 02:20:48,144] [builder.py:2025]           [INFO]     | 14/39 | 最佳華語電影一百部 Collection | = | 破晓时分 (1968)                                                     |
+[2022-07-08 02:20:48,145] [builder.py:2025]           [INFO]     | 15/39 | 最佳華語電影一百部 Collection | = | 野玫瑰之恋 (1960)                                                    |
+[2022-07-08 02:20:48,146] [builder.py:2025]           [INFO]     | 16/39 | 最佳華語電影一百部 Collection | = | 可怜天下父母心 (1960)                                                  |
+[2022-07-08 02:20:48,147] [builder.py:2025]           [INFO]     | 17/39 | 最佳華語電影一百部 Collection | = | 第一类型危险 (1980)                                                   |
+[2022-07-08 02:20:48,148] [builder.py:2025]           [INFO]     | 18/39 | 最佳華語電影一百部 Collection | = | 半边人 (1983)                                                      |
+[2022-07-08 02:20:48,149] [builder.py:2025]           [INFO]     | 19/39 | 最佳華語電影一百部 Collection | = | 榴梿飘飘 (2000)                                                     |
+[2022-07-08 02:20:48,150] [builder.py:2025]           [INFO]     | 20/39 | 最佳華語電影一百部 Collection | = | 哀乐中年 (1949)                                                     |
+[2022-07-08 02:20:48,151] [builder.py:2025]           [INFO]     | 21/39 | 最佳華語電影一百部 Collection | = | 小玩意 (2012)                                                      |
+[2022-07-08 02:20:48,152] [builder.py:2025]           [INFO]     | 22/39 | 最佳華語電影一百部 Collection | = | 七十二家房客 (1973)                                                   |
+[2022-07-08 02:20:48,153] [builder.py:2025]           [INFO]     | 23/39 | 最佳華語電影一百部 Collection | = | 烈火青春 (1982)                                                     |
+[2022-07-08 02:20:48,155] [builder.py:2025]           [INFO]     | 24/39 | 最佳華語電影一百部 Collection | = | 夜半歌声 (1935)                                                     |
+[2022-07-08 02:20:48,156] [builder.py:2025]           [INFO]     | 25/39 | 最佳華語電影一百部 Collection | = | 再见中国 (1978)                                                     |
+[2022-07-08 02:20:48,157] [builder.py:2025]           [INFO]     | 26/39 | 最佳華語電影一百部 Collection | = | 撞到正 (1980)                                                      |
+[2022-07-08 02:20:48,158] [builder.py:2025]           [INFO]     | 27/39 | 最佳華語電影一百部 Collection | = | 蓝风筝 (1993)                                                      |
+[2022-07-08 02:20:48,158] [builder.py:2025]           [INFO]     | 28/39 | 最佳華語電影一百部 Collection | = | 太太万岁 (1947)                                                     |
+[2022-07-08 02:20:48,159] [builder.py:2025]           [INFO]     | 29/39 | 最佳華語電影一百部 Collection | = | 曼波女郎 (1957)                                                     |
+[2022-07-08 02:20:48,160] [builder.py:2025]           [INFO]     | 30/39 | 最佳華語電影一百部 Collection | = | 秋决 (1972)                                                       |
+[2022-07-08 02:20:48,161] [builder.py:2025]           [INFO]     | 31/39 | 最佳華語電影一百部 Collection | = | 芙蓉镇 (1987)                                                      |
+[2022-07-08 02:20:48,162] [builder.py:2025]           [INFO]     | 32/39 | 最佳華語電影一百部 Collection | = | 万家灯火 (1948)                                                     |
+[2022-07-08 02:20:48,164] [builder.py:2025]           [INFO]     | 33/39 | 最佳華語電影一百部 Collection | = | 父母心 (1955)                                                      |
+[2022-07-08 02:20:48,165] [builder.py:2025]           [INFO]     | 34/39 | 最佳華語電影一百部 Collection | = | 林则徐 (1959)                                                      |
+[2022-07-08 02:20:48,166] [builder.py:2025]           [INFO]     | 35/39 | 最佳華語電影一百部 Collection | = | 打擂台 (1983)                                                      |
+[2022-07-08 02:20:48,167] [builder.py:2025]           [INFO]     | 36/39 | 最佳華語電影一百部 Collection | = | 上海之夜 (1984)                                                     |
+[2022-07-08 02:20:48,169] [builder.py:2025]           [INFO]     | 37/39 | 最佳華語電影一百部 Collection | = | 戏梦人生 (1993)                                                     |
+[2022-07-08 02:20:48,170] [builder.py:2025]           [INFO]     | 38/39 | 最佳華語電影一百部 Collection | = | 女人，四十 (1995)                                                    |
+[2022-07-08 02:20:48,171] [builder.py:2025]           [INFO]     | 39/39 | 最佳華語電影一百部 Collection | = | 一个都不能少 (1999)                                                   |
+[2022-07-08 02:20:48,172] [builder.py:2045]           [INFO]     |                                                                                                    |
+[2022-07-08 02:20:48,173] [builder.py:2046]           [INFO]     | 39 Movies Processed                                                                                |
+[2022-07-08 02:20:48,173] [builder.py:2172]           [INFO]     |                                                                                                    |
+[2022-07-08 02:20:48,174] [builder.py:2173]           [INFO]     |================================ Missing Movies from Library: 亚洲电影 =================================|
+[2022-07-08 02:20:48,174] [builder.py:2174]           [INFO]     |                                                                                                    |
+[2022-07-08 02:20:48,705] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | A Better Tomorrow (1986) (TMDb: 11471)                                  |
+[2022-07-08 02:20:49,192] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Days of Being Wild (1990) (TMDb: 18311)                                 |
+[2022-07-08 02:20:49,494] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | A City of Sadness (1989) (TMDb: 49982)                                  |
+[2022-07-08 02:20:49,850] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Long Arm of the Law (1984) (TMDb: 69599)                                |
+[2022-07-08 02:20:50,172] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Dragon Inn (1967) (TMDb: 104237)                                        |
+[2022-07-08 02:20:50,451] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Boat People (1982) (TMDb: 72445)                                        |
+[2022-07-08 02:20:50,694] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | A Touch of Zen (1971) (TMDb: 44154)                                     |
+[2022-07-08 02:20:51,009] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Crouching Tiger, Hidden Dragon (2000) (TMDb: 146)                       |
+[2022-07-08 02:20:51,284] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | A Brighter Summer Day (1991) (TMDb: 15804)                              |
+[2022-07-08 02:20:51,594] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The Private Eyes (1976) (TMDb: 74100)                                   |
+[2022-07-08 02:20:51,876] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The Mission (1999) (TMDb: 45871)                                        |
+[2022-07-08 02:20:52,150] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The One-Armed Swordsman (1967) (TMDb: 54178)                            |
+[2022-07-08 02:20:52,427] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Fist of Fury (1972) (TMDb: 11713)                                       |
+[2022-07-08 02:20:52,739] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | In the Heat of the Sun (1994) (TMDb: 161285)                            |
+[2022-07-08 02:20:52,975] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | A Chinese Odyssey Part One: Pandora's Box (1995) (TMDb: 13345)          |
+[2022-07-08 02:20:53,238] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | A Chinese Odyssey Part Two: Cinderella (1995) (TMDb: 21835)             |
+[2022-07-08 02:20:53,516] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Rouge (1987) (TMDb: 68883)                                              |
+[2022-07-08 02:20:53,827] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Chungking Express (1994) (TMDb: 11104)                                  |
+[2022-07-08 02:20:54,238] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Homecoming (1984) (TMDb: 176217)                                        |
+[2022-07-08 02:20:54,500] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The Time to Live and the Time to Die (1985) (TMDb: 45999)               |
+[2022-07-08 02:20:54,809] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Red Sorghum (1987) (TMDb: 42006)                                        |
+[2022-07-08 02:20:55,067] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Comrades, Almost a Love Story (1996) (TMDb: 37185)                      |
+[2022-07-08 02:20:55,400] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The Secret (1979) (TMDb: 176219)                                        |
+[2022-07-08 02:20:55,950] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Infernal Affairs (2002) (TMDb: 10775)                                   |
+[2022-07-08 02:20:56,238] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Drunken Master (1978) (TMDb: 11230)                                     |
+[2022-07-08 02:20:56,516] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Ashes of Time (1994) (TMDb: 40751)                                      |
+[2022-07-08 02:20:56,761] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Made in Hong Kong (1997) (TMDb: 26005)                                  |
+[2022-07-08 02:20:57,072] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The Love Eterne (1963) (TMDb: 107248)                                   |
+[2022-07-08 02:20:57,561] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The Story of a Discharged Prisoner (1967) (TMDb: 157252)                |
+[2022-07-08 02:20:57,916] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Zu: Warriors from the Magic Mountain (1983) (TMDb: 38155)               |
+[2022-07-08 02:20:58,250] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Terrorizers (1986) (TMDb: 78450)                                        |
+[2022-07-08 02:20:58,608] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The Killer (1989) (TMDb: 10835)                                         |
+[2022-07-08 02:20:58,908] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Once Upon a Time in China (1991) (TMDb: 10617)                          |
+[2022-07-08 02:20:59,150] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Center Stage (1991) (TMDb: 68004)                                       |
+[2022-07-08 02:20:59,516] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The Story of Qiu Ju (1992) (TMDb: 38143)                                |
+[2022-07-08 02:20:59,808] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Life of a Beijing Policeman (1950) (TMDb: 176228)                       |
+[2022-07-08 02:21:00,208] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The Kingdom and the Beauty (1959) (TMDb: 176230)                        |
+[2022-07-08 02:21:00,508] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | An Autumn's Tale (1987) (TMDb: 64015)                                   |
+[2022-07-08 02:21:00,805] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | A Chinese Ghost Story (1987) (TMDb: 30421)                              |
+[2022-07-08 02:21:01,050] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The Orphan (1960) (TMDb: 176317)                                        |
+[2022-07-08 02:21:01,327] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Two Stage Sisters (1964) (TMDb: 154633)                                 |
+[2022-07-08 02:21:01,594] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | City on Fire (1987) (TMDb: 42120)                                       |
+[2022-07-08 02:21:01,875] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Farewell My Concubine (1993) (TMDb: 10997)                              |
+[2022-07-08 02:21:02,183] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Yi Yi (2000) (TMDb: 25538)                                              |
+[2022-07-08 02:21:02,408] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Cold Nights (1955) (TMDb: 176323)                                       |
+[2022-07-08 02:21:02,674] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Raining in the Mountain (1979) (TMDb: 76294)                            |
+[2022-07-08 02:21:02,949] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Police Story (1985) (TMDb: 9056)                                        |
+[2022-07-08 02:21:03,227] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | C'est La Vie Mon Cheri (1993) (TMDb: 107682)                            |
+[2022-07-08 02:21:03,475] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The Wedding Banquet (1993) (TMDb: 9261)                                 |
+[2022-07-08 02:21:03,480] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Platform (2001) (TMDb: 80427)                                           |
+[2022-07-08 02:21:03,733] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | My Intimate Partner (1960) (TMDb: 176626)                               |
+[2022-07-08 02:21:04,016] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Dust in the Wind (1986) (TMDb: 45996)                                   |
+[2022-07-08 02:21:04,327] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | 92 Legendary La Rose Noire (1992) (TMDb: 118212)                        |
+[2022-07-08 02:21:04,605] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Shaolin Soccer (2001) (TMDb: 11770)                                     |
+[2022-07-08 02:21:04,958] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Taipei Story (1985) (TMDb: 106380)                                      |
+[2022-07-08 02:21:05,205] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Feast of a Rich Family (1959) (TMDb: 176632)                            |
+[2022-07-08 02:21:05,449] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | God of Gamblers (1989) (TMDb: 16269)                                    |
+[2022-07-08 02:21:05,738] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | As Tears Go By (1988) (TMDb: 24163)                                     |
+[2022-07-08 02:21:06,038] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Happy Together (1997) (TMDb: 18329)                                     |
+[2022-07-08 02:21:06,350] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | In the Mood for Love (2000) (TMDb: 843)                                 |
+[2022-07-08 02:21:06,616] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Festival Moon (1953) (TMDb: 176638)                                     |
+[2022-07-08 02:21:06,961] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | A Dream of Red Mansions (1962) (TMDb: 176642)                           |
+[2022-07-08 02:21:07,283] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The 8 Diagram Pole Fighter (1984) (TMDb: 32520)                         |
+[2022-07-08 02:21:07,566] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | The Black Cannon Incident (1985) (TMDb: 176643)                         |
+[2022-07-08 02:21:07,805] [builder.py:2187]           [INFO]     | 最佳華語電影一百部 Collection | ? | Rebels of the Neon God (1994) (TMDb: 57564)                             |
+[2022-07-08 02:21:07,806] [builder.py:2192]           [INFO]     |                                                                                                    |
+[2022-07-08 02:21:07,807] [builder.py:2193]           [INFO]     | 65 Movies Missing                                                                                  |
+[2022-07-08 02:21:07,834] [builder.py:2383]           [INFO]     |                                                                                                    |
+[2022-07-08 02:21:07,835] [builder.py:2384]           [INFO]     |============================= Updating Details of 最佳華語電影一百部 Collection =============================|
+[2022-07-08 02:21:07,836] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-07-08 02:21:07,836] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-07-08 02:21:08,626] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-07-08 02:21:08,626] [builder.py:2530]           [INFO]     |=================================== Sorting 最佳華語電影一百部 Collection ===================================|
+[2022-07-08 02:21:08,627] [builder.py:2531]           [INFO]     |                                                                                                    |
+[2022-07-08 02:21:08,627] [builder.py:2547]           [INFO]     | Moving 小城之春 (1948) to the beginning                                                                |
+[2022-07-08 02:21:08,861] [builder.py:2547]           [INFO]     | Moving 黄土地 (1984) after 小城之春 (1948)                                                                |
+[2022-07-08 02:21:08,940] [builder.py:2547]           [INFO]     | Moving 马路天使 (1937) after 黄土地 (1984)                                                                |
+[2022-07-08 02:21:09,059] [builder.py:2547]           [INFO]     | Moving 危楼春晓 (1953) after 马路天使 (1937)                                                               |
+[2022-07-08 02:21:09,140] [builder.py:2547]           [INFO]     | Moving 董夫人 (1968) after 危楼春晓 (1953)                                                                |
+[2022-07-08 02:21:09,223] [builder.py:2547]           [INFO]     | Moving 父子情 (1981) after 董夫人 (1968)                                                                 |
+[2022-07-08 02:21:09,318] [builder.py:2547]           [INFO]     | Moving 一江春水向东流 (1947) after 父子情 (1981)                                                             |
+[2022-07-08 02:21:09,396] [builder.py:2547]           [INFO]     | Moving 神女 (1934) after 一江春水向东流 (1947)                                                              |
+[2022-07-08 02:21:09,471] [builder.py:2547]           [INFO]     | Moving 大路 (1935) after 神女 (1934)                                                                   |
+[2022-07-08 02:21:09,548] [builder.py:2547]           [INFO]     | Moving 蝶变 (1979) after 大路 (1935)                                                                   |
+[2022-07-08 02:21:09,624] [builder.py:2547]           [INFO]     | Moving 清宫秘史 (1948) after 蝶变 (1979)                                                                 |
+[2022-07-08 02:21:09,700] [builder.py:2547]           [INFO]     | Moving 冬暖 (1969) after 清宫秘史 (1948)                                                                 |
+[2022-07-08 02:21:09,777] [builder.py:2547]           [INFO]     | Moving 紫钗记 (1959) after 冬暖 (1969)                                                                  |
+[2022-07-08 02:21:11,324] [builder.py:2547]           [INFO]     | Moving 破晓时分 (1968) after 紫钗记 (1959)                                                                |
+[2022-07-08 02:21:11,453] [builder.py:2547]           [INFO]     | Moving 野玫瑰之恋 (1960) after 破晓时分 (1968)                                                              |
+[2022-07-08 02:21:11,529] [builder.py:2547]           [INFO]     | Moving 可怜天下父母心 (1960) after 野玫瑰之恋 (1960)                                                           |
+[2022-07-08 02:21:11,607] [builder.py:2547]           [INFO]     | Moving 第一类型危险 (1980) after 可怜天下父母心 (1960)                                                          |
+[2022-07-08 02:21:11,685] [builder.py:2547]           [INFO]     | Moving 半边人 (1983) after 第一类型危险 (1980)                                                              |
+[2022-07-08 02:21:11,765] [builder.py:2547]           [INFO]     | Moving 榴梿飘飘 (2000) after 半边人 (1983)                                                                |
+[2022-07-08 02:21:11,840] [builder.py:2547]           [INFO]     | Moving 哀乐中年 (1949) after 榴梿飘飘 (2000)                                                               |
+[2022-07-08 02:21:11,918] [builder.py:2547]           [INFO]     | Moving 小玩意 (2012) after 哀乐中年 (1949)                                                                |
+[2022-07-08 02:21:11,995] [builder.py:2547]           [INFO]     | Moving 七十二家房客 (1973) after 小玩意 (2012)                                                              |
+[2022-07-08 02:21:12,078] [builder.py:2547]           [INFO]     | Moving 烈火青春 (1982) after 七十二家房客 (1973)                                                             |
+[2022-07-08 02:21:12,155] [builder.py:2547]           [INFO]     | Moving 夜半歌声 (1935) after 烈火青春 (1982)                                                               |
+[2022-07-08 02:21:12,232] [builder.py:2547]           [INFO]     | Moving 再见中国 (1978) after 夜半歌声 (1935)                                                               |
+[2022-07-08 02:21:12,308] [builder.py:2547]           [INFO]     | Moving 撞到正 (1980) after 再见中国 (1978)                                                                |
+[2022-07-08 02:21:12,395] [builder.py:2547]           [INFO]     | Moving 蓝风筝 (1993) after 撞到正 (1980)                                                                 |
+[2022-07-08 02:21:12,476] [builder.py:2547]           [INFO]     | Moving 太太万岁 (1947) after 蓝风筝 (1993)                                                                |
+[2022-07-08 02:21:12,554] [builder.py:2547]           [INFO]     | Moving 曼波女郎 (1957) after 太太万岁 (1947)                                                               |
+[2022-07-08 02:21:12,634] [builder.py:2547]           [INFO]     | Moving 秋决 (1972) after 曼波女郎 (1957)                                                                 |
+[2022-07-08 02:21:12,711] [builder.py:2547]           [INFO]     | Moving 芙蓉镇 (1987) after 秋决 (1972)                                                                  |
+[2022-07-08 02:21:12,787] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 02:21:12,788] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 02:21:12,788] [plex_meta_manager.py:675]  [INFO]     |                                   Finished 最佳華語電影一百部 Collection                                    |
+[2022-07-08 02:21:12,789] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:27                                    |
+[2022-07-08 02:21:12,789] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

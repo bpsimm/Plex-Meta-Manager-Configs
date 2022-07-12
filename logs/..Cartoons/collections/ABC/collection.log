@@ -1,0 +1,40 @@
+[2022-07-08 03:16:45,681] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:16:45,682] [builder.py:185]            [INFO]     |                                    ABC Collection in ..Cartoons                                    |
+[2022-07-08 03:16:45,683] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:16:45,683] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:16:45,684] [builder.py:191]            [INFO]     |==================================== Validating ABC Attributes =====================================|
+[2022-07-08 03:16:45,684] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:16:45,684] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:16:45,685] [meta.py:103]               [DEBUG]    | Value: [{'value': ['ABC', 'ABC (US)'], 'network': ['ABC', 'ABC (US)'], 'key_name': 'ABC', 'key': 'ABC', 'name': 'networks_dynamic'}, {'value': ['ABC', 'ABC (US)'], 'network': ['ABC', 'ABC (US)'], 'key_name': 'ABC', 'key': 'ABC', 'name': 'shared'}] |
+[2022-07-08 03:16:45,687] [builder.py:1675]           [INFO]     |                                                                                                    |
+[2022-07-08 03:16:45,688] [builder.py:1676]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-07-08 03:16:45,688] [builder.py:1682]           [DEBUG]    | Value: {'sort_by': 'release.desc', 'any': {'network': ['ABC', 'ABC (US)']}}                        |
+[2022-07-08 03:16:45,900] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:16:45,901] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-07-08 03:16:45,901] [builder.py:605]            [DEBUG]    | Value: Network US                                                                                  |
+[2022-07-08 03:16:45,901] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:16:45,902] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 03:16:45,902] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/network/ABC.jpg |
+[2022-07-08 03:16:46,721] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:16:46,721] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 03:16:46,722] [builder.py:605]            [DEBUG]    | Value: !04_ABC                                                                                     |
+[2022-07-08 03:16:46,736] [plex.py:742]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:16:46,736] [plex.py:745]               [DEBUG]    | Looking for: ABC                                                                                   |
+[2022-07-08 03:16:46,737] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:16:46,737] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:16:46,737] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 03:16:46,738] [plex_meta_manager.py:541]  [INFO]     |====================================== Running ABC Collection ======================================|
+[2022-07-08 03:16:46,738] [plex_meta_manager.py:547]  [INFO]     |                                                                                                    |
+[2022-07-08 03:16:46,738] [plex_meta_manager.py:548]  [INFO]     | Smart Show Filter                                                                                  |
+                                                                 | Sort By: release.desc
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Network is ABC
+                                                                 |     Network is ABC (US)
+[2022-07-08 03:16:46,771] [plex_meta_manager.py:593]  [INFO]     | 
+[2022-07-08 03:16:46,771] [plex_meta_manager.py:594]  [INFO]     | Collection Minimum: 3 not met for ABC Collection
+[2022-07-08 03:16:46,771] [plex_meta_manager.py:674]  [INFO]     | 
+[2022-07-08 03:16:46,772] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 03:16:46,772] [plex_meta_manager.py:675]  [INFO]     |                                      Finished ABC Collection                                       |
+[2022-07-08 03:16:46,772] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-07-08 03:16:46,773] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

@@ -1,0 +1,156 @@
+[2022-07-08 03:14:53,323] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:14:53,324] [builder.py:185]            [INFO]     |                              TMDb On The Air Collection in ..Cartoons                              |
+[2022-07-08 03:14:53,324] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:14:53,324] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:14:53,325] [builder.py:191]            [INFO]     |============================== Validating TMDb On The Air Attributes ===============================|
+[2022-07-08 03:14:53,325] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:14:53,325] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:14:53,326] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'air')]), ordereddict([('name', 'customsync')]), ordereddict([('name', 'chart_shared'), ('key', 'air'), ('check_library', 'show')])] |
+[2022-07-08 03:14:53,331] [builder.py:221]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:14:53,332] [builder.py:222]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-07-08 03:14:53,332] [builder.py:225]            [DEBUG]    | Value: ['show']                                                                                    |
+[2022-07-08 03:14:53,332] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:14:53,333] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-07-08 03:14:53,333] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-07-08 03:14:53,333] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:14:53,333] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-07-08 03:14:53,334] [builder.py:584]            [DEBUG]    | Value: custom                                                                                      |
+[2022-07-08 03:14:53,334] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:14:53,334] [builder.py:604]            [DEBUG]    | Validating Method: tmdb_on_the_air                                                                 |
+[2022-07-08 03:14:53,335] [builder.py:605]            [DEBUG]    | Value: 100                                                                                         |
+[2022-07-08 03:14:53,335] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:14:53,335] [builder.py:604]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-07-08 03:14:53,336] [builder.py:605]            [DEBUG]    | Value: A collection of shows that are still activaly airing episodes                               |
+[2022-07-08 03:14:53,336] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:14:53,336] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 03:14:53,336] [builder.py:605]            [DEBUG]    | Value: !01_TMDb On The Air                                                                         |
+[2022-07-08 03:14:53,337] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:14:53,337] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 03:14:53,337] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20On%20The%20Air.jpg |
+[2022-07-08 03:14:53,650] [plex.py:742]               [DEBUG]    |                                                                                                    |
+[2022-07-08 03:14:53,650] [plex.py:745]               [DEBUG]    | Looking for: TMDb On The Air                                                                       |
+[2022-07-08 03:14:53,650] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:14:53,651] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:14:53,651] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 03:14:53,651] [plex_meta_manager.py:541]  [INFO]     |================================ Running TMDb On The Air Collection ================================|
+[2022-07-08 03:14:53,652] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-07-08 03:14:53,652] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-07-08 03:14:53,652] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-07-08 03:14:53,653] [plex_meta_manager.py:558]  [DEBUG]    | Builder: tmdb_on_the_air: 100                                                                      |
+[2022-07-08 03:14:53,653] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-07-08 03:14:53,893] [tmdb.py:344]               [INFO]     | Processing TMDb On The Air: 100 Shows                                                              |
+[2022-07-08 03:14:53,893] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:14:53,893] [builder.py:1508]           [DEBUG]    | 100 IDs Found: [(76479, 'tmdb_show'), (92782, 'tmdb_show'), (135647, 'tmdb_show'), (152296, 'tmdb_show'), (197189, 'tmdb_show'), (158415, 'tmdb_show'), (204147, 'tmdb_show'), (154911, 'tmdb_show'), (157936, 'tmdb_show'), (122151, 'tmdb_show'), (122152, 'tmdb_show'), (119903, 'tmdb_show'), (154571, 'tmdb_show'), (203211, 'tmdb_show'), (103516, 'tmdb_show'), (158691, 'tmdb_show'), (2527, 'tmdb_show'), (966, 'tmdb_show'), (1655, 'tmdb_show'), (202740, 'tmdb_show'), (69050, 'tmdb_show'), (66636, 'tmdb_show'), (65334, 'tmdb_show'), (14750, 'tmdb_show'), (197352, 'tmdb_show'), (6647, 'tmdb_show'), (117067, 'tmdb_show'), (4504, 'tmdb_show'), (23915, 'tmdb_show'), (63247, 'tmdb_show'), (138251, 'tmdb_show'), (1900, 'tmdb_show'), (39677, 'tmdb_show'), (107113, 'tmdb_show'), (126437, 'tmdb_show'), (111800, 'tmdb_show'), (60059, 'tmdb_show'), (64196, 'tmdb_show'), (157059, 'tmdb_show'), (987, 'tmdb_show'), (72517, 'tmdb_show'), (131485, 'tmdb_show'), (92967, 'tmdb_show'), (881, 'tmdb_show'), (71738, 'tmdb_show'), (115626, 'tmdb_show'), (16395, 'tmdb_show'), (197067, 'tmdb_show'), (196572, 'tmdb_show'), (88191, 'tmdb_show'), (202374, 'tmdb_show'), (37854, 'tmdb_show'), (96316, 'tmdb_show'), (2354, 'tmdb_show'), (60572, 'tmdb_show'), (2912, 'tmdb_show'), (115694, 'tmdb_show'), (194619, 'tmdb_show'), (122587, 'tmdb_show'), (201697, 'tmdb_show'), (71740, 'tmdb_show'), (121435, 'tmdb_show'), (121477, 'tmdb_show'), (131997, 'tmdb_show'), (155231, 'tmdb_show'), (1871, 'tmdb_show'), (502, 'tmdb_show'), (33238, 'tmdb_show'), (101149, 'tmdb_show'), (196614, 'tmdb_show'), (194774, 'tmdb_show'), (18011, 'tmdb_show'), (87917, 'tmdb_show'), (86848, 'tmdb_show'), (80006, 'tmdb_show'), (72002, 'tmdb_show'), (90207, 'tmdb_show'), (194562, 'tmdb_show'), (203906, 'tmdb_show'), (10160, 'tmdb_show'), (136644, 'tmdb_show'), (155783, 'tmdb_show'), (72636, 'tmdb_show'), (40879, 'tmdb_show'), (63714, 'tmdb_show'), (73549, 'tmdb_show'), (114477, 'tmdb_show'), (62875, 'tmdb_show'), (91977, 'tmdb_show'), (63726, 'tmdb_show'), (204712, 'tmdb_show'), (72027, 'tmdb_show'), (117889, 'tmdb_show'), (76949, 'tmdb_show'), (127635, 'tmdb_show'), (13354, 'tmdb_show'), (59186, 'tmdb_show'), (203057, 'tmdb_show'), (155224, 'tmdb_show'), (291, 'tmdb_show')] |
+[2022-07-08 03:14:53,894] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-07-08 03:14:54,284] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 152296                                                |
+[2022-07-08 03:14:54,484] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 122151                                                |
+[2022-07-08 03:14:54,669] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 122152                                                |
+[2022-07-08 03:14:55,059] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 119903                                                |
+[2022-07-08 03:14:55,351] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 203211                                                |
+[2022-07-08 03:14:55,614] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 194619                                                |
+[2022-07-08 03:14:55,814] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 71740                                                 |
+[2022-07-08 03:14:56,001] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 121435                                                |
+[2022-07-08 03:14:56,169] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 131997                                                |
+[2022-07-08 03:14:56,359] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 196614                                                |
+[2022-07-08 03:14:56,669] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 194562                                                |
+[2022-07-08 03:14:56,903] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 204712                                                |
+[2022-07-08 03:14:57,136] [builder.py:1583]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 203057                                                |
+[2022-07-08 03:14:57,141] [builder.py:2218]           [INFO]     |                                                                                                    |
+[2022-07-08 03:14:57,142] [builder.py:2219]           [INFO]     |=========================== Missing Shows from Library: TMDb On The Air ============================|
+[2022-07-08 03:14:57,142] [builder.py:2220]           [INFO]     |                                                                                                    |
+[2022-07-08 03:14:57,317] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | The Boys (TVDb: 355567)                                           |
+[2022-07-08 03:14:57,492] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Ms. Marvel (TVDb: 368612)                                         |
+[2022-07-08 03:14:57,947] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | 2 Good 2 Be True (TVDb: 419154)                                   |
+[2022-07-08 03:14:58,184] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Cara e Coragem (TVDb: 418791)                                     |
+[2022-07-08 03:14:58,347] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Pantanal (TVDb: 413833)                                           |
+[2022-07-08 03:14:58,525] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Hello, My Shining Love (TVDb: 421307)                             |
+[2022-07-08 03:14:58,942] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | A Trick of Fate (TVDb: 413832)                                    |
+[2022-07-08 03:14:59,759] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | For You (TVDb: 416687)                                            |
+[2022-07-08 03:15:00,075] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | I want to live (TVDb: 413793)                                     |
+[2022-07-08 03:15:00,275] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Star Trek: Strange New Worlds (TVDb: 382389)                      |
+[2022-07-08 03:15:00,600] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | My Little Pony: Make Your Mark (TVDb: 416741)                     |
+[2022-07-08 03:15:00,892] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Emmerdale (TVDb: 77715)                                           |
+[2022-07-08 03:15:01,117] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Hollyoaks (TVDb: 78006)                                           |
+[2022-07-08 03:15:01,347] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | PBS NewsHour (TVDb: 81388)                                        |
+[2022-07-08 03:15:01,567] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Lua de Mel (TVDb: 420520)                                         |
+[2022-07-08 03:15:01,792] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Riverdale (TVDb: 311954)                                          |
+[2022-07-08 03:15:02,025] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Love Island (TVDb: 296669)                                        |
+[2022-07-08 03:15:02,283] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Miraculous: Tales of Ladybug & Cat Noir (TVDb: 302218)            |
+[2022-07-08 03:15:02,567] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | At Wspolna (TVDb: 341892)                                         |
+[2022-07-08 03:15:02,792] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Bravo, My Life (2022) (TVDb: 418343)                              |
+[2022-07-08 03:15:03,009] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | The Bold and the Beautiful (TVDb: 79838)                          |
+[2022-07-08 03:15:03,350] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | KinnPorsche (TVDb: 391992)                                        |
+[2022-07-08 03:15:03,608] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Shortland Street (TVDb: 73983)                                    |
+[2022-07-08 03:15:03,817] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Markus Lanz (TVDb: 301189)                                        |
+[2022-07-08 03:15:04,091] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Westworld (TVDb: 296762)                                          |
+[2022-07-08 03:15:04,303] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | EVE (2022) (TVDb: 416548)                                         |
+[2022-07-08 03:15:04,536] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | LIVE with Kelly and Ryan (TVDb: 72146)                            |
+[2022-07-08 03:15:04,916] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Survivor (ES) (TVDb: 298271)                                      |
+[2022-07-08 03:15:05,133] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Only Murders in the Building (TVDb: 399959)                       |
+[2022-07-08 03:15:05,358] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Aoashi (TVDb: 407840)                                             |
+[2022-07-08 03:15:05,603] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | The Old Man (TVDb: 367392)                                        |
+[2022-07-08 03:15:05,814] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Better Call Saul (TVDb: 273181)                                   |
+[2022-07-08 03:15:06,050] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Overlord (TVDb: 294002)                                           |
+[2022-07-08 03:15:06,269] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Poliana Moça (TVDb: 414538)                                       |
+[2022-07-08 03:15:06,580] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | General Hospital (TVDb: 75332)                                    |
+[2022-07-08 03:15:06,858] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Classroom of the Elite (TVDb: 329822)                             |
+[2022-07-08 03:15:07,225] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | The Story of Xing Fu (TVDb: 421553)                               |
+[2022-07-08 03:15:07,525] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | A Miracle (TVDb: 369055)                                          |
+[2022-07-08 03:15:07,850] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Days of Our Lives (TVDb: 70366)                                   |
+[2022-07-08 03:15:08,103] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | The Orville (TVDb: 328487)                                        |
+[2022-07-08 03:15:08,303] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Irma Vep (TVDb: 393404)                                           |
+[2022-07-08 03:15:08,503] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | MasterChef Australia (TVDb: 92091)                                |
+[2022-07-08 03:15:08,703] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Extraordinary Attorney Woo (TVDb: 419950)                         |
+[2022-07-08 03:15:09,050] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | The Secret House (TVDb: 418428)                                   |
+[2022-07-08 03:15:09,225] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Good evening, good evening! (TVDb: 361292)                        |
+[2022-07-08 03:15:09,616] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Todas as Garotas em Mim (TVDb: 407514)                            |
+[2022-07-08 03:15:10,236] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | One Piece (TVDb: 81797)                                           |
+[2022-07-08 03:15:10,525] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Rent-a-Girlfriend (TVDb: 380654)                                  |
+[2022-07-08 03:15:10,783] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Home and Away (TVDb: 71890)                                       |
+[2022-07-08 03:15:10,969] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Pokémon (TVDb: 76703)                                             |
+[2022-07-08 03:15:11,269] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Jeopardy! (TVDb: 77075)                                           |
+[2022-07-08 03:15:11,466] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Shikimori's Not Just a Cutie (TVDb: 402117)                       |
+[2022-07-08 03:15:11,691] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | A Couple of Cuckoos (TVDb: 400585)                                |
+[2022-07-08 03:15:11,991] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | The Shelter (TVDb: 419997)                                        |
+[2022-07-08 03:15:12,249] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Frontline Fightback (TVDb: 399721)                                |
+[2022-07-08 03:15:12,536] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Link: Eat, Love, Kill (TVDb: 396069)                              |
+[2022-07-08 03:15:12,791] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | EastEnders (TVDb: 71753)                                          |
+[2022-07-08 03:15:13,032] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Sesame Street (TVDb: 78419)                                       |
+[2022-07-08 03:15:13,249] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Running Man (TVDb: 248870)                                        |
+[2022-07-08 03:15:13,254] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Malory Towers (TVDb: 378833)                                      |
+[2022-07-08 03:15:13,482] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Vermeil in Gold (TVDb: 417658)                                    |
+[2022-07-08 03:15:13,692] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Vecinos (TVDb: 296276)                                            |
+[2022-07-08 03:15:14,066] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | For All Mankind (TVDb: 356202)                                    |
+[2022-07-08 03:15:14,380] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Evil (TVDb: 363955)                                               |
+[2022-07-08 03:15:14,582] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Good Trouble (TVDb: 351504)                                       |
+[2022-07-08 03:15:14,941] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Dynasty (2017) (TVDb: 328749)                                     |
+[2022-07-08 03:15:15,192] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Big White Duel (TVDb: 364743)                                     |
+[2022-07-08 03:15:15,536] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | High (School) On Sex (TVDb: 421569)                               |
+[2022-07-08 03:15:15,924] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Big Brother (US) (TVDb: 76706)                                    |
+[2022-07-08 03:15:16,225] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Why Her? (TVDb: 406183)                                           |
+[2022-07-08 03:15:16,482] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | The Legendary Life of Queen Lau (TVDb: 421419)                    |
+[2022-07-08 03:15:16,725] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Made in Abyss (TVDb: 326109)                                      |
+[2022-07-08 03:15:16,949] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Dahoam is Dahoam (TVDb: 132921)                                   |
+[2022-07-08 03:15:17,232] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Backdoor Brazil (TVDb: 275360)                                    |
+[2022-07-08 03:15:17,665] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Odd Squad (TVDb: 288449)                                          |
+[2022-07-08 03:15:17,925] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Harem in the Labyrinth of Another World (TVDb: 393301)            |
+[2022-07-08 03:15:18,158] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | BUNK’D (TVDb: 298277)                                             |
+[2022-07-08 03:15:18,392] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Motherland: Fort Salem (TVDb: 364047)                             |
+[2022-07-08 03:15:18,691] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Alone (TVDb: 295936)                                              |
+[2022-07-08 03:15:18,925] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Raven's Home (TVDb: 326569)                                       |
+[2022-07-08 03:15:19,169] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | My Isekai Life: I Gained a Second Character Class and Became the Strongest Sage in the World! (TVDb: 402637) |
+[2022-07-08 03:15:19,392] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | La Resistencia (TVDb: 341430)                                     |
+[2022-07-08 03:15:19,397] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Marvel's Spidey and His Amazing Friends (TVDb: 404491)            |
+[2022-07-08 03:15:19,648] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Question Time (TVDb: 248469)                                      |
+[2022-07-08 03:15:19,836] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Impractical Jokers (TVDb: 254243)                                 |
+[2022-07-08 03:15:20,057] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Jinxed At First (TVDb: 408785)                                    |
+[2022-07-08 03:15:20,258] [builder.py:2232]           [INFO]     | TMDb On The Air Collection | ? | Coronation Street (TVDb: 71565)                                   |
+[2022-07-08 03:15:20,259] [builder.py:2237]           [INFO]     |                                                                                                    |
+[2022-07-08 03:15:20,259] [builder.py:2238]           [INFO]     | 87 Shows Missing                                                                                   |
+[2022-07-08 03:15:20,260] [plex_meta_manager.py:593]  [INFO]     |                                                                                                    |
+[2022-07-08 03:15:20,260] [plex_meta_manager.py:594]  [INFO]     | Collection Minimum: 3 not met for TMDb On The Air Collection                                       |
+[2022-07-08 03:15:20,260] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 03:15:20,261] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 03:15:20,261] [plex_meta_manager.py:675]  [INFO]     |                                Finished TMDb On The Air Collection                                 |
+[2022-07-08 03:15:20,262] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:26                                    |
+[2022-07-08 03:15:20,262] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

@@ -1,0 +1,84 @@
+[2022-06-10 20:36:21,438] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 20:36:21,439] [builder.py:185]            [INFO]     |                                  Japan Collection in ....TV Shows                                  |
+[2022-06-10 20:36:21,440] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-06-10 20:36:21,441] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-06-10 20:36:21,441] [builder.py:191]            [INFO]     |=================================== Validating Japan Attributes ====================================|
+[2022-06-10 20:36:21,442] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:36:21,442] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-06-10 20:36:21,443] [meta.py:103]               [DEBUG]    | Value: [{'value': ['jp'], 'origin_country': ['jp'], 'key_name': 'Japan', 'key': 'jp', 'name': 'country_tv_dynamic'}, {'value': ['jp'], 'origin_country': ['jp'], 'key_name': 'Japan', 'key': 'jp', 'name': 'shared'}] |
+[2022-06-10 20:36:21,445] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:36:21,446] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-06-10 20:36:21,446] [builder.py:584]            [DEBUG]    | Value: release.desc                                                                                |
+[2022-06-10 20:36:21,447] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:36:21,447] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-06-10 20:36:21,448] [builder.py:605]            [DEBUG]    | Value: TMDb Country Color                                                                          |
+[2022-06-10 20:36:21,448] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:36:21,449] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-06-10 20:36:21,449] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Japan.jpg |
+[2022-06-10 20:36:21,775] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:36:21,776] [builder.py:604]            [DEBUG]    | Validating Method: plex_all                                                                        |
+[2022-06-10 20:36:21,776] [builder.py:605]            [DEBUG]    | Value: True                                                                                        |
+[2022-06-10 20:36:21,777] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:36:21,778] [builder.py:604]            [DEBUG]    | Validating Method: filters                                                                         |
+[2022-06-10 20:36:21,778] [builder.py:605]            [DEBUG]    | Value: {'origin_country': ['jp']}                                                                  |
+[2022-06-10 20:36:21,779] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-06-10 20:36:21,780] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-06-10 20:36:21,780] [builder.py:605]            [DEBUG]    | Value: !09_Japan                                                                                   |
+[2022-06-10 20:36:21,879] [plex.py:742]               [DEBUG]    |                                                                                                    |
+[2022-06-10 20:36:21,879] [plex.py:745]               [DEBUG]    | Looking for: Japan                                                                                 |
+[2022-06-10 20:36:21,880] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-06-10 20:36:21,880] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-06-10 20:36:21,880] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-06-10 20:36:21,881] [plex_meta_manager.py:541]  [INFO]     |===================================== Running Japan Collection =====================================|
+[2022-06-10 20:36:21,881] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-06-10 20:36:21,881] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-06-10 20:36:21,882] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-06-10 20:36:21,882] [plex_meta_manager.py:558]  [DEBUG]    | Builder: plex_all: show                                                                            |
+[2022-06-10 20:36:21,882] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-06-10 20:36:21,882] [plex.py:760]               [INFO]     | Processing Plex All Shows                                                                          |
+[2022-06-10 20:36:21,884] [plex.py:813]               [DEBUG]    |                                                                                                    |
+[2022-06-10 20:36:21,884] [plex.py:814]               [DEBUG]    | 24 Keys Found: [(72569, 'ratingKey'), (214877, 'ratingKey'), (281126, 'ratingKey'), (72510, 'ratingKey'), (31194, 'ratingKey'), (68199, 'ratingKey'), (280803, 'ratingKey'), (72524, 'ratingKey'), (33951, 'ratingKey'), (30191, 'ratingKey'), (279458, 'ratingKey'), (74086, 'ratingKey'), (34088, 'ratingKey'), (74009, 'ratingKey'), (274611, 'ratingKey'), (279438, 'ratingKey'), (279450, 'ratingKey'), (74049, 'ratingKey'), (74031, 'ratingKey'), (67478, 'ratingKey'), (67592, 'ratingKey'), (67611, 'ratingKey'), (279466, 'ratingKey'), (67419, 'ratingKey')] |
+[2022-06-10 20:36:21,885] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-06-10 20:36:21,885] [builder.py:1508]           [DEBUG]    | 24 IDs Found: [(72569, 'ratingKey'), (214877, 'ratingKey'), (281126, 'ratingKey'), (72510, 'ratingKey'), (31194, 'ratingKey'), (68199, 'ratingKey'), (280803, 'ratingKey'), (72524, 'ratingKey'), (33951, 'ratingKey'), (30191, 'ratingKey'), (279458, 'ratingKey'), (74086, 'ratingKey'), (34088, 'ratingKey'), (74009, 'ratingKey'), (274611, 'ratingKey'), (279438, 'ratingKey'), (279450, 'ratingKey'), (74049, 'ratingKey'), (74031, 'ratingKey'), (67478, 'ratingKey'), (67592, 'ratingKey'), (67611, 'ratingKey'), (279466, 'ratingKey'), (67419, 'ratingKey')] |
+[2022-06-10 20:36:21,886] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-06-10 20:36:21,888] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for Best of Phua Chu Kang Pte Ltd                                   |
+[2022-06-10 20:36:37,513] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 信不信由你                                                           |
+[2022-06-10 20:36:40,238] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 娱乐插班生                                                           |
+[2022-06-10 20:36:41,437] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 富貴超人                                                            |
+[2022-06-10 20:36:43,077] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 洪武大案                                                            |
+[2022-06-10 20:36:47,476] [builder.py:2151]           [WARNING]  | Filter Error: No TVDb ID found for 龍影俠                                                             |
+[2022-06-10 20:36:49,211] [plex_meta_manager.py:563]  [INFO]     |                                                                                                    |
+[2022-06-10 20:36:49,212] [plex_meta_manager.py:567]  [INFO]     | Collection Filter origin_country: ['JP']                                                           |
+[2022-06-10 20:36:49,212] [builder.py:2009]           [INFO]     |                                                                                                    |
+[2022-06-10 20:36:49,213] [builder.py:2010]           [INFO]     |==================================== Adding to Japan Collection ====================================|
+[2022-06-10 20:36:49,213] [builder.py:2011]           [INFO]     |                                                                                                    |
+[2022-06-10 20:36:49,214] [builder.py:2025]           [INFO]     | 1/5 | Japan Collection | + | わたしのウチには、なんにもない。                                                      |
+[2022-06-10 20:38:59,803] [builder.py:2025]           [INFO]     | 2/5 | Japan Collection | + | 嬢王                                                                    |
+[2022-06-10 20:39:56,012] [builder.py:2025]           [INFO]     | 3/5 | Japan Collection | + | 空中情缘                                                                  |
+[2022-06-10 20:40:25,993] [builder.py:2025]           [INFO]     | 4/5 | Japan Collection | + | 葵 徳川三代                                                                |
+[2022-06-10 20:41:07,857] [builder.py:2025]           [INFO]     | 5/5 | Japan Collection | + | 逃避虽可耻但有用                                                              |
+[2022-06-10 20:41:39,442] [builder.py:2045]           [INFO]     |                                                                                                    |
+[2022-06-10 20:41:39,442] [builder.py:2046]           [INFO]     | 5 Shows Processed                                                                                  |
+[2022-06-10 20:41:39,565] [builder.py:2383]           [INFO]     |                                                                                                    |
+[2022-06-10 20:41:39,566] [builder.py:2384]           [INFO]     |=============================== Updating Details of Japan Collection ===============================|
+[2022-06-10 20:41:39,567] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-06-10 20:42:34,824] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | !09_Japan
+                                                                 | Label | +TMDb Country Color
+[2022-06-10 20:42:47,435] [builder.py:2450]           [INFO]     | Details: have been updated
+[2022-06-10 20:42:47,435] [builder.py:2454]           [INFO]     | 
+[2022-06-10 20:42:47,436] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-06-10 20:42:47,436] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Japan.jpg
+[2022-06-10 20:42:48,567] [library.py:153]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Japan.jpg
+[2022-06-10 20:42:49,585] [builder.py:2529]           [INFO]     | 
+[2022-06-10 20:42:49,585] [builder.py:2530]           [INFO]     |===================================== Sorting Japan Collection =====================================|
+[2022-06-10 20:42:49,586] [builder.py:2531]           [INFO]     |                                                                                                    |
+[2022-06-10 20:42:49,795] [builder.py:2547]           [INFO]     | Moving 逃避虽可耻但有用 to the beginning                                                                   |
+[2022-06-10 20:42:50,140] [builder.py:2547]           [INFO]     | Moving わたしのウチには、なんにもない。 after 逃避虽可耻但有用                                                             |
+[2022-06-10 20:42:50,167] [builder.py:2547]           [INFO]     | Moving 空中情缘 after 嬢王                                                                               |
+[2022-06-10 20:42:50,191] [builder.py:2547]           [INFO]     | Moving 葵 徳川三代 after 空中情缘                                                                           |
+[2022-06-10 20:42:50,432] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-06-10 20:42:50,432] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-06-10 20:42:50,433] [plex_meta_manager.py:675]  [INFO]     |                                     Finished Japan Collection                                      |
+[2022-06-10 20:42:50,433] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:06:28                                    |
+[2022-06-10 20:42:50,433] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

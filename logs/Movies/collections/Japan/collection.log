@@ -1,0 +1,42 @@
+[2022-07-08 01:47:13,236] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 01:47:13,261] [builder.py:185]            [INFO]     |                                     Japan Collection in Movies                                     |
+[2022-07-08 01:47:13,262] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 01:47:13,262] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 01:47:13,262] [builder.py:191]            [INFO]     |=================================== Validating Japan Attributes ====================================|
+[2022-07-08 01:47:13,263] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:47:13,263] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 01:47:13,263] [meta.py:103]               [DEBUG]    | Value: [{'value': ['Japan'], 'country': ['Japan'], 'key_name': 'Japan', 'key': 'Japan', 'name': 'country_dynamic'}, {'value': ['Japan'], 'country': ['Japan'], 'key_name': 'Japan', 'key': 'Japan', 'name': 'shared'}] |
+[2022-07-08 01:47:13,265] [builder.py:1675]           [INFO]     |                                                                                                    |
+[2022-07-08 01:47:13,266] [builder.py:1676]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-07-08 01:47:13,266] [builder.py:1682]           [DEBUG]    | Value: {'sort_by': 'release.desc', 'any': {'country': ['Japan']}}                                  |
+[2022-07-08 01:47:13,308] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:47:13,308] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-07-08 01:47:13,308] [builder.py:605]            [DEBUG]    | Value: Country Color                                                                               |
+[2022-07-08 01:47:13,309] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:47:13,309] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 01:47:13,309] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Japan.jpg |
+[2022-07-08 01:47:14,356] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:47:14,356] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 01:47:14,357] [builder.py:605]            [DEBUG]    | Value: !09_Japan                                                                                   |
+[2022-07-08 01:47:14,655] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 01:47:14,656] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 01:47:14,656] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 01:47:14,656] [plex_meta_manager.py:541]  [INFO]     |===================================== Running Japan Collection =====================================|
+[2022-07-08 01:47:14,657] [plex_meta_manager.py:547]  [INFO]     |                                                                                                    |
+[2022-07-08 01:47:14,657] [plex_meta_manager.py:548]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: release.desc
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Country is Japan
+[2022-07-08 01:47:14,981] [builder.py:2383]           [INFO]     | 
+[2022-07-08 01:47:14,982] [builder.py:2384]           [INFO]     |=============================== Updating Details of Japan Collection ===============================|
+[2022-07-08 01:47:14,982] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-07-08 01:47:15,006] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-07-08 01:47:15,006] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-07-08 01:47:15,007] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Japan.jpg |
+[2022-07-08 01:47:15,009] [library.py:155]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-07-08 01:47:15,293] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 01:47:15,294] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 01:47:15,294] [plex_meta_manager.py:675]  [INFO]     |                                     Finished Japan Collection                                      |
+[2022-07-08 01:47:15,295] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-07-08 01:47:15,295] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

@@ -1,0 +1,46 @@
+[2022-07-08 03:12:11,174] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:11,175] [builder.py:185]            [INFO]     |                                Best of 2000s Collection in ...日本动漫                                 |
+[2022-07-08 03:12:11,176] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 03:12:11,176] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:11,176] [builder.py:191]            [INFO]     |=============================== Validating Best of 2000s Attributes ================================|
+[2022-07-08 03:12:11,177] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:11,177] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 03:12:11,177] [meta.py:103]               [DEBUG]    | Value: [{'value': [2005, 2009, 2002, 2007], 'decade': [2005, 2009, 2002, 2007], 'key_name': '2000', 'key': '2000', 'name': 'decade_dynamic'}, {'value': [2005, 2009, 2002, 2007], 'decade': [2005, 2009, 2002, 2007], 'key_name': '2000', 'key': '2000', 'name': 'shared'}] |
+[2022-07-08 03:12:11,180] [builder.py:1675]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:11,180] [builder.py:1676]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-07-08 03:12:11,180] [builder.py:1682]           [DEBUG]    | Value: {'sort_by': 'critic_rating.desc', 'any': {'year': [2005, 2009, 2002, 2007]}, 'limit': 100}  |
+[2022-07-08 03:12:11,181] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:11,181] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-07-08 03:12:11,182] [builder.py:605]            [DEBUG]    | Value: Decade                                                                                      |
+[2022-07-08 03:12:11,182] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:11,182] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 03:12:11,183] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/decade/best/2000.jpg |
+[2022-07-08 03:12:12,122] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 03:12:12,123] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 03:12:12,123] [builder.py:605]            [DEBUG]    | Value: !12_Best of 2000s                                                                           |
+[2022-07-08 03:12:12,195] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 03:12:12,196] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 03:12:12,196] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 03:12:12,196] [plex_meta_manager.py:541]  [INFO]     |================================= Running Best of 2000s Collection =================================|
+[2022-07-08 03:12:12,197] [plex_meta_manager.py:547]  [INFO]     |                                                                                                    |
+[2022-07-08 03:12:12,197] [plex_meta_manager.py:548]  [INFO]     | Smart Show Filter                                                                                  |
+                                                                 | Sort By: critic_rating.desc
+                                                                 | Limit: 100
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Year is 2005
+                                                                 |     Year is 2009
+                                                                 |     Year is 2002
+                                                                 |     Year is 2007
+[2022-07-08 03:12:12,272] [builder.py:2383]           [INFO]     | 
+[2022-07-08 03:12:12,272] [builder.py:2384]           [INFO]     |=========================== Updating Details of Best of 2000s Collection ===========================|
+[2022-07-08 03:12:12,273] [builder.py:2385]           [INFO]     |                                                                                                    |
+[2022-07-08 03:12:12,296] [builder.py:2446]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-07-08 03:12:12,297] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-07-08 03:12:12,297] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/decade/best/2000.jpg |
+[2022-07-08 03:12:12,299] [library.py:155]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-07-08 03:12:12,358] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 03:12:12,359] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 03:12:12,359] [plex_meta_manager.py:675]  [INFO]     |                                 Finished Best of 2000s Collection                                  |
+[2022-07-08 03:12:12,359] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-07-08 03:12:12,360] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

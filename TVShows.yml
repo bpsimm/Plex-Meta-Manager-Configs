@@ -1,0 +1,40 @@
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    smart_label: critic_rating.desc
+collections:
+  流行电视剧:
+    template: { name: Chart, num: 2 }
+    trakt_trending: 50
+    tmdb_trending_daily: 50
+    tmdb_trending_weekly: 50
+  Mind-Fuck:
+    trakt_list: https://trakt.tv/users/bpsim/lists/mindfuck
+    collection_order: custom
+    sync_mode: sync
+  动漫:
+    trakt_list: https://trakt.tv/users/bpsim/lists/best-anime
+    collection_order: custom
+    sync_mode: sync
+  豆瓣Top250:
+    trakt_list: https://trakt.tv/users/bpsim/lists/douban-movies-top-250-c-drama
+    collection_order: custom
+    sync_mode: sync
+  trakt Boon❤️推荐列表::
+    trakt_list: https://trakt.tv/users/bpsim/recommendations
+    collection_order: custom
+    sync_mode: sync  
+    url_poster: https://kodi.tv/images/addons/matrix/script.trakt/icon.png
+  Adult Cartoon Shows:
+    trakt_list: https://trakt.tv/users/bpsim/lists/adult-cartoon-shows
+    collection_order: custom
+    sync_mode: sync
+  IMDB Top Rated TV Shows:
+    trakt_list: https://trakt.tv/users/bpsim/lists/imdb-top-rated-tv-shows
+    collection_order: custom
+    sync_mode: sync
+  Disney+ Streaming TV Shows:
+    https://trakt.tv/users/bpsim/lists/all-running-tv-shows-on-disney-plus
+    collection_order: custom
+    sync_mode: sync

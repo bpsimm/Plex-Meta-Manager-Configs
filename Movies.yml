@@ -1,0 +1,57 @@
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    smart_label: critic_rating.desc
+collections:
+  流行电影:
+    template: { name: Chart, num: 2 }
+    trakt_trending: 50
+    tmdb_trending_daily: 50
+    tmdb_trending_weekly: 50
+  Oscar最佳电影:
+    trakt_list: https://trakt.tv/users/bpsim/lists/oscars-best-picture 
+    collection_order: custom
+    sync_mode: sync
+    url_poster: https://m.media-amazon.com/images/I/81nuEa5PnnL._AC_SL1500_.jpg 
+  有生之年非看不可的1001部电影:
+    trakt_list: https://trakt.tv/users/bpsim/lists/complete-2003-2021-1001-movies-you-must-see-before-you-die 
+    collection_order: custom
+    sync_mode: sync
+    url_poster: https://m.media-amazon.com/images/I/916w7KocmZL._AC_SL1500_.jpg
+  最佳華語電影一百部:
+    trakt_list: https://trakt.tv/users/bpsim/lists/hkfa-s-the-best-100-chinese-motion-pictures
+    collection_order: custom
+    sync_mode: sync
+    url_poster: https://static.careerengine.us/api/aov2/https%3A_%7C__%7C_mmbiz.qpic.cn_%7C_mmbiz_gif_%7C_kpy7ZuXkoOuFTDI2ZBriaoxXmfS3s8nvoL53ClSG8DLZXCP7RxmBEwpOwSzQRmicu3TZtHn3cicXibkuENpkwibicXqQ_%7C_640%3Fwx_fmt%3Dgif.lg.jpeg
+  TimeOut Shanghai之中国百佳电影:
+    trakt_list: https://trakt.tv/users/bpsim/lists/time-out-shanghai-100-best-chinese-mainland-films
+    collection_order: custom
+    sync_mode: sync
+    url_poster: http://beijingcream.com/wp-content/uploads/2014/04/TimeOuts-list-of-best-mainland-Chinese-films.jpg
+  Mind-Fuck:
+    trakt_list: https://trakt.tv/users/bpsim/lists/mindfuck
+    collection_order: custom
+    sync_mode: sync
+  动漫:
+    trakt_list: https://trakt.tv/users/bpsim/lists/best-anime
+    collection_order: custom
+    sync_mode: sync
+  豆瓣Top250:
+    trakt_list: https://trakt.tv/users/bpsim/lists/douban-movies-top-250-c-drama
+    collection_order: custom
+    sync_mode: sync
+  IMDB Top250 (2010年):
+    trakt_list: https://trakt.tv/users/bpsim/lists/imdb-top-250-year-of-2010
+    collection_order: custom
+    sync_mode: sync
+    url_poster: http://1.bp.blogspot.com/-xXABqhqTx3Q/UO-yBML_2MI/AAAAAAAAA74/A930nVncOPI/s1600/imdb-feature.jpg
+  日本电影Top100:
+    trakt_list: https://trakt.tv/users/bpsim/lists/top-100-japanese-films-excluding-anime
+    collection_order: custom
+    sync_mode: sync
+  trakt Boon❤️推荐列表::
+    trakt_list: https://trakt.tv/users/bpsim/recommendations
+    collection_order: custom
+    sync_mode: sync
+    url_poster: https://kodi.tv/images/addons/matrix/script.trakt/icon.png

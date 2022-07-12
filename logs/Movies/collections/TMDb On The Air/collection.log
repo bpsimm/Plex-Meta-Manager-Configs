@@ -1,0 +1,17 @@
+[2022-07-08 01:56:21,552] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 01:56:21,553] [builder.py:185]            [INFO]     |                                TMDb On The Air Collection in Movies                                |
+[2022-07-08 01:56:21,553] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 01:56:21,554] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 01:56:21,555] [builder.py:191]            [INFO]     |============================== Validating TMDb On The Air Attributes ===============================|
+[2022-07-08 01:56:21,555] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:56:21,556] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 01:56:21,557] [meta.py:103]               [DEBUG]    | Value: [ordereddict([('name', 'air')]), ordereddict([('name', 'customsync')]), ordereddict([('name', 'chart_shared'), ('key', 'air'), ('check_library', 'show')])] |
+[2022-07-08 01:56:21,563] [builder.py:221]            [DEBUG]    |                                                                                                    |
+[2022-07-08 01:56:21,564] [builder.py:222]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-07-08 01:56:21,564] [builder.py:225]            [DEBUG]    | Value: ['show']                                                                                    |
+[2022-07-08 01:56:21,565] [plex_meta_manager.py:652]  [INFO]     | Skipped because allowed_library_types ['show'] doesn't match the library type: movie               |
+[2022-07-08 01:56:21,565] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 01:56:21,566] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 01:56:21,567] [plex_meta_manager.py:675]  [INFO]     |                                Finished TMDb On The Air Collection                                 |
+[2022-07-08 01:56:21,567] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-07-08 01:56:21,568] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|

@@ -1,0 +1,156 @@
+[2022-07-08 02:51:10,045] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:51:10,046] [builder.py:185]            [INFO]     |                               Trakt Popular Collection in .....综艺节目                                |
+[2022-07-08 02:51:10,047] [builder.py:185]            [INFO]     |====================================================================================================|
+[2022-07-08 02:51:10,047] [builder.py:186]            [INFO]     |                                                                                                    |
+[2022-07-08 02:51:10,047] [builder.py:191]            [INFO]     |=============================== Validating Trakt Popular Attributes ================================|
+[2022-07-08 02:51:10,048] [builder.py:212]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:51:10,048] [builder.py:213]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-08 02:51:10,048] [meta.py:103]               [DEBUG]    | Value: [{'value': ['popular'], 'custom': ['popular'], 'key_name': 'Popular', 'key': 'popular', 'name': 'trakt'}, {'value': ['popular'], 'custom': ['popular'], 'key_name': 'Popular', 'key': 'popular', 'name': 'customsync'}, {'value': ['popular'], 'custom': ['popular'], 'key_name': 'Popular', 'key': 'popular', 'name': 'chart_shared'}] |
+[2022-07-08 02:51:10,052] [builder.py:437]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:51:10,053] [builder.py:438]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-07-08 02:51:10,053] [builder.py:442]            [DEBUG]    | Value: sync                                                                                        |
+[2022-07-08 02:51:10,053] [builder.py:582]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:51:10,054] [builder.py:583]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-07-08 02:51:10,054] [builder.py:584]            [DEBUG]    | Value: custom                                                                                      |
+[2022-07-08 02:51:10,054] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:51:10,055] [builder.py:604]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-07-08 02:51:10,055] [builder.py:605]            [DEBUG]    | Value: Trakt                                                                                       |
+[2022-07-08 02:51:10,055] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:51:10,056] [builder.py:604]            [DEBUG]    | Validating Method: trakt_chart                                                                     |
+[2022-07-08 02:51:10,056] [builder.py:605]            [DEBUG]    | Value: {'chart': 'popular', 'limit': 100}                                                          |
+[2022-07-08 02:51:10,056] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:51:10,057] [builder.py:604]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-07-08 02:51:10,057] [builder.py:605]            [DEBUG]    | Value: A collection of Trakt's Weekly show List                                                    |
+[2022-07-08 02:51:10,057] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:51:10,058] [builder.py:604]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-08 02:51:10,058] [builder.py:605]            [DEBUG]    | Value: !01_Trakt Popular                                                                           |
+[2022-07-08 02:51:10,058] [builder.py:600]            [DEBUG]    |                                                                                                    |
+[2022-07-08 02:51:10,059] [builder.py:604]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-07-08 02:51:10,059] [builder.py:605]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Popular.jpg |
+[2022-07-08 02:51:11,299] [plex.py:742]               [DEBUG]    |                                                                                                    |
+[2022-07-08 02:51:11,299] [plex.py:745]               [DEBUG]    | Looking for: Trakt Popular                                                                         |
+[2022-07-08 02:51:11,300] [builder.py:764]            [INFO]     |                                                                                                    |
+[2022-07-08 02:51:11,300] [builder.py:765]            [INFO]     | Validation Successful                                                                              |
+[2022-07-08 02:51:11,300] [plex_meta_manager.py:539]  [INFO]     |                                                                                                    |
+[2022-07-08 02:51:11,301] [plex_meta_manager.py:541]  [INFO]     |================================= Running Trakt Popular Collection =================================|
+[2022-07-08 02:51:11,301] [plex_meta_manager.py:553]  [INFO]     |                                                                                                    |
+[2022-07-08 02:51:11,301] [plex_meta_manager.py:554]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-07-08 02:51:11,302] [plex_meta_manager.py:557]  [DEBUG]    |                                                                                                    |
+[2022-07-08 02:51:11,302] [plex_meta_manager.py:558]  [DEBUG]    | Builder: trakt_chart: {'chart': 'popular', 'limit': 100, 'time_period': None}                      |
+[2022-07-08 02:51:11,302] [plex_meta_manager.py:559]  [INFO]     |                                                                                                    |
+[2022-07-08 02:51:11,303] [trakt.py:490]              [INFO]     | Processing Trakt Chart: 100 Popular Shows                                                          |
+[2022-07-08 02:51:12,289] [builder.py:1507]           [DEBUG]    |                                                                                                    |
+[2022-07-08 02:51:12,290] [builder.py:1508]           [DEBUG]    | 100 IDs Found: [(121361, 'tvdb'), (81189, 'tvdb'), (153021, 'tvdb'), (80379, 'tvdb'), (176941, 'tvdb'), (305288, 'tvdb'), (75760, 'tvdb'), (79349, 'tvdb'), (79168, 'tvdb'), (257655, 'tvdb'), (73739, 'tvdb'), (73255, 'tvdb'), (247897, 'tvdb'), (78901, 'tvdb'), (262980, 'tvdb'), (82066, 'tvdb'), (247808, 'tvdb'), (260449, 'tvdb'), (95011, 'tvdb'), (275274, 'tvdb'), (289590, 'tvdb'), (253463, 'tvdb'), (279121, 'tvdb'), (264586, 'tvdb'), (71663, 'tvdb'), (296762, 'tvdb'), (73244, 'tvdb'), (360115, 'tvdb'), (281662, 'tvdb'), (270633, 'tvdb'), (78804, 'tvdb'), (263365, 'tvdb'), (250487, 'tvdb'), (269586, 'tvdb'), (94571, 'tvdb'), (73871, 'tvdb'), (75897, 'tvdb'), (268592, 'tvdb'), (78874, 'tvdb'), (75978, 'tvdb'), (360893, 'tvdb'), (273181, 'tvdb'), (82696, 'tvdb'), (266189, 'tvdb'), (248742, 'tvdb'), (82283, 'tvdb'), (84912, 'tvdb'), (74205, 'tvdb'), (248835, 'tvdb'), (74852, 'tvdb'), (95491, 'tvdb'), (248682, 'tvdb'), (259063, 'tvdb'), (73762, 'tvdb'), (79126, 'tvdb'), (73545, 'tvdb'), (274431, 'tvdb'), (361753, 'tvdb'), (269613, 'tvdb'), (161511, 'tvdb'), (277165, 'tvdb'), (75299, 'tvdb'), (295685, 'tvdb'), (284190, 'tvdb'), (79481, 'tvdb'), (355567, 'tvdb'), (362696, 'tvdb'), (282670, 'tvdb'), (76156, 'tvdb'), (255316, 'tvdb'), (79501, 'tvdb'), (80348, 'tvdb'), (260315, 'tvdb'), (79216, 'tvdb'), (327417, 'tvdb'), (82459, 'tvdb'), (72173, 'tvdb'), (334824, 'tvdb'), (83462, 'tvdb'), (80349, 'tvdb'), (264492, 'tvdb'), (77398, 'tvdb'), (270915, 'tvdb'), (129261, 'tvdb'), (323168, 'tvdb'), (110381, 'tvdb'), (72227, 'tvdb'), (76290, 'tvdb'), (80337, 'tvdb'), (387115, 'tvdb'), (79169, 'tvdb'), (267440, 'tvdb'), (383275, 'tvdb'), (108611, 'tvdb'), (268156, 'tvdb'), (280619, 'tvdb'), (248736, 'tvdb'), (75682, 'tvdb'), (362392, 'tvdb'), (311711, 'tvdb')] |
+[2022-07-08 02:51:12,290] [builder.py:1509]           [DEBUG]    |                                                                                                    |
+[2022-07-08 02:51:12,293] [builder.py:2218]           [INFO]     |                                                                                                    |
+[2022-07-08 02:51:12,294] [builder.py:2219]           [INFO]     |============================ Missing Shows from Library: Trakt Popular =============================|
+[2022-07-08 02:51:12,295] [builder.py:2220]           [INFO]     |                                                                                                    |
+[2022-07-08 02:51:12,831] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Game of Thrones (TVDb: 121361)                                      |
+[2022-07-08 02:51:13,164] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Breaking Bad (TVDb: 81189)                                          |
+[2022-07-08 02:51:13,409] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Walking Dead (TVDb: 153021)                                     |
+[2022-07-08 02:51:13,686] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Big Bang Theory (TVDb: 80379)                                   |
+[2022-07-08 02:51:14,179] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Sherlock (TVDb: 176941)                                             |
+[2022-07-08 02:51:14,454] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Stranger Things (TVDb: 305288)                                      |
+[2022-07-08 02:51:17,132] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | How I Met Your Mother (TVDb: 75760)                                 |
+[2022-07-08 02:51:17,397] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Dexter (TVDb: 79349)                                                |
+[2022-07-08 02:51:17,795] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Friends (TVDb: 79168)                                               |
+[2022-07-08 02:51:20,255] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Arrow (TVDb: 257655)                                                |
+[2022-07-08 02:51:22,780] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Lost (TVDb: 73739)                                                  |
+[2022-07-08 02:51:23,264] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | House (TVDb: 73255)                                                 |
+[2022-07-08 02:51:23,597] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Homeland (TVDb: 247897)                                             |
+[2022-07-08 02:51:23,964] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Supernatural (TVDb: 78901)                                          |
+[2022-07-08 02:51:24,297] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | House of Cards (US) (TVDb: 262980)                                  |
+[2022-07-08 02:51:24,542] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Fringe (TVDb: 82066)                                                |
+[2022-07-08 02:51:24,786] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Suits (TVDb: 247808)                                                |
+[2022-07-08 02:51:25,208] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Vikings (TVDb: 260449)                                              |
+[2022-07-08 02:51:25,520] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Modern Family (TVDb: 95011)                                         |
+[2022-07-08 02:51:25,820] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Rick and Morty (TVDb: 275274)                                       |
+[2022-07-08 02:51:26,086] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Mr. Robot (TVDb: 289590)                                            |
+[2022-07-08 02:51:27,488] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Black Mirror (TVDb: 253463)                                         |
+[2022-07-08 02:51:27,797] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Flash (2014) (TVDb: 279121)                                     |
+[2022-07-08 02:51:30,012] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Orange Is the New Black (TVDb: 264586)                              |
+[2022-07-08 02:51:30,386] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Simpsons (TVDb: 71663)                                          |
+[2022-07-08 02:51:30,620] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Westworld (TVDb: 296762)                                            |
+[2022-07-08 02:51:33,955] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Office (US) (TVDb: 73244)                                       |
+[2022-07-08 02:51:34,377] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Prison Break (TVDb: 360115)                                         |
+[2022-07-08 02:51:34,636] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Marvel's Daredevil (TVDb: 281662)                                   |
+[2022-07-08 02:51:35,044] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | True Detective (TVDb: 270633)                                       |
+[2022-07-08 02:51:35,364] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Doctor Who (2005) (TVDb: 78804)                                     |
+[2022-07-08 02:51:37,845] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Marvel's Agents of S.H.I.E.L.D. (TVDb: 263365)                      |
+[2022-07-08 02:51:38,144] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | American Horror Story (TVDb: 250487)                                |
+[2022-07-08 02:51:38,435] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Brooklyn Nine-Nine (TVDb: 269586)                                   |
+[2022-07-08 02:51:40,211] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Community (TVDb: 94571)                                             |
+[2022-07-08 02:51:40,531] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Futurama (TVDb: 73871)                                              |
+[2022-07-08 02:51:41,035] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | South Park (TVDb: 75897)                                            |
+[2022-07-08 02:51:41,453] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The 100 (TVDb: 268592)                                              |
+[2022-07-08 02:51:43,599] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Firefly (TVDb: 78874)                                               |
+[2022-07-08 02:51:46,155] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Family Guy (TVDb: 75978)                                            |
+[2022-07-08 02:51:46,619] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Chernobyl (TVDb: 360893)                                            |
+[2022-07-08 02:51:46,831] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Better Call Saul (TVDb: 273181)                                     |
+[2022-07-08 02:51:47,260] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Sons of Anarchy (TVDb: 82696)                                       |
+[2022-07-08 02:51:47,635] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Blacklist (TVDb: 266189)                                        |
+[2022-07-08 02:51:48,019] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Person of Interest (TVDb: 248742)                                   |
+[2022-07-08 02:51:48,243] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | True Blood (TVDb: 82283)                                            |
+[2022-07-08 02:51:48,247] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Parks and Recreation (TVDb: 84912)                                  |
+[2022-07-08 02:51:48,564] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Band of Brothers (TVDb: 74205)                                      |
+[2022-07-08 02:51:48,843] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Once Upon a Time (2011) (TVDb: 248835)                              |
+[2022-07-08 02:51:50,432] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Avatar: The Last Airbender (TVDb: 74852)                            |
+[2022-07-08 02:51:50,868] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Vampire Diaries (TVDb: 95491)                                   |
+[2022-07-08 02:51:51,276] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | New Girl (TVDb: 248682)                                             |
+[2022-07-08 02:51:51,586] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Hannibal (TVDb: 259063)                                             |
+[2022-07-08 02:51:51,909] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Grey's Anatomy (TVDb: 73762)                                        |
+[2022-07-08 02:51:52,401] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Wire (TVDb: 79126)                                              |
+[2022-07-08 02:51:52,697] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Battlestar Galactica (2003) (TVDb: 73545)                           |
+[2022-07-08 02:51:53,020] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Gotham (TVDb: 274431)                                               |
+[2022-07-08 02:51:53,509] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Mandalorian (TVDb: 361753)                                      |
+[2022-07-08 02:51:53,742] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Fargo (TVDb: 269613)                                                |
+[2022-07-08 02:51:54,167] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Shameless (US) (TVDb: 161511)                                       |
+[2022-07-08 02:51:54,697] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Silicon Valley (TVDb: 277165)                                       |
+[2022-07-08 02:51:54,702] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Sopranos (TVDb: 75299)                                          |
+[2022-07-08 02:51:54,953] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Lucifer (TVDb: 295685)                                              |
+[2022-07-08 02:51:55,309] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Marvel's Jessica Jones (TVDb: 284190)                               |
+[2022-07-08 02:51:55,642] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Death Note (TVDb: 79481)                                            |
+[2022-07-08 02:51:55,967] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Boys (TVDb: 355567)                                             |
+[2022-07-08 02:51:56,376] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Witcher (TVDb: 362696)                                          |
+[2022-07-08 02:51:56,653] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Narcos (TVDb: 282670)                                               |
+[2022-07-08 02:51:57,042] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Scrubs (TVDb: 76156)                                                |
+[2022-07-08 02:51:57,300] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Elementary (TVDb: 255316)                                           |
+[2022-07-08 02:51:57,567] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Heroes (TVDb: 79501)                                                |
+[2022-07-08 02:51:57,831] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Chuck (TVDb: 80348)                                                 |
+[2022-07-08 02:51:58,108] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Orphan Black (TVDb: 260315)                                         |
+[2022-07-08 02:51:58,586] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The IT Crowd (TVDb: 79216)                                          |
+[2022-07-08 02:51:59,031] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Money Heist (TVDb: 327417)                                          |
+[2022-07-08 02:51:59,325] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Mentalist (TVDb: 82459)                                         |
+[2022-07-08 02:51:59,809] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Arrested Development (TVDb: 72173)                                  |
+[2022-07-08 02:52:00,131] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Dark (TVDb: 334824)                                                 |
+[2022-07-08 02:52:00,464] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Castle (2009) (TVDb: 83462)                                         |
+[2022-07-08 02:52:00,758] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Californication (TVDb: 80349)                                       |
+[2022-07-08 02:52:01,153] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Under the Dome (TVDb: 264492)                                       |
+[2022-07-08 02:52:01,492] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The X-Files (TVDb: 77398)                                           |
+[2022-07-08 02:52:01,786] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Peaky Blinders (TVDb: 270915)                                       |
+[2022-07-08 02:52:02,086] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Spartacus (TVDb: 129261)                                            |
+[2022-07-08 02:52:02,367] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | 13 Reasons Why (TVDb: 323168)                                       |
+[2022-07-08 02:52:02,697] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Archer (2009) (TVDb: 110381)                                        |
+[2022-07-08 02:52:03,086] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Two and a Half Men (TVDb: 72227)                                    |
+[2022-07-08 02:52:05,544] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | 24 (TVDb: 76290)                                                    |
+[2022-07-08 02:52:05,820] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Mad Men (TVDb: 80337)                                               |
+[2022-07-08 02:52:06,100] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Queen's Gambit (TVDb: 387115)                                   |
+[2022-07-08 02:52:06,408] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Seinfeld (TVDb: 79169)                                              |
+[2022-07-08 02:52:06,633] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Attack on Titan (TVDb: 267440)                                      |
+[2022-07-08 02:52:06,897] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Squid Game (TVDb: 383275)                                           |
+[2022-07-08 02:52:08,665] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | White Collar (TVDb: 108611)                                         |
+[2022-07-08 02:52:09,031] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Sense8 (TVDb: 268156)                                               |
+[2022-07-08 02:52:09,342] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Expanse (TVDb: 280619)                                          |
+[2022-07-08 02:52:10,726] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Grimm (TVDb: 248736)                                                |
+[2022-07-08 02:52:11,108] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | Bones (TVDb: 75682)                                                 |
+[2022-07-08 02:52:11,424] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | WandaVision (TVDb: 362392)                                          |
+[2022-07-08 02:52:11,699] [builder.py:2232]           [INFO]     | Trakt Popular Collection | ? | The Good Place (TVDb: 311711)                                       |
+[2022-07-08 02:52:11,700] [builder.py:2237]           [INFO]     |                                                                                                    |
+[2022-07-08 02:52:11,700] [builder.py:2238]           [INFO]     | 100 Shows Missing                                                                                  |
+[2022-07-08 02:52:11,701] [plex_meta_manager.py:593]  [INFO]     |                                                                                                    |
+[2022-07-08 02:52:11,701] [plex_meta_manager.py:594]  [INFO]     | Collection Minimum: 3 not met for Trakt Popular Collection                                         |
+[2022-07-08 02:52:11,702] [plex_meta_manager.py:674]  [INFO]     |                                                                                                    |
+[2022-07-08 02:52:11,702] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
+[2022-07-08 02:52:11,703] [plex_meta_manager.py:675]  [INFO]     |                                 Finished Trakt Popular Collection                                  |
+[2022-07-08 02:52:11,703] [plex_meta_manager.py:675]  [INFO]     |                                    Collection Run Time: 0:01:01                                    |
+[2022-07-08 02:52:11,704] [plex_meta_manager.py:675]  [INFO]     |====================================================================================================|
